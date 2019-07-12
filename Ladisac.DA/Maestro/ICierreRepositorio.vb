@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.DA    Public Interface ICierreRepositorio        Function Maintenance(ByVal item As Cierre) As Short    End InterfaceEnd Namespace

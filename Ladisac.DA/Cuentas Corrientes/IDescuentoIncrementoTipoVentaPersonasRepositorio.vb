@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.DA    Public Interface IDescuentoIncrementoTipoVentaPersonasRepositorio        Function Maintenance(ByVal item As DescuentoIncrementoTipoVentaPersonas) As Short    End InterfaceEnd Namespace

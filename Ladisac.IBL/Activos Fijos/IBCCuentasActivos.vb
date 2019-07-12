@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.BLPublic Interface IBCCuentasActivosFunction Mantenimiento(ByVal Item As CuentasActivos) As ShortEnd InterfaceEnd Namespace

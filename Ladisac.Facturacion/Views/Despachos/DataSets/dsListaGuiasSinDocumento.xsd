@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaGuiasSinDocumento" targetNamespace="http://tempuri.org/dsListaGuiasSinDocumento.xsd" xmlns:mstns="http://tempuri.org/dsListaGuiasSinDocumento.xsd" xmlns="http://tempuri.org/dsListaGuiasSinDocumento.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaGuiasSinDocumento" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaGuiasSinDocumento" msprop:Generator_UserDSName="dsListaGuiasSinDocumento">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaGuiasSinDocumento" msprop:Generator_TableClassName="ListaGuiasSinDocumentoDataTable" msprop:Generator_TableVarName="tableListaGuiasSinDocumento" msprop:Generator_TablePropName="ListaGuiasSinDocumento" msprop:Generator_RowDeletingName="ListaGuiasSinDocumentoRowDeleting" msprop:Generator_RowChangingName="ListaGuiasSinDocumentoRowChanging" msprop:Generator_RowEvHandlerName="ListaGuiasSinDocumentoRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaGuiasSinDocumentoRowDeleted" msprop:Generator_UserTableName="ListaGuiasSinDocumento" msprop:Generator_RowChangedName="ListaGuiasSinDocumentoRowChanged" msprop:Generator_RowEvArgName="ListaGuiasSinDocumentoRowChangeEvent" msprop:Generator_RowClassName="ListaGuiasSinDocumentoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TDO_ID" msprop:Generator_ColumnVarNameInTable="columnTDO_ID" msprop:Generator_ColumnPropNameInRow="TDO_ID" msprop:Generator_ColumnPropNameInTable="TDO_IDColumn" msprop:Generator_UserColumnName="TDO_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="DTD_ID" msprop:Generator_ColumnVarNameInTable="columnDTD_ID" msprop:Generator_ColumnPropNameInRow="DTD_ID" msprop:Generator_ColumnPropNameInTable="DTD_IDColumn" msprop:Generator_UserColumnName="DTD_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="DES_SERIE" msprop:Generator_ColumnVarNameInTable="columnDES_SERIE" msprop:Generator_ColumnPropNameInRow="DES_SERIE" msprop:Generator_ColumnPropNameInTable="DES_SERIEColumn" msprop:Generator_UserColumnName="DES_SERIE" type="xs:string" minOccurs="0" />
+              <xs:element name="DES_NUMERO" msprop:Generator_ColumnVarNameInTable="columnDES_NUMERO" msprop:Generator_ColumnPropNameInRow="DES_NUMERO" msprop:Generator_ColumnPropNameInTable="DES_NUMEROColumn" msprop:Generator_UserColumnName="DES_NUMERO" type="xs:string" minOccurs="0" />
+              <xs:element name="DES_FEC_EMI" msprop:Generator_ColumnVarNameInTable="columnDES_FEC_EMI" msprop:Generator_ColumnPropNameInRow="DES_FEC_EMI" msprop:Generator_ColumnPropNameInTable="DES_FEC_EMIColumn" msprop:Generator_UserColumnName="DES_FEC_EMI" type="xs:string" minOccurs="0" />
+              <xs:element name="DES_FEC_TRA" msprop:Generator_ColumnVarNameInTable="columnDES_FEC_TRA" msprop:Generator_ColumnPropNameInRow="DES_FEC_TRA" msprop:Generator_ColumnPropNameInTable="DES_FEC_TRAColumn" msprop:Generator_UserColumnName="DES_FEC_TRA" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnART_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ART_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ART_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ART_DESCRIPCION" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

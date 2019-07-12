@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.DAPublic Interface ITipoCambioMonedaRepositorioFunction Maintenance(ByVal item As TipoCambioMoneda) As ShortEnd InterfaceEnd Namespace

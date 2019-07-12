@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.DA    Public Interface IBloqueoVendedorRepositorio        Function Maintenance(ByVal item As BloqueoVendedor) As Short    End InterfaceEnd Namespace

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaLiquidacionMateriaPrima" targetNamespace="http://tempuri.org/dsListaLiquidacionMateriaPrima.xsd" xmlns:mstns="http://tempuri.org/dsListaLiquidacionMateriaPrima.xsd" xmlns="http://tempuri.org/dsListaLiquidacionMateriaPrima.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaLiquidacionMateriaPrima" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaLiquidacionMateriaPrima" msprop:Generator_UserDSName="dsListaLiquidacionMateriaPrima">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaLiquidacionMateriaPrima" msprop:Generator_TableClassName="ListaLiquidacionMateriaPrimaDataTable" msprop:Generator_TableVarName="tableListaLiquidacionMateriaPrima" msprop:Generator_TablePropName="ListaLiquidacionMateriaPrima" msprop:Generator_RowDeletingName="ListaLiquidacionMateriaPrimaRowDeleting" msprop:Generator_UserTableName="ListaLiquidacionMateriaPrima" msprop:Generator_RowChangingName="ListaLiquidacionMateriaPrimaRowChanging" msprop:Generator_RowEvHandlerName="ListaLiquidacionMateriaPrimaRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaLiquidacionMateriaPrimaRowDeleted" msprop:Generator_RowEvArgName="ListaLiquidacionMateriaPrimaRowChangeEvent" msprop:Generator_RowChangedName="ListaLiquidacionMateriaPrimaRowChanged" msprop:Generator_RowClassName="ListaLiquidacionMateriaPrimaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ART_Codigo" msprop:Generator_ColumnVarNameInTable="columnART_Codigo" msprop:Generator_ColumnPropNameInRow="ART_Codigo" msprop:Generator_ColumnPropNameInTable="ART_CodigoColumn" msprop:Generator_UserColumnName="ART_Codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnART_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ART_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ART_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ART_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="DotaKala" msprop:Generator_ColumnVarNameInTable="columnDotaKala" msprop:Generator_ColumnPropNameInRow="DotaKala" msprop:Generator_ColumnPropNameInTable="DotaKalaColumn" msprop:Generator_UserColumnName="DotaKala" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TransKala" msprop:Generator_ColumnVarNameInTable="columnTransKala" msprop:Generator_ColumnPropNameInRow="TransKala" msprop:Generator_ColumnPropNameInTable="TransKalaColumn" msprop:Generator_UserColumnName="TransKala" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DotaExtra" msprop:Generator_ColumnVarNameInTable="columnDotaExtra" msprop:Generator_ColumnPropNameInRow="DotaExtra" msprop:Generator_ColumnPropNameInTable="DotaExtraColumn" msprop:Generator_UserColumnName="DotaExtra" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TransExtra" msprop:Generator_ColumnVarNameInTable="columnTransExtra" msprop:Generator_ColumnPropNameInRow="TransExtra" msprop:Generator_ColumnPropNameInTable="TransExtraColumn" msprop:Generator_UserColumnName="TransExtra" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DotaExo" msprop:Generator_ColumnVarNameInTable="columnDotaExo" msprop:Generator_ColumnPropNameInRow="DotaExo" msprop:Generator_ColumnPropNameInTable="DotaExoColumn" msprop:Generator_UserColumnName="DotaExo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TransExo" msprop:Generator_ColumnVarNameInTable="columnTransExo" msprop:Generator_ColumnPropNameInRow="TransExo" msprop:Generator_ColumnPropNameInTable="TransExoColumn" msprop:Generator_UserColumnName="TransExo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DotaGem" msprop:Generator_ColumnVarNameInTable="columnDotaGem" msprop:Generator_ColumnPropNameInRow="DotaGem" msprop:Generator_ColumnPropNameInTable="DotaGemColumn" msprop:Generator_UserColumnName="DotaGem" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TransGem" msprop:Generator_ColumnVarNameInTable="columnTransGem" msprop:Generator_ColumnPropNameInRow="TransGem" msprop:Generator_ColumnPropNameInTable="TransGemColumn" msprop:Generator_UserColumnName="TransGem" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DotaJR" msprop:Generator_ColumnVarNameInTable="columnDotaJR" msprop:Generator_ColumnPropNameInRow="DotaJR" msprop:Generator_ColumnPropNameInTable="DotaJRColumn" msprop:Generator_UserColumnName="DotaJR" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TransJR" msprop:Generator_ColumnVarNameInTable="columnTransJR" msprop:Generator_ColumnPropNameInRow="TransJR" msprop:Generator_ColumnPropNameInTable="TransJRColumn" msprop:Generator_UserColumnName="TransJR" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

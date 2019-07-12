@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsReporteSalidaVagonXDia" targetNamespace="http://tempuri.org/dsReporteSalidaVagonXDia.xsd" xmlns:mstns="http://tempuri.org/dsReporteSalidaVagonXDia.xsd" xmlns="http://tempuri.org/dsReporteSalidaVagonXDia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsReporteSalidaVagonXDia" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsReporteSalidaVagonXDia" msprop:Generator_UserDSName="dsReporteSalidaVagonXDia">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReporteSalidaVagonXDia" msprop:Generator_TableClassName="ReporteSalidaVagonXDiaDataTable" msprop:Generator_TableVarName="tableReporteSalidaVagonXDia" msprop:Generator_TablePropName="ReporteSalidaVagonXDia" msprop:Generator_RowDeletingName="ReporteSalidaVagonXDiaRowDeleting" msprop:Generator_UserTableName="ReporteSalidaVagonXDia" msprop:Generator_RowChangingName="ReporteSalidaVagonXDiaRowChanging" msprop:Generator_RowEvHandlerName="ReporteSalidaVagonXDiaRowChangeEventHandler" msprop:Generator_RowDeletedName="ReporteSalidaVagonXDiaRowDeleted" msprop:Generator_RowEvArgName="ReporteSalidaVagonXDiaRowChangeEvent" msprop:Generator_RowChangedName="ReporteSalidaVagonXDiaRowChanged" msprop:Generator_RowClassName="ReporteSalidaVagonXDiaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SSE_FECHA" msprop:Generator_ColumnVarNameInTable="columnSSE_FECHA" msprop:Generator_ColumnPropNameInRow="SSE_FECHA" msprop:Generator_ColumnPropNameInTable="SSE_FECHAColumn" msprop:Generator_UserColumnName="SSE_FECHA" type="xs:string" minOccurs="0" />
+              <xs:element name="SEC_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnSEC_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="SEC_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="SEC_DESCRIPCIONColumn" msprop:Generator_UserColumnName="SEC_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="SSE_TURNO" msprop:Generator_ColumnVarNameInTable="columnSSE_TURNO" msprop:Generator_ColumnPropNameInRow="SSE_TURNO" msprop:Generator_ColumnPropNameInTable="SSE_TURNOColumn" msprop:Generator_UserColumnName="SSE_TURNO" type="xs:string" minOccurs="0" />
+              <xs:element name="DSE_CANTIDAD_VAGON" msprop:Generator_ColumnVarNameInTable="columnDSE_CANTIDAD_VAGON" msprop:Generator_ColumnPropNameInRow="DSE_CANTIDAD_VAGON" msprop:Generator_ColumnPropNameInTable="DSE_CANTIDAD_VAGONColumn" msprop:Generator_UserColumnName="DSE_CANTIDAD_VAGON" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

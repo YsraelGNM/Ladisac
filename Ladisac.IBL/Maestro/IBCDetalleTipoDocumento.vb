@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.BL    Public Interface IBCDetalleTipoDocumento        Function Mantenimiento(ByVal Item As DetalleTipoDocumentos) As Short        Function DeleteRegistro(ByVal item As DetalleTipoDocumentos, ByVal cDTD_ID As String) As Short    End InterfaceEnd Namespace

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsReporteAnticuamiento" targetNamespace="http://tempuri.org/dsReporteAnticuamiento.xsd" xmlns:mstns="http://tempuri.org/dsReporteAnticuamiento.xsd" xmlns="http://tempuri.org/dsReporteAnticuamiento.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsReporteAnticuamiento" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsReporteAnticuamiento" msprop:Generator_UserDSName="dsReporteAnticuamiento">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReporteAnticuamiento" msprop:Generator_TableClassName="ReporteAnticuamientoDataTable" msprop:Generator_TableVarName="tableReporteAnticuamiento" msprop:Generator_TablePropName="ReporteAnticuamiento" msprop:Generator_RowDeletingName="ReporteAnticuamientoRowDeleting" msprop:Generator_RowChangingName="ReporteAnticuamientoRowChanging" msprop:Generator_RowEvHandlerName="ReporteAnticuamientoRowChangeEventHandler" msprop:Generator_RowDeletedName="ReporteAnticuamientoRowDeleted" msprop:Generator_UserTableName="ReporteAnticuamiento" msprop:Generator_RowChangedName="ReporteAnticuamientoRowChanged" msprop:Generator_RowEvArgName="ReporteAnticuamientoRowChangeEvent" msprop:Generator_RowClassName="ReporteAnticuamientoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ART_ID" msprop:Generator_ColumnVarNameInTable="columnART_ID" msprop:Generator_ColumnPropNameInRow="ART_ID" msprop:Generator_ColumnPropNameInTable="ART_IDColumn" msprop:Generator_UserColumnName="ART_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_Codigo" msprop:Generator_ColumnVarNameInTable="columnART_Codigo" msprop:Generator_ColumnPropNameInRow="ART_Codigo" msprop:Generator_ColumnPropNameInTable="ART_CodigoColumn" msprop:Generator_UserColumnName="ART_Codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnART_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ART_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ART_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ART_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="ALM_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnALM_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ALM_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ALM_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ALM_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="TipDoc_Ingreso" msprop:Generator_ColumnVarNameInTable="columnTipDoc_Ingreso" msprop:Generator_ColumnPropNameInRow="TipDoc_Ingreso" msprop:Generator_ColumnPropNameInTable="TipDoc_IngresoColumn" msprop:Generator_UserColumnName="TipDoc_Ingreso" type="xs:string" minOccurs="0" />
+              <xs:element name="CodTran_Ingreso" msprop:Generator_ColumnVarNameInTable="columnCodTran_Ingreso" msprop:Generator_ColumnPropNameInRow="CodTran_Ingreso" msprop:Generator_ColumnPropNameInTable="CodTran_IngresoColumn" msprop:Generator_UserColumnName="CodTran_Ingreso" type="xs:string" minOccurs="0" />
+              <xs:element name="NroDoc_Ingreso" msprop:Generator_ColumnVarNameInTable="columnNroDoc_Ingreso" msprop:Generator_ColumnPropNameInRow="NroDoc_Ingreso" msprop:Generator_ColumnPropNameInTable="NroDoc_IngresoColumn" msprop:Generator_UserColumnName="NroDoc_Ingreso" type="xs:string" minOccurs="0" />
+              <xs:element name="FecUlt_Ingreso" msprop:Generator_ColumnVarNameInTable="columnFecUlt_Ingreso" msprop:Generator_ColumnPropNameInRow="FecUlt_Ingreso" msprop:Generator_ColumnPropNameInTable="FecUlt_IngresoColumn" msprop:Generator_UserColumnName="FecUlt_Ingreso" type="xs:string" minOccurs="0" />
+              <xs:element name="Cant_Ingreso" msprop:Generator_ColumnVarNameInTable="columnCant_Ingreso" msprop:Generator_ColumnPropNameInRow="Cant_Ingreso" msprop:Generator_ColumnPropNameInTable="Cant_IngresoColumn" msprop:Generator_UserColumnName="Cant_Ingreso" type="xs:string" minOccurs="0" />
+              <xs:element name="PU_Ingreso" msprop:Generator_ColumnVarNameInTable="columnPU_Ingreso" msprop:Generator_ColumnPropNameInRow="PU_Ingreso" msprop:Generator_ColumnPropNameInTable="PU_IngresoColumn" msprop:Generator_UserColumnName="PU_Ingreso" type="xs:string" minOccurs="0" />
+              <xs:element name="TipDoc_Salida" msprop:Generator_ColumnVarNameInTable="columnTipDoc_Salida" msprop:Generator_ColumnPropNameInRow="TipDoc_Salida" msprop:Generator_ColumnPropNameInTable="TipDoc_SalidaColumn" msprop:Generator_UserColumnName="TipDoc_Salida" type="xs:string" minOccurs="0" />
+              <xs:element name="CodTran_Salida" msprop:Generator_ColumnVarNameInTable="columnCodTran_Salida" msprop:Generator_ColumnPropNameInRow="CodTran_Salida" msprop:Generator_ColumnPropNameInTable="CodTran_SalidaColumn" msprop:Generator_UserColumnName="CodTran_Salida" type="xs:string" minOccurs="0" />
+              <xs:element name="NroDoc_Salida" msprop:Generator_ColumnVarNameInTable="columnNroDoc_Salida" msprop:Generator_ColumnPropNameInRow="NroDoc_Salida" msprop:Generator_ColumnPropNameInTable="NroDoc_SalidaColumn" msprop:Generator_UserColumnName="NroDoc_Salida" type="xs:string" minOccurs="0" />
+              <xs:element name="FecUlt_Salida" msprop:Generator_ColumnVarNameInTable="columnFecUlt_Salida" msprop:Generator_ColumnPropNameInRow="FecUlt_Salida" msprop:Generator_ColumnPropNameInTable="FecUlt_SalidaColumn" msprop:Generator_UserColumnName="FecUlt_Salida" type="xs:string" minOccurs="0" />
+              <xs:element name="Cant_Salida" msprop:Generator_ColumnVarNameInTable="columnCant_Salida" msprop:Generator_ColumnPropNameInRow="Cant_Salida" msprop:Generator_ColumnPropNameInTable="Cant_SalidaColumn" msprop:Generator_UserColumnName="Cant_Salida" type="xs:string" minOccurs="0" />
+              <xs:element name="PU_Salida" msprop:Generator_ColumnVarNameInTable="columnPU_Salida" msprop:Generator_ColumnPropNameInRow="PU_Salida" msprop:Generator_ColumnPropNameInTable="PU_SalidaColumn" msprop:Generator_UserColumnName="PU_Salida" type="xs:string" minOccurs="0" />
+              <xs:element name="Stock" msprop:Generator_ColumnVarNameInTable="columnStock" msprop:Generator_ColumnPropNameInRow="Stock" msprop:Generator_ColumnPropNameInTable="StockColumn" msprop:Generator_UserColumnName="Stock" type="xs:string" minOccurs="0" />
+              <xs:element name="UBI_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnUBI_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="UBI_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="UBI_DESCRIPCIONColumn" msprop:Generator_UserColumnName="UBI_DESCRIPCION" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

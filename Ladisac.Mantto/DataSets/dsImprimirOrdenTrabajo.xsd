@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsImprimirOrdenTrabajo" targetNamespace="http://tempuri.org/dsImprimirOrdenTrabajo.xsd" xmlns:mstns="http://tempuri.org/dsImprimirOrdenTrabajo.xsd" xmlns="http://tempuri.org/dsImprimirOrdenTrabajo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsImprimirOrdenTrabajo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsImprimirOrdenTrabajo" msprop:Generator_UserDSName="dsImprimirOrdenTrabajo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="spImprimirOrdenTrabajo" msprop:Generator_TableClassName="spImprimirOrdenTrabajoDataTable" msprop:Generator_TableVarName="tablespImprimirOrdenTrabajo" msprop:Generator_TablePropName="spImprimirOrdenTrabajo" msprop:Generator_RowDeletingName="spImprimirOrdenTrabajoRowDeleting" msprop:Generator_RowChangingName="spImprimirOrdenTrabajoRowChanging" msprop:Generator_RowEvHandlerName="spImprimirOrdenTrabajoRowChangeEventHandler" msprop:Generator_RowDeletedName="spImprimirOrdenTrabajoRowDeleted" msprop:Generator_UserTableName="spImprimirOrdenTrabajo" msprop:Generator_RowChangedName="spImprimirOrdenTrabajoRowChanged" msprop:Generator_RowEvArgName="spImprimirOrdenTrabajoRowChangeEvent" msprop:Generator_RowClassName="spImprimirOrdenTrabajoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OTR_ID" msdata:Caption="ENO_ID" msprop:Generator_ColumnVarNameInTable="columnOTR_ID" msprop:Generator_ColumnPropNameInRow="OTR_ID" msprop:Generator_ColumnPropNameInTable="OTR_IDColumn" msprop:Generator_UserColumnName="OTR_ID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ENO_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnENO_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ENO_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ENO_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ENO_DESCRIPCION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ENO_RUTA" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnENO_RUTA" msprop:Generator_ColumnPropNameInRow="ENO_RUTA" msprop:Generator_ColumnPropNameInTable="ENO_RUTAColumn" msprop:Generator_UserColumnName="ENO_RUTA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TFA_DESCRIPCION" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTFA_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="TFA_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="TFA_DESCRIPCIONColumn" msprop:Generator_UserColumnName="TFA_DESCRIPCION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MTO_DESCRIPCION" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnMTO_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="MTO_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="MTO_DESCRIPCIONColumn" msprop:Generator_UserColumnName="MTO_DESCRIPCION" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OTR_FEC_EMI" msprop:Generator_ColumnVarNameInTable="columnOTR_FEC_EMI" msprop:Generator_ColumnPropNameInRow="OTR_FEC_EMI" msprop:Generator_ColumnPropNameInTable="OTR_FEC_EMIColumn" msprop:Generator_UserColumnName="OTR_FEC_EMI" type="xs:string" minOccurs="0" />
+              <xs:element name="OTR_FEC_INI" msprop:Generator_ColumnVarNameInTable="columnOTR_FEC_INI" msprop:Generator_ColumnPropNameInRow="OTR_FEC_INI" msprop:Generator_ColumnPropNameInTable="OTR_FEC_INIColumn" msprop:Generator_UserColumnName="OTR_FEC_INI" type="xs:string" minOccurs="0" />
+              <xs:element name="OTR_FEC_FIN" msprop:Generator_ColumnVarNameInTable="columnOTR_FEC_FIN" msprop:Generator_ColumnPropNameInRow="OTR_FEC_FIN" msprop:Generator_ColumnPropNameInTable="OTR_FEC_FINColumn" msprop:Generator_UserColumnName="OTR_FEC_FIN" type="xs:string" minOccurs="0" />
+              <xs:element name="OTR_FEC_MAX" msprop:Generator_ColumnVarNameInTable="columnOTR_FEC_MAX" msprop:Generator_ColumnPropNameInRow="OTR_FEC_MAX" msprop:Generator_ColumnPropNameInTable="OTR_FEC_MAXColumn" msprop:Generator_UserColumnName="OTR_FEC_MAX" type="xs:string" minOccurs="0" />
+              <xs:element name="PerSoli" msprop:Generator_ColumnVarNameInTable="columnPerSoli" msprop:Generator_ColumnPropNameInRow="PerSoli" msprop:Generator_ColumnPropNameInTable="PerSoliColumn" msprop:Generator_UserColumnName="PerSoli" type="xs:string" minOccurs="0" />
+              <xs:element name="PerAuto" msprop:Generator_ColumnVarNameInTable="columnPerAuto" msprop:Generator_ColumnPropNameInRow="PerAuto" msprop:Generator_ColumnPropNameInTable="PerAutoColumn" msprop:Generator_UserColumnName="PerAuto" type="xs:string" minOccurs="0" />
+              <xs:element name="PerEmi" msprop:Generator_ColumnVarNameInTable="columnPerEmi" msprop:Generator_ColumnPropNameInRow="PerEmi" msprop:Generator_ColumnPropNameInTable="PerEmiColumn" msprop:Generator_UserColumnName="PerEmi" type="xs:string" minOccurs="0" />
+              <xs:element name="OTR_OBSERVACION" msprop:Generator_ColumnVarNameInTable="columnOTR_OBSERVACION" msprop:Generator_ColumnPropNameInRow="OTR_OBSERVACION" msprop:Generator_ColumnPropNameInTable="OTR_OBSERVACIONColumn" msprop:Generator_UserColumnName="OTR_OBSERVACION" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

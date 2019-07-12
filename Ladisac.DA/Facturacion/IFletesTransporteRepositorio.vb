@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.DA    Public Interface IFletesTransporteRepositorio        Function Maintenance(ByVal item As FletesTransporte) As Short    End InterfaceEnd Namespace

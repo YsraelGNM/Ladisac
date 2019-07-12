@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsReporteSalidaSecadero" targetNamespace="http://tempuri.org/dsReporteSalidaSecadero.xsd" xmlns:mstns="http://tempuri.org/dsReporteSalidaSecadero.xsd" xmlns="http://tempuri.org/dsReporteSalidaSecadero.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsReporteSalidaSecadero" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsReporteSalidaSecadero" msprop:Generator_UserDSName="dsReporteSalidaSecadero">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReporteSalidaSecadero" msprop:Generator_TableClassName="ReporteSalidaSecaderoDataTable" msprop:Generator_TableVarName="tableReporteSalidaSecadero" msprop:Generator_TablePropName="ReporteSalidaSecadero" msprop:Generator_RowDeletingName="ReporteSalidaSecaderoRowDeleting" msprop:Generator_RowChangingName="ReporteSalidaSecaderoRowChanging" msprop:Generator_RowEvHandlerName="ReporteSalidaSecaderoRowChangeEventHandler" msprop:Generator_RowDeletedName="ReporteSalidaSecaderoRowDeleted" msprop:Generator_UserTableName="ReporteSalidaSecadero" msprop:Generator_RowChangedName="ReporteSalidaSecaderoRowChanged" msprop:Generator_RowEvArgName="ReporteSalidaSecaderoRowChangeEvent" msprop:Generator_RowClassName="ReporteSalidaSecaderoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PRO_ID" msprop:Generator_ColumnVarNameInTable="columnPRO_ID" msprop:Generator_ColumnPropNameInRow="PRO_ID" msprop:Generator_ColumnPropNameInTable="PRO_IDColumn" msprop:Generator_UserColumnName="PRO_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="PRO_FECHA" msprop:Generator_ColumnVarNameInTable="columnPRO_FECHA" msprop:Generator_ColumnPropNameInRow="PRO_FECHA" msprop:Generator_ColumnPropNameInTable="PRO_FECHAColumn" msprop:Generator_UserColumnName="PRO_FECHA" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnART_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ART_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ART_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ART_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="DSE_CANTIDAD_VAGON" msprop:Generator_ColumnVarNameInTable="columnDSE_CANTIDAD_VAGON" msprop:Generator_ColumnPropNameInRow="DSE_CANTIDAD_VAGON" msprop:Generator_ColumnPropNameInTable="DSE_CANTIDAD_VAGONColumn" msprop:Generator_UserColumnName="DSE_CANTIDAD_VAGON" type="xs:string" minOccurs="0" />
+              <xs:element name="DSE_CANTIDAD_FALTANTE" msprop:Generator_ColumnVarNameInTable="columnDSE_CANTIDAD_FALTANTE" msprop:Generator_ColumnPropNameInRow="DSE_CANTIDAD_FALTANTE" msprop:Generator_ColumnPropNameInTable="DSE_CANTIDAD_FALTANTEColumn" msprop:Generator_UserColumnName="DSE_CANTIDAD_FALTANTE" type="xs:string" minOccurs="0" />
+              <xs:element name="DSE_CANTIDAD_RECICLADO_SECADERO" msprop:Generator_ColumnVarNameInTable="columnDSE_CANTIDAD_RECICLADO_SECADERO" msprop:Generator_ColumnPropNameInRow="DSE_CANTIDAD_RECICLADO_SECADERO" msprop:Generator_ColumnPropNameInTable="DSE_CANTIDAD_RECICLADO_SECADEROColumn" msprop:Generator_UserColumnName="DSE_CANTIDAD_RECICLADO_SECADERO" type="xs:string" minOccurs="0" />
+              <xs:element name="DSE_PESO_PROMEDIO" msprop:Generator_ColumnVarNameInTable="columnDSE_PESO_PROMEDIO" msprop:Generator_ColumnPropNameInRow="DSE_PESO_PROMEDIO" msprop:Generator_ColumnPropNameInTable="DSE_PESO_PROMEDIOColumn" msprop:Generator_UserColumnName="DSE_PESO_PROMEDIO" type="xs:string" minOccurs="0" />
+              <xs:element name="DSE_OBSERVACION" msprop:Generator_ColumnVarNameInTable="columnDSE_OBSERVACION" msprop:Generator_ColumnPropNameInRow="DSE_OBSERVACION" msprop:Generator_ColumnPropNameInTable="DSE_OBSERVACIONColumn" msprop:Generator_UserColumnName="DSE_OBSERVACION" type="xs:string" minOccurs="0" />
+              <xs:element name="DSE_LADRILLOS_X_VAGON" msprop:Generator_ColumnVarNameInTable="columnDSE_LADRILLOS_X_VAGON" msprop:Generator_ColumnPropNameInRow="DSE_LADRILLOS_X_VAGON" msprop:Generator_ColumnPropNameInTable="DSE_LADRILLOS_X_VAGONColumn" msprop:Generator_UserColumnName="DSE_LADRILLOS_X_VAGON" type="xs:string" minOccurs="0" />
+              <xs:element name="DSE_CANTIDAD_RECICLADO_CARGA" msprop:Generator_ColumnVarNameInTable="columnDSE_CANTIDAD_RECICLADO_CARGA" msprop:Generator_ColumnPropNameInRow="DSE_CANTIDAD_RECICLADO_CARGA" msprop:Generator_ColumnPropNameInTable="DSE_CANTIDAD_RECICLADO_CARGAColumn" msprop:Generator_UserColumnName="DSE_CANTIDAD_RECICLADO_CARGA" type="xs:string" minOccurs="0" />
+              <xs:element name="PromPesoHum" msprop:Generator_ColumnVarNameInTable="columnPromPesoHum" msprop:Generator_ColumnPropNameInRow="PromPesoHum" msprop:Generator_ColumnPropNameInTable="PromPesoHumColumn" msprop:Generator_UserColumnName="PromPesoHum" type="xs:string" minOccurs="0" />
+              <xs:element name="PorcHum" msprop:Generator_ColumnVarNameInTable="columnPorcHum" msprop:Generator_ColumnPropNameInRow="PorcHum" msprop:Generator_ColumnPropNameInTable="PorcHumColumn" msprop:Generator_UserColumnName="PorcHum" type="xs:string" minOccurs="0" />
+              <xs:element name="PRO_OBSERVACION" msprop:Generator_ColumnVarNameInTable="columnPRO_OBSERVACION" msprop:Generator_ColumnPropNameInRow="PRO_OBSERVACION" msprop:Generator_ColumnPropNameInTable="PRO_OBSERVACIONColumn" msprop:Generator_UserColumnName="PRO_OBSERVACION" type="xs:string" minOccurs="0" />
+              <xs:element name="GlnsTipo" msprop:Generator_ColumnVarNameInTable="columnGlnsTipo" msprop:Generator_ColumnPropNameInRow="GlnsTipo" msprop:Generator_ColumnPropNameInTable="GlnsTipoColumn" msprop:Generator_UserColumnName="GlnsTipo" type="xs:string" minOccurs="0" />
+              <xs:element name="GlnsXTn" msprop:Generator_ColumnVarNameInTable="columnGlnsXTn" msprop:Generator_ColumnPropNameInRow="GlnsXTn" msprop:Generator_ColumnPropNameInTable="GlnsXTnColumn" msprop:Generator_UserColumnName="GlnsXTn" type="xs:string" minOccurs="0" />
+              <xs:element name="EnergiaTipo" msprop:Generator_ColumnVarNameInTable="columnEnergiaTipo" msprop:Generator_ColumnPropNameInRow="EnergiaTipo" msprop:Generator_ColumnPropNameInTable="EnergiaTipoColumn" msprop:Generator_UserColumnName="EnergiaTipo" type="xs:string" minOccurs="0" />
+              <xs:element name="EnergiaXTn" msprop:Generator_ColumnVarNameInTable="columnEnergiaXTn" msprop:Generator_ColumnPropNameInRow="EnergiaXTn" msprop:Generator_ColumnPropNameInTable="EnergiaXTnColumn" msprop:Generator_UserColumnName="EnergiaXTn" type="xs:string" minOccurs="0" />
+              <xs:element name="FaltanteConteo" msprop:Generator_ColumnVarNameInTable="columnFaltanteConteo" msprop:Generator_ColumnPropNameInRow="FaltanteConteo" msprop:Generator_ColumnPropNameInTable="FaltanteConteoColumn" msprop:Generator_UserColumnName="FaltanteConteo" type="xs:string" minOccurs="0" />
+              <xs:element name="MalogradoConteo" msprop:Generator_ColumnVarNameInTable="columnMalogradoConteo" msprop:Generator_ColumnPropNameInRow="MalogradoConteo" msprop:Generator_ColumnPropNameInTable="MalogradoConteoColumn" msprop:Generator_UserColumnName="MalogradoConteo" type="xs:string" minOccurs="0" />
+              <xs:element name="SSE_FECHA" msprop:Generator_ColumnVarNameInTable="columnSSE_FECHA" msprop:Generator_ColumnPropNameInRow="SSE_FECHA" msprop:Generator_ColumnPropNameInTable="SSE_FECHAColumn" msprop:Generator_UserColumnName="SSE_FECHA" type="xs:string" minOccurs="0" />
+              <xs:element name="SEC_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnSEC_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="SEC_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="SEC_DESCRIPCIONColumn" msprop:Generator_UserColumnName="SEC_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="M3TipoGAS" msprop:Generator_ColumnVarNameInTable="columnM3TipoGAS" msprop:Generator_ColumnPropNameInRow="M3TipoGAS" msprop:Generator_ColumnPropNameInTable="M3TipoGASColumn" msprop:Generator_UserColumnName="M3TipoGAS" type="xs:string" minOccurs="0" />
+              <xs:element name="M3XTnGAS" msprop:Generator_ColumnVarNameInTable="columnM3XTnGAS" msprop:Generator_ColumnPropNameInRow="M3XTnGAS" msprop:Generator_ColumnPropNameInTable="M3XTnGASColumn" msprop:Generator_UserColumnName="M3XTnGAS" type="xs:string" minOccurs="0" />
+              <xs:element name="PesoCoc" msprop:Generator_ColumnVarNameInTable="columnPesoCoc" msprop:Generator_ColumnPropNameInRow="PesoCoc" msprop:Generator_ColumnPropNameInTable="PesoCocColumn" msprop:Generator_UserColumnName="PesoCoc" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.BL    Public Interface IBCRolArticulosTipoArticulos        Function Mantenimiento(ByVal Item As RolArticulosTipoArticulos) As Short    End InterfaceEnd Namespace

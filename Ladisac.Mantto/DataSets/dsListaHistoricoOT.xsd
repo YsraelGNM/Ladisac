@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaHistoricoOT" targetNamespace="http://tempuri.org/dsListaHistoricoOT.xsd" xmlns:mstns="http://tempuri.org/dsListaHistoricoOT.xsd" xmlns="http://tempuri.org/dsListaHistoricoOT.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaHistoricoOT" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaHistoricoOT" msprop:Generator_UserDSName="dsListaHistoricoOT">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="HistoricoOT" msprop:Generator_TableClassName="HistoricoOTDataTable" msprop:Generator_TableVarName="tableHistoricoOT" msprop:Generator_RowChangedName="HistoricoOTRowChanged" msprop:Generator_TablePropName="HistoricoOT" msprop:Generator_RowDeletingName="HistoricoOTRowDeleting" msprop:Generator_RowChangingName="HistoricoOTRowChanging" msprop:Generator_RowEvHandlerName="HistoricoOTRowChangeEventHandler" msprop:Generator_RowDeletedName="HistoricoOTRowDeleted" msprop:Generator_RowClassName="HistoricoOTRow" msprop:Generator_UserTableName="HistoricoOT" msprop:Generator_RowEvArgName="HistoricoOTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Mto_Descripcion" msprop:Generator_ColumnVarNameInTable="columnMTO_Descripcion" msprop:Generator_ColumnPropNameInRow="MTO_Descripcion" msprop:Generator_ColumnPropNameInTable="MTO_DescripcionColumn" msprop:Generator_UserColumnName="Mto_Descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="Eno_Descripcion" msprop:Generator_ColumnVarNameInTable="columnEno_Descripcion" msprop:Generator_ColumnPropNameInRow="Eno_Descripcion" msprop:Generator_ColumnPropNameInTable="Eno_DescripcionColumn" msprop:Generator_UserColumnName="Eno_Descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="Otr_Fecha_Ingreso" msprop:Generator_ColumnVarNameInTable="columnOtr_Fecha_Ingreso" msprop:Generator_ColumnPropNameInRow="Otr_Fecha_Ingreso" msprop:Generator_ColumnPropNameInTable="Otr_Fecha_IngresoColumn" msprop:Generator_UserColumnName="Otr_Fecha_Ingreso" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Otr_Fec_Emi" msprop:Generator_ColumnVarNameInTable="columnOtr_Fec_Emi" msprop:Generator_ColumnPropNameInRow="Otr_Fec_Emi" msprop:Generator_ColumnPropNameInTable="Otr_Fec_EmiColumn" msprop:Generator_UserColumnName="Otr_Fec_Emi" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Otr_Horo_Inicial" msprop:Generator_ColumnVarNameInTable="columnOtr_Horo_Inicial" msprop:Generator_ColumnPropNameInRow="Otr_Horo_Inicial" msprop:Generator_ColumnPropNameInTable="Otr_Horo_InicialColumn" msprop:Generator_UserColumnName="Otr_Horo_Inicial" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Otr_Horo_Final" msprop:Generator_ColumnVarNameInTable="columnOtr_Horo_Final" msprop:Generator_ColumnPropNameInRow="Otr_Horo_Final" msprop:Generator_ColumnPropNameInTable="Otr_Horo_FinalColumn" msprop:Generator_UserColumnName="Otr_Horo_Final" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Otr_Total_Hora" msprop:Generator_ColumnVarNameInTable="columnOtr_Total_Hora" msprop:Generator_ColumnPropNameInRow="Otr_Total_Hora" msprop:Generator_ColumnPropNameInTable="Otr_Total_HoraColumn" msprop:Generator_UserColumnName="Otr_Total_Hora" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Otr_Total_Tn" msprop:Generator_ColumnVarNameInTable="columnOtr_Total_Tn" msprop:Generator_ColumnPropNameInRow="Otr_Total_Tn" msprop:Generator_ColumnPropNameInTable="Otr_Total_TnColumn" msprop:Generator_UserColumnName="Otr_Total_Tn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Otr_Observacion" msprop:Generator_ColumnVarNameInTable="columnOtr_Observacion" msprop:Generator_ColumnPropNameInRow="Otr_Observacion" msprop:Generator_ColumnPropNameInTable="Otr_ObservacionColumn" msprop:Generator_UserColumnName="Otr_Observacion" type="xs:string" minOccurs="0" />
+              <xs:element name="Otr_Id" msprop:Generator_ColumnVarNameInTable="columnOtr_Id" msprop:Generator_ColumnPropNameInRow="Otr_Id" msprop:Generator_ColumnPropNameInTable="Otr_IdColumn" msprop:Generator_UserColumnName="Otr_Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Otr_Fase" msprop:Generator_ColumnVarNameInTable="columnOtr_Fase" msprop:Generator_ColumnPropNameInRow="Otr_Fase" msprop:Generator_ColumnPropNameInTable="Otr_FaseColumn" msprop:Generator_UserColumnName="Otr_Fase" type="xs:string" minOccurs="0" />
+              <xs:element name="Eno_Ruta" msprop:Generator_ColumnVarNameInTable="columnEno_Ruta" msprop:Generator_ColumnPropNameInRow="Eno_Ruta" msprop:Generator_ColumnPropNameInTable="Eno_RutaColumn" msprop:Generator_UserColumnName="Eno_Ruta" type="xs:string" minOccurs="0" />
+              <xs:element name="Gru_Descripcion" msprop:Generator_ColumnVarNameInTable="columnGru_Descripcion" msprop:Generator_ColumnPropNameInRow="Gru_Descripcion" msprop:Generator_ColumnPropNameInTable="Gru_DescripcionColumn" msprop:Generator_UserColumnName="Gru_Descripcion" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

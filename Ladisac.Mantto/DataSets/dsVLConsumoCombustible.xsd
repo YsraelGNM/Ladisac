@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsVLConsumoCombustible" targetNamespace="http://tempuri.org/dsVLConsumoCombustible.xsd" xmlns:mstns="http://tempuri.org/dsVLConsumoCombustible.xsd" xmlns="http://tempuri.org/dsVLConsumoCombustible.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsVLConsumoCombustible" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsVLConsumoCombustible" msprop:Generator_UserDSName="dsVLConsumoCombustible">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VLConsumoCombustible" msprop:Generator_TableClassName="VLConsumoCombustibleDataTable" msprop:Generator_TableVarName="tableVLConsumoCombustible" msprop:Generator_RowChangedName="VLConsumoCombustibleRowChanged" msprop:Generator_TablePropName="VLConsumoCombustible" msprop:Generator_RowDeletingName="VLConsumoCombustibleRowDeleting" msprop:Generator_RowChangingName="VLConsumoCombustibleRowChanging" msprop:Generator_RowEvHandlerName="VLConsumoCombustibleRowChangeEventHandler" msprop:Generator_RowDeletedName="VLConsumoCombustibleRowDeleted" msprop:Generator_RowClassName="VLConsumoCombustibleRow" msprop:Generator_UserTableName="VLConsumoCombustible" msprop:Generator_RowEvArgName="VLConsumoCombustibleRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AU_Fecha" msprop:Generator_ColumnVarNameInTable="columnAU_Fecha" msprop:Generator_ColumnPropNameInRow="AU_Fecha" msprop:Generator_ColumnPropNameInTable="AU_FechaColumn" msprop:Generator_UserColumnName="AU_Fecha" type="xs:string" minOccurs="0" />
+              <xs:element name="AU_HoraInforma" msprop:Generator_ColumnVarNameInTable="columnAU_HoraInforma" msprop:Generator_ColumnPropNameInRow="AU_HoraInforma" msprop:Generator_ColumnPropNameInTable="AU_HoraInformaColumn" msprop:Generator_UserColumnName="AU_HoraInforma" type="xs:string" minOccurs="0" />
+              <xs:element name="AU_Horas" msprop:Generator_ColumnVarNameInTable="columnAU_Horas" msprop:Generator_ColumnPropNameInRow="AU_Horas" msprop:Generator_ColumnPropNameInTable="AU_HorasColumn" msprop:Generator_UserColumnName="AU_Horas" type="xs:string" minOccurs="0" />
+              <xs:element name="AU_HorasRalenti" msprop:Generator_ColumnVarNameInTable="columnAU_HorasRalenti" msprop:Generator_ColumnPropNameInRow="AU_HorasRalenti" msprop:Generator_ColumnPropNameInTable="AU_HorasRalentiColumn" msprop:Generator_UserColumnName="AU_HorasRalenti" type="xs:string" minOccurs="0" />
+              <xs:element name="AU_TiempoMotorArrancado" msprop:Generator_ColumnVarNameInTable="columnAU_TiempoMotorArrancado" msprop:Generator_ColumnPropNameInRow="AU_TiempoMotorArrancado" msprop:Generator_ColumnPropNameInTable="AU_TiempoMotorArrancadoColumn" msprop:Generator_UserColumnName="AU_TiempoMotorArrancado" type="xs:string" minOccurs="0" />
+              <xs:element name="AU_TiempoOperacion" msprop:Generator_ColumnVarNameInTable="columnAU_TiempoOperacion" msprop:Generator_ColumnPropNameInRow="AU_TiempoOperacion" msprop:Generator_ColumnPropNameInTable="AU_TiempoOperacionColumn" msprop:Generator_UserColumnName="AU_TiempoOperacion" type="xs:string" minOccurs="0" />
+              <xs:element name="AU_TiempoRalenti" msprop:Generator_ColumnVarNameInTable="columnAU_TiempoRalenti" msprop:Generator_ColumnPropNameInRow="AU_TiempoRalenti" msprop:Generator_ColumnPropNameInTable="AU_TiempoRalentiColumn" msprop:Generator_UserColumnName="AU_TiempoRalenti" type="xs:string" minOccurs="0" />
+              <xs:element name="AU_ENO_ID" msprop:Generator_ColumnVarNameInTable="columnAU_ENO_ID" msprop:Generator_ColumnPropNameInRow="AU_ENO_ID" msprop:Generator_ColumnPropNameInTable="AU_ENO_IDColumn" msprop:Generator_UserColumnName="AU_ENO_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="UC_Fecha" msprop:Generator_ColumnVarNameInTable="columnUC_Fecha" msprop:Generator_ColumnPropNameInRow="UC_Fecha" msprop:Generator_ColumnPropNameInTable="UC_FechaColumn" msprop:Generator_UserColumnName="UC_Fecha" type="xs:string" minOccurs="0" />
+              <xs:element name="UC_HoraInforma" msprop:Generator_ColumnVarNameInTable="columnUC_HoraInforma" msprop:Generator_ColumnPropNameInRow="UC_HoraInforma" msprop:Generator_ColumnPropNameInTable="UC_HoraInformaColumn" msprop:Generator_UserColumnName="UC_HoraInforma" type="xs:string" minOccurs="0" />
+              <xs:element name="UC_TotalCombustible" msprop:Generator_ColumnVarNameInTable="columnUC_TotalCombustible" msprop:Generator_ColumnPropNameInRow="UC_TotalCombustible" msprop:Generator_ColumnPropNameInTable="UC_TotalCombustibleColumn" msprop:Generator_UserColumnName="UC_TotalCombustible" type="xs:string" minOccurs="0" />
+              <xs:element name="UC_CombustibleRalenti" msprop:Generator_ColumnVarNameInTable="columnUC_CombustibleRalenti" msprop:Generator_ColumnPropNameInRow="UC_CombustibleRalenti" msprop:Generator_ColumnPropNameInTable="UC_CombustibleRalentiColumn" msprop:Generator_UserColumnName="UC_CombustibleRalenti" type="xs:string" minOccurs="0" />
+              <xs:element name="UC_ConMotorArran" msprop:Generator_ColumnVarNameInTable="columnUC_ConMotorArran" msprop:Generator_ColumnPropNameInRow="UC_ConMotorArran" msprop:Generator_ColumnPropNameInTable="UC_ConMotorArranColumn" msprop:Generator_UserColumnName="UC_ConMotorArran" type="xs:string" minOccurs="0" />
+              <xs:element name="UC_EnOperacion" msprop:Generator_ColumnVarNameInTable="columnUC_EnOperacion" msprop:Generator_ColumnPropNameInRow="UC_EnOperacion" msprop:Generator_ColumnPropNameInTable="UC_EnOperacionColumn" msprop:Generator_UserColumnName="UC_EnOperacion" type="xs:string" minOccurs="0" />
+              <xs:element name="UC_EnRalenti" msprop:Generator_ColumnVarNameInTable="columnUC_EnRalenti" msprop:Generator_ColumnPropNameInRow="UC_EnRalenti" msprop:Generator_ColumnPropNameInTable="UC_EnRalentiColumn" msprop:Generator_UserColumnName="UC_EnRalenti" type="xs:string" minOccurs="0" />
+              <xs:element name="UC_ENO_ID" msprop:Generator_ColumnVarNameInTable="columnUC_ENO_ID" msprop:Generator_ColumnPropNameInRow="UC_ENO_ID" msprop:Generator_ColumnPropNameInTable="UC_ENO_IDColumn" msprop:Generator_UserColumnName="UC_ENO_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="ENO_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnENO_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ENO_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ENO_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ENO_DESCRIPCION" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

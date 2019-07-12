@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaConsumoCombustibleXResponsable" targetNamespace="http://tempuri.org/dsListaConsumoCombustibleXResponsable.xsd" xmlns:mstns="http://tempuri.org/dsListaConsumoCombustibleXResponsable.xsd" xmlns="http://tempuri.org/dsListaConsumoCombustibleXResponsable.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaConsumoCombustibleXResponsable" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaConsumoCombustibleXResponsable" msprop:Generator_UserDSName="dsListaConsumoCombustibleXResponsable">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaConsumoCombustibleXResponsable" msprop:Generator_TableClassName="ListaConsumoCombustibleXResponsableDataTable" msprop:Generator_TableVarName="tableListaConsumoCombustibleXResponsable" msprop:Generator_TablePropName="ListaConsumoCombustibleXResponsable" msprop:Generator_RowDeletingName="ListaConsumoCombustibleXResponsableRowDeleting" msprop:Generator_RowChangingName="ListaConsumoCombustibleXResponsableRowChanging" msprop:Generator_RowEvHandlerName="ListaConsumoCombustibleXResponsableRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaConsumoCombustibleXResponsableRowDeleted" msprop:Generator_UserTableName="ListaConsumoCombustibleXResponsable" msprop:Generator_RowChangedName="ListaConsumoCombustibleXResponsableRowChanged" msprop:Generator_RowEvArgName="ListaConsumoCombustibleXResponsableRowChangeEvent" msprop:Generator_RowClassName="ListaConsumoCombustibleXResponsableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ope" msprop:Generator_ColumnVarNameInTable="columnope" msprop:Generator_ColumnPropNameInRow="ope" msprop:Generator_ColumnPropNameInTable="opeColumn" msprop:Generator_UserColumnName="ope" type="xs:string" minOccurs="0" />
+              <xs:element name="ope2" msprop:Generator_ColumnVarNameInTable="columnope2" msprop:Generator_ColumnPropNameInRow="ope2" msprop:Generator_ColumnPropNameInTable="ope2Column" msprop:Generator_UserColumnName="ope2" type="xs:string" minOccurs="0" />
+              <xs:element name="COQ_FECHA" msprop:Generator_ColumnVarNameInTable="columnCOQ_FECHA" msprop:Generator_ColumnPropNameInRow="COQ_FECHA" msprop:Generator_ColumnPropNameInTable="COQ_FECHAColumn" msprop:Generator_UserColumnName="COQ_FECHA" type="xs:string" minOccurs="0" />
+              <xs:element name="CCD_CANTIDAD" msprop:Generator_ColumnVarNameInTable="columnCCD_CANTIDAD" msprop:Generator_ColumnPropNameInRow="CCD_CANTIDAD" msprop:Generator_ColumnPropNameInTable="CCD_CANTIDADColumn" msprop:Generator_UserColumnName="CCD_CANTIDAD" type="xs:string" minOccurs="0" />
+              <xs:element name="Tn" msprop:Generator_ColumnVarNameInTable="columnTn" msprop:Generator_ColumnPropNameInRow="Tn" msprop:Generator_ColumnPropNameInTable="TnColumn" msprop:Generator_UserColumnName="Tn" type="xs:string" minOccurs="0" />
+              <xs:element name="GlnsTipo" msprop:Generator_ColumnVarNameInTable="columnGlnsTipo" msprop:Generator_ColumnPropNameInRow="GlnsTipo" msprop:Generator_ColumnPropNameInTable="GlnsTipoColumn" msprop:Generator_UserColumnName="GlnsTipo" type="xs:string" minOccurs="0" />
+              <xs:element name="GlnsXTn" msprop:Generator_ColumnVarNameInTable="columnGlnsXTn" msprop:Generator_ColumnPropNameInRow="GlnsXTn" msprop:Generator_ColumnPropNameInTable="GlnsXTnColumn" msprop:Generator_UserColumnName="GlnsXTn" type="xs:string" minOccurs="0" />
+              <xs:element name="LAD_PARAM_QUEMA" msprop:Generator_ColumnVarNameInTable="columnLAD_PARAM_QUEMA" msprop:Generator_ColumnPropNameInRow="LAD_PARAM_QUEMA" msprop:Generator_ColumnPropNameInTable="LAD_PARAM_QUEMAColumn" msprop:Generator_UserColumnName="LAD_PARAM_QUEMA" type="xs:string" minOccurs="0" />
+              <xs:element name="M3TipoGAS" msprop:Generator_ColumnVarNameInTable="columnM3TipoGAS" msprop:Generator_ColumnPropNameInRow="M3TipoGAS" msprop:Generator_ColumnPropNameInTable="M3TipoGASColumn" msprop:Generator_UserColumnName="M3TipoGAS" type="xs:string" minOccurs="0" />
+              <xs:element name="M3XTnGAS" msprop:Generator_ColumnVarNameInTable="columnM3XTnGAS" msprop:Generator_ColumnPropNameInRow="M3XTnGAS" msprop:Generator_ColumnPropNameInTable="M3XTnGASColumn" msprop:Generator_UserColumnName="M3XTnGAS" type="xs:string" minOccurs="0" />
+              <xs:element name="Tn_PC" msprop:Generator_ColumnVarNameInTable="columnTn_PC" msprop:Generator_ColumnPropNameInRow="Tn_PC" msprop:Generator_ColumnPropNameInTable="Tn_PCColumn" msprop:Generator_UserColumnName="Tn_PC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

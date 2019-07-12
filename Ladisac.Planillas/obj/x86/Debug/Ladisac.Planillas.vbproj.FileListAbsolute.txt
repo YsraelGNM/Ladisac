@@ -1,0 +1,371 @@
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.Planillas.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.Planillas.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.Planillas.xml
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Infrastructure.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.BE.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.BL.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.Contabilidad.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.DA.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.Facturacion.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.Foundation.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.IBL.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\System.Windows.Interactivity.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.Produccion.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Infrastructure.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Infrastructure.xml
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.BE.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.BE.xml
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.BL.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.BL.xml
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.DA.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.DA.xml
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.Facturacion.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.Facturacion.xml
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.Foundation.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.Foundation.xml
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.IBL.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.IBL.xml
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.Contabilidad.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.Contabilidad.xml
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.Produccion.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\bin\Debug\Ladisac.Produccion.xml
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.vbprojResolveAssemblyReference.cache
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Resources.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Resource1.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.ControlFiltroTrareaHoras.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoEmpleado.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmAreaTrabajos.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmBuscarDocumentos.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmBuscarFecha.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmBuscarFechaPersona.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmBuscarSimple.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmCalendarioDias.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmCentroRiesgo.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmComedorPLL.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmConceptos.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmConceptosPlanilla.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmConceptosTrabajador.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmConvenioDobleTributacion.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmDatosLaborales.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmDatosLaboralesPanel.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmDatosTrabajadorJudicial.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmDetalleConceptoPensionario.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmDetalleConceptosPlanillas.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmExportarPlameTRegistro.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoMantenimiento.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoTrabajoDiasDescanso.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoTrabajoHora.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoTrabajoHoraClonar.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoTrabajoTarea.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmMarcacion.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmNivelEducacion.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPeriodisidad.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPermisosTrabajador.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPlanilla.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPlanillaMantenimiento.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPlanillasPanelAdministracion.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPlanillasPanelAdministracionDetalle.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPrestamosTrabajador.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmRegimenLaboral.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmRegimenPensionario.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReparoTrabajador.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteComedor.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteFechaPersona.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteGrupoMantenimiento.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteGrupoTrabajoDiasDescanso.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteGrupoTrabajoHora.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteHorasPlanillasProduccion.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportePersona.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportePersonaTipoFichas.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportesBoletas.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportesPermisosTrabajador.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportesTareaTrabajoExportar.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportesTrabajadorCumpleaños.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportesXAcumuladosXTrabajador.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\frmRptPlanillaConsolidadoSuma.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmSituacionEspecialTrabajador.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmSituacionTrabajador.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTareaTrabajo.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTiposCargos.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\frmTiposConceptos.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTiposContratos.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTiposPlanillas.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTiposTareaTrabajo.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTiposTrabajador.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTrabajadorHoras.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmVisorReportes.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.ViewManMasterPlanillas.resources
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.vbproj.GenerateResource.Cache
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\RdlCompile.cache
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\RdlCompile.compiled
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.dll
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.xml
+C:\Ladisac04 - copia (28)\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.pdb
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.Planillas.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.Planillas.pdb
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.Planillas.xml
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Infrastructure.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.BE.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.BL.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.Contabilidad.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.DA.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.Facturacion.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.Foundation.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.IBL.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\System.Windows.Interactivity.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.Produccion.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Infrastructure.pdb
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Infrastructure.xml
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.BE.pdb
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.BE.xml
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.BL.pdb
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.BL.xml
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.DA.pdb
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.DA.xml
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.Facturacion.pdb
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.Facturacion.xml
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.Foundation.pdb
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.Foundation.xml
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.IBL.pdb
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.IBL.xml
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.Contabilidad.pdb
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.Contabilidad.xml
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.Produccion.pdb
+C:\Ladisac04\Ladisac.Planillas\bin\Debug\Ladisac.Produccion.xml
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.vbprojResolveAssemblyReference.cache
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Resources.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Resource1.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.ControlFiltroTrareaHoras.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoEmpleado.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmAreaTrabajos.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmBuscarDocumentos.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmBuscarFecha.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmBuscarFechaPersona.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmBuscarSimple.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmCalendarioDias.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmCentroRiesgo.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmComedorPLL.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmConceptos.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmConceptosPlanilla.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmConceptosTrabajador.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmConvenioDobleTributacion.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmDatosLaborales.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmDatosLaboralesPanel.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmDatosTrabajadorJudicial.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmDetalleConceptoPensionario.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmDetalleConceptosPlanillas.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmExportarPlameTRegistro.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoMantenimiento.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoTrabajoDiasDescanso.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoTrabajoHora.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoTrabajoHoraClonar.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoTrabajoTarea.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmMarcacion.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmNivelEducacion.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPeriodisidad.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPermisosTrabajador.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPlanilla.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPlanillaMantenimiento.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPlanillasPanelAdministracion.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPlanillasPanelAdministracionDetalle.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPrestamosTrabajador.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmRegimenLaboral.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmRegimenPensionario.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReparoTrabajador.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteComedor.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteFechaPersona.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteGrupoMantenimiento.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteGrupoTrabajoDiasDescanso.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteGrupoTrabajoHora.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteHorasPlanillasProduccion.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportePersona.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportePersonaTipoFichas.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportesBoletas.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportesPermisosTrabajador.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportesTareaTrabajoExportar.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportesTrabajadorCumpleaños.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportesXAcumuladosXTrabajador.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\frmRptPlanillaConsolidadoSuma.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmSituacionEspecialTrabajador.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmSituacionTrabajador.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTareaTrabajo.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTiposCargos.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\frmTiposConceptos.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTiposContratos.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTiposPlanillas.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTiposTareaTrabajo.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTiposTrabajador.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTrabajadorHoras.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmVisorReportes.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.ViewManMasterPlanillas.resources
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.vbproj.GenerateResource.Cache
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\RdlCompile.cache
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\RdlCompile.compiled
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.dll
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.xml
+C:\Ladisac04\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.pdb
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\LadisacModel.Designer.vb
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.Planillas.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.Planillas.pdb
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.Planillas.xml
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Infrastructure.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.BE.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.BL.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.Contabilidad.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.DA.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.Facturacion.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.Foundation.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.IBL.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\System.Windows.Interactivity.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.Produccion.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Infrastructure.pdb
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Infrastructure.xml
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.BE.pdb
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.BE.xml
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.BL.pdb
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.BL.xml
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.DA.pdb
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.DA.xml
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.Facturacion.pdb
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.Facturacion.xml
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.Foundation.pdb
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.Foundation.xml
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.IBL.pdb
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.IBL.xml
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.Contabilidad.pdb
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.Contabilidad.xml
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.Produccion.pdb
+C:\Ladisac05\Ladisac.Planillas\bin\Debug\Ladisac.Produccion.xml
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.vbprojResolveAssemblyReference.cache
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Resources.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Resource1.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.ControlFiltroTrareaHoras.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoEmpleado.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmAreaTrabajos.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmBuscarDocumentos.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmBuscarFecha.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmBuscarFechaPersona.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmBuscarSimple.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmCalendarioDias.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmCentroRiesgo.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmComedorPLL.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmConceptos.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmConceptosPlanilla.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmConceptosTrabajador.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmConvenioDobleTributacion.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmDatosLaborales.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmDatosLaboralesPanel.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmDatosTrabajadorJudicial.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmDetalleConceptoPensionario.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmDetalleConceptosPlanillas.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmExportarPlameTRegistro.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoMantenimiento.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoTrabajoDiasDescanso.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoTrabajoHora.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoTrabajoHoraClonar.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmGrupoTrabajoTarea.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmMarcacion.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmNivelEducacion.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPeriodisidad.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPermisosTrabajador.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPlanilla.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPlanillaMantenimiento.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPlanillasPanelAdministracion.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPlanillasPanelAdministracionDetalle.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmPrestamosTrabajador.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmRegimenLaboral.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmRegimenPensionario.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReparoTrabajador.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteComedor.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteFechaPersona.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteGrupoMantenimiento.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteGrupoTrabajoDiasDescanso.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteGrupoTrabajoHora.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReporteHorasPlanillasProduccion.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportePersona.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportePersonaTipoFichas.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportesBoletas.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportesPermisosTrabajador.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportesTareaTrabajoExportar.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportesTrabajadorCumpleaños.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmReportesXAcumuladosXTrabajador.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\frmReporteTardanzas.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\frmRptPlanillaConsolidadoSuma.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmSituacionEspecialTrabajador.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmSituacionTrabajador.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTareaTrabajo.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTiposCargos.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\frmTiposConceptos.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTiposContratos.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTiposPlanillas.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTiposTareaTrabajo.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTiposTrabajador.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmTrabajadorHoras.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.frmVisorReportes.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.Views.ViewManMasterPlanillas.resources
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.vbproj.GenerateResource.Cache
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\RdlCompile.cache
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\RdlCompile.compiled
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.dll
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.xml
+C:\Ladisac05\Ladisac.Planillas\obj\x86\Debug\Ladisac.Planillas.pdb

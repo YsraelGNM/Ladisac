@@ -1,0 +1,772 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{4DC3327E-1427-4E7E-B9D5-54C407E02AF3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>Ladisac.DA</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Ladisac.DA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Ladisac.DA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception.Configuration, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.Interception.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Infrastructure.ExceptionHandling" />
+    <Import Include="Microsoft.Practices.EnterpriseLibrary.Common" />
+    <Import Include="Microsoft.Practices.EnterpriseLibrary.Common.Configuration" />
+    <Import Include="Microsoft.Practices.EnterpriseLibrary.Data" />
+    <Import Include="Microsoft.Practices.EnterpriseLibrary.Data.Configuration" />
+    <Import Include="Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Fluent" />
+    <Import Include="Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Manageability" />
+    <Import Include="Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Unity" />
+    <Import Include="Microsoft.Practices.EnterpriseLibrary.Data.Instrumentation" />
+    <Import Include="Microsoft.Practices.EnterpriseLibrary.Data.Oracle" />
+    <Import Include="Microsoft.Practices.EnterpriseLibrary.Data.Oracle.Configuration" />
+    <Import Include="Microsoft.Practices.EnterpriseLibrary.Data.Sql" />
+    <Import Include="Microsoft.Practices.EnterpriseLibrary.Data.Sql.Configuration" />
+    <Import Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activos Fijos\CuentasActivosRepositorio.vb" />
+    <Compile Include="Activos Fijos\DepartamentosAdministrativosRepositorio.vb" />
+    <Compile Include="Activos Fijos\EdificiosRepositorio.vb" />
+    <Compile Include="Activos Fijos\ICuentasActivosRepositorio.vb" />
+    <Compile Include="Activos Fijos\IDepartamentosAdministrativosRepositorio.vb" />
+    <Compile Include="Activos Fijos\IEdificiosRepositorio.vb" />
+    <Compile Include="Activos Fijos\IIncidenciasRepositorio.vb" />
+    <Compile Include="Activos Fijos\IncidenciasRepositorio.vb" />
+    <Compile Include="Activos Fijos\IOficinasRepositorio.vb" />
+    <Compile Include="Activos Fijos\OficinasRepositorio.vb" />
+    <Compile Include="Constants\SPNames.vb" />
+    <Compile Include="Constants\spNamesBusqueda.vb" />
+    <Compile Include="Constants\SPNamesContabilidad.vb" />
+    <Compile Include="Constants\spNamesDespachos.vb" />
+    <Compile Include="Constants\spNamesFacturacion.vb" />
+    <Compile Include="Constants\SpNamesFinanzas.vb" />
+    <Compile Include="Constants\spNamesMaestro.vb" />
+    <Compile Include="Constants\SPNamesPlanillas.vb" />
+    <Compile Include="Constants\SPNamesProduccion.vb" />
+    <Compile Include="Constants\SPNamesTesoreria.vb" />
+    <Compile Include="Contabilidad\DocumentoGuiasRepositorio.vb" />
+    <Compile Include="Contabilidad\AsientosManualesRepositorio.vb" />
+    <Compile Include="Contabilidad\ClaseCuentaRepositorio.vb" />
+    <Compile Include="Contabilidad\ComprobantesRepositorio.vb" />
+    <Compile Include="Contabilidad\ConfiguracionFormatosRepositorio.vb" />
+    <Compile Include="Contabilidad\ConsultasReportesContabilidadRepositorio.vb" />
+    <Compile Include="Contabilidad\CtaCteRepositorio.vb" />
+    <Compile Include="Contabilidad\CuentasArticuloRepositorio.vb" />
+    <Compile Include="Contabilidad\CuentasComprobantesLogisticaRepositorio.vb" />
+    <Compile Include="Contabilidad\CuentasContablesRepositorio.vb" />
+    <Compile Include="Contabilidad\CuentasVariasRepositorio.vb" />
+    <Compile Include="Contabilidad\DetalleAsientosManualesRepositorio.vb" />
+    <Compile Include="Contabilidad\DetalleComprobantesRepositorio.vb" />
+    <Compile Include="Contabilidad\DetalleLeasingRepositorio.vb" />
+    <Compile Include="Contabilidad\IDocumentoGuiasRepositorio.vb" />
+    <Compile Include="Contabilidad\IAsientosManualesRepositorio.vb" />
+    <Compile Include="Contabilidad\IClaseCuentaRepositorio.vb" />
+    <Compile Include="Contabilidad\IComprobantesRepositorio.vb" />
+    <Compile Include="Contabilidad\IConfiguracionFormatosRepositorio.vb" />
+    <Compile Include="Contabilidad\IConsultasReportesContabilidadRepositorio.vb" />
+    <Compile Include="Contabilidad\ICtaCteRepositorio.vb" />
+    <Compile Include="Contabilidad\ICuentasArticuloRepositorio.vb" />
+    <Compile Include="Contabilidad\ICuentasComprobantesLogisticaRepositorio.vb" />
+    <Compile Include="Contabilidad\ICuentasContablesRepositorio.vb" />
+    <Compile Include="Contabilidad\ICuentasVariasRepositorio.vb" />
+    <Compile Include="Contabilidad\IDetalleAsientosManualesRepositorio.vb" />
+    <Compile Include="Contabilidad\IDetalleComprobantesRepositorio.vb" />
+    <Compile Include="Contabilidad\IDetalleLeasingActivosFijosRepositorio.vb" />
+    <Compile Include="Contabilidad\IDetalleLeasingRepositorio.vb" />
+    <Compile Include="Contabilidad\ILeasingRepositorio.vb" />
+    <Compile Include="Contabilidad\ILibrosContablesRepositorio.vb" />
+    <Compile Include="Contabilidad\IOperacionDetracionesRepositorio.vb" />
+    <Compile Include="Contabilidad\IProvisionComprasRepositorio.vb" />
+    <Compile Include="Contabilidad\IDetalleProvisionComprasRepositorio.vb" />
+    <Compile Include="Contabilidad\IReferenciaProvisionComprasRepositorio.vb" />
+    <Compile Include="Contabilidad\ITiposBienesServiciosRepositorio.vb" />
+    <Compile Include="Contabilidad\LeasingRepositorio.vb" />
+    <Compile Include="Contabilidad\LibrosContablesRepositorio.vb" />
+    <Compile Include="Contabilidad\OperacionDetracionesRepositorio.vb" />
+    <Compile Include="Contabilidad\ProvisionComprasRepositorio.vb" />
+    <Compile Include="Contabilidad\DetalleProvisionComprasRepositorio.vb" />
+    <Compile Include="Contabilidad\ReferenciaProvisionComprasRepositorio.vb" />
+    <Compile Include="Contabilidad\TiposBienesServiciosRepositorio.vb" />
+    <Compile Include="Cuentas Corrientes\CartaFianzaRepositorio.vb" />
+    <Compile Include="Cuentas Corrientes\DescuentoIncrementoTipoVentaPersonasRepositorio.vb" />
+    <Compile Include="Cuentas Corrientes\DetalleDescuentoIncrementoTipoVentaPersonasRepositorio.vb" />
+    <Compile Include="Cuentas Corrientes\DetalleListaPreciosRepositorio.vb" />
+    <Compile Include="Cuentas Corrientes\DetallePermisoCuentaCorrienteRepositorio.vb" />
+    <Compile Include="Cuentas Corrientes\ICartaFianzaRepositorio.vb" />
+    <Compile Include="Cuentas Corrientes\IDescuentoIncrementoTipoVentaPersonasRepositorio.vb" />
+    <Compile Include="Cuentas Corrientes\IDetalleDescuentoIncrementoTipoVentaPersonasRepositorio.vb" />
+    <Compile Include="Cuentas Corrientes\IDetalleListaPreciosRepositorio.vb" />
+    <Compile Include="Cuentas Corrientes\IDetallePermisoCuentaCorrienteRepositorio.vb" />
+    <Compile Include="Cuentas Corrientes\IListaPreciosArticulosRepositorio.vb" />
+    <Compile Include="Cuentas Corrientes\IPermisoCuentaCorrienteRepositorio.vb" />
+    <Compile Include="Cuentas Corrientes\ITipoVentaRepositorio.vb" />
+    <Compile Include="Cuentas Corrientes\ListaPreciosArticulosRepositorio.vb" />
+    <Compile Include="Cuentas Corrientes\PermisoCuentaCorrienteRepositorio.vb" />
+    <Compile Include="Cuentas Corrientes\TipoVentaRepositorio.vb" />
+    <Compile Include="Despachos\SalidaVigilanciaRepositorio.vb" />
+    <Compile Include="Despachos\ISalidaVigilanciaRepositorio.vb" />
+    <Compile Include="Despachos\OrdenDespachoDetalleRepositorio.vb" />
+    <Compile Include="Despachos\IOrdenDespachoDetalleRepositorio.vb" />
+    <Compile Include="Despachos\OrdenDespachoRepositorio.vb" />
+    <Compile Include="Despachos\IOrdenDespachoRepositorio.vb" />
+    <Compile Include="Despachos\DespachoSalidaDetalleRepositorio.vb" />
+    <Compile Include="Despachos\DespachoSalidaRepositorio.vb" />
+    <Compile Include="Despachos\DespachosRepositorio.vb" />
+    <Compile Include="Despachos\DetalleDespachosRepositorio.vb" />
+    <Compile Include="Despachos\IDespachoSalidaDetalleRepositorio.vb" />
+    <Compile Include="Despachos\IDespachoSalidaRepositorio.vb" />
+    <Compile Include="Despachos\IDespachosRepositorio.vb" />
+    <Compile Include="Despachos\IDetalleDespachosRepositorio.vb" />
+    <Compile Include="Contabilidad\DetalleLeasingActivosFijosRepositorio.vb" />
+    <Compile Include="Facturacion\ComisionRepositorio.vb" />
+    <Compile Include="Facturacion\DetalleAfectaDocumentosRepositorio.vb" />
+    <Compile Include="Facturacion\DetalleAfectaProductoDocumentosRepositorio.vb" />
+    <Compile Include="Facturacion\DetalleCierreRepositorio.vb" />
+    <Compile Include="Facturacion\DetalleDocumentosPromocionRepositorio.vb" />
+    <Compile Include="Facturacion\DetalleDocumentosRepositorio.vb" />
+    <Compile Include="Facturacion\DetalleFletesTransporteRepositorio.vb" />
+    <Compile Include="Facturacion\DocumentosPromocionRepositorio.vb" />
+    <Compile Include="Facturacion\DocumentosRepositorio.vb" />
+    <Compile Include="Facturacion\FletesTransporteRepositorio.vb" />
+    <Compile Include="Facturacion\IComisionRepositorio.vb" />
+    <Compile Include="Facturacion\IDetalleAfectaDocumentosRepositorio.vb" />
+    <Compile Include="Facturacion\IDetalleAfectaProductoDocumentosRepositorio.vb" />
+    <Compile Include="Facturacion\IDetalleDocumentosPromocionRepositorio.vb" />
+    <Compile Include="Facturacion\IDetalleDocumentosRepositorio.vb" />
+    <Compile Include="Facturacion\IDetalleFletesTransporteRepositorio.vb" />
+    <Compile Include="Facturacion\IDocumentosPromocionRepositorio.vb" />
+    <Compile Include="Facturacion\IDocumentosRepositorio.vb" />
+    <Compile Include="Facturacion\IFletesTransporteRepositorio.vb" />
+    <Compile Include="Facturacion\IRestriccionArticuloRepositorio.vb" />
+    <Compile Include="Facturacion\ISolicitudAjustePrecioDetalleRepositorio.vb" />
+    <Compile Include="Facturacion\ISolicitudAjustePrecioRepositorio.vb" />
+    <Compile Include="Facturacion\ITipoDocumentoRepositorio.vb" />
+    <Compile Include="Facturacion\RestriccionArticuloRepositorio.vb" />
+    <Compile Include="Facturacion\SolicitudAjustePrecioDetalleRepositorio.vb" />
+    <Compile Include="Facturacion\SolicitudAjustePrecioRepositorio.vb" />
+    <Compile Include="Facturacion\TipoDocumentoRepositorio.vb" />
+    <Compile Include="Logistica\AlmacenRepositorio.vb" />
+    <Compile Include="Logistica\ArticuloRepositorio.vb" />
+    <Compile Include="Logistica\ArticuloAlmacenRepositorio.vb" />
+    <Compile Include="Logistica\ControlGrifoRepositorio.vb" />
+    <Compile Include="Logistica\CierreAlmacenRepositorio.vb" />
+    <Compile Include="Logistica\CuentaRendirRepositorio.vb" />
+    <Compile Include="Logistica\ICuentaRendirRepositorio.vb" />
+    <Compile Include="Logistica\IRendicionGastosRepositorio.vb" />
+    <Compile Include="Logistica\RecepcionDocumentoRepositorio.vb" />
+    <Compile Include="Logistica\IRecepcionDocumentoRepositorio.vb" />
+    <Compile Include="Logistica\RendicionGastosRepositorio.vb" />
+    <Compile Include="Logistica\SolicitudSoporteDetalleRepositorio.vb" />
+    <Compile Include="Logistica\SolicitudSoporteRepositorio.vb" />
+    <Compile Include="Logistica\ISolicitudSoporteDetalleRepositorio.vb" />
+    <Compile Include="Logistica\ISolicitudSoporteRepositorio.vb" />
+    <Compile Include="Logistica\OrdenServicioDetalleRepositorio.vb" />
+    <Compile Include="Logistica\OrdenServicioRepositorio.vb" />
+    <Compile Include="Logistica\IOrdenServicioDetalleRepositorio.vb" />
+    <Compile Include="Logistica\IOrdenServicioRepositorio.vb" />
+    <Compile Include="Logistica\PCDCotizacionDetalleRepositorio.vb" />
+    <Compile Include="Logistica\IPCDCotizacionDetalleRepositorio.vb" />
+    <Compile Include="Logistica\ICierreAlmacenRepositorio.vb" />
+    <Compile Include="Logistica\KardexLoteRepositorio.vb" />
+    <Compile Include="Logistica\IKardexLoteRepositorio.vb" />
+    <Compile Include="Logistica\CuadroComparativoRepositorio.vb" />
+    <Compile Include="Logistica\ICuadroComparativoRepositorio.vb" />
+    <Compile Include="Logistica\DetalleConsolidadoRepositorio.vb" />
+    <Compile Include="Logistica\GuiaRemisionDetalleRepositorio.vb" />
+    <Compile Include="Logistica\GuiaRemisionRepositorio.vb" />
+    <Compile Include="Logistica\IControlGrifoRepositorio.vb" />
+    <Compile Include="Logistica\IDetalleConsolidadoRepositorio.vb" />
+    <Compile Include="Logistica\IGuiaRemisionDetalleRepositorio.vb" />
+    <Compile Include="Logistica\IGuiaRemisionRepositorio.vb" />
+    <Compile Include="Logistica\IInventarioRepositorio.vb" />
+    <Compile Include="Logistica\InventarioRepositorio.vb" />
+    <Compile Include="Logistica\IProcesoCompraDetalleRepositorio.vb" />
+    <Compile Include="Logistica\IProcesoCompraRepositorio.vb" />
+    <Compile Include="Logistica\IRendicionCuentaDetalleRepositorio.vb" />
+    <Compile Include="Logistica\IRendicionCuentaRepositorio.vb" />
+    <Compile Include="Logistica\ISolicitudCompraDetalleRepositorio.vb" />
+    <Compile Include="Logistica\ISolicitudCompraRepositorio.vb" />
+    <Compile Include="Logistica\ITransformacionDetalleRepositorio.vb" />
+    <Compile Include="Logistica\ITransformacionRepositorio.vb" />
+    <Compile Include="Logistica\ProcesoCompraDetalleRepositorio.vb" />
+    <Compile Include="Logistica\ProcesoCompraRepositorio.vb" />
+    <Compile Include="Logistica\RendicionCuentaDetalleRepositorio.vb" />
+    <Compile Include="Logistica\RendicionCuentaRepositorio.vb" />
+    <Compile Include="Logistica\SolicitudCompraDetalleRepositorio.vb" />
+    <Compile Include="Logistica\SolicitudCompraRepositorio.vb" />
+    <Compile Include="Logistica\TransformacionDetalleRepositorio.vb" />
+    <Compile Include="Logistica\TransformacionRepositorio.vb" />
+    <Compile Include="Logistica\UbicacionAlmacenRepositorio.vb" />
+    <Compile Include="Logistica\IUbicacionAlmacenRepositorio.vb" />
+    <Compile Include="Logistica\DotacionRepositorio.vb" />
+    <Compile Include="Logistica\IDotacionRepositorio.vb" />
+    <Compile Include="Logistica\IOrdenSalidaDetalleRepositorio.vb" />
+    <Compile Include="Logistica\IOrdenSalidaRepositorio.vb" />
+    <Compile Include="Logistica\KardexRepositorio.vb" />
+    <Compile Include="Logistica\IKardexRepositorio.vb" />
+    <Compile Include="Logistica\IArticuloAlmacenRepositorio.vb" />
+    <Compile Include="Logistica\IDocuMovimientoDetalleRepositorio.vb" />
+    <Compile Include="Logistica\DocuMovimientoDetalleRepositorio.vb" />
+    <Compile Include="Logistica\IDocuMovimientoRepositorio.vb" />
+    <Compile Include="Logistica\DocuMovimientoRepositorio.vb" />
+    <Compile Include="Logistica\IOrdenCompraDetalleRepositorio.vb" />
+    <Compile Include="Logistica\IOrdenCompraRepositorio.vb" />
+    <Compile Include="Logistica\ISalidaCombustibleRepositorio.vb" />
+    <Compile Include="Logistica\OrdenCompraDetalleRepositorio.vb" />
+    <Compile Include="Logistica\OrdenCompraRepositorio.vb" />
+    <Compile Include="Logistica\OrdenRequerimientoDetalleRepositorio.vb" />
+    <Compile Include="Logistica\OrdenRequerimientoRepositorio.vb" />
+    <Compile Include="Logistica\IOrdenRequerimientoDetalleRepositorio.vb" />
+    <Compile Include="Logistica\IOrdenRequerimientoRepositorio.vb" />
+    <Compile Include="Logistica\IArticuloRepositorio.vb" />
+    <Compile Include="Logistica\IAlmacenRepositorio.vb" />
+    <Compile Include="Logistica\OrdenSalidaDetalleRepositorio.vb" />
+    <Compile Include="Logistica\OrdenSalidaRepositorio.vb" />
+    <Compile Include="Logistica\SalidaCombustibleRepositorio.vb" />
+    <Compile Include="Maestro\BloqueoVendedorRepositorio.vb" />
+    <Compile Include="Maestro\CentroCostosRepositorio.vb" />
+    <Compile Include="Maestro\FaltaSancionRepositorio.vb" />
+    <Compile Include="Maestro\IBloqueoVendedorRepositorio.vb" />
+    <Compile Include="Maestro\ICentroCostosRepositorio.vb" />
+    <Compile Include="Maestro\SancionDetalleRepositorio.vb" />
+    <Compile Include="Maestro\SancionRepositorio.vb" />
+    <Compile Include="Maestro\BloqueosCodigoPersonaRepositorio.vb" />
+    <Compile Include="Maestro\IFaltaSancionRepositorio.vb" />
+    <Compile Include="Maestro\ISancionDetalleRepositorio.vb" />
+    <Compile Include="Maestro\ISancionRepositorio.vb" />
+    <Compile Include="Maestro\IBloqueosCodigoPersonaRepositorio.vb" />
+    <Compile Include="Maestro\RubroRepositorio.vb" />
+    <Compile Include="Maestro\BusquedaRepositorio.vb" />
+    <Compile Include="Maestro\CierreRepositorio.vb" />
+    <Compile Include="Maestro\ConfiguracionVehicularRepositorio.vb" />
+    <Compile Include="Maestro\ContactoPersonaRepositorio.vb" />
+    <Compile Include="Maestro\CorrelativoTipoDocumentoRepositorio.vb" />
+    <Compile Include="Maestro\DatosUsuariosRepositorio.vb" />
+    <Compile Include="Maestro\IRubroRepositorio.vb" />
+    <Compile Include="Maestro\IBusquedaRepositorio.vb" />
+    <Compile Include="Maestro\ICierreRepositorio.vb" />
+    <Compile Include="Maestro\IConfiguracionVehicularRepositorio.vb" />
+    <Compile Include="Maestro\IContactoPersonaRepositorio.vb" />
+    <Compile Include="Maestro\ICorrelativoTipoDocumentoRepositorio.vb" />
+    <Compile Include="Maestro\IDatosUsuariosRepositorio.vb" />
+    <Compile Include="Maestro\IDetalleCierreRepositorio.vb" />
+    <Compile Include="Maestro\IFamiliaArticuloRepositorio.vb" />
+    <Compile Include="Maestro\ILineaFamiliaRepositorio.vb" />
+    <Compile Include="Maestro\IParametroRepositorio.vb" />
+    <Compile Include="Maestro\IPeriodoRepositorio.vb" />
+    <Compile Include="Maestro\IPermisoUsuarioRepositorio.vb" />
+    <Compile Include="Maestro\IPesosArticulosRepositorio.vb" />
+    <Compile Include="Maestro\IPlacasRepositorio.vb" />
+    <Compile Include="Maestro\IPuntoVentaDatosUsuariosRepositorio.vb" />
+    <Compile Include="Maestro\IRolAlmacenTipoArticulosRepositorio.vb" />
+    <Compile Include="Maestro\IRolArticulosTipoArticulosRepositorio.vb" />
+    <Compile Include="Maestro\IRolOpeCtaCteRepositorio.vb" />
+    <Compile Include="Maestro\IRolPersonaTipoPersonaRepositorio.vb" />
+    <Compile Include="Maestro\IRolPuntoVentaAlmacenRepositorio.vb" />
+    <Compile Include="Maestro\ISeriesDatosUsuariosRepositorio.vb" />
+    <Compile Include="Maestro\ITipoCambioMonedaRepositorio.vb" />
+    <Compile Include="Maestro\ITipoPersonasRepositorio.vb" />
+    <Compile Include="Maestro\ITipoUnidadRepositorio.vb" />
+    <Compile Include="Maestro\IUsuariosRepositorio.vb" />
+    <Compile Include="Maestro\LineaFamiliaRepositorio.vb" />
+    <Compile Include="Maestro\FamiliaArticuloRepositorio.vb" />
+    <Compile Include="Maestro\ParametroRepositorio.vb" />
+    <Compile Include="Maestro\PeriodoRepositorio.vb" />
+    <Compile Include="Maestro\PermisoUsuarioRepositorio.vb" />
+    <Compile Include="Maestro\PesosArticulosRepositorio.vb" />
+    <Compile Include="Maestro\PlacasRepositorio.vb" />
+    <Compile Include="Maestro\PuntoVentaDatosUsuariosRepositorio.vb" />
+    <Compile Include="Maestro\RolAlmacenTipoArticulosRepositorio.vb" />
+    <Compile Include="Maestro\RolArticulosTipoArticulosRepositorio.vb" />
+    <Compile Include="Maestro\RolOpeCtaCteRepositorio.vb" />
+    <Compile Include="Maestro\RolPersonaTipoPersonaRepositorio.vb" />
+    <Compile Include="Maestro\RolPuntoVentaAlmacenRepositorio.vb" />
+    <Compile Include="Maestro\SeriesDatosUsuariosRepositorio.vb" />
+    <Compile Include="Maestro\TipoArticuloRepositorio.vb" />
+    <Compile Include="Maestro\ITipoArticuloRepositorio.vb" />
+    <Compile Include="Maestro\DetalleTipoDocumentoRepositorio.vb" />
+    <Compile Include="Maestro\DireccionesPersonasRepositorio.vb" />
+    <Compile Include="Maestro\DocPersonasRepositorio.vb" />
+    <Compile Include="Maestro\IDetalleTipoDocumentoRepositorio.vb" />
+    <Compile Include="Maestro\IDireccionesPersonasRepositorio.vb" />
+    <Compile Include="Maestro\IDocPersonasRepositorio.vb" />
+    <Compile Include="Maestro\IPersonaRepositorio.vb" />
+    <Compile Include="Maestro\IPuntoVentaRepositorio.vb" />
+    <Compile Include="Maestro\ITipoDocPersonasRepositorio.vb" />
+    <Compile Include="Maestro\IUnidadesTransporteRepositorio.vb" />
+    <Compile Include="Maestro\PersonaRepositorio.vb" />
+    <Compile Include="Maestro\PuntoVentaRepositorio.vb" />
+    <Compile Include="Maestro\TipoCambioMonedaRepositorio.vb" />
+    <Compile Include="Maestro\TipoDocPersonasRepositorio.vb" />
+    <Compile Include="Maestro\TipoPersonasRepositorio.vb" />
+    <Compile Include="Maestro\TipoUnidadRepositorio.vb" />
+    <Compile Include="Maestro\UnidadesTransporteRepositorio.vb" />
+    <Compile Include="Maestro\UnidadMedidaRepositorio.vb" />
+    <Compile Include="Maestro\ModeloArticuloRepositorio.vb" />
+    <Compile Include="Maestro\MarcaArticuloRepositorio.vb" />
+    <Compile Include="Maestro\GrupoLineasRepositorio.vb" />
+    <Compile Include="Maestro\IUnidadMedidaRepositorio.vb" />
+    <Compile Include="Maestro\IMarcaArticuloRepositorio.vb" />
+    <Compile Include="Maestro\IModeloArticuloRepositorio.vb" />
+    <Compile Include="Maestro\IGrupoLineasRepositorio.vb" />
+    <Compile Include="Maestro\DistritoRepositorio.vb" />
+    <Compile Include="Maestro\DepartamentoRepositorio.vb" />
+    <Compile Include="Maestro\IDistritoRepositorio.vb" />
+    <Compile Include="Maestro\IDepartamentoRepositorio.vb" />
+    <Compile Include="Maestro\IMaestroRepositorio.vb" />
+    <Compile Include="Maestro\IMonedaRepositorio.vb" />
+    <Compile Include="Maestro\IPaisRepositorio.vb" />
+    <Compile Include="Maestro\IProvinciaRepositorio.vb" />
+    <Compile Include="Maestro\MaestroRepositorio.vb" />
+    <Compile Include="Maestro\MonedaRepositorio.vb" />
+    <Compile Include="Maestro\PaisRepositorio.vb" />
+    <Compile Include="Maestro\ProvinciaRepositorio.vb" />
+    <Compile Include="Maestro\UsuariosRepositorio.vb" />
+    <Compile Include="Mantenimiento\CaracteristicaRepositorio.vb" />
+    <Compile Include="Mantenimiento\ComponenteInspeccionRepositorio.vb" />
+    <Compile Include="Mantenimiento\AreaRepositorio.vb" />
+    <Compile Include="Mantenimiento\FichaInspeccionDetalleRepositorio.vb" />
+    <Compile Include="Mantenimiento\FichaInspeccionRepositorio.vb" />
+    <Compile Include="Mantenimiento\FotoPersonaRepositorio.vb" />
+    <Compile Include="Mantenimiento\IFichaInspeccionDetalleRepositorio.vb" />
+    <Compile Include="Mantenimiento\IFichaInspeccionRepositorio.vb" />
+    <Compile Include="Mantenimiento\IFotoPersonaRepositorio.vb" />
+    <Compile Include="Mantenimiento\IAreaRepositorio.vb" />
+    <Compile Include="Mantenimiento\DocuIsoDetalleRepositorio.vb" />
+    <Compile Include="Mantenimiento\IDocuIsoDetalleRepositorio.vb" />
+    <Compile Include="Mantenimiento\DocuIsoRepositorio.vb" />
+    <Compile Include="Mantenimiento\IDocuIsoRepositorio.vb" />
+    <Compile Include="Mantenimiento\IPlantillaDocuIsoRepositorio.vb" />
+    <Compile Include="Mantenimiento\PlantillaDocuIsoRepositorio.vb" />
+    <Compile Include="Mantenimiento\TipoAreaRepositorio.vb" />
+    <Compile Include="Mantenimiento\ITipoAreaRepositorio.vb" />
+    <Compile Include="Mantenimiento\RegistroEquipoRepositorio.vb" />
+    <Compile Include="Mantenimiento\IRegistroEquipoRepositorio.vb" />
+    <Compile Include="Mantenimiento\IRegistroMaquinaRepositorio.vb" />
+    <Compile Include="Mantenimiento\OrdenTrabajoEntidadRepositorio.vb" />
+    <Compile Include="Mantenimiento\IOrdenTrabajoEntidadRepositorio.vb" />
+    <Compile Include="Mantenimiento\RegistroMaquinaRepositorio.vb" />
+    <Compile Include="Mantenimiento\SuministroPlanManttoRepositorio.vb" />
+    <Compile Include="Mantenimiento\ISuministroPlanManttoRepositorio.vb" />
+    <Compile Include="Mantenimiento\EntidadInspeccionRepositorio.vb" />
+    <Compile Include="Mantenimiento\EntidadRepositorio.vb" />
+    <Compile Include="Mantenimiento\EspecificacionRepositorio.vb" />
+    <Compile Include="Mantenimiento\GrupoRepositorio.vb" />
+    <Compile Include="Mantenimiento\ICaracteristicaRepositorio.vb" />
+    <Compile Include="Mantenimiento\IComponenteInspeccionRepositorio.vb" />
+    <Compile Include="Mantenimiento\IEntidadInspeccionRepositorio.vb" />
+    <Compile Include="Mantenimiento\IEntidadRepositorio.vb" />
+    <Compile Include="Mantenimiento\IEspecificacionRepositorio.vb" />
+    <Compile Include="Mantenimiento\IGrupoRepositorio.vb" />
+    <Compile Include="Mantenimiento\IImagenRepositorio.vb" />
+    <Compile Include="Mantenimiento\IInspeccionPreOrdenTrabajoRepositorio.vb" />
+    <Compile Include="Mantenimiento\IInspeccionRepositorio.vb" />
+    <Compile Include="Mantenimiento\ImagenRepositorio.vb" />
+    <Compile Include="Mantenimiento\IManttoRepositorio.vb" />
+    <Compile Include="Mantenimiento\InspeccionPreOrdenTrabajoRepositorio.vb" />
+    <Compile Include="Mantenimiento\InspeccionRepositorio.vb" />
+    <Compile Include="Mantenimiento\IOrdenTrabajoPersonalRepositorio.vb" />
+    <Compile Include="Mantenimiento\IParametroEntidadRepositorio.vb" />
+    <Compile Include="Mantenimiento\IPlanMantenimientoRepositorio.vb" />
+    <Compile Include="Mantenimiento\ITipoClaseManttoRepositorio.vb" />
+    <Compile Include="Mantenimiento\ITipoEntidadRepositorio.vb" />
+    <Compile Include="Mantenimiento\ITipoFallaRepositorio.vb" />
+    <Compile Include="Mantenimiento\ITipoManttoRepositorio.vb" />
+    <Compile Include="Mantenimiento\ManttoRepositorio.vb" />
+    <Compile Include="Mantenimiento\OrdenTrabajoPersonalRepositorio.vb" />
+    <Compile Include="Mantenimiento\OrdenTrabajoRepositorio.vb" />
+    <Compile Include="Mantenimiento\IOrdenTrabajoRepositorio.vb" />
+    <Compile Include="Mantenimiento\ParametroEntidadRepositorio.vb" />
+    <Compile Include="Mantenimiento\PlanMantenimientoRepositorio.vb" />
+    <Compile Include="Mantenimiento\TipoClaseManttoRepositorio.vb" />
+    <Compile Include="Mantenimiento\TipoEntidadRepositorio.vb" />
+    <Compile Include="Mantenimiento\TipoFallaRepositorio.vb" />
+    <Compile Include="Mantenimiento\TipoManttoRepositorio.vb" />
+    <Compile Include="Planillas\AreaTrabajosRepositorio.vb" />
+    <Compile Include="Planillas\CalendarioDiasRespositorio.vb" />
+    <Compile Include="Planillas\CentroRiesgoRepositorio.vb" />
+    <Compile Include="Planillas\ComedorRepositorio.vb" />
+    <Compile Include="Planillas\ConceptosPlanillaRepositorio.vb" />
+    <Compile Include="Planillas\ConceptosRepositorio.vb" />
+    <Compile Include="Planillas\ConceptosTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\ConvenioDobleTributacionRepositorio.vb" />
+    <Compile Include="Planillas\DatosLaboralesHorarioRepositorio.vb" />
+    <Compile Include="Planillas\IDatosLaboralesHorarioRepositorio.vb" />
+    <Compile Include="Planillas\IDetalleGrupoEmpleadoRepositorio.vb" />
+    <Compile Include="Planillas\IGrupoEmpleadoRepositorio.vb" />
+    <Compile Include="Planillas\DetalleGrupoEmpleadoRepositorio.vb" />
+    <Compile Include="Planillas\GrupoEmpleadoRepositorio.vb" />
+    <Compile Include="Planillas\CronogramaVacacionesRepositorio.vb" />
+    <Compile Include="Planillas\DatosLaboralesRepositorio.vb" />
+    <Compile Include="Planillas\DatosTrabajadorJudicialRepositorio.vb" />
+    <Compile Include="Planillas\DetalleComedorRepositorio.vb" />
+    <Compile Include="Planillas\DetalleConceptoPensionarioRepositorio.vb" />
+    <Compile Include="Planillas\DetalleConceptosPlanillasRepositorio.vb" />
+    <Compile Include="Planillas\DetalleGrupoMantenimientoRepositorio.vb" />
+    <Compile Include="Planillas\DetalleGrupoTrabajoRepositorio.vb" />
+    <Compile Include="Planillas\DetallePermisosTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\DetallePlanillaRepositorio.vb" />
+    <Compile Include="Planillas\DetallePrestamosTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\DetalleReparoTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\DetalleTrabajadorHorasRepositorio.vb" />
+    <Compile Include="Planillas\DetalleTrabajadorJudicialRepositorio.vb" />
+    <Compile Include="Planillas\GrupoMantenimientoRepositorio.vb" />
+    <Compile Include="Planillas\GrupoTrabajoDiasDescansoRepositorio.vb" />
+    <Compile Include="Planillas\GrupoTrabajoRepositorio.vb" />
+    <Compile Include="Planillas\IAreaTrabajosRepositorio.vb" />
+    <Compile Include="Planillas\ICalendarioDiasRespositorio.vb" />
+    <Compile Include="Planillas\ICentroRiesgoRepositorio.vb" />
+    <Compile Include="Planillas\IComedorRepositorio.vb" />
+    <Compile Include="Planillas\IConceptosPlanillaRepositorio.vb" />
+    <Compile Include="Planillas\IConceptosRepositorio.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Planillas\IConceptosTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\IConsultasReportesPlanillasRepositorio.vb" />
+    <Compile Include="Planillas\IConvenioDobleTributacionRepositorio.vb" />
+    <Compile Include="Planillas\ICronogramaVacacionesRepositorio.vb" />
+    <Compile Include="Planillas\IDatosLaboralesRepositorio.vb" />
+    <Compile Include="Planillas\IDatosTrabajadorJudicialRepositorio.vb" />
+    <Compile Include="Planillas\IDetalleComedorRepositorio.vb" />
+    <Compile Include="Planillas\IDetalleConceptoPensionarioRepositorio.vb" />
+    <Compile Include="Planillas\IDetalleConceptosPlanillasRepositorio.vb" />
+    <Compile Include="Planillas\IDetalleGrupoMantenimientoRepositorio.vb" />
+    <Compile Include="Planillas\IDetalleGrupoTrabajoRepositorio.vb" />
+    <Compile Include="Planillas\IDetallePermisosTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\IDetallePlanillaRepositorio.vb" />
+    <Compile Include="Planillas\IDetallePrestamosTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\IDetalleReparoTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\IDetalleTrabajadorHorasRepositorio.vb" />
+    <Compile Include="Planillas\IDetalleTrabajadorJudicialRepositorio.vb" />
+    <Compile Include="Planillas\IGrupoMantenimientoRepositorio.vb" />
+    <Compile Include="Planillas\IGrupoTrabajoDiasDescansoRepositorio.vb" />
+    <Compile Include="Planillas\IGrupoTrabajoRepositorio.vb" />
+    <Compile Include="Planillas\IMarcacionRepositorio.vb" />
+    <Compile Include="Planillas\INivelEducacionRepositorio.vb" />
+    <Compile Include="Planillas\IPeriodisidadRepositorio.vb" />
+    <Compile Include="Planillas\IPeriodoLaboralRepositorio.vb" />
+    <Compile Include="Planillas\IPermisosTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\IPlanillaRepositorio.vb" />
+    <Compile Include="Planillas\IPlanillasComedorHorasRepositorio.vb" />
+    <Compile Include="Planillas\IPlanillaTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\IPrestamosTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\IRegimenLaboralRepositorio.vb" />
+    <Compile Include="Planillas\IRegimenPensionarioRepositorio.vb" />
+    <Compile Include="Planillas\IReparoTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\ISituacionEspecialTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\ISituacionTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\ITareaTrabajoRepositorio.vb" />
+    <Compile Include="Planillas\ITiposCargosRepositorio.vb" />
+    <Compile Include="Planillas\ITiposConceptosRepositorio.vb" />
+    <Compile Include="Planillas\ITiposContratosRepositorio.vb" />
+    <Compile Include="Planillas\ITiposPlanillasRepositorio.vb" />
+    <Compile Include="Planillas\ITiposTareaTrabajoRepositorio.vb" />
+    <Compile Include="Planillas\ITiposTareosRepositorio.vb" />
+    <Compile Include="Planillas\ITiposTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\ITrabajadorHorasRepositorio.vb" />
+    <Compile Include="Planillas\IUtilRepositorio.vb" />
+    <Compile Include="Planillas\MarcacionRepositorio.vb" />
+    <Compile Include="Planillas\NivelEducacionRepositorio.vb" />
+    <Compile Include="Planillas\PeriodisidadRepositorio.vb" />
+    <Compile Include="Planillas\PeriodoLaboralRepositorio.vb" />
+    <Compile Include="Planillas\PermisosTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\PlanillaRepositorio.vb" />
+    <Compile Include="Planillas\PlanillasComedorHorasRepositorio.vb" />
+    <Compile Include="Planillas\PlanillaTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\PrestamosTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\RegimenLaboralRepositorio.vb" />
+    <Compile Include="Planillas\RegimenPensionarioRepositorio.vb" />
+    <Compile Include="Planillas\ReparoTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\SituacionEspecialTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\SituacionTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\TareaTrabajoRepositorio.vb" />
+    <Compile Include="Planillas\TiposCargosRepositorio.vb" />
+    <Compile Include="Planillas\TiposConceptosRepositorio.vb" />
+    <Compile Include="Planillas\TiposContratosRepositorio.vb" />
+    <Compile Include="Planillas\TiposPlanillasRepositorio.vb" />
+    <Compile Include="Planillas\TiposTareaTrabajoRepositorio.vb" />
+    <Compile Include="Planillas\TiposTareosRepositorio.vb" />
+    <Compile Include="Planillas\TiposTrabajadorRepositorio.vb" />
+    <Compile Include="Planillas\TrabajadorHorasRepositorio.vb" />
+    <Compile Include="Planillas\UtilRepositorio.vb" />
+    <Compile Include="Produccion\CaCoDeDetalleRepositorio.vb" />
+    <Compile Include="Produccion\CanchaRepositorio.vb" />
+    <Compile Include="Produccion\CargaDescargaTransporteRepositorio.vb" />
+    <Compile Include="Produccion\CatsRepositorio.vb" />
+    <Compile Include="Produccion\ControlCancheroDetalleRepositorio.vb" />
+    <Compile Include="Produccion\ControlCancheroRepositorio.vb" />
+    <Compile Include="Produccion\ControlCargaRepositorio.vb" />
+    <Compile Include="Produccion\ControlConteoDetalleRepositorio.vb" />
+    <Compile Include="Produccion\ControlConteoRepositorio.vb" />
+    <Compile Include="Produccion\ControlDescargaRepositorio.vb" />
+    <Compile Include="Produccion\ControlEnergiaRepositorio.vb" />
+    <Compile Include="Produccion\ControlExtrusoraDetalleRepositorio.vb" />
+    <Compile Include="Produccion\ControlExtrusoraRepositorio.vb" />
+    <Compile Include="Produccion\ControlInspeccionRepositorio.vb" />
+    <Compile Include="Produccion\ControlMezclaMezclaDetalleRepositorio.vb" />
+    <Compile Include="Produccion\ControlMezclaRecetaDetalleRepositorio.vb" />
+    <Compile Include="Produccion\ControlMezclaRepositorio.vb" />
+    <Compile Include="Produccion\ControlParadaArticuloDetalleRepositorio.vb" />
+    <Compile Include="Produccion\ControlParadaDetalleRepositorio.vb" />
+    <Compile Include="Produccion\ControlParadaMoldeDetalleRepositorio.vb" />
+    <Compile Include="Produccion\ControlParadaRepositorio.vb" />
+    <Compile Include="Produccion\ControlPesoDetalleRepositorio.vb" />
+    <Compile Include="Produccion\ControlPesoRepositorio.vb" />
+    <Compile Include="Produccion\ControlQuemaRepositorio.vb" />
+    <Compile Include="Produccion\ConsumoCombustibleRepositorio.vb" />
+    <Compile Include="Produccion\ControlDescargaRumaRepositorio.vb" />
+    <Compile Include="Produccion\ControlDescargaRumaDetalleRepositorio.vb" />
+    <Compile Include="Produccion\ControlPlantaRepositorio.vb" />
+    <Compile Include="Produccion\ControlPlantaDetalleRepositorio.vb" />
+    <Compile Include="Produccion\ControlPaqueteoRepositorio.vb" />
+    <Compile Include="Produccion\IControlPaqueteoRepositorio.vb" />
+    <Compile Include="Produccion\ICargaDescargaTransporteRepositorio.vb" />
+    <Compile Include="Produccion\IControlPlantaDetalleRepositorio.vb" />
+    <Compile Include="Produccion\IControlPlantaRepositorio.vb" />
+    <Compile Include="Produccion\IPlanCargaDescargaHornoRepositorio.vb" />
+    <Compile Include="Produccion\PlanCargaDescargaHornoRepositorio.vb" />
+    <Compile Include="Produccion\ReciclajeLadrilloVentaRepositorio.vb" />
+    <Compile Include="Produccion\IReciclajeLadrilloVentaRepositorio.vb" />
+    <Compile Include="Produccion\ExtrusoraRepositorio.vb" />
+    <Compile Include="Produccion\ICatsRepositorio.vb" />
+    <Compile Include="Produccion\IControlDescargaRumaDetalleRepositorio.vb" />
+    <Compile Include="Produccion\IControlDescargaRumaRepositorio.vb" />
+    <Compile Include="Produccion\IConsumoCombustibleRepositorio.vb" />
+    <Compile Include="Produccion\CortadoraRepositorio.vb" />
+    <Compile Include="Produccion\HerramientasRepositorio.vb" />
+    <Compile Include="Produccion\HornoRepositorio.vb" />
+    <Compile Include="Produccion\ICaCoDeDetalleRepositorio.vb" />
+    <Compile Include="Produccion\ICanchaRepositorio.vb" />
+    <Compile Include="Produccion\IControlCancheroDetalleRepositorio.vb" />
+    <Compile Include="Produccion\IControlCancheroRepositorio.vb" />
+    <Compile Include="Produccion\IControlCargaRepositorio.vb" />
+    <Compile Include="Produccion\IControlConteoDetalleRepositorio.vb" />
+    <Compile Include="Produccion\IControlConteoRepositorio.vb" />
+    <Compile Include="Produccion\IControlDescargaRepositorio.vb" />
+    <Compile Include="Produccion\IControlEnergiaRepositorio.vb" />
+    <Compile Include="Produccion\IControlExtrusoraDetalleRepositorio.vb" />
+    <Compile Include="Produccion\IControlExtrusoraRepositorio.vb" />
+    <Compile Include="Produccion\IControlInspeccionRepositorio.vb" />
+    <Compile Include="Produccion\IControlMezclaMezclaDetalleRepositorio.vb" />
+    <Compile Include="Produccion\IControlMezclaRecetaDetalleRepositorio.vb" />
+    <Compile Include="Produccion\IControlMezclaRepositorio.vb" />
+    <Compile Include="Produccion\IControlParadaArticuloDetalleRepositorio.vb" />
+    <Compile Include="Produccion\IControlParadaDetalleRepositorio.vb" />
+    <Compile Include="Produccion\IControlParadaMoldeDetalleRepositorio.vb" />
+    <Compile Include="Produccion\IControlParadaRepositorio.vb" />
+    <Compile Include="Produccion\IControlPesoDetalleRepositorio.vb" />
+    <Compile Include="Produccion\IControlPesoRepositorio.vb" />
+    <Compile Include="Produccion\IControlQuemaRepositorio.vb" />
+    <Compile Include="Produccion\ICortadoraRepositorio.vb" />
+    <Compile Include="Produccion\IExtrusoraRepositorio.vb" />
+    <Compile Include="Produccion\IHerramientasRepositorio.vb" />
+    <Compile Include="Produccion\IHornoRepositorio.vb" />
+    <Compile Include="Produccion\ILadrilloMaleconRepositorio.vb" />
+    <Compile Include="Produccion\ILadrilloRepositorio.vb" />
+    <Compile Include="Produccion\IMaleconPuertaRepositorio.vb" />
+    <Compile Include="Produccion\IMoldeRepositorio.vb" />
+    <Compile Include="Produccion\IParadasRepositorio.vb" />
+    <Compile Include="Produccion\IParadasTiposRepositorio.vb" />
+    <Compile Include="Produccion\IPlantaRepositorio.vb" />
+    <Compile Include="Produccion\IProduccionRepositorio.vb" />
+    <Compile Include="Produccion\IPuertaHornoRepositorio.vb" />
+    <Compile Include="Produccion\ISalidaSecaderoDetalleRepositorio.vb" />
+    <Compile Include="Produccion\ISalidaSecaderoRepositorio.vb" />
+    <Compile Include="Produccion\ISecaderoRepositorio.vb" />
+    <Compile Include="Produccion\ITipoParadasRepositorio.vb" />
+    <Compile Include="Produccion\ITipoProduccionRepositorio.vb" />
+    <Compile Include="Produccion\LadrilloMaleconRepositorio.vb" />
+    <Compile Include="Produccion\LadrilloRepositorio.vb" />
+    <Compile Include="Produccion\MaleconPuertaRepositorio.vb" />
+    <Compile Include="Produccion\MoldeRepositorio.vb" />
+    <Compile Include="Produccion\ParadasRepositorio.vb" />
+    <Compile Include="Produccion\ParadasTiposRepositorio.vb" />
+    <Compile Include="Produccion\PlantaRepositorio.vb" />
+    <Compile Include="Produccion\ProduccionRepositorio.vb" />
+    <Compile Include="Produccion\PuertaHornoRepositorio.vb" />
+    <Compile Include="Produccion\SalidaSecaderoDetalleRepositorio.vb" />
+    <Compile Include="Produccion\SalidaSecaderoRepositorio.vb" />
+    <Compile Include="Produccion\SecaderoRepositorio.vb" />
+    <Compile Include="Produccion\TipoParadasRepositorio.vb" />
+    <Compile Include="Produccion\TipoProduccionRepositorio.vb" />
+    <Compile Include="Reportes\IReportesRepositorio.vb" />
+    <Compile Include="Reportes\ReportesRepositorio.vb" />
+    <Compile Include="Tesoreria\CajaCtaCteRepositorio.vb" />
+    <Compile Include="Tesoreria\CajeroAnexoRepositorio.vb" />
+    <Compile Include="Tesoreria\ChequesRepositorio.vb" />
+    <Compile Include="Tesoreria\DetallePrestamoRepositorio.vb" />
+    <Compile Include="Tesoreria\DetalleTesoreriaRepositorio.vb" />
+    <Compile Include="Tesoreria\ICajaCtaCteRepositorio.vb" />
+    <Compile Include="Tesoreria\ICajeroAnexoRepositorio.vb" />
+    <Compile Include="Tesoreria\IChequesRepositorio.vb" />
+    <Compile Include="Tesoreria\IDetallePrestamoRepositorio.vb" />
+    <Compile Include="Tesoreria\IDetalleTesoreriaRepositorio.vb" />
+    <Compile Include="Tesoreria\IKardexCtaCteDetraccionesRepositorio.vb" />
+    <Compile Include="Tesoreria\IKardexCtaCteLetrasRepositorio.vb" />
+    <Compile Include="Tesoreria\IKardexCtaCteRepositorio.vb" />
+    <Compile Include="Tesoreria\IMedioPagoTesoreriaRepositorio.vb" />
+    <Compile Include="Tesoreria\IMovimientoCajaBancoRepositorio.vb" />
+    <Compile Include="Tesoreria\IPrestamoRepositorio.vb" />
+    <Compile Include="Tesoreria\ITesoreriaCobranzaLegalRepositorio.vb" />
+    <Compile Include="Tesoreria\ITesoreriaCobranzaRepositorio.vb" />
+    <Compile Include="Tesoreria\ITesoreriaEditarRepositorio.vb" />
+    <Compile Include="Tesoreria\ITesoreriaExtornoRepositorio.vb" />
+    <Compile Include="Tesoreria\ITesoreriaRepositorio.vb" />
+    <Compile Include="Tesoreria\KardexCtaCteDetraccionesRepositorio.vb" />
+    <Compile Include="Tesoreria\KardexCtaCteLetrasRepositorio.vb" />
+    <Compile Include="Tesoreria\KardexCtaCteRepositorio.vb" />
+    <Compile Include="Tesoreria\MedioPagoTesoreriaRepositorio.vb" />
+    <Compile Include="Tesoreria\MovimientoCajaBancoRepositorio.vb" />
+    <Compile Include="Tesoreria\PrestamoRepositorio.vb" />
+    <Compile Include="Tesoreria\TesoreriaCobranzaLegalRepositorio.vb" />
+    <Compile Include="Tesoreria\TesoreriaCobranzaRepositorio.vb" />
+    <Compile Include="Tesoreria\TesoreriaEditarRepositorio.vb" />
+    <Compile Include="Tesoreria\TesoreriaExtornoRepositorio.vb" />
+    <Compile Include="Tesoreria\TesoreriaRepositorio.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.vbproj">
+      <Project>{74E42518-0D8B-49A6-9BE0-FF3969FFA64D}</Project>
+      <Name>Infrastructure %28Infrastructure\Infrastructure%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.BE\Ladisac.BE.vbproj">
+      <Project>{98453098-B42F-4309-93FC-9D2BC486E925}</Project>
+      <Name>Ladisac.BE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SPS\TextFile1.sql" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

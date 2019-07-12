@@ -1,0 +1,2739 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Ladisac.BE
+</name>
+</assembly>
+<members>
+<member name="M:Ladisac.BE.SelfTrackingEntitiesContextExtensions.ApplyChanges``1(System.Data.Objects.ObjectSet{``0},``0)">
+	<summary>
+ ApplyChanges toma los cambios realizados en un conjunto conectado de entidades y los aplica a un ObjectContext.
+ </summary>
+	<typeparam name="TEntity">Tipo esperado del ObjectSet</typeparam>
+	<param name="objectSet">ObjectSet que hace referencia al ObjectContext al que se van a aplicar los cambios.</param>
+	<param name="entity">Entidad que sirve como punto de entrada del gráfico de objeto que contiene cambios.</param>
+</member><member name="M:Ladisac.BE.SelfTrackingEntitiesContextExtensions.ApplyChanges``1(System.Data.Objects.ObjectContext,System.String,``0)">
+	<summary>
+ ApplyChanges toma los cambios realizados en un conjunto conectado de entidades y los aplica a un ObjectContext.
+ </summary>
+	<typeparam name="TEntity">Tipo esperado del EntitySet</typeparam>
+	<param name="context">ObjectContext al que se van a aplicar los cambios.</param>
+	<param name="entitySetName">Nombre de EntitySet de la entidad.</param>
+	<param name="entity">Entidad que sirve como punto de entrada del gráfico de objeto que contiene cambios.</param>
+</member><member name="P:Ladisac.BE.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Ladisac.BE.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Ladisac.BE.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.#ctor">
+	<Summary>
+El constructor almacena las vistas para las extensiones y también los valores hash generados basándose en los metadatos y en las vistas y clausuras de asignaciones.
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetViewAt(System.Int32)">
+	<Summary>
+El método devuelve la vista para un índice dado.
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView0">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ActivosFijos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView1">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Asignaciones
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView2">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CuentasActivos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView3">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DepartamentosAdministrativos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView4">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleActivosFijos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView5">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Edificios
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView6">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Incidencias
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView7">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Oficinas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView8">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DocuMovimientoDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView9">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Dotacion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView10">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Kardex
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView11">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.OrdenCompraDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView12">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.OrdenRequerimiento
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView13">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.OrdenSalida
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView14">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.OrdenSalidaDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView15">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.SalidaCombustible
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView16">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ClaseCuenta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView17">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.LibrosContables
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView18">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.OperacionDetraciones
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView19">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TiposBienesServicios
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView20">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Comision
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView21">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleDocumentos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView22">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleFletesTransporte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView23">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.FletesTransporte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView24">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RestriccionArticulo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView25">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CartaFianza
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView26">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DescuentoIncrementoTipoVentaPersonas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView27">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleListaPrecios
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView28">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ListaPreciosArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView29">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PagosCartaFianza
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView30">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TipoVenta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView31">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Articulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView32">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CentroCostos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView33">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Cierre
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView34">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Configuracion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView35">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ConfiguracionVehicular
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView36">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CorrelativoTipoDocumento
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView37">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CtaCte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView38">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CuentasContables
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView39">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DatosUsuarios
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView40">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Departamento
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView41">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleCierre
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView42">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleTipoDocumentos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView43">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DireccionesPersonas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView44">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Distrito
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView45">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DocPersonas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView46">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.FamiliaArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView47">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.GrupoLineas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView48">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.LineasFamilia
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView49">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.MarcaArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView50">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ModeloArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView51">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Moneda
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView52">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Pais
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView53">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Periodo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView54">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PesosArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView55">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Placas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView56">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Provincia
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView57">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PuntoVenta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView58">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PuntoVentaDatosUsuarios
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView59">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RolAlmacenTipoArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView60">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RolArticulosTipoArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView61">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RolDetalleTipoDocumentoTipoArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView62">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RolPersonaTipoPersona
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView63">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RolPuntoVentaAlmacen
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView64">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.SeriesDatosUsuarios
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView65">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TipoArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView66">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TipoCambioMoneda
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView67">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TipoDocPersonas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView68">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TipoDocumentos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView69">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TipoPersonas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView70">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TipoUnidad
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView71">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.UnidadMedidaArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView72">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Usuarios
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView73">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Caracteristica
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView74">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ComponenteInspeccion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView75">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Entidad
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView76">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.EntidadInspeccion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView77">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Especificacion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView78">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Grupo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView79">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Imagen
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView80">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Inspeccion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView81">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Mantto
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView82">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.OrdenTrabajo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView83">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.OrdenTrabajoPersonal
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView84">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ParametroEntidad
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView85">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TipoClaseMantto
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView86">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TipoEntidad
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView87">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TipoFalla
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView88">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TipoMantto
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView89">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.AreaTrabajos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView90">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ConceptosPlanilla
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView91">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ConceptosTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView92">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ConvenioDobleTributacion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView93">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CronogramaVacaciones
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView94">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleConceptosPensionarios
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView95">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetallePermisosTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView96">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetallePrestamosTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView97">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleReparoTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView98">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleTiposPlanillas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView99">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleTrabajadorHoras
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView100">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.GrupoTrabajo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView101">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.NivelEducacion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView102">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Periodisidad
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView103">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PermisosTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView104">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Planillas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView105">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RegimenLaboral
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView106">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RegimenPensionario
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView107">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ReparoTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView108">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.SituacionEspecialTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView109">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.SituacionTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView110">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TareaTrabajo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView111">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TiposCargos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView112">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TiposConceptos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView113">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TiposContratos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView114">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TiposPlanillas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView115">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TiposTareaTrabajo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView116">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TiposTareos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView117">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TiposTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView118">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TrabajadorHoras
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView119">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CaCoDe_Detalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView120">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Cancha
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView121">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ConsumoCombustible
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView122">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlCanchero
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView123">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlCancheroDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView124">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlCarga
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView125">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlConteo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView126">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlDescarga
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView127">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlInspeccion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView128">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlMezcla
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView129">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlMezclaRecetaDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView130">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlParada
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView131">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlPeso
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView132">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlPesoDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView133">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlQuema
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView134">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Horno
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView135">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.MaleconPuerta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView136">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Parada
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView137">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ParadasTipos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView138">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PuertaHorno
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView139">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.SalidaSecadero
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView140">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.SalidaSecaderoDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView141">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Secadero
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView142">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TipoParada
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView143">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CajaCtaCte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView144">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Cheques
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView145">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleTesoreria
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView146">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.MedioPagoTesoreria
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView147">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Tesoreria
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView148">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleDespachos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView149">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.AsientosManuales
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView150">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ConfiguracionFormatos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView151">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlDescargaRumaDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView152">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlDescargaRuma
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView153">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CentroRiesgo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView154">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PrestamosTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView155">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DatosTrabajadorJudicial
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView156">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleTrabajadorJudicial
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView157">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Conceptos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView158">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Cats
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView159">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlMezclaMezclaDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView160">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlParadaArticuloDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView161">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlParadaDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView162">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlParadaMoldeDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView163">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetallePlanillas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView164">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Molde
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView165">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Comprobantes
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView166">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlExtrusora
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView167">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleComprobantes
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView168">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CuentasArticulo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView169">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DatosLaborales
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView170">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TesoreriaPlanillas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView171">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PlanillasComedorHoras
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView172">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.InspeccionPreOrdenTrabajo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView173">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleLeasing
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView174">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleLeasingActivosFijos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView175">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ComedorPLL
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView176">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleComedorPLL
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView177">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PeriodoLaboral
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView178">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ContactoPersona
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView179">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleGrupoTrabajo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView180">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.LadrilloMalecon
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView181">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleAsientosManuales
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView182">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.OrdenTrabajoEntidad
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView183">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.SuministroPlanMantto
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView184">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.EstadoCivil
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView185">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CuentasVarias
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView186">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Produccion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView187">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Cortadora
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView188">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Extrusora
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView189">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Ladrillo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView190">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Planta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView191">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TipoProduccion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView192">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Personas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView193">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.AsientosContables
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView194">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Leasing
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView195">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PlanMantto
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView196">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Almacen
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView197">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlConteoDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView198">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleGrupoMantenimiento
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView199">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.GrupoMantenimiento
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView200">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Marcaciones
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView201">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PlanillaTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView202">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.UbicacionAlmacen
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView203">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.GuiaRemision
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView204">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.GuiaRemisionDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView205">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.MovimientoCajaBanco
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView206">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ProcesoCompra
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView207">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.UnidadesTransporte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView208">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ProcesoCompraDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView209">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.SolicitudCompra
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView210">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.SolicitudCompraDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView211">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Transformacion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView212">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TransformacionDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView213">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RendicionCuenta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView214">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RendicionCuentaDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView215">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleDescuentoIncrementoTipoVentaPersonas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView216">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetallePermisoUsuario
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView217">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PermisoUsuario
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView218">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RolOpeCtaCteEntregas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView219">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Documentos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView220">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ArticuloNoDespacho
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView221">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.GrupoTrabajoDiasDescanso
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView222">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PuntoVentaAnexo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView223">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CuentasComprobantesLogistica
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView224">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Despachos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView225">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DatosLaboralesHorario
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView226">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleGrupoEmpleado
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView227">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.GrupoEmpleado
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView228">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CajeroAnexo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView229">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.OrdenRequerimientoDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView230">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleConceptosPlanillas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView231">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RolOpeCtaCte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView232">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ArticuloAlmacen
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView233">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleProvisionCompras
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView234">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ProvisionCompras
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView235">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ReferenciaProvisionCompras
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView236">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ReciclajeLadrilloVenta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView237">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RegistroMaquina
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView238">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Inventario
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView239">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DocuMovimiento
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView240">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DespachoSalida
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView241">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DespachoSalidaDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView242">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleAfectaDocumentos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView243">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleAfectaProductoDocumentos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView244">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetallePermisoCuentaCorriente
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView245">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ProvisionComprasDoc
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView246">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleDocumentosPromocion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView247">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DocumentosPromocion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView248">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PermisoCuentaCorriente
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView249">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Rubro
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView250">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RubroPersona
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView251">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.BloqueosCodigoPersona
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView252">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CuadroComparativo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView253">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CCProveedorDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView254">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CCArticuloProveedorDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView255">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Area
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView256">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RegistroEquipo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView257">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RegistroEquipoDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView258">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Tarea
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView259">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.UbicacionTrabajo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView260">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.OrdenDespacho
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView261">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.OrdenDespachoDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView262">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.KardexCtaCteLetras
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView263">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.FaltaSancion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView264">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Sancion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView265">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.SancionDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView266">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TesoreriaEditar
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView267">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.KardexLote
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView268">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DocumentoGuias
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView269">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DocumentoGuiasDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView270">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TiposReparables
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView271">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlPlanta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView272">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlPlantaDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView273">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PCDCotizacionDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView274">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.OrdenServicio
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView275">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.OrdenServicioDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView276">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.SolicitudSoporte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView277">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.SolicitudSoporteDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView278">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RecepcionDocumento
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView279">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DocuIsoDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView280">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.TipoArea
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView281">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PlantillaDocuIso
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView282">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.FotoPersonas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView283">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.BloqueoVendedor
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView284">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.OrdenCompraCuotas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView285">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.OrdenServicioCuotas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView286">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.FichaInspeccion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView287">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.FichaInspeccionDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView288">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DocuIso
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView289">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.OrdenCompra
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView290">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.SolicitudAjustePrecio
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView291">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.SolicitudAjustePrecioDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView292">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CargaDescargaTransporte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView293">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PlanCargaDescargaHorno
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView294">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RendicionGastos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView295">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RendicionGastosDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView296">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CuentaRendir
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView297">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetallePrestamo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView298">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Prestamo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView299">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CuentaRendirDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView300">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlPaqueteo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView301">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlPaqueteoCancha
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView302">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlExtrusoraDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView303">
+	<Summary>
+vista devuelta para LadisacEntities.ActivosFijos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView304">
+	<Summary>
+vista devuelta para LadisacEntities.Asignaciones
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView305">
+	<Summary>
+vista devuelta para LadisacEntities.CuentasActivos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView306">
+	<Summary>
+vista devuelta para LadisacEntities.DepartamentosAdministrativos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView307">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleActivosFijos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView308">
+	<Summary>
+vista devuelta para LadisacEntities.Edificios
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView309">
+	<Summary>
+vista devuelta para LadisacEntities.Incidencias
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView310">
+	<Summary>
+vista devuelta para LadisacEntities.Oficinas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView311">
+	<Summary>
+vista devuelta para LadisacEntities.DocuMovimientoDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView312">
+	<Summary>
+vista devuelta para LadisacEntities.Dotacion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView313">
+	<Summary>
+vista devuelta para LadisacEntities.Kardex
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView314">
+	<Summary>
+vista devuelta para LadisacEntities.OrdenCompraDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView315">
+	<Summary>
+vista devuelta para LadisacEntities.OrdenRequerimiento
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView316">
+	<Summary>
+vista devuelta para LadisacEntities.OrdenSalida
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView317">
+	<Summary>
+vista devuelta para LadisacEntities.OrdenSalidaDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView318">
+	<Summary>
+vista devuelta para LadisacEntities.SalidaCombustible
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView319">
+	<Summary>
+vista devuelta para LadisacEntities.ClaseCuenta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView320">
+	<Summary>
+vista devuelta para LadisacEntities.LibrosContables
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView321">
+	<Summary>
+vista devuelta para LadisacEntities.OperacionDetraciones
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView322">
+	<Summary>
+vista devuelta para LadisacEntities.TiposBienesServicios
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView323">
+	<Summary>
+vista devuelta para LadisacEntities.Comision
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView324">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleDocumentos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView325">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleFletesTransporte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView326">
+	<Summary>
+vista devuelta para LadisacEntities.FletesTransporte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView327">
+	<Summary>
+vista devuelta para LadisacEntities.RestriccionArticulo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView328">
+	<Summary>
+vista devuelta para LadisacEntities.CartaFianza
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView329">
+	<Summary>
+vista devuelta para LadisacEntities.DescuentoIncrementoTipoVentaPersonas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView330">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleListaPrecios
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView331">
+	<Summary>
+vista devuelta para LadisacEntities.ListaPreciosArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView332">
+	<Summary>
+vista devuelta para LadisacEntities.PagosCartaFianza
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView333">
+	<Summary>
+vista devuelta para LadisacEntities.TipoVenta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView334">
+	<Summary>
+vista devuelta para LadisacEntities.Articulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView335">
+	<Summary>
+vista devuelta para LadisacEntities.CentroCostos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView336">
+	<Summary>
+vista devuelta para LadisacEntities.Cierre
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView337">
+	<Summary>
+vista devuelta para LadisacEntities.Configuracion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView338">
+	<Summary>
+vista devuelta para LadisacEntities.ConfiguracionVehicular
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView339">
+	<Summary>
+vista devuelta para LadisacEntities.CorrelativoTipoDocumento
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView340">
+	<Summary>
+vista devuelta para LadisacEntities.CtaCte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView341">
+	<Summary>
+vista devuelta para LadisacEntities.CuentasContables
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView342">
+	<Summary>
+vista devuelta para LadisacEntities.DatosUsuarios
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView343">
+	<Summary>
+vista devuelta para LadisacEntities.Departamento
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView344">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleCierre
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView345">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleTipoDocumentos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView346">
+	<Summary>
+vista devuelta para LadisacEntities.DireccionesPersonas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView347">
+	<Summary>
+vista devuelta para LadisacEntities.Distrito
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView348">
+	<Summary>
+vista devuelta para LadisacEntities.DocPersonas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView349">
+	<Summary>
+vista devuelta para LadisacEntities.FamiliaArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView350">
+	<Summary>
+vista devuelta para LadisacEntities.GrupoLineas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView351">
+	<Summary>
+vista devuelta para LadisacEntities.LineasFamilia
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView352">
+	<Summary>
+vista devuelta para LadisacEntities.MarcaArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView353">
+	<Summary>
+vista devuelta para LadisacEntities.ModeloArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView354">
+	<Summary>
+vista devuelta para LadisacEntities.Moneda
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView355">
+	<Summary>
+vista devuelta para LadisacEntities.Pais
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView356">
+	<Summary>
+vista devuelta para LadisacEntities.Periodo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView357">
+	<Summary>
+vista devuelta para LadisacEntities.PesosArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView358">
+	<Summary>
+vista devuelta para LadisacEntities.Placas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView359">
+	<Summary>
+vista devuelta para LadisacEntities.Provincia
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView360">
+	<Summary>
+vista devuelta para LadisacEntities.PuntoVenta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView361">
+	<Summary>
+vista devuelta para LadisacEntities.PuntoVentaDatosUsuarios
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView362">
+	<Summary>
+vista devuelta para LadisacEntities.RolAlmacenTipoArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView363">
+	<Summary>
+vista devuelta para LadisacEntities.RolArticulosTipoArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView364">
+	<Summary>
+vista devuelta para LadisacEntities.RolDetalleTipoDocumentoTipoArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView365">
+	<Summary>
+vista devuelta para LadisacEntities.RolPersonaTipoPersona
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView366">
+	<Summary>
+vista devuelta para LadisacEntities.RolPuntoVentaAlmacen
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView367">
+	<Summary>
+vista devuelta para LadisacEntities.SeriesDatosUsuarios
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView368">
+	<Summary>
+vista devuelta para LadisacEntities.TipoArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView369">
+	<Summary>
+vista devuelta para LadisacEntities.TipoCambioMoneda
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView370">
+	<Summary>
+vista devuelta para LadisacEntities.TipoDocPersonas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView371">
+	<Summary>
+vista devuelta para LadisacEntities.TipoDocumentos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView372">
+	<Summary>
+vista devuelta para LadisacEntities.TipoPersonas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView373">
+	<Summary>
+vista devuelta para LadisacEntities.TipoUnidad
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView374">
+	<Summary>
+vista devuelta para LadisacEntities.UnidadMedidaArticulos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView375">
+	<Summary>
+vista devuelta para LadisacEntities.Usuarios
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView376">
+	<Summary>
+vista devuelta para LadisacEntities.Caracteristica
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView377">
+	<Summary>
+vista devuelta para LadisacEntities.ComponenteInspeccion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView378">
+	<Summary>
+vista devuelta para LadisacEntities.Entidad
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView379">
+	<Summary>
+vista devuelta para LadisacEntities.EntidadInspeccion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView380">
+	<Summary>
+vista devuelta para LadisacEntities.Especificacion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView381">
+	<Summary>
+vista devuelta para LadisacEntities.Grupo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView382">
+	<Summary>
+vista devuelta para LadisacEntities.Imagen
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView383">
+	<Summary>
+vista devuelta para LadisacEntities.Inspeccion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView384">
+	<Summary>
+vista devuelta para LadisacEntities.Mantto
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView385">
+	<Summary>
+vista devuelta para LadisacEntities.OrdenTrabajo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView386">
+	<Summary>
+vista devuelta para LadisacEntities.OrdenTrabajoPersonal
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView387">
+	<Summary>
+vista devuelta para LadisacEntities.ParametroEntidad
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView388">
+	<Summary>
+vista devuelta para LadisacEntities.TipoClaseMantto
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView389">
+	<Summary>
+vista devuelta para LadisacEntities.TipoEntidad
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView390">
+	<Summary>
+vista devuelta para LadisacEntities.TipoFalla
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView391">
+	<Summary>
+vista devuelta para LadisacEntities.TipoMantto
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView392">
+	<Summary>
+vista devuelta para LadisacEntities.AreaTrabajos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView393">
+	<Summary>
+vista devuelta para LadisacEntities.ConceptosPlanilla
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView394">
+	<Summary>
+vista devuelta para LadisacEntities.ConceptosTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView395">
+	<Summary>
+vista devuelta para LadisacEntities.ConvenioDobleTributacion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView396">
+	<Summary>
+vista devuelta para LadisacEntities.CronogramaVacaciones
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView397">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleConceptosPensionarios
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView398">
+	<Summary>
+vista devuelta para LadisacEntities.DetallePermisosTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView399">
+	<Summary>
+vista devuelta para LadisacEntities.DetallePrestamosTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView400">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleReparoTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView401">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleTiposPlanillas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView402">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleTrabajadorHoras
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView403">
+	<Summary>
+vista devuelta para LadisacEntities.GrupoTrabajo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView404">
+	<Summary>
+vista devuelta para LadisacEntities.NivelEducacion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView405">
+	<Summary>
+vista devuelta para LadisacEntities.Periodisidad
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView406">
+	<Summary>
+vista devuelta para LadisacEntities.PermisosTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView407">
+	<Summary>
+vista devuelta para LadisacEntities.Planillas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView408">
+	<Summary>
+vista devuelta para LadisacEntities.RegimenLaboral
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView409">
+	<Summary>
+vista devuelta para LadisacEntities.RegimenPensionario
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView410">
+	<Summary>
+vista devuelta para LadisacEntities.ReparoTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView411">
+	<Summary>
+vista devuelta para LadisacEntities.SituacionEspecialTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView412">
+	<Summary>
+vista devuelta para LadisacEntities.SituacionTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView413">
+	<Summary>
+vista devuelta para LadisacEntities.TareaTrabajo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView414">
+	<Summary>
+vista devuelta para LadisacEntities.TiposCargos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView415">
+	<Summary>
+vista devuelta para LadisacEntities.TiposConceptos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView416">
+	<Summary>
+vista devuelta para LadisacEntities.TiposContratos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView417">
+	<Summary>
+vista devuelta para LadisacEntities.TiposPlanillas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView418">
+	<Summary>
+vista devuelta para LadisacEntities.TiposTareaTrabajo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView419">
+	<Summary>
+vista devuelta para LadisacEntities.TiposTareos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView420">
+	<Summary>
+vista devuelta para LadisacEntities.TiposTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView421">
+	<Summary>
+vista devuelta para LadisacEntities.TrabajadorHoras
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView422">
+	<Summary>
+vista devuelta para LadisacEntities.CaCoDe_Detalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView423">
+	<Summary>
+vista devuelta para LadisacEntities.Cancha
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView424">
+	<Summary>
+vista devuelta para LadisacEntities.ConsumoCombustible
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView425">
+	<Summary>
+vista devuelta para LadisacEntities.ControlCanchero
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView426">
+	<Summary>
+vista devuelta para LadisacEntities.ControlCancheroDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView427">
+	<Summary>
+vista devuelta para LadisacEntities.ControlCarga
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView428">
+	<Summary>
+vista devuelta para LadisacEntities.ControlConteo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView429">
+	<Summary>
+vista devuelta para LadisacEntities.ControlDescarga
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView430">
+	<Summary>
+vista devuelta para LadisacEntities.ControlInspeccion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView431">
+	<Summary>
+vista devuelta para LadisacEntities.ControlMezcla
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView432">
+	<Summary>
+vista devuelta para LadisacEntities.ControlMezclaRecetaDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView433">
+	<Summary>
+vista devuelta para LadisacEntities.ControlParada
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView434">
+	<Summary>
+vista devuelta para LadisacEntities.ControlPeso
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView435">
+	<Summary>
+vista devuelta para LadisacEntities.ControlPesoDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView436">
+	<Summary>
+vista devuelta para LadisacEntities.ControlQuema
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView437">
+	<Summary>
+vista devuelta para LadisacEntities.Horno
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView438">
+	<Summary>
+vista devuelta para LadisacEntities.MaleconPuerta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView439">
+	<Summary>
+vista devuelta para LadisacEntities.Parada
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView440">
+	<Summary>
+vista devuelta para LadisacEntities.ParadasTipos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView441">
+	<Summary>
+vista devuelta para LadisacEntities.PuertaHorno
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView442">
+	<Summary>
+vista devuelta para LadisacEntities.SalidaSecadero
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView443">
+	<Summary>
+vista devuelta para LadisacEntities.SalidaSecaderoDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView444">
+	<Summary>
+vista devuelta para LadisacEntities.Secadero
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView445">
+	<Summary>
+vista devuelta para LadisacEntities.TipoParada
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView446">
+	<Summary>
+vista devuelta para LadisacEntities.CajaCtaCte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView447">
+	<Summary>
+vista devuelta para LadisacEntities.Cheques
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView448">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleTesoreria
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView449">
+	<Summary>
+vista devuelta para LadisacEntities.MedioPagoTesoreria
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView450">
+	<Summary>
+vista devuelta para LadisacEntities.Tesoreria
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView451">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleDespachos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView452">
+	<Summary>
+vista devuelta para LadisacEntities.AsientosManuales
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView453">
+	<Summary>
+vista devuelta para LadisacEntities.ConfiguracionFormatos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView454">
+	<Summary>
+vista devuelta para LadisacEntities.ControlDescargaRumaDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView455">
+	<Summary>
+vista devuelta para LadisacEntities.ControlDescargaRuma
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView456">
+	<Summary>
+vista devuelta para LadisacEntities.CentroRiesgo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView457">
+	<Summary>
+vista devuelta para LadisacEntities.PrestamosTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView458">
+	<Summary>
+vista devuelta para LadisacEntities.DatosTrabajadorJudicial
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView459">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleTrabajadorJudicial
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView460">
+	<Summary>
+vista devuelta para LadisacEntities.Conceptos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView461">
+	<Summary>
+vista devuelta para LadisacEntities.Cats
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView462">
+	<Summary>
+vista devuelta para LadisacEntities.ControlMezclaMezclaDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView463">
+	<Summary>
+vista devuelta para LadisacEntities.ControlParadaArticuloDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView464">
+	<Summary>
+vista devuelta para LadisacEntities.ControlParadaDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView465">
+	<Summary>
+vista devuelta para LadisacEntities.ControlParadaMoldeDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView466">
+	<Summary>
+vista devuelta para LadisacEntities.DetallePlanillas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView467">
+	<Summary>
+vista devuelta para LadisacEntities.Molde
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView468">
+	<Summary>
+vista devuelta para LadisacEntities.Comprobantes
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView469">
+	<Summary>
+vista devuelta para LadisacEntities.ControlExtrusora
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView470">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleComprobantes
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView471">
+	<Summary>
+vista devuelta para LadisacEntities.CuentasArticulo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView472">
+	<Summary>
+vista devuelta para LadisacEntities.DatosLaborales
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView473">
+	<Summary>
+vista devuelta para LadisacEntities.TesoreriaPlanillas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView474">
+	<Summary>
+vista devuelta para LadisacEntities.PlanillasComedorHoras
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView475">
+	<Summary>
+vista devuelta para LadisacEntities.InspeccionPreOrdenTrabajo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView476">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleLeasing
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView477">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleLeasingActivosFijos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView478">
+	<Summary>
+vista devuelta para LadisacEntities.ComedorPLL
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView479">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleComedorPLL
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView480">
+	<Summary>
+vista devuelta para LadisacEntities.PeriodoLaboral
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView481">
+	<Summary>
+vista devuelta para LadisacEntities.ContactoPersona
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView482">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleGrupoTrabajo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView483">
+	<Summary>
+vista devuelta para LadisacEntities.LadrilloMalecon
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView484">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleAsientosManuales
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView485">
+	<Summary>
+vista devuelta para LadisacEntities.OrdenTrabajoEntidad
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView486">
+	<Summary>
+vista devuelta para LadisacEntities.SuministroPlanMantto
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView487">
+	<Summary>
+vista devuelta para LadisacEntities.EstadoCivil
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView488">
+	<Summary>
+vista devuelta para LadisacEntities.CuentasVarias
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView489">
+	<Summary>
+vista devuelta para LadisacEntities.Produccion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView490">
+	<Summary>
+vista devuelta para LadisacEntities.Cortadora
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView491">
+	<Summary>
+vista devuelta para LadisacEntities.Extrusora
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView492">
+	<Summary>
+vista devuelta para LadisacEntities.Ladrillo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView493">
+	<Summary>
+vista devuelta para LadisacEntities.Planta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView494">
+	<Summary>
+vista devuelta para LadisacEntities.TipoProduccion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView495">
+	<Summary>
+vista devuelta para LadisacEntities.Personas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView496">
+	<Summary>
+vista devuelta para LadisacEntities.AsientosContables
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView497">
+	<Summary>
+vista devuelta para LadisacEntities.Leasing
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView498">
+	<Summary>
+vista devuelta para LadisacEntities.PlanMantto
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView499">
+	<Summary>
+vista devuelta para LadisacEntities.Almacen
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView500">
+	<Summary>
+vista devuelta para LadisacEntities.ControlConteoDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView501">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleGrupoMantenimiento
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView502">
+	<Summary>
+vista devuelta para LadisacEntities.GrupoMantenimiento
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView503">
+	<Summary>
+vista devuelta para LadisacEntities.Marcaciones
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView504">
+	<Summary>
+vista devuelta para LadisacEntities.PlanillaTrabajador
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView505">
+	<Summary>
+vista devuelta para LadisacEntities.UbicacionAlmacen
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView506">
+	<Summary>
+vista devuelta para LadisacEntities.GuiaRemision
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView507">
+	<Summary>
+vista devuelta para LadisacEntities.GuiaRemisionDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView508">
+	<Summary>
+vista devuelta para LadisacEntities.MovimientoCajaBanco
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView509">
+	<Summary>
+vista devuelta para LadisacEntities.ProcesoCompra
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView510">
+	<Summary>
+vista devuelta para LadisacEntities.UnidadesTransporte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView511">
+	<Summary>
+vista devuelta para LadisacEntities.ProcesoCompraDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView512">
+	<Summary>
+vista devuelta para LadisacEntities.SolicitudCompra
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView513">
+	<Summary>
+vista devuelta para LadisacEntities.SolicitudCompraDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView514">
+	<Summary>
+vista devuelta para LadisacEntities.Transformacion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView515">
+	<Summary>
+vista devuelta para LadisacEntities.TransformacionDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView516">
+	<Summary>
+vista devuelta para LadisacEntities.RendicionCuenta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView517">
+	<Summary>
+vista devuelta para LadisacEntities.RendicionCuentaDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView518">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleDescuentoIncrementoTipoVentaPersonas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView519">
+	<Summary>
+vista devuelta para LadisacEntities.DetallePermisoUsuario
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView520">
+	<Summary>
+vista devuelta para LadisacEntities.PermisoUsuario
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView521">
+	<Summary>
+vista devuelta para LadisacEntities.RolOpeCtaCteEntregas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView522">
+	<Summary>
+vista devuelta para LadisacEntities.Documentos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView523">
+	<Summary>
+vista devuelta para LadisacEntities.ArticuloNoDespacho
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView524">
+	<Summary>
+vista devuelta para LadisacEntities.GrupoTrabajoDiasDescanso
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView525">
+	<Summary>
+vista devuelta para LadisacEntities.PuntoVentaAnexo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView526">
+	<Summary>
+vista devuelta para LadisacEntities.CuentasComprobantesLogistica
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView527">
+	<Summary>
+vista devuelta para LadisacEntities.Despachos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView528">
+	<Summary>
+vista devuelta para LadisacEntities.DatosLaboralesHorario
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView529">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleGrupoEmpleado
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView530">
+	<Summary>
+vista devuelta para LadisacEntities.GrupoEmpleado
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView531">
+	<Summary>
+vista devuelta para LadisacEntities.CajeroAnexo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView532">
+	<Summary>
+vista devuelta para LadisacEntities.OrdenRequerimientoDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView533">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleConceptosPlanillas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView534">
+	<Summary>
+vista devuelta para LadisacEntities.RolOpeCtaCte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView535">
+	<Summary>
+vista devuelta para LadisacEntities.ArticuloAlmacen
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView536">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleProvisionCompras
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView537">
+	<Summary>
+vista devuelta para LadisacEntities.ProvisionCompras
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView538">
+	<Summary>
+vista devuelta para LadisacEntities.ReferenciaProvisionCompras
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView539">
+	<Summary>
+vista devuelta para LadisacEntities.ReciclajeLadrilloVenta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView540">
+	<Summary>
+vista devuelta para LadisacEntities.RegistroMaquina
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView541">
+	<Summary>
+vista devuelta para LadisacEntities.Inventario
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView542">
+	<Summary>
+vista devuelta para LadisacEntities.DocuMovimiento
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView543">
+	<Summary>
+vista devuelta para LadisacEntities.DespachoSalida
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView544">
+	<Summary>
+vista devuelta para LadisacEntities.DespachoSalidaDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView545">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleAfectaDocumentos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView546">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleAfectaProductoDocumentos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView547">
+	<Summary>
+vista devuelta para LadisacEntities.DetallePermisoCuentaCorriente
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView548">
+	<Summary>
+vista devuelta para LadisacEntities.ProvisionComprasDoc
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView549">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleDocumentosPromocion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView550">
+	<Summary>
+vista devuelta para LadisacEntities.DocumentosPromocion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView551">
+	<Summary>
+vista devuelta para LadisacEntities.PermisoCuentaCorriente
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView552">
+	<Summary>
+vista devuelta para LadisacEntities.Rubro
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView553">
+	<Summary>
+vista devuelta para LadisacEntities.RubroPersona
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView554">
+	<Summary>
+vista devuelta para LadisacEntities.BloqueosCodigoPersona
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView555">
+	<Summary>
+vista devuelta para LadisacEntities.CuadroComparativo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView556">
+	<Summary>
+vista devuelta para LadisacEntities.CCProveedorDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView557">
+	<Summary>
+vista devuelta para LadisacEntities.CCArticuloProveedorDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView558">
+	<Summary>
+vista devuelta para LadisacEntities.Area
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView559">
+	<Summary>
+vista devuelta para LadisacEntities.RegistroEquipo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView560">
+	<Summary>
+vista devuelta para LadisacEntities.RegistroEquipoDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView561">
+	<Summary>
+vista devuelta para LadisacEntities.Tarea
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView562">
+	<Summary>
+vista devuelta para LadisacEntities.UbicacionTrabajo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView563">
+	<Summary>
+vista devuelta para LadisacEntities.OrdenDespacho
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView564">
+	<Summary>
+vista devuelta para LadisacEntities.OrdenDespachoDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView565">
+	<Summary>
+vista devuelta para LadisacEntities.KardexCtaCteLetras
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView566">
+	<Summary>
+vista devuelta para LadisacEntities.FaltaSancion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView567">
+	<Summary>
+vista devuelta para LadisacEntities.Sancion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView568">
+	<Summary>
+vista devuelta para LadisacEntities.SancionDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView569">
+	<Summary>
+vista devuelta para LadisacEntities.TesoreriaEditar
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView570">
+	<Summary>
+vista devuelta para LadisacEntities.KardexLote
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView571">
+	<Summary>
+vista devuelta para LadisacEntities.DocumentoGuias
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView572">
+	<Summary>
+vista devuelta para LadisacEntities.DocumentoGuiasDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView573">
+	<Summary>
+vista devuelta para LadisacEntities.TiposReparables
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView574">
+	<Summary>
+vista devuelta para LadisacEntities.ControlPlanta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView575">
+	<Summary>
+vista devuelta para LadisacEntities.ControlPlantaDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView576">
+	<Summary>
+vista devuelta para LadisacEntities.PCDCotizacionDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView577">
+	<Summary>
+vista devuelta para LadisacEntities.OrdenServicio
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView578">
+	<Summary>
+vista devuelta para LadisacEntities.OrdenServicioDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView579">
+	<Summary>
+vista devuelta para LadisacEntities.SolicitudSoporte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView580">
+	<Summary>
+vista devuelta para LadisacEntities.SolicitudSoporteDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView581">
+	<Summary>
+vista devuelta para LadisacEntities.RecepcionDocumento
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView582">
+	<Summary>
+vista devuelta para LadisacEntities.DocuIsoDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView583">
+	<Summary>
+vista devuelta para LadisacEntities.TipoArea
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView584">
+	<Summary>
+vista devuelta para LadisacEntities.PlantillaDocuIso
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView585">
+	<Summary>
+vista devuelta para LadisacEntities.FotoPersonas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView586">
+	<Summary>
+vista devuelta para LadisacEntities.BloqueoVendedor
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView587">
+	<Summary>
+vista devuelta para LadisacEntities.OrdenCompraCuotas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView588">
+	<Summary>
+vista devuelta para LadisacEntities.OrdenServicioCuotas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView589">
+	<Summary>
+vista devuelta para LadisacEntities.FichaInspeccion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView590">
+	<Summary>
+vista devuelta para LadisacEntities.FichaInspeccionDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView591">
+	<Summary>
+vista devuelta para LadisacEntities.DocuIso
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView592">
+	<Summary>
+vista devuelta para LadisacEntities.OrdenCompra
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView593">
+	<Summary>
+vista devuelta para LadisacEntities.SolicitudAjustePrecio
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView594">
+	<Summary>
+vista devuelta para LadisacEntities.SolicitudAjustePrecioDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView595">
+	<Summary>
+vista devuelta para LadisacEntities.CargaDescargaTransporte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView596">
+	<Summary>
+vista devuelta para LadisacEntities.PlanCargaDescargaHorno
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView597">
+	<Summary>
+vista devuelta para LadisacEntities.RendicionGastos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView598">
+	<Summary>
+vista devuelta para LadisacEntities.RendicionGastosDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView599">
+	<Summary>
+vista devuelta para LadisacEntities.CuentaRendir
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView600">
+	<Summary>
+vista devuelta para LadisacEntities.DetallePrestamo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView601">
+	<Summary>
+vista devuelta para LadisacEntities.Prestamo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView602">
+	<Summary>
+vista devuelta para LadisacEntities.CuentaRendirDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView603">
+	<Summary>
+vista devuelta para LadisacEntities.ControlPaqueteo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView604">
+	<Summary>
+vista devuelta para LadisacEntities.ControlPaqueteoCancha
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView605">
+	<Summary>
+vista devuelta para LadisacEntities.ControlExtrusoraDetalle
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView606">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Vehiculo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView607">
+	<Summary>
+vista devuelta para LadisacEntities.Vehiculo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView608">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.RolTipoDocumento
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView609">
+	<Summary>
+vista devuelta para LadisacEntities.RolTipoDocumento
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView610">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Temporal
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView611">
+	<Summary>
+vista devuelta para LadisacEntities.Temporal
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView612">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DatosSistema
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView613">
+	<Summary>
+vista devuelta para LadisacEntities.DatosSistema
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView614">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DatosTablas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView615">
+	<Summary>
+vista devuelta para LadisacEntities.DatosTablas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView616">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleDatosTablas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView617">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleDatosTablas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView618">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CalendarioDias
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView619">
+	<Summary>
+vista devuelta para LadisacEntities.CalendarioDias
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView620">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.MensajesError
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView621">
+	<Summary>
+vista devuelta para LadisacEntities.MensajesError
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView622">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.KardexCtaCte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView623">
+	<Summary>
+vista devuelta para LadisacEntities.KardexCtaCte
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView624">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DiaSemana
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView625">
+	<Summary>
+vista devuelta para LadisacEntities.DiaSemana
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView626">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PlanillasFormatoBoleta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView627">
+	<Summary>
+vista devuelta para LadisacEntities.PlanillasFormatoBoleta
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView628">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlValorizacion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView629">
+	<Summary>
+vista devuelta para LadisacEntities.ControlValorizacion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView630">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Parametro
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView631">
+	<Summary>
+vista devuelta para LadisacEntities.Parametro
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView632">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.UsuarioEntidad
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView633">
+	<Summary>
+vista devuelta para LadisacEntities.UsuarioEntidad
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView634">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.FaLiGrAlmacen
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView635">
+	<Summary>
+vista devuelta para LadisacEntities.FaLiGrAlmacen
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView636">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlEnergia
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView637">
+	<Summary>
+vista devuelta para LadisacEntities.ControlEnergia
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView638">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.ControlGrifo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView639">
+	<Summary>
+vista devuelta para LadisacEntities.ControlGrifo
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView640">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DespachosEditar
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView641">
+	<Summary>
+vista devuelta para LadisacEntities.DespachosEditar
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView642">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.NumeroViajeFecha
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView643">
+	<Summary>
+vista devuelta para LadisacEntities.NumeroViajeFecha
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView644">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PermisoCronograma
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView645">
+	<Summary>
+vista devuelta para LadisacEntities.PermisoCronograma
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView646">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.MensajeUsuario
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView647">
+	<Summary>
+vista devuelta para LadisacEntities.MensajeUsuario
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView648">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DetalleConsolidado
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView649">
+	<Summary>
+vista devuelta para LadisacEntities.DetalleConsolidado
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView650">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.KardexCtaCteDetracciones
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView651">
+	<Summary>
+vista devuelta para LadisacEntities.KardexCtaCteDetracciones
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView652">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CondicionesVentaPersonas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView653">
+	<Summary>
+vista devuelta para LadisacEntities.CondicionesVentaPersonas
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView654">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.DocumentosEditar
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView655">
+	<Summary>
+vista devuelta para LadisacEntities.DocumentosEditar
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView656">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.Programacion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView657">
+	<Summary>
+vista devuelta para LadisacEntities.Programacion
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView658">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.PersonasEditar
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView659">
+	<Summary>
+vista devuelta para LadisacEntities.PersonasEditar
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView660">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.SalidaVigilancia
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView661">
+	<Summary>
+vista devuelta para LadisacEntities.SalidaVigilancia
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView662">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CierreAlmacen
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView663">
+	<Summary>
+vista devuelta para LadisacEntities.CierreAlmacen
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView664">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.EditarCampos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView665">
+	<Summary>
+vista devuelta para LadisacEntities.EditarCampos
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView666">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.AnualOSE
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView667">
+	<Summary>
+vista devuelta para LadisacEntities.AnualOSE
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView668">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.CierrePlanilla
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView669">
+	<Summary>
+vista devuelta para LadisacEntities.CierrePlanilla
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView670">
+	<Summary>
+vista devuelta para LadisacModelStoreContainer.vwReporteFinalProduccion2
+</Summary>
+</member><member name="M:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63.GetView671">
+	<Summary>
+vista devuelta para LadisacEntities.vwReporteFinalProduccion2
+</Summary>
+</member><member name="T:Ladisac.BE.Edm_EntityMappingGeneratedViews.ViewsForBaseEntitySets753554530E74351F909E844C47120B5E961FF0B3FE75FAD7843B4944A29ADA63">
+	<Summary>
+El tipo contiene vistas para EntitySets y AssociationSets que se generaron en tiempo de diseño.
+</Summary>
+</member>
+</members>
+</doc>

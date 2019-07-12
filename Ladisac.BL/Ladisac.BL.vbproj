@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{80C99B39-DD08-450D-96F2-6A9B57D964F3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>Ladisac.BL</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Ladisac.BL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Ladisac.BL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\FlashControlV71.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Interactions">
+      <HintPath>..\Libraries\Microsoft.Expression.Interactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching">
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography">
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF">
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception.Configuration, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.Interception.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Infrastructure.ExceptionHandling" />
+    <Import Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling" />
+    <Import Include="Microsoft.Practices.Unity" />
+    <Import Include="Microsoft.Practices.Unity.Configuration" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Xml.XPath" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activos Fijos\BCCuentasActivos.vb" />
+    <Compile Include="Activos Fijos\BCDepartamentosAdministrativos.vb" />
+    <Compile Include="Activos Fijos\BCEdificios.vb" />
+    <Compile Include="Activos Fijos\BCIncidencias.vb" />
+    <Compile Include="Activos Fijos\BCOficinas.vb" />
+    <Compile Include="Constants\BCVariablesNamesDespacho.vb" />
+    <Compile Include="Constants\BCVariablesNames.vb" />
+    <Compile Include="Constants\BCVariablesNamesFacturacion.vb" />
+    <Compile Include="Constants\BCVariablesNamesMaestros.vb" />
+    <Compile Include="Constants\BCVariablesNamesTesoreria.vb" />
+    <Compile Include="Contabilidad\BCDocumentoGuias.vb" />
+    <Compile Include="Contabilidad\BCAsientoAutomatico.vb" />
+    <Compile Include="Contabilidad\BCAsientosManuales.vb" />
+    <Compile Include="Contabilidad\BCClaseCuenta.vb" />
+    <Compile Include="Contabilidad\BCComprobantes.vb" />
+    <Compile Include="Contabilidad\BCConfiguracionFormatos.vb" />
+    <Compile Include="Contabilidad\BCConsultasReportesContabilidad.vb" />
+    <Compile Include="Contabilidad\BCCtaCte.vb" />
+    <Compile Include="Contabilidad\BCCuentasArticulo.vb" />
+    <Compile Include="Contabilidad\BCCuentasContables.vb" />
+    <Compile Include="Contabilidad\BCCuentasVarias.vb" />
+    <Compile Include="Contabilidad\BCDetalleAsientosManuales.vb" />
+    <Compile Include="Contabilidad\BCDetalleComprobantes.vb" />
+    <Compile Include="Contabilidad\BCDetalleLeasing.vb" />
+    <Compile Include="Contabilidad\BCDetalleLeasingActivosFijos.vb" />
+    <Compile Include="Contabilidad\BCDetalleProvisionCompras.vb" />
+    <Compile Include="Contabilidad\BCLeasing.vb" />
+    <Compile Include="Contabilidad\BCLibrosContables.vb" />
+    <Compile Include="Contabilidad\BCOperacionDetraciones.vb" />
+    <Compile Include="Contabilidad\BCProvisionCompras.vb" />
+    <Compile Include="Contabilidad\BCReferenciaProvisionCompras.vb" />
+    <Compile Include="Contabilidad\BCReparables.vb" />
+    <Compile Include="Contabilidad\BCTiposBienesServicios.vb" />
+    <Compile Include="Cuentas Corrientes\BCCartaFianza.vb" />
+    <Compile Include="Cuentas Corrientes\BCDescuentoIncrementoTipoVentaPersonas.vb" />
+    <Compile Include="Cuentas Corrientes\BCDetalleDescuentoIncrementoTipoVentaPersonas.vb" />
+    <Compile Include="Cuentas Corrientes\BCDetalleListaPrecios.vb" />
+    <Compile Include="Cuentas Corrientes\BCDetallePermisoCuentaCorriente.vb" />
+    <Compile Include="Cuentas Corrientes\BCListaPreciosArticulos.vb" />
+    <Compile Include="Cuentas Corrientes\BCPermisoCuentaCorriente.vb" />
+    <Compile Include="Cuentas Corrientes\BCTipoVenta.vb" />
+    <Compile Include="Despachos\BCSalidaVigilancia.vb" />
+    <Compile Include="Despachos\BCDespachos.vb" />
+    <Compile Include="Despachos\BCDespachoSalida.vb" />
+    <Compile Include="Despachos\BCDetalleDespachos.vb" />
+    <Compile Include="Despachos\BCOrdenDespacho.vb" />
+    <Compile Include="Facturacion\BCComision.vb" />
+    <Compile Include="Facturacion\BCDetalleAfectaDocumentos.vb" />
+    <Compile Include="Facturacion\BCDetalleAfectaProductoDocumentos.vb" />
+    <Compile Include="Facturacion\BCDetalleDocumentos.vb" />
+    <Compile Include="Facturacion\BCDetalleDocumentosPromocion.vb" />
+    <Compile Include="Facturacion\BCDetalleFletesTransporte.vb" />
+    <Compile Include="Facturacion\BCDocumentos.vb" />
+    <Compile Include="Facturacion\BCDocumentosPromocion.vb" />
+    <Compile Include="Facturacion\BCFletesTransporte.vb" />
+    <Compile Include="Facturacion\BCRestriccionArticulo.vb" />
+    <Compile Include="Facturacion\BCSolicitudAjustePrecio.vb" />
+    <Compile Include="Facturacion\BCTipoDocumento.vb" />
+    <Compile Include="Logistica\BCAlmacen.vb" />
+    <Compile Include="Logistica\BCArticulo.vb" />
+    <Compile Include="Logistica\BCControlGrifo.vb" />
+    <Compile Include="Logistica\BCCuentaRendir.vb" />
+    <Compile Include="Logistica\BCDocuMovimiento.vb" />
+    <Compile Include="Logistica\BCDotacion.vb" />
+    <Compile Include="Logistica\BCGuiaRemision.vb" />
+    <Compile Include="Logistica\BCInventario.vb" />
+    <Compile Include="Logistica\BCOrdenCompra.vb" />
+    <Compile Include="Logistica\BCOrdenRequerimiento.vb" />
+    <Compile Include="Logistica\BCOrdenSalida.vb" />
+    <Compile Include="Logistica\BCProcesoCompra.vb" />
+    <Compile Include="Logistica\BCRendicionCuenta.vb" />
+    <Compile Include="Logistica\BCRendicionGastos.vb" />
+    <Compile Include="Logistica\BCSalidaCombustible.vb" />
+    <Compile Include="Logistica\BCArticuloAlmacen.vb" />
+    <Compile Include="Logistica\BCKardex.vb" />
+    <Compile Include="Logistica\BCSolicitudCompra.vb" />
+    <Compile Include="Logistica\BCTransformacion.vb" />
+    <Compile Include="Logistica\BCUbicacionAlmacen.vb" />
+    <Compile Include="Logistica\BCCuadroComparativo.vb" />
+    <Compile Include="Logistica\BCKardexLote.vb" />
+    <Compile Include="Logistica\BCCierreAlmacen.vb" />
+    <Compile Include="Logistica\BCOrdenServicio.vb" />
+    <Compile Include="Logistica\BCSolicitudSoporte.vb" />
+    <Compile Include="Logistica\BCRecepcionDocumento.vb" />
+    <Compile Include="Maestro\BCBloqueoVendedor.vb" />
+    <Compile Include="Maestro\BCCentroCostos.vb" />
+    <Compile Include="Maestro\BCSancion.vb" />
+    <Compile Include="Maestro\BCBloqueosCodigoPersona.vb" />
+    <Compile Include="Maestro\BCRubro.vb" />
+    <Compile Include="Maestro\BCCentroCosto.vb" />
+    <Compile Include="Maestro\BCCierre.vb" />
+    <Compile Include="Maestro\BCConfiguracionVehicular.vb" />
+    <Compile Include="Maestro\BCContactoPersona.vb" />
+    <Compile Include="Maestro\BCCorrelativoTipoDocumento.vb" />
+    <Compile Include="Maestro\BCDatosUsuarios.vb" />
+    <Compile Include="Maestro\BCDetalleCierre.vb" />
+    <Compile Include="Maestro\BCDetalleTipoDocumento.vb" />
+    <Compile Include="Maestro\BCDireccionesPersonas.vb" />
+    <Compile Include="Maestro\BCDistrito.vb" />
+    <Compile Include="Maestro\BCBusqueda.vb" />
+    <Compile Include="Maestro\BCDepartamento.vb" />
+    <Compile Include="Maestro\BCDocPersonas.vb" />
+    <Compile Include="Maestro\BCFamiliaArticulo.vb" />
+    <Compile Include="Maestro\BCMaestro.vb" />
+    <Compile Include="Maestro\BCMoneda.vb" />
+    <Compile Include="Maestro\BCPais.vb" />
+    <Compile Include="Maestro\BCParametro.vb" />
+    <Compile Include="Maestro\BCPeriodos.vb" />
+    <Compile Include="Maestro\BCPermisoUsuario.vb" />
+    <Compile Include="Maestro\BCPersona.vb" />
+    <Compile Include="Maestro\BCPesosArticulos.vb" />
+    <Compile Include="Maestro\BCPlacas.vb" />
+    <Compile Include="Maestro\BCProvincia.vb" />
+    <Compile Include="Maestro\BCGrupoLineas.vb" />
+    <Compile Include="Maestro\BCModeloArticulo.vb" />
+    <Compile Include="Maestro\BCMarcaArticulo.vb" />
+    <Compile Include="Maestro\BCPuntoVenta.vb" />
+    <Compile Include="Maestro\BCPuntoVentaDatosUsuarios.vb" />
+    <Compile Include="Maestro\BCRolAlmacenTipoArticulos.vb" />
+    <Compile Include="Maestro\BCRolArticulosTipoArticulos.vb" />
+    <Compile Include="Maestro\BCRolOpeCtaCte.vb" />
+    <Compile Include="Maestro\BCRolPersonaTipoPersona.vb" />
+    <Compile Include="Maestro\BCRolPuntoVentaAlmacen.vb" />
+    <Compile Include="Maestro\BCSeriesDatosUsuarios.vb" />
+    <Compile Include="Maestro\BCTipoCambioMoneda.vb" />
+    <Compile Include="Maestro\BCTipoDocPersonas.vb" />
+    <Compile Include="Maestro\BCTipoPersonas.vb" />
+    <Compile Include="Maestro\BCTipoUnidad.vb" />
+    <Compile Include="Maestro\BCUnidadesTransporte.vb" />
+    <Compile Include="Maestro\BCUnidadMedida.vb" />
+    <Compile Include="Maestro\BCTipoArticulo.vb" />
+    <Compile Include="Maestro\BCLineaFamilia.vb" />
+    <Compile Include="Maestro\BCUsuarios.vb" />
+    <Compile Include="Maestro\BCFaltaSancion.vb" />
+    <Compile Include="Mantenimiento\BCCaracteristica.vb" />
+    <Compile Include="Mantenimiento\BCComponenteInspeccion.vb" />
+    <Compile Include="Mantenimiento\BCEntidad.vb" />
+    <Compile Include="Mantenimiento\BCEntidadInspeccion.vb" />
+    <Compile Include="Mantenimiento\BCEspecificacion.vb" />
+    <Compile Include="Mantenimiento\BCFichaInspeccion.vb" />
+    <Compile Include="Mantenimiento\BCGrupo.vb" />
+    <Compile Include="Mantenimiento\BCImagen.vb" />
+    <Compile Include="Mantenimiento\BCInspeccion.vb" />
+    <Compile Include="Mantenimiento\BCInspeccionPreOrdenTrabajo.vb" />
+    <Compile Include="Mantenimiento\BCMantto.vb" />
+    <Compile Include="Mantenimiento\BCOrdenTrabajo.vb" />
+    <Compile Include="Mantenimiento\BCParametroEntidad.vb" />
+    <Compile Include="Mantenimiento\BCPlanMantenimiento.vb" />
+    <Compile Include="Mantenimiento\BCPlantillaDocuIso.vb" />
+    <Compile Include="Mantenimiento\BCRegistroMaquina.vb" />
+    <Compile Include="Mantenimiento\BCTipoClaseMantto.vb" />
+    <Compile Include="Mantenimiento\BCTipoEntidad.vb" />
+    <Compile Include="Mantenimiento\BCTipoFalla.vb" />
+    <Compile Include="Mantenimiento\BCTipoMantto.vb" />
+    <Compile Include="Mantenimiento\BCRegistroEquipo.vb" />
+    <Compile Include="Mantenimiento\BCDocuIso.vb" />
+    <Compile Include="Mantenimiento\BCArea.vb" />
+    <Compile Include="Mantenimiento\BCFotoPersona.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Planillas\BCAreaTrabajos.vb" />
+    <Compile Include="Planillas\BCCalendarioDias..vb" />
+    <Compile Include="Planillas\BCCentroRiesgo.vb" />
+    <Compile Include="Planillas\BCComedor.vb" />
+    <Compile Include="Planillas\BCConceptos.vb" />
+    <Compile Include="Planillas\BCConceptosPlanilla.vb" />
+    <Compile Include="Planillas\BCConceptosTrabajador.vb" />
+    <Compile Include="Planillas\BCConsultasReportesPlanillas.vb" />
+    <Compile Include="Planillas\BCConvenioDobleTributacion.vb" />
+    <Compile Include="Planillas\BCCronogramaVacaciones.vb" />
+    <Compile Include="Contabilidad\BCCuentasComprobantesLogistica.vb" />
+    <Compile Include="Planillas\BCDatosLaborales.vb" />
+    <Compile Include="Planillas\BCDatosLaboralesHorario.vb" />
+    <Compile Include="Planillas\BCDatosTrabajadorJudicial.vb" />
+    <Compile Include="Planillas\BCDetalleComedor.vb" />
+    <Compile Include="Planillas\BCDetalleConceptoPensionario.vb" />
+    <Compile Include="Planillas\BCDetalleConceptosPlanillas.vb" />
+    <Compile Include="Planillas\BCDetalleGrupoMantenimiento.vb" />
+    <Compile Include="Planillas\BCDetalleGrupoTrabajo.vb" />
+    <Compile Include="Planillas\BCDetallePermisosTrabajador.vb" />
+    <Compile Include="Planillas\BCDetallePlanilla.vb" />
+    <Compile Include="Planillas\BCDetallePrestamosTrabajador.vb" />
+    <Compile Include="Planillas\BCDetalleTrabajadorHoras.vb" />
+    <Compile Include="Planillas\BCDetalleTrabajadorJudicial.vb" />
+    <Compile Include="Planillas\BCGrupoMantenimiento.vb" />
+    <Compile Include="Planillas\BCGrupoTrabajo.vb" />
+    <Compile Include="Planillas\BCGrupoTrabajoDiasDescanso.vb" />
+    <Compile Include="Planillas\BCMarcacion.vb" />
+    <Compile Include="Planillas\BCNivelEducacion.vb" />
+    <Compile Include="Planillas\BCPeriodisidad.vb" />
+    <Compile Include="Planillas\BCPermisosTrabajador.vb" />
+    <Compile Include="Planillas\BCPlanilla.vb" />
+    <Compile Include="Planillas\BCPlanillasComedorHoras.vb" />
+    <Compile Include="Planillas\BCPlanillaTrabajador.vb" />
+    <Compile Include="Planillas\BCPrestamosTrabajador.vb" />
+    <Compile Include="Planillas\BCRegimenLaboral.vb" />
+    <Compile Include="Planillas\BCRegimenPensionario.vb" />
+    <Compile Include="Planillas\BCReparoTrabajador.vb" />
+    <Compile Include="Planillas\BCSituacionEspecialTrabajador.vb" />
+    <Compile Include="Planillas\BCSituacionTrabajador.vb" />
+    <Compile Include="Planillas\BCTareaTrabajo.vb" />
+    <Compile Include="Planillas\BCTiposCargos.vb" />
+    <Compile Include="Planillas\BCTiposConceptos.vb" />
+    <Compile Include="Planillas\BCTiposContratos.vb" />
+    <Compile Include="Planillas\BCTiposPlanillas.vb" />
+    <Compile Include="Planillas\BCTiposTareaTrabajo.vb" />
+    <Compile Include="Planillas\BCTiposTareos.vb" />
+    <Compile Include="Planillas\BCTiposTrabajador.vb" />
+    <Compile Include="Planillas\BCTrabajadorHoras.vb" />
+    <Compile Include="Planillas\BCUtil.vb" />
+    <Compile Include="Planillas\BCPeriodoLaboral.vb" />
+    <Compile Include="Planillas\BCDetalleGrupoEmpleado.vb" />
+    <Compile Include="Planillas\BCGrupoEmpleado.vb" />
+    <Compile Include="Produccion\BCCaCoDeDetalle.vb" />
+    <Compile Include="Produccion\BCCancha.vb" />
+    <Compile Include="Produccion\BCCats.vb" />
+    <Compile Include="Produccion\BCControlCanchero.vb" />
+    <Compile Include="Produccion\BCControlCarga.vb" />
+    <Compile Include="Produccion\BCControlConteo.vb" />
+    <Compile Include="Produccion\BCControlDescarga.vb" />
+    <Compile Include="Produccion\BCControlEnergia.vb" />
+    <Compile Include="Produccion\BCControlExtrusora.vb" />
+    <Compile Include="Produccion\BCControlInspeccion.vb" />
+    <Compile Include="Produccion\BCControlMezcla.vb" />
+    <Compile Include="Produccion\BCControlParada.vb" />
+    <Compile Include="Produccion\BCControlPeso.vb" />
+    <Compile Include="Produccion\BCControlQuema.vb" />
+    <Compile Include="Produccion\BCCortadora.vb" />
+    <Compile Include="Produccion\BCExtrusora.vb" />
+    <Compile Include="Produccion\BCHorno.vb" />
+    <Compile Include="Produccion\BCLadrillo.vb" />
+    <Compile Include="Produccion\BCLadrilloMalecon.vb" />
+    <Compile Include="Produccion\BCMaleconPuerta.vb" />
+    <Compile Include="Produccion\BCMolde.vb" />
+    <Compile Include="Produccion\BCParada.vb" />
+    <Compile Include="Produccion\BCPlanCargaDescargaHorno.vb" />
+    <Compile Include="Produccion\BCPlanta.vb" />
+    <Compile Include="Produccion\BCProduccion.vb" />
+    <Compile Include="Produccion\BCPuertaHorno.vb" />
+    <Compile Include="Produccion\BCSalidaSecadero.vb" />
+    <Compile Include="Produccion\BCSecadero.vb" />
+    <Compile Include="Produccion\BCTipoParada.vb" />
+    <Compile Include="Produccion\BCHerramientas.vb" />
+    <Compile Include="Produccion\BCTipoProduccion.vb" />
+    <Compile Include="Produccion\BCConsumoCombustible.vb" />
+    <Compile Include="Produccion\BCControlDescargaRuma.vb" />
+    <Compile Include="Produccion\BCReciclajeLadrilloVenta.vb" />
+    <Compile Include="Produccion\BCControlPlanta.vb" />
+    <Compile Include="Produccion\BCControlPaqueteo.vb" />
+    <Compile Include="Tesoreria\BCCajaCtaCte.vb" />
+    <Compile Include="Tesoreria\BCCajeroAnexo.vb" />
+    <Compile Include="Tesoreria\BCCheques.vb" />
+    <Compile Include="Tesoreria\BCDetallePrestamo.vb" />
+    <Compile Include="Tesoreria\BCDetalleTesoreria.vb" />
+    <Compile Include="Tesoreria\BCKardexCtaCte.vb" />
+    <Compile Include="Tesoreria\BCKardexCtaCteDetracciones.vb" />
+    <Compile Include="Tesoreria\BCMedioPagoTesoreria.vb" />
+    <Compile Include="Tesoreria\BCMovimientoCajaBanco.vb" />
+    <Compile Include="Tesoreria\BCPrestamo.vb" />
+    <Compile Include="Tesoreria\BCTesoreria.vb" />
+    <Compile Include="Tesoreria\BCTesoreriaCobranza.vb" />
+    <Compile Include="Tesoreria\BCTesoreriaCobranzaLegal.vb" />
+    <Compile Include="Tesoreria\BCTesoreriaEditar.vb" />
+    <Compile Include="Tesoreria\BCTesoreriaExtorno.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.vbproj">
+      <Project>{74E42518-0D8B-49A6-9BE0-FF3969FFA64D}</Project>
+      <Name>Infrastructure %28Infrastructure\Infrastructure%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.BE\Ladisac.BE.vbproj">
+      <Project>{98453098-B42F-4309-93FC-9D2BC486E925}</Project>
+      <Name>Ladisac.BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.DA\Ladisac.DA.vbproj">
+      <Project>{4DC3327E-1427-4E7E-B9D5-54C407E02AF3}</Project>
+      <Name>Ladisac.DA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.IBL\Ladisac.IBL.vbproj">
+      <Project>{8BC29E16-9658-4CF0-89F7-0759B6AAA419}</Project>
+      <Name>Ladisac.IBL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

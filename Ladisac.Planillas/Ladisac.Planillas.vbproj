@@ -1,0 +1,1077 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DEB5832F-DE98-436F-B718-209CE7F99AE4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>Ladisac.Planillas</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <SccProjectName>%24/LadisacMarzo/Ladisac.Planillas</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>https://tfs.codeplex.com/tfs/tfs41</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Ladisac.Planillas.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Ladisac.Planillas.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging">
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF">
+      <HintPath>..\Libraries\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception.Configuration">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.Interception.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity">
+      <HintPath>..\Libraries\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants\BuscadoresNames.vb" />
+    <Compile Include="Constants\ColumnaCalendario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Constants\MenuNames.vb" />
+    <Compile Include="Controllers\ModuleController.vb" />
+    <Compile Include="DataSets\dsReportePlanillaConsolidadoSuma.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReportePlanillaConsolidadoSuma.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsReporteTardanzaXMes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteTardanzaXMes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleIni.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Report\rptHorasPlanillasProduccion.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptHorasPlanillasProduccion.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptListaDetalleComedorDescuento.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptListaDetalleComedorDescuento.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptReporteGrupoTrabajoDiasDescanso.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReporteGrupoTrabajoDiasDescanso.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptReporteGrupoTrabajoHoraXSemanaSoloTotales.vb">
+      <DependentUpon>rptReporteGrupoTrabajoHoraXSemanaSoloTotales.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\rptReporteGrupoTrabajoHoraSoloTotalesReales.vb">
+      <DependentUpon>rptReporteGrupoTrabajoHoraSoloTotalesReales.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\rptReporteGrupoTrabajoHoraXSemanaSoloTotalesReales.vb">
+      <DependentUpon>rptReporteGrupoTrabajoHoraXSemanaSoloTotalesReales.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\rptReporteGrupoTrabajoHoraSoloTotales.vb">
+      <DependentUpon>rptReporteGrupoTrabajoHoraSoloTotales.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Report\rptReporteGrupoMantenimientoDetalle.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReporteGrupoMantenimientoDetalle.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptComedor.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptComedor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptCumpleaños.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCumpleaños.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptDatosTrabajadorJudicialPorcentajes.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDatosTrabajadorJudicialPorcentajes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptFichaPersona.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptFichaPersona.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptPeriodoLaboral.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPeriodoLaboral.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptPlanillasBoletas.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPlanillasBoletas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptPLLXAcumuladosXTrabajador.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPLLXAcumuladosXTrabajador.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptReporteGrupoMantenimientoAgrupado.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReporteGrupoMantenimientoAgrupado.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptReporteGrupoTrabajoHora.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReporteGrupoTrabajoHora.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptReporteGrupoTrabajoHoraXSemana.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReporteGrupoTrabajoHoraXSemana.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptReportePeriodoVacaciones.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReportePeriodoVacaciones.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptReportePlanillaConsolidado.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReportePlanillaConsolidado.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptReporteReparoTrabajador.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReporteReparoTrabajador.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptReportesPermisosTrabajador.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReportesPermisosTrabajador.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptReportesTareaTrabajoExportar.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptReportesTareaTrabajoExportar.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Resource1.Designer.vb">
+      <DependentUpon>Resource1.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Views\ControlFiltroTrareaHoras.Designer.vb">
+      <DependentUpon>ControlFiltroTrareaHoras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ControlFiltroTrareaHoras.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\frmGrupoEmpleado.Designer.vb">
+      <DependentUpon>frmGrupoEmpleado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmGrupoEmpleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmAreaTrabajos.Designer.vb">
+      <DependentUpon>frmAreaTrabajos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmAreaTrabajos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmBuscarDocumentos.Designer.vb">
+      <DependentUpon>frmBuscarDocumentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmBuscarDocumentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmBuscarFecha.Designer.vb">
+      <DependentUpon>frmBuscarFecha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmBuscarFecha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmBuscarFechaPersona.Designer.vb">
+      <DependentUpon>frmBuscarFechaPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmBuscarFechaPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmBuscarSimple.Designer.vb">
+      <DependentUpon>frmBuscarSimple.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmBuscarSimple.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmCalendarioDias.Designer.vb">
+      <DependentUpon>frmCalendarioDias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmCalendarioDias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmCentroRiesgo.Designer.vb">
+      <DependentUpon>frmCentroRiesgo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmCentroRiesgo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmComedorPLL.Designer.vb">
+      <DependentUpon>frmComedorPLL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmComedorPLL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmConceptos.Designer.vb">
+      <DependentUpon>frmConceptos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmConceptos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmConceptosPlanilla.Designer.vb">
+      <DependentUpon>frmConceptosPlanilla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmConceptosPlanilla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmConceptosTrabajador.Designer.vb">
+      <DependentUpon>frmConceptosTrabajador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmConceptosTrabajador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmConvenioDobleTributacion.Designer.vb">
+      <DependentUpon>frmConvenioDobleTributacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmConvenioDobleTributacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDatosLaborales.Designer.vb">
+      <DependentUpon>frmDatosLaborales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDatosLaborales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDatosLaboralesPanel.Designer.vb">
+      <DependentUpon>frmDatosLaboralesPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDatosLaboralesPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDatosTrabajadorJudicial.Designer.vb">
+      <DependentUpon>frmDatosTrabajadorJudicial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDatosTrabajadorJudicial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDetalleConceptoPensionario.Designer.vb">
+      <DependentUpon>frmDetalleConceptoPensionario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDetalleConceptoPensionario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDetalleConceptosPlanillas.Designer.vb">
+      <DependentUpon>frmDetalleConceptosPlanillas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDetalleConceptosPlanillas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmExportarPlameTRegistro.Designer.vb">
+      <DependentUpon>frmExportarPlameTRegistro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmExportarPlameTRegistro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmGrupoMantenimiento.Designer.vb">
+      <DependentUpon>frmGrupoMantenimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmGrupoMantenimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmGrupoTrabajoDiasDescanso.Designer.vb">
+      <DependentUpon>frmGrupoTrabajoDiasDescanso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmGrupoTrabajoDiasDescanso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmGrupoTrabajoHora.Designer.vb">
+      <DependentUpon>frmGrupoTrabajoHora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmGrupoTrabajoHora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmGrupoTrabajoHoraClonar.Designer.vb">
+      <DependentUpon>frmGrupoTrabajoHoraClonar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmGrupoTrabajoHoraClonar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmGrupoTrabajoTarea.Designer.vb">
+      <DependentUpon>frmGrupoTrabajoTarea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmGrupoTrabajoTarea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmMarcacion.Designer.vb">
+      <DependentUpon>frmMarcacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmMarcacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmNivelEducacion.Designer.vb">
+      <DependentUpon>frmNivelEducacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmNivelEducacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmPeriodisidad.Designer.vb">
+      <DependentUpon>frmPeriodisidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmPeriodisidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmPermisosTrabajador.Designer.vb">
+      <DependentUpon>frmPermisosTrabajador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmPermisosTrabajador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmPlanilla.Designer.vb">
+      <DependentUpon>frmPlanilla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmPlanilla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmPlanillaMantenimiento.Designer.vb">
+      <DependentUpon>frmPlanillaMantenimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmPlanillaMantenimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmPlanillasPanelAdministracion.Designer.vb">
+      <DependentUpon>frmPlanillasPanelAdministracion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmPlanillasPanelAdministracion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmPlanillasPanelAdministracionDetalle.Designer.vb">
+      <DependentUpon>frmPlanillasPanelAdministracionDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmPlanillasPanelAdministracionDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmPrestamosTrabajador.Designer.vb">
+      <DependentUpon>frmPrestamosTrabajador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmPrestamosTrabajador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRegimenLaboral.Designer.vb">
+      <DependentUpon>frmRegimenLaboral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRegimenLaboral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRegimenPensionario.Designer.vb">
+      <DependentUpon>frmRegimenPensionario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRegimenPensionario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReparoTrabajador.Designer.vb">
+      <DependentUpon>frmReparoTrabajador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReparoTrabajador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReporteComedor.Designer.vb">
+      <DependentUpon>frmReporteComedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReporteComedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReporteFechaPersona.Designer.vb">
+      <DependentUpon>frmReporteFechaPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReporteFechaPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReporteGrupoMantenimiento.Designer.vb">
+      <DependentUpon>frmReporteGrupoMantenimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReporteGrupoMantenimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReporteGrupoTrabajoDiasDescanso.Designer.vb">
+      <DependentUpon>frmReporteGrupoTrabajoDiasDescanso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReporteGrupoTrabajoDiasDescanso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReporteGrupoTrabajoHora.Designer.vb">
+      <DependentUpon>frmReporteGrupoTrabajoHora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReporteGrupoTrabajoHora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReporteHorasPlanillasProduccion.Designer.vb">
+      <DependentUpon>frmReporteHorasPlanillasProduccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReporteHorasPlanillasProduccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReportePersona.Designer.vb">
+      <DependentUpon>frmReportePersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReportePersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReportePersonaTipoFichas.Designer.vb">
+      <DependentUpon>frmReportePersonaTipoFichas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReportePersonaTipoFichas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReportesBoletas.Designer.vb">
+      <DependentUpon>frmReportesBoletas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReportesBoletas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReportesPermisosTrabajador.Designer.vb">
+      <DependentUpon>frmReportesPermisosTrabajador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReportesPermisosTrabajador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReportesTrabajadorCumpleaños.Designer.vb">
+      <DependentUpon>frmReportesTrabajadorCumpleaños.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReportesTrabajadorCumpleaños.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReportesXAcumuladosXTrabajador.Designer.vb">
+      <DependentUpon>frmReportesXAcumuladosXTrabajador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReportesXAcumuladosXTrabajador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReporteTardanzas.Designer.vb">
+      <DependentUpon>frmReporteTardanzas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReporteTardanzas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptPlanillaConsolidadoSuma.Designer.vb">
+      <DependentUpon>frmRptPlanillaConsolidadoSuma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptPlanillaConsolidadoSuma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmSituacionEspecialTrabajador.Designer.vb">
+      <DependentUpon>frmSituacionEspecialTrabajador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmSituacionEspecialTrabajador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmSituacionTrabajador.Designer.vb">
+      <DependentUpon>frmSituacionTrabajador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmSituacionTrabajador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmTareaTrabajo.Designer.vb">
+      <DependentUpon>frmTareaTrabajo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmTareaTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReportesTareaTrabajoExportar.Designer.vb">
+      <DependentUpon>frmReportesTareaTrabajoExportar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReportesTareaTrabajoExportar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmTiposCargos.Designer.vb">
+      <DependentUpon>frmTiposCargos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmTiposCargos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmTiposConceptos.Designer.vb">
+      <DependentUpon>frmTiposConceptos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmTiposConceptos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmTiposContratos.Designer.vb">
+      <DependentUpon>frmTiposContratos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmTiposContratos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmTiposPlanillas.Designer.vb">
+      <DependentUpon>frmTiposPlanillas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmTiposPlanillas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmTiposTareaTrabajo.Designer.vb">
+      <DependentUpon>frmTiposTareaTrabajo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmTiposTareaTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmTiposTrabajador.Designer.vb">
+      <DependentUpon>frmTiposTrabajador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmTiposTrabajador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmTrabajadorHoras.Designer.vb">
+      <DependentUpon>frmTrabajadorHoras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmTrabajadorHoras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmVisorReportes.Designer.vb">
+      <DependentUpon>frmVisorReportes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmVisorReportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ViewManMasterPlanillas.Designer.vb">
+      <DependentUpon>ViewManMasterPlanillas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ViewManMasterPlanillas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptHorasPlanillasProduccion.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptHorasPlanillasProduccion.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptListaDetalleComedorDescuento.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptListaDetalleComedorDescuento.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptReporteGrupoTrabajoDiasDescanso.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReporteGrupoTrabajoDiasDescanso.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptReporteGrupoTrabajoHoraXSemanaSoloTotales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReporteGrupoTrabajoHoraXSemanaSoloTotales.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptReporteGrupoTrabajoHoraSoloTotalesReales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReporteGrupoTrabajoHoraSoloTotalesReales.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptReporteGrupoTrabajoHoraXSemanaSoloTotalesReales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReporteGrupoTrabajoHoraXSemanaSoloTotalesReales.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptReporteGrupoTrabajoHoraSoloTotales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReporteGrupoTrabajoHoraSoloTotales.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptReporteGrupoMantenimientoDetalle.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReporteGrupoMantenimientoDetalle.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptComedor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptComedor.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptCumpleaños.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCumpleaños.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptDatosTrabajadorJudicialPorcentajes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDatosTrabajadorJudicialPorcentajes.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptFichaPersona.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptFichaPersona.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptPeriodoLaboral.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPeriodoLaboral.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptPlanillasBoletas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPlanillasBoletas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptPLLXAcumuladosXTrabajador.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPLLXAcumuladosXTrabajador.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptReporteGrupoMantenimientoAgrupado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReporteGrupoMantenimientoAgrupado.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptReporteGrupoTrabajoHora.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReporteGrupoTrabajoHora.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptReporteGrupoTrabajoHoraXSemana.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReporteGrupoTrabajoHoraXSemana.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptReportePeriodoVacaciones.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReportePeriodoVacaciones.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptReportePlanillaConsolidado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReportePlanillaConsolidado.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptReporteReparoTrabajador.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReporteReparoTrabajador.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptReportesPermisosTrabajador.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReportesPermisosTrabajador.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptReportesTareaTrabajoExportar.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptReportesTareaTrabajoExportar.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ControlFiltroTrareaHoras.resx">
+      <DependentUpon>ControlFiltroTrareaHoras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmGrupoEmpleado.resx">
+      <DependentUpon>frmGrupoEmpleado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmAreaTrabajos.resx">
+      <DependentUpon>frmAreaTrabajos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmBuscarDocumentos.resx">
+      <DependentUpon>frmBuscarDocumentos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmBuscarFecha.resx">
+      <DependentUpon>frmBuscarFecha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmBuscarFechaPersona.resx">
+      <DependentUpon>frmBuscarFechaPersona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmBuscarSimple.resx">
+      <DependentUpon>frmBuscarSimple.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmCalendarioDias.resx">
+      <DependentUpon>frmCalendarioDias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmCentroRiesgo.resx">
+      <DependentUpon>frmCentroRiesgo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmComedorPLL.resx">
+      <DependentUpon>frmComedorPLL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmConceptos.resx">
+      <DependentUpon>frmConceptos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmConceptosPlanilla.resx">
+      <DependentUpon>frmConceptosPlanilla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmConceptosTrabajador.resx">
+      <DependentUpon>frmConceptosTrabajador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmConvenioDobleTributacion.resx">
+      <DependentUpon>frmConvenioDobleTributacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDatosLaborales.resx">
+      <DependentUpon>frmDatosLaborales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDatosLaboralesPanel.resx">
+      <DependentUpon>frmDatosLaboralesPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDatosTrabajadorJudicial.resx">
+      <DependentUpon>frmDatosTrabajadorJudicial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDetalleConceptoPensionario.resx">
+      <DependentUpon>frmDetalleConceptoPensionario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDetalleConceptosPlanillas.resx">
+      <DependentUpon>frmDetalleConceptosPlanillas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmExportarPlameTRegistro.resx">
+      <DependentUpon>frmExportarPlameTRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmGrupoMantenimiento.resx">
+      <DependentUpon>frmGrupoMantenimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmGrupoTrabajoDiasDescanso.resx">
+      <DependentUpon>frmGrupoTrabajoDiasDescanso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmGrupoTrabajoHora.resx">
+      <DependentUpon>frmGrupoTrabajoHora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmGrupoTrabajoHoraClonar.resx">
+      <DependentUpon>frmGrupoTrabajoHoraClonar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmGrupoTrabajoTarea.resx">
+      <DependentUpon>frmGrupoTrabajoTarea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmMarcacion.resx">
+      <DependentUpon>frmMarcacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmNivelEducacion.resx">
+      <DependentUpon>frmNivelEducacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmPeriodisidad.resx">
+      <DependentUpon>frmPeriodisidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmPermisosTrabajador.resx">
+      <DependentUpon>frmPermisosTrabajador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmPlanilla.resx">
+      <DependentUpon>frmPlanilla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmPlanillaMantenimiento.resx">
+      <DependentUpon>frmPlanillaMantenimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmPlanillasPanelAdministracion.resx">
+      <DependentUpon>frmPlanillasPanelAdministracion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmPlanillasPanelAdministracionDetalle.resx">
+      <DependentUpon>frmPlanillasPanelAdministracionDetalle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmPrestamosTrabajador.resx">
+      <DependentUpon>frmPrestamosTrabajador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRegimenLaboral.resx">
+      <DependentUpon>frmRegimenLaboral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRegimenPensionario.resx">
+      <DependentUpon>frmRegimenPensionario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReparoTrabajador.resx">
+      <DependentUpon>frmReparoTrabajador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReporteComedor.resx">
+      <DependentUpon>frmReporteComedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReporteFechaPersona.resx">
+      <DependentUpon>frmReporteFechaPersona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReporteGrupoMantenimiento.resx">
+      <DependentUpon>frmReporteGrupoMantenimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReporteGrupoTrabajoDiasDescanso.resx">
+      <DependentUpon>frmReporteGrupoTrabajoDiasDescanso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReporteGrupoTrabajoHora.resx">
+      <DependentUpon>frmReporteGrupoTrabajoHora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReporteHorasPlanillasProduccion.resx">
+      <DependentUpon>frmReporteHorasPlanillasProduccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReportePersona.resx">
+      <DependentUpon>frmReportePersona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReportePersonaTipoFichas.resx">
+      <DependentUpon>frmReportePersonaTipoFichas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReportesBoletas.resx">
+      <DependentUpon>frmReportesBoletas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReportesPermisosTrabajador.resx">
+      <DependentUpon>frmReportesPermisosTrabajador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReportesTareaTrabajoExportar.resx">
+      <DependentUpon>frmReportesTareaTrabajoExportar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReportesTrabajadorCumpleaños.resx">
+      <DependentUpon>frmReportesTrabajadorCumpleaños.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReportesXAcumuladosXTrabajador.resx">
+      <DependentUpon>frmReportesXAcumuladosXTrabajador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReporteTardanzas.resx">
+      <DependentUpon>frmReporteTardanzas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptPlanillaConsolidadoSuma.resx">
+      <DependentUpon>frmRptPlanillaConsolidadoSuma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmSituacionEspecialTrabajador.resx">
+      <DependentUpon>frmSituacionEspecialTrabajador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmSituacionTrabajador.resx">
+      <DependentUpon>frmSituacionTrabajador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmTareaTrabajo.resx">
+      <DependentUpon>frmTareaTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmTiposCargos.resx">
+      <DependentUpon>frmTiposCargos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmTiposConceptos.resx">
+      <DependentUpon>frmTiposConceptos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmTiposContratos.resx">
+      <DependentUpon>frmTiposContratos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmTiposPlanillas.resx">
+      <DependentUpon>frmTiposPlanillas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmTiposTareaTrabajo.resx">
+      <DependentUpon>frmTiposTareaTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmTiposTrabajador.resx">
+      <DependentUpon>frmTiposTrabajador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmTrabajadorHoras.resx">
+      <DependentUpon>frmTrabajadorHoras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmVisorReportes.resx">
+      <DependentUpon>frmVisorReportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\rptReporteTardanzasXMes.rdlc" />
+    <EmbeddedResource Include="Views\rptPlanillaConsolidadoSuma.rdlc" />
+    <EmbeddedResource Include="Views\ViewManMasterPlanillas.resx">
+      <DependentUpon>ViewManMasterPlanillas.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSets\dsReportePlanillaConsolidadoSuma.xsc">
+      <DependentUpon>dsReportePlanillaConsolidadoSuma.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsReportePlanillaConsolidadoSuma.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReportePlanillaConsolidadoSuma.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsReportePlanillaConsolidadoSuma.xss">
+      <DependentUpon>dsReportePlanillaConsolidadoSuma.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsReporteTardanzaXMes.xsc">
+      <DependentUpon>dsReporteTardanzaXMes.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsReporteTardanzaXMes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteTardanzaXMes.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsReporteTardanzaXMes.xss">
+      <DependentUpon>dsReporteTardanzaXMes.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\dsReportePlanillaConsolidadoSuma.datasource" />
+    <None Include="My Project\DataSources\dsReporteTardanzaXMes.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.vbproj">
+      <Project>{74E42518-0D8B-49A6-9BE0-FF3969FFA64D}</Project>
+      <Name>Infrastructure %28Infrastructure\Infrastructure%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.BE\Ladisac.BE.vbproj">
+      <Project>{98453098-B42F-4309-93FC-9D2BC486E925}</Project>
+      <Name>Ladisac.BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.BL\Ladisac.BL.vbproj">
+      <Project>{80C99B39-DD08-450D-96F2-6A9B57D964F3}</Project>
+      <Name>Ladisac.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.Contabilidad\Ladisac.Contabilidad.vbproj">
+      <Project>{67146DE4-037F-4F52-A0C4-F1516A95AA88}</Project>
+      <Name>Ladisac.Contabilidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.DA\Ladisac.DA.vbproj">
+      <Project>{4DC3327E-1427-4E7E-B9D5-54C407E02AF3}</Project>
+      <Name>Ladisac.DA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.Facturacion\Ladisac.Facturacion.vbproj">
+      <Project>{479F86C8-B6CE-4AAA-986E-6A4C699CD29B}</Project>
+      <Name>Ladisac.Facturacion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.Foundation\Ladisac.Foundation.vbproj">
+      <Project>{593BE733-05DA-478C-881D-1D62B7883AEB}</Project>
+      <Name>Ladisac.Foundation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.IBL\Ladisac.IBL.vbproj">
+      <Project>{8BC29E16-9658-4CF0-89F7-0759B6AAA419}</Project>
+      <Name>Ladisac.IBL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Prism.Interactivity\Prism.Interactivity.csproj">
+      <Project>{DE856812-A32C-4866-801E-AF396D711942}</Project>
+      <Name>Prism.Interactivity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Prism.UnityExtensions\Prism.UnityExtensions.Desktop.csproj">
+      <Project>{17831F3B-6B82-4916-BD2B-2CE2071EA622}</Project>
+      <Name>Prism.UnityExtensions.Desktop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Prism\Prism.Desktop.csproj">
+      <Project>{77138947-1D13-4E22-AEE0-5D0DD046CA34}</Project>
+      <Name>Prism.Desktop</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background GGG.jpg" />
+    <Content Include="Views\a validaciones pendientes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

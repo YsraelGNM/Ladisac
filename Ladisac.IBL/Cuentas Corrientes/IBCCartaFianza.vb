@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.BLPublic Interface IBCCartaFianzaFunction Mantenimiento(ByVal Item As CartaFianza) As ShortEnd InterfaceEnd Namespace

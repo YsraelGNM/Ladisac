@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.BLPublic Interface IBCBloqueosCodigoPersonaFunction Mantenimiento(ByVal Item As BloqueosCodigoPersona) As ShortEnd InterfaceEnd Namespace

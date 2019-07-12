@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaReciclajeDespachoLadrillo" targetNamespace="http://tempuri.org/dsListaReciclajeDespachoLadrillo.xsd" xmlns:mstns="http://tempuri.org/dsListaReciclajeDespachoLadrillo.xsd" xmlns="http://tempuri.org/dsListaReciclajeDespachoLadrillo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaReciclajeDespachoLadrillo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaReciclajeDespachoLadrillo" msprop:Generator_UserDSName="dsListaReciclajeDespachoLadrillo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaReciclajeDespachoLadrillo" msprop:Generator_TableClassName="ListaReciclajeDespachoLadrilloDataTable" msprop:Generator_TableVarName="tableListaReciclajeDespachoLadrillo" msprop:Generator_TablePropName="ListaReciclajeDespachoLadrillo" msprop:Generator_RowDeletingName="ListaReciclajeDespachoLadrilloRowDeleting" msprop:Generator_RowChangingName="ListaReciclajeDespachoLadrilloRowChanging" msprop:Generator_RowEvHandlerName="ListaReciclajeDespachoLadrilloRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaReciclajeDespachoLadrilloRowDeleted" msprop:Generator_UserTableName="ListaReciclajeDespachoLadrillo" msprop:Generator_RowChangedName="ListaReciclajeDespachoLadrilloRowChanged" msprop:Generator_RowEvArgName="ListaReciclajeDespachoLadrilloRowChangeEvent" msprop:Generator_RowClassName="ListaReciclajeDespachoLadrilloRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ART_ID" msprop:Generator_ColumnVarNameInTable="columnART_ID" msprop:Generator_ColumnPropNameInRow="ART_ID" msprop:Generator_ColumnPropNameInTable="ART_IDColumn" msprop:Generator_UserColumnName="ART_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_Codigo" msprop:Generator_ColumnVarNameInTable="columnART_Codigo" msprop:Generator_ColumnPropNameInRow="ART_Codigo" msprop:Generator_ColumnPropNameInTable="ART_CodigoColumn" msprop:Generator_UserColumnName="ART_Codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnART_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ART_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ART_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ART_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="Ingreso" msprop:Generator_ColumnVarNameInTable="columnIngreso" msprop:Generator_ColumnPropNameInRow="Ingreso" msprop:Generator_ColumnPropNameInTable="IngresoColumn" msprop:Generator_UserColumnName="Ingreso" type="xs:string" minOccurs="0" />
+              <xs:element name="Despacho" msprop:Generator_ColumnVarNameInTable="columnDespacho" msprop:Generator_ColumnPropNameInRow="Despacho" msprop:Generator_ColumnPropNameInTable="DespachoColumn" msprop:Generator_UserColumnName="Despacho" type="xs:string" minOccurs="0" />
+              <xs:element name="Segunda" msprop:Generator_ColumnVarNameInTable="columnSegunda" msprop:Generator_ColumnPropNameInRow="Segunda" msprop:Generator_ColumnPropNameInTable="SegundaColumn" msprop:Generator_UserColumnName="Segunda" type="xs:string" minOccurs="0" />
+              <xs:element name="Escombro" msprop:Generator_ColumnVarNameInTable="columnEscombro" msprop:Generator_ColumnPropNameInRow="Escombro" msprop:Generator_ColumnPropNameInTable="EscombroColumn" msprop:Generator_UserColumnName="Escombro" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

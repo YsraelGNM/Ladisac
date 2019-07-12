@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsTrabajoMantto" targetNamespace="http://tempuri.org/dsTrabajoMantto.xsd" xmlns:mstns="http://tempuri.org/dsTrabajoMantto.xsd" xmlns="http://tempuri.org/dsTrabajoMantto.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsTrabajoMantto" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsTrabajoMantto" msprop:Generator_UserDSName="dsTrabajoMantto">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TrabajoMantto" msprop:Generator_TableClassName="TrabajoManttoDataTable" msprop:Generator_TableVarName="tableTrabajoMantto" msprop:Generator_TablePropName="TrabajoMantto" msprop:Generator_RowDeletingName="TrabajoManttoRowDeleting" msprop:Generator_UserTableName="TrabajoMantto" msprop:Generator_RowChangingName="TrabajoManttoRowChanging" msprop:Generator_RowEvHandlerName="TrabajoManttoRowChangeEventHandler" msprop:Generator_RowDeletedName="TrabajoManttoRowDeleted" msprop:Generator_RowEvArgName="TrabajoManttoRowChangeEvent" msprop:Generator_RowChangedName="TrabajoManttoRowChanged" msprop:Generator_RowClassName="TrabajoManttoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Proceso" msprop:Generator_ColumnVarNameInTable="columnProceso" msprop:Generator_ColumnPropNameInRow="Proceso" msprop:Generator_ColumnPropNameInTable="ProcesoColumn" msprop:Generator_UserColumnName="Proceso" type="xs:string" minOccurs="0" />
+              <xs:element name="ProcesoComp" msprop:Generator_ColumnVarNameInTable="columnProcesoComp" msprop:Generator_ColumnPropNameInRow="ProcesoComp" msprop:Generator_ColumnPropNameInTable="ProcesoCompColumn" msprop:Generator_UserColumnName="ProcesoComp" type="xs:string" minOccurs="0" />
+              <xs:element name="Pendiente" msprop:Generator_ColumnVarNameInTable="columnPendiente" msprop:Generator_ColumnPropNameInRow="Pendiente" msprop:Generator_ColumnPropNameInTable="PendienteColumn" msprop:Generator_UserColumnName="Pendiente" type="xs:string" minOccurs="0" />
+              <xs:element name="PendienteComp" msprop:Generator_ColumnVarNameInTable="columnPendienteComp" msprop:Generator_ColumnPropNameInRow="PendienteComp" msprop:Generator_ColumnPropNameInTable="PendienteCompColumn" msprop:Generator_UserColumnName="PendienteComp" type="xs:string" minOccurs="0" />
+              <xs:element name="Finalizado" msprop:Generator_ColumnVarNameInTable="columnFinalizado" msprop:Generator_ColumnPropNameInRow="Finalizado" msprop:Generator_ColumnPropNameInTable="FinalizadoColumn" msprop:Generator_UserColumnName="Finalizado" type="xs:string" minOccurs="0" />
+              <xs:element name="FinalizadoComp" msprop:Generator_ColumnVarNameInTable="columnFinalizadoComp" msprop:Generator_ColumnPropNameInRow="FinalizadoComp" msprop:Generator_ColumnPropNameInTable="FinalizadoCompColumn" msprop:Generator_UserColumnName="FinalizadoComp" type="xs:string" minOccurs="0" />
+              <xs:element name="ENO_ID" msprop:Generator_ColumnVarNameInTable="columnENO_ID" msprop:Generator_ColumnPropNameInRow="ENO_ID" msprop:Generator_ColumnPropNameInTable="ENO_IDColumn" msprop:Generator_UserColumnName="ENO_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="ENO_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnENO_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ENO_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ENO_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ENO_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="Grupo" msprop:Generator_ColumnVarNameInTable="columnGrupo" msprop:Generator_ColumnPropNameInRow="Grupo" msprop:Generator_ColumnPropNameInTable="GrupoColumn" msprop:Generator_UserColumnName="Grupo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

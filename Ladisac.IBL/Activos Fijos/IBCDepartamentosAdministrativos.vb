@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.BLPublic Interface IBCDepartamentosAdministrativosFunction Mantenimiento(ByVal Item As DepartamentosAdministrativos) As ShortEnd InterfaceEnd Namespace

@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.BL    Public Interface IBCRestriccionArticulo        Function Mantenimiento(ByVal Item As RestriccionArticulo) As Short    End InterfaceEnd Namespace

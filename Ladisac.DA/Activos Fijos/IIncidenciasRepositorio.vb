@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.DAPublic Interface IIncidenciasRepositorioFunction Maintenance(ByVal item As Incidencias) As ShortEnd InterfaceEnd Namespace

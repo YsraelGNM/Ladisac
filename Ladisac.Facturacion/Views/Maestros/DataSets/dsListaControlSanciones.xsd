@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaControlSanciones" targetNamespace="http://tempuri.org/dsListaControlSanciones.xsd" xmlns:mstns="http://tempuri.org/dsListaControlSanciones.xsd" xmlns="http://tempuri.org/dsListaControlSanciones.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaControlSanciones" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaControlSanciones" msprop:Generator_UserDSName="dsListaControlSanciones">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaControlSanciones" msprop:Generator_TableClassName="ListaControlSancionesDataTable" msprop:Generator_TableVarName="tableListaControlSanciones" msprop:Generator_TablePropName="ListaControlSanciones" msprop:Generator_RowDeletingName="ListaControlSancionesRowDeleting" msprop:Generator_RowChangingName="ListaControlSancionesRowChanging" msprop:Generator_RowEvHandlerName="ListaControlSancionesRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaControlSancionesRowDeleted" msprop:Generator_UserTableName="ListaControlSanciones" msprop:Generator_RowChangedName="ListaControlSancionesRowChanged" msprop:Generator_RowEvArgName="ListaControlSancionesRowChangeEvent" msprop:Generator_RowClassName="ListaControlSancionesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SAN_ID" msprop:Generator_ColumnVarNameInTable="columnSAN_ID" msprop:Generator_ColumnPropNameInRow="SAN_ID" msprop:Generator_ColumnPropNameInTable="SAN_IDColumn" msprop:Generator_UserColumnName="SAN_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="SAN_FECHA" msprop:Generator_ColumnVarNameInTable="columnSAN_FECHA" msprop:Generator_ColumnPropNameInRow="SAN_FECHA" msprop:Generator_ColumnPropNameInTable="SAN_FECHAColumn" msprop:Generator_UserColumnName="SAN_FECHA" type="xs:string" minOccurs="0" />
+              <xs:element name="Trabajador" msprop:Generator_ColumnVarNameInTable="columnTrabajador" msprop:Generator_ColumnPropNameInRow="Trabajador" msprop:Generator_ColumnPropNameInTable="TrabajadorColumn" msprop:Generator_UserColumnName="Trabajador" type="xs:string" minOccurs="0" />
+              <xs:element name="FSA_CATEGORIA" msprop:Generator_ColumnVarNameInTable="columnFSA_CATEGORIA" msprop:Generator_ColumnPropNameInRow="FSA_CATEGORIA" msprop:Generator_ColumnPropNameInTable="FSA_CATEGORIAColumn" msprop:Generator_UserColumnName="FSA_CATEGORIA" type="xs:string" minOccurs="0" />
+              <xs:element name="SAN_DNI_FALTA" msprop:Generator_ColumnVarNameInTable="columnSAN_DNI_FALTA" msprop:Generator_ColumnPropNameInRow="SAN_DNI_FALTA" msprop:Generator_ColumnPropNameInTable="SAN_DNI_FALTAColumn" msprop:Generator_UserColumnName="SAN_DNI_FALTA" type="xs:string" minOccurs="0" />
+              <xs:element name="SAN_NOMBRE_FALTA" msprop:Generator_ColumnVarNameInTable="columnSAN_NOMBRE_FALTA" msprop:Generator_ColumnPropNameInRow="SAN_NOMBRE_FALTA" msprop:Generator_ColumnPropNameInTable="SAN_NOMBRE_FALTAColumn" msprop:Generator_UserColumnName="SAN_NOMBRE_FALTA" type="xs:string" minOccurs="0" />
+              <xs:element name="UNT_ID" msprop:Generator_ColumnVarNameInTable="columnUNT_ID" msprop:Generator_ColumnPropNameInRow="UNT_ID" msprop:Generator_ColumnPropNameInTable="UNT_IDColumn" msprop:Generator_UserColumnName="UNT_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="Empresa" msprop:Generator_ColumnVarNameInTable="columnEmpresa" msprop:Generator_ColumnPropNameInRow="Empresa" msprop:Generator_ColumnPropNameInTable="EmpresaColumn" msprop:Generator_UserColumnName="Empresa" type="xs:string" minOccurs="0" />
+              <xs:element name="FSA_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnFSA_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="FSA_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="FSA_DESCRIPCIONColumn" msprop:Generator_UserColumnName="FSA_DESCRIPCION" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

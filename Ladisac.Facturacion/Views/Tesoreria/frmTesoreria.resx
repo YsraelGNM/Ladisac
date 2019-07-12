@@ -1,0 +1,1382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ErrorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>218, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <metadata name="ssTesoreria.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>106, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnImagen.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        wkle3QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="cITEMet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_IDet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_IDet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_IDet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_SERIEet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_NUMEROet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_IDet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_DESCRIPCIONet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_ID_CLIet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_DESCRIPCION_CLIet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_CLIet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_DESCRIPCION_CLIet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_FEC_VENet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_MOVIMIENTO_DOCet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_ID_DOCet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_ID_DOCet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_ID_DOCet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_SERIE_DOCet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_NUMERO_DOCet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_IMPORTE_DOCet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_CONTRAVALOR_DOCet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_ID_DOCet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_DESCRIPCION_DOCet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_DESTINOet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCHE_IDet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_MEDIO_PAGOet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_IMPORTE_AFECTOet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_PORCENTAJEet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_SERIE_MEDIOet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_NUMERO_MEDIOet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_GIRADO_Aet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_CONCEPTOet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_BANet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_DIFERIDOet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_FECHA_DIFERIDOet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_RECEPCIONet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_UBICACIONet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_CLI_1et.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_DESCRIPCION_CLI_1et.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_FEC_VEN_1et.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_ID_DOC_1et.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_ID_DOC_1et.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_ID_DOC_1et.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_SERIE_DOC_1et.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_NUMERO_DOC_1et.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_IMPORTE_DOC_1et.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_CONTRAVALOR_DOC_1et.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_ID_DOC_1et.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_DESCRIPCION_DOC_1et.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCO_IDet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCO_DESCRIPCIONet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCUC_IDet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCUC_DESCRIPCIONet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_OPE_CONTABLEet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_OBSERVACIONESet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_MOVIMIENTOet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_ESTADOet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cEstadoRegistroet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cITEMp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_IDp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_IDp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_IDp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_SERIEp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_NUMEROp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_IDp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_DESCRIPCIONp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_ID_CLIp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_DESCRIPCION_CLIp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_CLIp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_DESCRIPCION_CLIp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_FEC_VENp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_MOVIMIENTO_DOCp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_ID_DOCp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_ID_DOCp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_ID_DOCp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_SERIE_DOCp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_NUMERO_DOCp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_IMPORTE_DOCp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_CONTRAVALOR_DOCp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_ID_DOCp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_DESCRIPCION_DOCp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_DESTINOp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCHE_IDp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_MEDIO_PAGOp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_IMPORTE_AFECTOp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_PORCENTAJEp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_SERIE_MEDIOp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_NUMERO_MEDIOp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_GIRADO_Ap.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_CONCEPTOp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_BANp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_DIFERIDOp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_FECHA_DIFERIDOp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_RECEPCIONp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_UBICACIONp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_CLI_1p.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_DESCRIPCION_CLI_1p.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_FEC_VEN_1p.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_ID_DOC_1p.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_ID_DOC_1p.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_ID_DOC_1p.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_SERIE_DOC_1p.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_NUMERO_DOC_1p.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_IMPORTE_DOC_1p.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_CONTRAVALOR_DOC_1p.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_ID_DOC_1p.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_DESCRIPCION_DOC_1p.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCO_IDp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCO_DESCRIPCIONp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCUC_IDp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCUC_DESCRIPCIONp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_OPE_CONTABLEp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_OBSERVACIONESp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_MOVIMIENTOp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_ESTADOp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cEstadoRegistrop.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cITEMo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_IDo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_IDo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_IDo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_SERIEo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_NUMEROo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_IDo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_DESCRIPCIONo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_ID_CLIo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_DESCRIPCION_CLIo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_CLIo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_DESCRIPCION_CLIo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_FEC_VENo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_MOVIMIENTO_DOCo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_ID_DOCo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_ID_DOCo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_ID_DOCo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_SERIE_DOCo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_NUMERO_DOCo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_IMPORTE_DOCo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_CONTRAVALOR_DOCo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_ID_DOCo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_DESCRIPCION_DOCo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_DESTINOo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCHE_IDo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_MEDIO_PAGOo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_IMPORTE_AFECTOo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_PORCENTAJEo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_SERIE_MEDIOo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_NUMERO_MEDIOo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_GIRADO_Ao.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_CONCEPTOo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_BANo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_DIFERIDOo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_FECHA_DIFERIDOo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_RECEPCIONo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_UBICACIONo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_CLI_1o.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_DESCRIPCION_CLI_1o.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_FEC_VEN_1o.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_ID_DOC_1o.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_ID_DOC_1o.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_ID_DOC_1o.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_SERIE_DOC_1o.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_NUMERO_DOC_1o.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_IMPORTE_DOC_1o.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_CONTRAVALOR_DOC_1o.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_ID_DOC_1o.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_DESCRIPCION_DOC_1o.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCO_IDo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCO_DESCRIPCIONo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCUC_IDo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCUC_DESCRIPCIONo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_OPE_CONTABLEo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_OBSERVACIONESo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_MOVIMIENTOo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_ESTADOo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cEstadoRegistroo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cITEMe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_IDe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_IDe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_IDe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_SERIEe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_NUMEROe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_IDe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_DESCRIPCIONe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_ID_CLIe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_DESCRIPCION_CLIe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_CLIe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_DESCRIPCION_CLIe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_FEC_VENe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_MOVIMIENTO_DOCe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_ID_DOCe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_ID_DOCe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_ID_DOCe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_SERIE_DOCe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_NUMERO_DOCe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_IMPORTE_DOCe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_CONTRAVALOR_DOCe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_ID_DOCe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_DESCRIPCION_DOCe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_DESTINOe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCHE_IDe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_MEDIO_PAGOe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_IMPORTE_AFECTOe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_PORCENTAJEe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_SERIE_MEDIOe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_NUMERO_MEDIOe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_GIRADO_Ae.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_CONCEPTOe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_BANe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_DIFERIDOe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_FECHA_DIFERIDOe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_RECEPCIONe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_UBICACIONe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_CLI_1e.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_DESCRIPCION_CLI_1e.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_FEC_VEN_1e.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_ID_DOC_1e.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_ID_DOC_1e.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_ID_DOC_1e.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_SERIE_DOC_1e.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_NUMERO_DOC_1e.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_IMPORTE_DOC_1e.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_CONTRAVALOR_DOC_1e.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_ID_DOC_1e.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_DESCRIPCION_DOC_1e.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCO_IDe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCO_DESCRIPCIONe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCUC_IDe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCUC_DESCRIPCIONe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_OPE_CONTABLEe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_OBSERVACIONESe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_MOVIMIENTOe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_ESTADOe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cEstadoRegistroe.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTES_FECHA_EMI2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCO_ID2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCUC_ID2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTES_MONTO_TOTAL2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_ID2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_ID2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_ID2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_ID2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTES_SERIE2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTES_NUMERO2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCargo2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cAbono2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_CONTRAVALOR_DOC2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_BAN2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_CLI2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_ID_CLI2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_ID_DOC2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_ID_DOC2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_ID_DOC2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_SERIE_DOC2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_NUMERO_DOC2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_OBSERVACIONES2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDocumento2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDOC_FECHA_EMI_REF3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDOC_FECHA_VEN_REF3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCUC_ID_REF3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCO_ID_REF3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_ID_REF3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_ID_REF3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_ID_REF3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_ID_REF3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDOC_SERIE_REF3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDOC_NUMERO_REF3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cITEM_REF3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_ID_CCC3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_ID3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_ID3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_ID3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_ID3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDOC_SERIE3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDOC_NUMERO3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cITEM3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_ID3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_CLI3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCargo3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cAbono3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_CONTRAVALOR_DOC3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_MEDIO_PAGO3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_NUMERO_MEDIO3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_BAN3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDocumento3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cITEM.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_SERIE.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_NUMERO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_DESCRIPCION.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_ID_CLI.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCC_DESCRIPCION_CLI.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_CLI.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_DESCRIPCION_CLI.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_FEC_VEN.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_MOVIMIENTO_DOC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_ID_DOC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_ID_DOC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_ID_DOC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_SERIE_DOC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_NUMERO_DOC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_IMPORTE_DOC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_CONTRAVALOR_DOC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_ID_DOC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_DESCRIPCION_DOC.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_DESTINO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCHE_ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_MEDIO_PAGO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_IMPORTE_AFECTO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_PORCENTAJE.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_SERIE_MEDIO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_NUMERO_MEDIO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_GIRADO_A.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_CONCEPTO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_BAN.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_DIFERIDO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_FECHA_DIFERIDO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_RECEPCION.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMPT_UBICACION.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_ID_CLI_1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cPER_DESCRIPCION_CLI_1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_FEC_VEN_1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCT_ID_DOC_1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cTDO_ID_DOC_1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTD_ID_DOC_1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_SERIE_DOC_1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_NUMERO_DOC_1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_IMPORTE_DOC_1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_CONTRAVALOR_DOC_1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_ID_DOC_1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cMON_DESCRIPCION_DOC_1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCO_ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCCO_DESCRIPCION.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCUC_ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cCUC_DESCRIPCION.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_OPE_CONTABLE.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_OBSERVACIONES.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_MOVIMIENTO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cDTE_ESTADO.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cEstadoRegistro.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="LineShape1.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>15, 139, 861, 0</value>
+  </metadata>
+  <metadata name="LineShape1.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>15, 139</value>
+  </metadata>
+  <metadata name="LineShape1.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>861, 0</value>
+  </metadata>
+  <metadata name="LineShape2.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>15, 168, 861, 0</value>
+  </metadata>
+  <metadata name="LineShape2.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>15, 168</value>
+  </metadata>
+  <metadata name="LineShape2.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>861, 0</value>
+  </metadata>
+</root>

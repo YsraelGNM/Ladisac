@@ -1,0 +1,650 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{824FC518-0B00-4ADC-9B46-0DC1E38FBDD3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>Ladisac.Mantto</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>%24/LadisacMarzo/Ladisac.Mantto</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>https://tfs.codeplex.com/tfs/tfs41</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Ladisac.Mantto.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Ladisac.Mantto.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Infrastructure, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Libraries\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Pitman.Printing">
+      <HintPath>..\Libraries\Pitman.Printing.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants\ColumnaCalendario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\Herramientas.vb" />
+    <Compile Include="Controllers\ModuleController.vb" />
+    <Compile Include="DataSets\dsImprimirOrdenTrabajo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsImprimirOrdenTrabajo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsListaOTXMesXSemanaXAnio.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaOTXMesXSemanaXAnio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsReporteFichaInspeccion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteFichaInspeccion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsReporteRegistroEquipo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteRegistroEquipo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsTrabajoMantto.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTrabajoMantto.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsListaAlertaCambios.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaAlertaCambios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsListaHistoricoOT.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaHistoricoOT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsVLConsumoCombustible.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsVLConsumoCombustible.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsVLConsumoCombustible.vb">
+      <DependentUpon>dsVLConsumoCombustible.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleIni.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Views\frmFichaInspeccion.Designer.vb">
+      <DependentUpon>frmFichaInspeccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmFichaInspeccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptFichaInspeccion.Designer.vb">
+      <DependentUpon>frmRptFichaInspeccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptFichaInspeccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmVisualizarISO.Designer.vb">
+      <DependentUpon>frmVisualizarISO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmVisualizarISO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmFotoPersona.Designer.vb">
+      <DependentUpon>frmFotoPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmFotoPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmArbolEntidad.Designer.vb">
+      <DependentUpon>frmArbolEntidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmArbolEntidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmCaracteristica.Designer.vb">
+      <DependentUpon>frmCaracteristica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmCaracteristica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmComponenteInspeccion.Designer.vb">
+      <DependentUpon>frmComponenteInspeccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmComponenteInspeccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDocuIso.Designer.vb">
+      <DependentUpon>frmDocuIso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDocuIso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmEntidad.Designer.vb">
+      <DependentUpon>frmEntidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmEntidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmEntidadInspeccion.Designer.vb">
+      <DependentUpon>frmEntidadInspeccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmEntidadInspeccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmEspecificacion.Designer.vb">
+      <DependentUpon>frmEspecificacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmEspecificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmGrupo.Designer.vb">
+      <DependentUpon>frmGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmImagen.Designer.vb">
+      <DependentUpon>frmImagen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmImagen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmInputBox.Designer.vb">
+      <DependentUpon>frmInputBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmInputBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmInspeccion.Designer.vb">
+      <DependentUpon>frmInspeccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmInspeccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmInspeccionPreOrdenTrabajo.Designer.vb">
+      <DependentUpon>frmInspeccionPreOrdenTrabajo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmInspeccionPreOrdenTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmMantenimiento.Designer.vb">
+      <DependentUpon>frmMantenimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmMantenimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmOrdenTrabajo.Designer.vb">
+      <DependentUpon>frmOrdenTrabajo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmOrdenTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmParametroEntidad.Designer.vb">
+      <DependentUpon>frmParametroEntidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmParametroEntidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmPlanMantenimiento.Designer.vb">
+      <DependentUpon>frmPlanMantenimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmPlanMantenimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmPlantillaDocuIso.Designer.vb">
+      <DependentUpon>frmPlantillaDocuIso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmPlantillaDocuIso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRegistroEquipo.Designer.vb">
+      <DependentUpon>frmRegistroEquipo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRegistroEquipo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRegistroMaquina.Designer.vb">
+      <DependentUpon>frmRegistroMaquina.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRegistroMaquina.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptAlertaCambios.Designer.vb">
+      <DependentUpon>frmRptAlertaCambios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptAlertaCambios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptHistoricoOrdenTrabajo.Designer.vb">
+      <DependentUpon>frmRptHistoricoOrdenTrabajo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptHistoricoOrdenTrabajo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptListaOTXMesXSemanaXAnio.Designer.vb">
+      <DependentUpon>frmRptListaOTXMesXSemanaXAnio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptListaOTXMesXSemanaXAnio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptRegistroEquipo.Designer.vb">
+      <DependentUpon>frmRptRegistroEquipo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptRegistroEquipo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptTrabajoMantto.Designer.vb">
+      <DependentUpon>frmRptTrabajoMantto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptTrabajoMantto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmTipoClaseMantto.Designer.vb">
+      <DependentUpon>frmTipoClaseMantto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmTipoClaseMantto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmTipoEntidad.Designer.vb">
+      <DependentUpon>frmTipoEntidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmTipoEntidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmTipoFalla.Designer.vb">
+      <DependentUpon>frmTipoFalla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmTipoFalla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmTipoMantenimiento.Designer.vb">
+      <DependentUpon>frmTipoMantenimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmTipoMantenimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmVisionLink.Designer.vb">
+      <DependentUpon>frmVisionLink.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmVisionLink.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmFichaInspeccion.resx">
+      <DependentUpon>frmFichaInspeccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmFotoPersona.resx">
+      <DependentUpon>frmFotoPersona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmArbolEntidad.resx">
+      <DependentUpon>frmArbolEntidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmCaracteristica.resx">
+      <DependentUpon>frmCaracteristica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmComponenteInspeccion.resx">
+      <DependentUpon>frmComponenteInspeccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDocuIso.resx">
+      <DependentUpon>frmDocuIso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmEntidad.resx">
+      <DependentUpon>frmEntidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmEntidadInspeccion.resx">
+      <DependentUpon>frmEntidadInspeccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmEspecificacion.resx">
+      <DependentUpon>frmEspecificacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmGrupo.resx">
+      <DependentUpon>frmGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmImagen.resx">
+      <DependentUpon>frmImagen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmInputBox.resx">
+      <DependentUpon>frmInputBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmInspeccion.resx">
+      <DependentUpon>frmInspeccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmInspeccionPreOrdenTrabajo.resx">
+      <DependentUpon>frmInspeccionPreOrdenTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmMantenimiento.resx">
+      <DependentUpon>frmMantenimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmOrdenTrabajo.resx">
+      <DependentUpon>frmOrdenTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmParametroEntidad.resx">
+      <DependentUpon>frmParametroEntidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmPlanMantenimiento.resx">
+      <DependentUpon>frmPlanMantenimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmPlantillaDocuIso.resx">
+      <DependentUpon>frmPlantillaDocuIso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRegistroEquipo.resx">
+      <DependentUpon>frmRegistroEquipo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRegistroMaquina.resx">
+      <DependentUpon>frmRegistroMaquina.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptAlertaCambios.resx">
+      <DependentUpon>frmRptAlertaCambios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptFichaInspeccion.resx">
+      <DependentUpon>frmRptFichaInspeccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptHistoricoOrdenTrabajo.resx">
+      <DependentUpon>frmRptHistoricoOrdenTrabajo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptListaOTXMesXSemanaXAnio.resx">
+      <DependentUpon>frmRptListaOTXMesXSemanaXAnio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptRegistroEquipo.resx">
+      <DependentUpon>frmRptRegistroEquipo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptTrabajoMantto.resx">
+      <DependentUpon>frmRptTrabajoMantto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmTipoClaseMantto.resx">
+      <DependentUpon>frmTipoClaseMantto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmTipoEntidad.resx">
+      <DependentUpon>frmTipoEntidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmTipoFalla.resx">
+      <DependentUpon>frmTipoFalla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmTipoMantenimiento.resx">
+      <DependentUpon>frmTipoMantenimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmVisionLink.resx">
+      <DependentUpon>frmVisionLink.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmVisualizarISO.resx">
+      <DependentUpon>frmVisualizarISO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\rptFichaInspeccion.rdlc" />
+    <EmbeddedResource Include="Views\rptImprimirOrdenTrabajo.rdlc" />
+    <EmbeddedResource Include="Views\rptReporteRegistroEquipo.rdlc" />
+    <EmbeddedResource Include="Views\rptVLConsumoCombustible.rdlc" />
+    <EmbeddedResource Include="Views\rptAlertaCambios.rdlc" />
+    <EmbeddedResource Include="Views\rptHistoricoOT.rdlc" />
+    <EmbeddedResource Include="Views\rptListaOTXMesXSemanaXAnio.rdlc" />
+    <EmbeddedResource Include="Views\rptTrabajoMantto.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSets\dsImprimirOrdenTrabajo.xsc">
+      <DependentUpon>dsImprimirOrdenTrabajo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsImprimirOrdenTrabajo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsImprimirOrdenTrabajo.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsImprimirOrdenTrabajo.xss">
+      <DependentUpon>dsImprimirOrdenTrabajo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsListaOTXMesXSemanaXAnio.xsc">
+      <DependentUpon>dsListaOTXMesXSemanaXAnio.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsListaOTXMesXSemanaXAnio.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaOTXMesXSemanaXAnio.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsListaOTXMesXSemanaXAnio.xss">
+      <DependentUpon>dsListaOTXMesXSemanaXAnio.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsReporteFichaInspeccion.xsc">
+      <DependentUpon>dsReporteFichaInspeccion.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsReporteFichaInspeccion.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteFichaInspeccion.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\dsReporteFichaInspeccion.xss">
+      <DependentUpon>dsReporteFichaInspeccion.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsReporteRegistroEquipo.xsc">
+      <DependentUpon>dsReporteRegistroEquipo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsReporteRegistroEquipo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteRegistroEquipo.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\dsReporteRegistroEquipo.xss">
+      <DependentUpon>dsReporteRegistroEquipo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsTrabajoMantto.xsc">
+      <DependentUpon>dsTrabajoMantto.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsTrabajoMantto.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTrabajoMantto.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\dsTrabajoMantto.xss">
+      <DependentUpon>dsTrabajoMantto.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsListaAlertaCambios.xsc">
+      <DependentUpon>dsListaAlertaCambios.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsListaAlertaCambios.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaAlertaCambios.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsListaAlertaCambios.xss">
+      <DependentUpon>dsListaAlertaCambios.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsListaHistoricoOT.xsc">
+      <DependentUpon>dsListaHistoricoOT.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsListaHistoricoOT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaHistoricoOT.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsListaHistoricoOT.xss">
+      <DependentUpon>dsListaHistoricoOT.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsVLConsumoCombustible.xsc">
+      <DependentUpon>dsVLConsumoCombustible.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsVLConsumoCombustible.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsVLConsumoCombustible.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsVLConsumoCombustible.xss">
+      <DependentUpon>dsVLConsumoCombustible.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\dsImprimirOrdenTrabajo.datasource" />
+    <None Include="My Project\DataSources\dsListaAlertaCambios.datasource" />
+    <None Include="My Project\DataSources\dsListaHistoricoOT.datasource" />
+    <None Include="My Project\DataSources\dsListaOTXMesXSemanaXAnio.datasource" />
+    <None Include="My Project\DataSources\dsReporteRegistroEquipo.datasource" />
+    <None Include="My Project\DataSources\dsVLConsumoCombustible.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ladisac.BE\Ladisac.BE.vbproj">
+      <Project>{98453098-B42F-4309-93FC-9D2BC486E925}</Project>
+      <Name>Ladisac.BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.BL\Ladisac.BL.vbproj">
+      <Project>{80C99B39-DD08-450D-96F2-6A9B57D964F3}</Project>
+      <Name>Ladisac.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.DA\Ladisac.DA.vbproj">
+      <Project>{4DC3327E-1427-4E7E-B9D5-54C407E02AF3}</Project>
+      <Name>Ladisac.DA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.Foundation\Ladisac.Foundation.vbproj">
+      <Project>{593BE733-05DA-478C-881D-1D62B7883AEB}</Project>
+      <Name>Ladisac.Foundation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.IBL\Ladisac.IBL.vbproj">
+      <Project>{8BC29E16-9658-4CF0-89F7-0759B6AAA419}</Project>
+      <Name>Ladisac.IBL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.Logistica\Ladisac.Logistica.vbproj">
+      <Project>{61913DA6-AC7D-46A1-8F71-EE28B798F539}</Project>
+      <Name>Ladisac.Logistica</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.Planillas\Ladisac.Planillas.vbproj">
+      <Project>{DEB5832F-DE98-436F-B718-209CE7F99AE4}</Project>
+      <Name>Ladisac.Planillas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Prism\Prism.Desktop.csproj">
+      <Project>{77138947-1D13-4E22-AEE0-5D0DD046CA34}</Project>
+      <Name>Prism.Desktop</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

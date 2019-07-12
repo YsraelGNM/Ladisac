@@ -1,0 +1,299 @@
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.Produccion.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.Produccion.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.Produccion.xml
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.BE.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.BL.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.Contabilidad.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.DA.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.Foundation.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.IBL.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\System.Windows.Interactivity.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.BE.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.BE.xml
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.BL.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.BL.xml
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.DA.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.DA.xml
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.Foundation.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.Foundation.xml
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.IBL.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.IBL.xml
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.Contabilidad.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\bin\Debug\Ladisac.Contabilidad.xml
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.vbprojResolveAssemblyReference.cache
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\Resources.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptContabilidad.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.Views.frmBuscar.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmCaCoDe.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmCancha.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmConsumoCombustible.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmControlCanchero.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.Views.frmControlConteo.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmControlDescargaRuma.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmControlEnergia.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmControlExtrusora.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmControlInspeccion.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmControlMezcla.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.Views.frmControlParada.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmControlPeso.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmControlPlanta.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmCortadora.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmExtrusora.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmHorno.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmLadrillo.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmLadrilloMalecon.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmMaleconPuerta.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmParadas.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmPlanta.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmProduccion.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmPuertaHorno.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRegularizarLadrillo.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmReporteBrutoNetoMateriaPrima.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmResumenParada.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptConsumoCombustible.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptConsumoCombustibleXResponsable.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptControlParadasPorDia.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptDesHorXPuerta.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptDistribucionCombustibleProduccion.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptDistribucionEnergiaProduccion.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptFactoresProduccion.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptInspecciones.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptListaReciclajeVentaLadrillo.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptListaReciclajeVentaLadrilloDespacho.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptListaSalidaHornoVsDespacho.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptListatnQuemadas.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptReciclajeDespachoLadrillo.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptReciclajeVentaLadrillox12Mes.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptReporteFinalProduccion.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptSalidaSecadero.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptListaPesosYHumedadesPorDia.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptPesoQuema.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptProcesoTerminado.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmRptQuemaLadrillo.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmSalidaSecadero.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmSecadero.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmTipoParada.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\frmTipoProduccion.resources
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.vbproj.GenerateResource.Cache
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\RdlCompile.cache
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\RdlCompile.compiled
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.dll
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.xml
+C:\Ladisac04 - copia (28)\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.pdb
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.Produccion.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.Produccion.pdb
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.Produccion.xml
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.BE.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.BL.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.Contabilidad.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.DA.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.Foundation.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.IBL.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\System.Windows.Interactivity.dll
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.BE.pdb
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.BE.xml
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.BL.pdb
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.BL.xml
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.DA.pdb
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.DA.xml
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.Foundation.pdb
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.Foundation.xml
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.IBL.pdb
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.IBL.xml
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.Contabilidad.pdb
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.vbprojResolveAssemblyReference.cache
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\Resources.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptContabilidad.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptReporteSalidaHornoXAnio.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.Views.frmBuscar.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmCaCoDe.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmCancha.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmConsumoCombustible.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmControlCanchero.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.Views.frmControlConteo.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmControlDescargaRuma.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmControlEnergia.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmControlExtrusora.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmControlInspeccion.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmControlMezcla.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.Views.frmControlParada.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmControlPeso.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmControlPlanta.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmCortadora.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmExtrusora.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmHorno.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmLadrillo.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmLadrilloMalecon.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmMaleconPuerta.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmParadas.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmPlanta.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmProduccion.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmPuertaHorno.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRegularizarLadrillo.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmReporteBrutoNetoMateriaPrima.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmResumenParada.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptConsumoCombustible.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptConsumoCombustibleXResponsable.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptControlParadasPorDia.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptDesHorXPuerta.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptDistribucionCombustibleProduccion.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptDistribucionEnergiaProduccion.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptFactoresProduccion.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptInspecciones.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptListaReciclajeVentaLadrillo.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptListaReciclajeVentaLadrilloDespacho.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptListaSalidaHornoVsDespacho.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptListatnQuemadas.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptReciclajeDespachoLadrillo.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptReciclajeVentaLadrillox12Mes.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptReporteFinalProduccion.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptSalidaSecadero.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptListaPesosYHumedadesPorDia.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptPesoQuema.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptProcesoTerminado.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmRptQuemaLadrillo.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmSalidaSecadero.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmSecadero.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmTipoParada.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\frmTipoProduccion.resources
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.vbproj.GenerateResource.Cache
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\RdlCompile.cache
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\RdlCompile.compiled
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.dll
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.xml
+C:\Ladisac04\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.pdb
+C:\Ladisac04\Ladisac.Produccion\bin\Debug\Ladisac.Contabilidad.xml
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\LadisacModel.Designer.vb
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.Produccion.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.Produccion.pdb
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.Produccion.xml
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.BE.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.BL.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.Contabilidad.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.DA.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.Foundation.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.IBL.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\System.Windows.Interactivity.dll
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.BE.pdb
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.BE.xml
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.BL.pdb
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.BL.xml
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.DA.pdb
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.DA.xml
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.Foundation.pdb
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.Foundation.xml
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.IBL.pdb
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.IBL.xml
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.Contabilidad.pdb
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.vbprojResolveAssemblyReference.cache
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\Resources.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmControlPaqueteo.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmPlanCargaDescargaHorno.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptContabilidad.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptReporteSalidaHornoXAnio.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.Views.frmBuscar.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmCaCoDe.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmCancha.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmConsumoCombustible.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmControlCanchero.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.Views.frmControlConteo.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmControlDescargaRuma.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmControlEnergia.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmControlExtrusora.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmControlInspeccion.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmControlMezcla.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.Views.frmControlParada.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmControlPeso.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmControlPlanta.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmCortadora.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmExtrusora.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmHorno.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmLadrillo.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmLadrilloMalecon.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmMaleconPuerta.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmParadas.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmPlanta.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmProduccion.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmPuertaHorno.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRegularizarLadrillo.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmReporteBrutoNetoMateriaPrima.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmResumenParada.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptConsumoCombustible.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptConsumoCombustibleXResponsable.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptControlParadasPorDia.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptDesHorXPuerta.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptDistribucionCombustibleProduccion.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptDistribucionEnergiaProduccion.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptFactoresProduccion.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptInspecciones.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptListaReciclajeVentaLadrillo.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptListaReciclajeVentaLadrilloDespacho.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptListaSalidaHornoVsDespacho.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptListatnQuemadas.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptReciclajeDespachoLadrillo.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptReciclajeVentaLadrillox12Mes.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptReporteFinalProduccion.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptSalidaSecadero.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptListaPesosYHumedadesPorDia.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptPesoQuema.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptProcesoTerminado.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmRptQuemaLadrillo.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmSalidaSecadero.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmSecadero.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmTipoParada.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\frmTipoProduccion.resources
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.vbproj.GenerateResource.Cache
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\RdlCompile.cache
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\RdlCompile.compiled
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.dll
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.xml
+C:\Ladisac05\Ladisac.Produccion\obj\Debug\Ladisac.Produccion.pdb
+C:\Ladisac05\Ladisac.Produccion\bin\Debug\Ladisac.Contabilidad.xml

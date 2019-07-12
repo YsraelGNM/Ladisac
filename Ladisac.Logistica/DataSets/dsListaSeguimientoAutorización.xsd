@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaSeguimientoAutorización" targetNamespace="http://tempuri.org/dsListaSeguimientoAutorización.xsd" xmlns:mstns="http://tempuri.org/dsListaSeguimientoAutorización.xsd" xmlns="http://tempuri.org/dsListaSeguimientoAutorización.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaSeguimientoAutorización" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaSeguimientoAutorización" msprop:Generator_UserDSName="dsListaSeguimientoAutorización">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaSeguimientoAutorizacion" msprop:Generator_TableClassName="ListaSeguimientoAutorizacionDataTable" msprop:Generator_TableVarName="tableListaSeguimientoAutorizacion" msprop:Generator_RowChangedName="ListaSeguimientoAutorizacionRowChanged" msprop:Generator_TablePropName="ListaSeguimientoAutorizacion" msprop:Generator_RowDeletingName="ListaSeguimientoAutorizacionRowDeleting" msprop:Generator_RowChangingName="ListaSeguimientoAutorizacionRowChanging" msprop:Generator_RowEvHandlerName="ListaSeguimientoAutorizacionRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaSeguimientoAutorizacionRowDeleted" msprop:Generator_RowClassName="ListaSeguimientoAutorizacionRow" msprop:Generator_UserTableName="ListaSeguimientoAutorizacion" msprop:Generator_RowEvArgName="ListaSeguimientoAutorizacionRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Codigo" msprop:Generator_ColumnVarNameInTable="columnCodigo" msprop:Generator_ColumnPropNameInRow="Codigo" msprop:Generator_ColumnPropNameInTable="CodigoColumn" msprop:Generator_UserColumnName="Codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" msprop:Generator_UserColumnName="Tipo" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha_Emision" msprop:Generator_ColumnVarNameInTable="columnFecha_Emision" msprop:Generator_ColumnPropNameInRow="Fecha_Emision" msprop:Generator_ColumnPropNameInTable="Fecha_EmisionColumn" msprop:Generator_UserColumnName="Fecha_Emision" type="xs:string" minOccurs="0" />
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="Observacion" msprop:Generator_ColumnVarNameInTable="columnObservacion" msprop:Generator_ColumnPropNameInRow="Observacion" msprop:Generator_ColumnPropNameInTable="ObservacionColumn" msprop:Generator_UserColumnName="Observacion" type="xs:string" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Ruta" msprop:Generator_ColumnVarNameInTable="columnRuta" msprop:Generator_ColumnPropNameInRow="Ruta" msprop:Generator_ColumnPropNameInTable="RutaColumn" msprop:Generator_UserColumnName="Ruta" type="xs:string" minOccurs="0" />
+              <xs:element name="Solicitado_Por" msprop:Generator_ColumnVarNameInTable="columnSolicitado_Por" msprop:Generator_ColumnPropNameInRow="Solicitado_Por" msprop:Generator_ColumnPropNameInTable="Solicitado_PorColumn" msprop:Generator_UserColumnName="Solicitado_Por" type="xs:string" minOccurs="0" />
+              <xs:element name="Importancia" msprop:Generator_ColumnVarNameInTable="columnImportancia" msprop:Generator_ColumnPropNameInRow="Importancia" msprop:Generator_ColumnPropNameInTable="ImportanciaColumn" msprop:Generator_UserColumnName="Importancia" type="xs:string" minOccurs="0" />
+              <xs:element name="Autorizacion_Nivel1" msprop:Generator_ColumnVarNameInTable="columnAutorizacion_Nivel1" msprop:Generator_ColumnPropNameInRow="Autorizacion_Nivel1" msprop:Generator_ColumnPropNameInTable="Autorizacion_Nivel1Column" msprop:Generator_UserColumnName="Autorizacion_Nivel1" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha_Autorizacion_Nivel1" msprop:Generator_ColumnVarNameInTable="columnFecha_Autorizacion_Nivel1" msprop:Generator_ColumnPropNameInRow="Fecha_Autorizacion_Nivel1" msprop:Generator_ColumnPropNameInTable="Fecha_Autorizacion_Nivel1Column" msprop:Generator_UserColumnName="Fecha_Autorizacion_Nivel1" type="xs:string" minOccurs="0" />
+              <xs:element name="Autorizacion_Nivel2" msprop:Generator_ColumnVarNameInTable="columnAutorizacion_Nivel2" msprop:Generator_ColumnPropNameInRow="Autorizacion_Nivel2" msprop:Generator_ColumnPropNameInTable="Autorizacion_Nivel2Column" msprop:Generator_UserColumnName="Autorizacion_Nivel2" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha_Autorizacion_Nivel2" msprop:Generator_ColumnVarNameInTable="columnFecha_Autorizacion_Nivel2" msprop:Generator_ColumnPropNameInRow="Fecha_Autorizacion_Nivel2" msprop:Generator_ColumnPropNameInTable="Fecha_Autorizacion_Nivel2Column" msprop:Generator_UserColumnName="Fecha_Autorizacion_Nivel2" type="xs:string" minOccurs="0" />
+              <xs:element name="Autorizacion_Nivel3" msprop:Generator_ColumnVarNameInTable="columnAutorizacion_Nivel3" msprop:Generator_ColumnPropNameInRow="Autorizacion_Nivel3" msprop:Generator_ColumnPropNameInTable="Autorizacion_Nivel3Column" msprop:Generator_UserColumnName="Autorizacion_Nivel3" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha_Autorizacion_Nivel3" msprop:Generator_ColumnVarNameInTable="columnFecha_Autorizacion_Nivel3" msprop:Generator_ColumnPropNameInRow="Fecha_Autorizacion_Nivel3" msprop:Generator_ColumnPropNameInTable="Fecha_Autorizacion_Nivel3Column" msprop:Generator_UserColumnName="Fecha_Autorizacion_Nivel3" type="xs:string" minOccurs="0" />
+              <xs:element name="ORR_ID" msprop:Generator_ColumnVarNameInTable="columnORR_ID" msprop:Generator_ColumnPropNameInRow="ORR_ID" msprop:Generator_ColumnPropNameInTable="ORR_IDColumn" msprop:Generator_UserColumnName="ORR_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="ORR_FECHA" msprop:Generator_ColumnVarNameInTable="columnORR_FECHA" msprop:Generator_ColumnPropNameInRow="ORR_FECHA" msprop:Generator_ColumnPropNameInTable="ORR_FECHAColumn" msprop:Generator_UserColumnName="ORR_FECHA" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaRecojo" msprop:Generator_ColumnVarNameInTable="columnFechaRecojo" msprop:Generator_ColumnPropNameInRow="FechaRecojo" msprop:Generator_ColumnPropNameInTable="FechaRecojoColumn" msprop:Generator_UserColumnName="FechaRecojo" type="xs:string" minOccurs="0" />
+              <xs:element name="DMO_ID" msprop:Generator_ColumnVarNameInTable="columnDMO_ID" msprop:Generator_ColumnPropNameInRow="DMO_ID" msprop:Generator_ColumnPropNameInTable="DMO_IDColumn" msprop:Generator_UserColumnName="DMO_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="DMO_FECHA" msprop:Generator_ColumnVarNameInTable="columnDMO_FECHA" msprop:Generator_ColumnPropNameInRow="DMO_FECHA" msprop:Generator_ColumnPropNameInTable="DMO_FECHAColumn" msprop:Generator_UserColumnName="DMO_FECHA" type="xs:string" minOccurs="0" />
+              <xs:element name="DMD_GLOSA" msprop:Generator_ColumnVarNameInTable="columnDMD_GLOSA" msprop:Generator_ColumnPropNameInRow="DMD_GLOSA" msprop:Generator_ColumnPropNameInTable="DMD_GLOSAColumn" msprop:Generator_UserColumnName="DMD_GLOSA" type="xs:string" minOccurs="0" />
+              <xs:element name="Proveedor" msprop:Generator_ColumnVarNameInTable="columnProveedor" msprop:Generator_ColumnPropNameInRow="Proveedor" msprop:Generator_ColumnPropNameInTable="ProveedorColumn" msprop:Generator_UserColumnName="Proveedor" type="xs:string" minOccurs="0" />
+              <xs:element name="OCO_FECHAENTREGA" msprop:Generator_ColumnVarNameInTable="columnOCO_FECHAENTREGA" msprop:Generator_ColumnPropNameInRow="OCO_FECHAENTREGA" msprop:Generator_ColumnPropNameInTable="OCO_FECHAENTREGAColumn" msprop:Generator_UserColumnName="OCO_FECHAENTREGA" type="xs:string" minOccurs="0" />
+              <xs:element name="TIV_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnTIV_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="TIV_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="TIV_DESCRIPCIONColumn" msprop:Generator_UserColumnName="TIV_DESCRIPCION" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

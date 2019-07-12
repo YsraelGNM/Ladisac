@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaQuemaLadrillo" targetNamespace="http://tempuri.org/dsListaQuemaLadrillo.xsd" xmlns:mstns="http://tempuri.org/dsListaQuemaLadrillo.xsd" xmlns="http://tempuri.org/dsListaQuemaLadrillo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaQuemaLadrillo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaQuemaLadrillo" msprop:Generator_UserDSName="dsListaQuemaLadrillo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaQuemaLadrillo" msprop:Generator_TableClassName="ListaQuemaLadrilloDataTable" msprop:Generator_TableVarName="tableListaQuemaLadrillo" msprop:Generator_TablePropName="ListaQuemaLadrillo" msprop:Generator_RowDeletingName="ListaQuemaLadrilloRowDeleting" msprop:Generator_RowChangingName="ListaQuemaLadrilloRowChanging" msprop:Generator_RowEvHandlerName="ListaQuemaLadrilloRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaQuemaLadrilloRowDeleted" msprop:Generator_UserTableName="ListaQuemaLadrillo" msprop:Generator_RowChangedName="ListaQuemaLadrilloRowChanged" msprop:Generator_RowEvArgName="ListaQuemaLadrilloRowChangeEvent" msprop:Generator_RowClassName="ListaQuemaLadrilloRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="COQ_FECHA" msprop:Generator_ColumnVarNameInTable="columnCOQ_FECHA" msprop:Generator_ColumnPropNameInRow="COQ_FECHA" msprop:Generator_ColumnPropNameInTable="COQ_FECHAColumn" msprop:Generator_UserColumnName="COQ_FECHA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="COQ_ID" msprop:Generator_ColumnVarNameInTable="columnCOQ_ID" msprop:Generator_ColumnPropNameInRow="COQ_ID" msprop:Generator_ColumnPropNameInTable="COQ_IDColumn" msprop:Generator_UserColumnName="COQ_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="OPE" msprop:Generator_ColumnVarNameInTable="columnOPE" msprop:Generator_ColumnPropNameInRow="OPE" msprop:Generator_ColumnPropNameInTable="OPEColumn" msprop:Generator_UserColumnName="OPE" type="xs:string" minOccurs="0" />
+              <xs:element name="OPE2" msprop:Generator_ColumnVarNameInTable="columnOPE2" msprop:Generator_ColumnPropNameInRow="OPE2" msprop:Generator_ColumnPropNameInTable="OPE2Column" msprop:Generator_UserColumnName="OPE2" type="xs:string" minOccurs="0" />
+              <xs:element name="PRO_FECHA" msprop:Generator_ColumnVarNameInTable="columnPRO_FECHA" msprop:Generator_ColumnPropNameInRow="PRO_FECHA" msprop:Generator_ColumnPropNameInTable="PRO_FECHAColumn" msprop:Generator_UserColumnName="PRO_FECHA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PRO_ID" msprop:Generator_ColumnVarNameInTable="columnPRO_ID" msprop:Generator_ColumnPropNameInRow="PRO_ID" msprop:Generator_ColumnPropNameInTable="PRO_IDColumn" msprop:Generator_UserColumnName="PRO_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="ART_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnART_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ART_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ART_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ART_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="CAR_FECHA" msprop:Generator_ColumnVarNameInTable="columnCAR_FECHA" msprop:Generator_ColumnPropNameInRow="CAR_FECHA" msprop:Generator_ColumnPropNameInTable="CAR_FECHAColumn" msprop:Generator_UserColumnName="CAR_FECHA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CCD_CANTIDAD" msprop:Generator_ColumnVarNameInTable="columnCCD_CANTIDAD" msprop:Generator_ColumnPropNameInRow="CCD_CANTIDAD" msprop:Generator_ColumnPropNameInTable="CCD_CANTIDADColumn" msprop:Generator_UserColumnName="CCD_CANTIDAD" type="xs:int" minOccurs="0" />
+              <xs:element name="DPE_PESO" msprop:Generator_ColumnVarNameInTable="columnDPE_PESO" msprop:Generator_ColumnPropNameInRow="DPE_PESO" msprop:Generator_ColumnPropNameInTable="DPE_PESOColumn" msprop:Generator_UserColumnName="DPE_PESO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TN" msprop:Generator_ColumnVarNameInTable="columnTN" msprop:Generator_ColumnPropNameInRow="TN" msprop:Generator_ColumnPropNameInTable="TNColumn" msprop:Generator_UserColumnName="TN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GLNSTIPO" msprop:Generator_ColumnVarNameInTable="columnGLNSTIPO" msprop:Generator_ColumnPropNameInRow="GLNSTIPO" msprop:Generator_ColumnPropNameInTable="GLNSTIPOColumn" msprop:Generator_UserColumnName="GLNSTIPO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GLNSXTN" msprop:Generator_ColumnVarNameInTable="columnGLNSXTN" msprop:Generator_ColumnPropNameInRow="GLNSXTN" msprop:Generator_ColumnPropNameInTable="GLNSXTNColumn" msprop:Generator_UserColumnName="GLNSXTN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CCO_CANTIDAD" msprop:Generator_ColumnVarNameInTable="columnCCO_CANTIDAD" msprop:Generator_ColumnPropNameInRow="CCO_CANTIDAD" msprop:Generator_ColumnPropNameInTable="CCO_CANTIDADColumn" msprop:Generator_UserColumnName="CCO_CANTIDAD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="COQ_MI" msprop:Generator_ColumnVarNameInTable="columnCOQ_MI" msprop:Generator_ColumnPropNameInRow="COQ_MI" msprop:Generator_ColumnPropNameInTable="COQ_MIColumn" msprop:Generator_UserColumnName="COQ_MI" type="xs:int" minOccurs="0" />
+              <xs:element name="COQ_MF" msprop:Generator_ColumnVarNameInTable="columnCOQ_MF" msprop:Generator_ColumnPropNameInRow="COQ_MF" msprop:Generator_ColumnPropNameInTable="COQ_MFColumn" msprop:Generator_UserColumnName="COQ_MF" type="xs:int" minOccurs="0" />
+              <xs:element name="CANTMALE" msprop:Generator_ColumnVarNameInTable="columnCANTMALE" msprop:Generator_ColumnPropNameInRow="CANTMALE" msprop:Generator_ColumnPropNameInTable="CANTMALEColumn" msprop:Generator_UserColumnName="CANTMALE" type="xs:int" minOccurs="0" />
+              <xs:element name="LMA_CANTIDAD" msprop:Generator_ColumnVarNameInTable="columnLMA_CANTIDAD" msprop:Generator_ColumnPropNameInRow="LMA_CANTIDAD" msprop:Generator_ColumnPropNameInTable="LMA_CANTIDADColumn" msprop:Generator_UserColumnName="LMA_CANTIDAD" type="xs:int" minOccurs="0" />
+              <xs:element name="LAD_TIEMPO_COCCION" msprop:Generator_ColumnVarNameInTable="columnLAD_TIEMPO_COCCION" msprop:Generator_ColumnPropNameInRow="LAD_TIEMPO_COCCION" msprop:Generator_ColumnPropNameInTable="LAD_TIEMPO_COCCIONColumn" msprop:Generator_UserColumnName="LAD_TIEMPO_COCCION" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LAD_TEMP_COCCION" msprop:Generator_ColumnVarNameInTable="columnLAD_TEMP_COCCION" msprop:Generator_ColumnPropNameInRow="LAD_TEMP_COCCION" msprop:Generator_ColumnPropNameInTable="LAD_TEMP_COCCIONColumn" msprop:Generator_UserColumnName="LAD_TEMP_COCCION" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CCD_TIPO" msprop:Generator_ColumnVarNameInTable="columnCCD_TIPO" msprop:Generator_ColumnPropNameInRow="CCD_TIPO" msprop:Generator_ColumnPropNameInTable="CCD_TIPOColumn" msprop:Generator_UserColumnName="CCD_TIPO" type="xs:string" minOccurs="0" />
+              <xs:element name="HOR_ID" msprop:Generator_ColumnVarNameInTable="columnHOR_ID" msprop:Generator_ColumnPropNameInRow="HOR_ID" msprop:Generator_ColumnPropNameInTable="HOR_IDColumn" msprop:Generator_UserColumnName="HOR_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="LAD_PARAM_QUEMA" msprop:Generator_ColumnVarNameInTable="columnLAD_PARAM_QUEMA" msprop:Generator_ColumnPropNameInRow="LAD_PARAM_QUEMA" msprop:Generator_ColumnPropNameInTable="LAD_PARAM_QUEMAColumn" msprop:Generator_UserColumnName="LAD_PARAM_QUEMA" type="xs:string" minOccurs="0" />
+              <xs:element name="M3TIPOGAS" msprop:Generator_ColumnVarNameInTable="columnM3TIPOGAS" msprop:Generator_ColumnPropNameInRow="M3TIPOGAS" msprop:Generator_ColumnPropNameInTable="M3TIPOGASColumn" msprop:Generator_UserColumnName="M3TIPOGAS" type="xs:decimal" minOccurs="0" />
+              <xs:element name="M3XTNGAS" msprop:Generator_ColumnVarNameInTable="columnM3XTNGAS" msprop:Generator_ColumnPropNameInRow="M3XTNGAS" msprop:Generator_ColumnPropNameInTable="M3XTNGASColumn" msprop:Generator_UserColumnName="M3XTNGAS" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CCO_CANTIDAD_GAS" msprop:Generator_ColumnVarNameInTable="columnCCO_CANTIDAD_GAS" msprop:Generator_ColumnPropNameInRow="CCO_CANTIDAD_GAS" msprop:Generator_ColumnPropNameInTable="CCO_CANTIDAD_GASColumn" msprop:Generator_UserColumnName="CCO_CANTIDAD_GAS" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,120 @@
+﻿Imports Microsoft.Practices.Prism.Modularity
+Imports Microsoft.Practices.Unity
+
+Namespace Ladisac.Produccion
+    Public Class ModuleIni
+        Implements IModule
+
+        <Dependency()> _
+        Public Property ContainerService As IUnityContainer
+
+        Public Sub Initialize() Implements Microsoft.Practices.Prism.Modularity.IModule.Initialize
+            RegistrarDA()
+            RegistrarBL()
+            RegistrarComponentes()
+        End Sub
+
+        Public Sub RegistrarDA()
+            ContainerService.RegisterType(Of DA.IParadasRepositorio, DA.ParadasRepositorio)()
+            ContainerService.RegisterType(Of DA.ITipoParadasRepositorio, DA.TipoParadasRepositorio)()
+            ContainerService.RegisterType(Of DA.IParadasTiposRepositorio, DA.ParadasTiposRepositorio)()
+            ContainerService.RegisterType(Of DA.IHerramientasRepositorio, DA.HerramientasRepositorio)()
+            ContainerService.RegisterType(Of DA.ISecaderoRepositorio, DA.SecaderoRepositorio)()
+            ContainerService.RegisterType(Of DA.ICortadoraRepositorio, DA.CortadoraRepositorio)()
+            ContainerService.RegisterType(Of DA.ICanchaRepositorio, DA.CanchaRepositorio)()
+            ContainerService.RegisterType(Of DA.ITipoProduccionRepositorio, DA.TipoProduccionRepositorio)()
+            ContainerService.RegisterType(Of DA.IPlantaRepositorio, DA.PlantaRepositorio)()
+            ContainerService.RegisterType(Of DA.IProduccionRepositorio, DA.ProduccionRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlConteoRepositorio, DA.ControlConteoRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlConteoDetalleRepositorio, DA.ControlConteoDetalleRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlParadaRepositorio, DA.ControlParadaRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlParadaDetalleRepositorio, DA.ControlParadaDetalleRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlParadaArticuloDetalleRepositorio, DA.ControlParadaArticuloDetalleRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlParadaMoldeDetalleRepositorio, DA.ControlParadamoldeDetalleRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlCancheroRepositorio, DA.ControlCancheroRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlCancheroDetalleRepositorio, DA.ControlCancheroDetalleRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlPesoRepositorio, DA.ControlPesoRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlPesoDetalleRepositorio, DA.ControlPesoDetalleRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlExtrusoraRepositorio, DA.ControlExtrusoraRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlExtrusoraDetalleRepositorio, DA.ControlExtrusoraDetalleRepositorio)()
+            ContainerService.RegisterType(Of DA.ISalidaSecaderoRepositorio, DA.SalidaSecaderoRepositorio)()
+            ContainerService.RegisterType(Of DA.ISalidaSecaderoDetalleRepositorio, DA.SalidaSecaderoDetalleRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlMezclaRepositorio, DA.ControlMezclaRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlMezclaRecetaDetalleRepositorio, DA.ControlMezclaRecetaDetalleRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlMezclaMezclaDetalleRepositorio, DA.ControlMezclaMezclaDetalleRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlInspeccionRepositorio, DA.ControlInspeccionRepositorio)()
+            ContainerService.RegisterType(Of DA.IHornoRepositorio, DA.HornoRepositorio)()
+            ContainerService.RegisterType(Of DA.IMoldeRepositorio, DA.MoldeRepositorio)()
+            ContainerService.RegisterType(Of DA.ICatsRepositorio, DA.CatsRepositorio)()
+            ContainerService.RegisterType(Of DA.IPuertaHornoRepositorio, DA.PuertaHornoRepositorio)()
+            ContainerService.RegisterType(Of DA.IMaleconPuertaRepositorio, DA.MaleconPuertaRepositorio)()
+            ContainerService.RegisterType(Of DA.ILadrilloMaleconRepositorio, DA.LadrilloMaleconRepositorio)()
+            ContainerService.RegisterType(Of DA.ICaCoDeDetalleRepositorio, DA.CaCoDeDetalleRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlCargaRepositorio, DA.ControlCargaRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlQuemaRepositorio, DA.ControlQuemaRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlDescargaRepositorio, DA.ControlDescargaRepositorio)()
+            ContainerService.RegisterType(Of DA.IConsumoCombustibleRepositorio, DA.ConsumoCombustibleRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlDescargaRumaRepositorio, DA.ControlDescargaRumaRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlDescargaRumaDetalleRepositorio, DA.ControlDescargaRumaDetalleRepositorio)()
+            ContainerService.RegisterType(Of DA.ILadrilloRepositorio, DA.LadrilloRepositorio)()
+            ContainerService.RegisterType(Of DA.IExtrusoraRepositorio, DA.ExtrusoraRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlEnergiaRepositorio, DA.ControlEnergiaRepositorio)()
+            ContainerService.RegisterType(Of DA.IReciclajeLadrilloVentaRepositorio, DA.ReciclajeLadrilloVentaRepositorio)()
+            ContainerService.RegisterType(Of DA.IKardexLoteRepositorio, DA.KardexLoteRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlPlantaRepositorio, DA.ControlPlantaRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlPlantaDetalleRepositorio, DA.ControlPlantaDetalleRepositorio)()
+            ContainerService.RegisterType(Of DA.IPlanCargaDescargaHornoRepositorio, DA.PlanCargaDescargaHornoRepositorio)()
+            ContainerService.RegisterType(Of DA.ICargaDescargaTransporteRepositorio, DA.CargaDescargaTransporteRepositorio)()
+            ContainerService.RegisterType(Of DA.IControlPaqueteoRepositorio, DA.ControlPaqueteoRepositorio)()
+        End Sub
+
+        Public Sub RegistrarBL()
+            ContainerService.RegisterType(Of BL.IBCParada, BL.BCParada)()
+            ContainerService.RegisterType(Of BL.IBCTipoParada, BL.BCTipoParada)()
+            ContainerService.RegisterType(Of BL.IBCHerramientas, Ladisac.BL.BCHerramientas)()
+            ContainerService.RegisterType(Of BL.IBCSecadero, Ladisac.BL.BCSecadero)()
+            ContainerService.RegisterType(Of BL.IBCCortadora, Ladisac.BL.BCCortadora)()
+            ContainerService.RegisterType(Of BL.IBCCancha, Ladisac.BL.BCCancha)()
+            ContainerService.RegisterType(Of BL.IBCTipoProduccion, Ladisac.BL.BCTipoProduccion)()
+            ContainerService.RegisterType(Of BL.IBCPlanta, Ladisac.BL.BCPlanta)()
+            ContainerService.RegisterType(Of BL.IBCProduccion, Ladisac.BL.BCProduccion)()
+            ContainerService.RegisterType(Of BL.IBCControlConteo, Ladisac.BL.BCControlConteo)()
+            ContainerService.RegisterType(Of BL.IBCControlParada, Ladisac.BL.BCControlParada)()
+            ContainerService.RegisterType(Of BL.IBCControlCanchero, Ladisac.BL.BCControlCanchero)()
+            ContainerService.RegisterType(Of BL.IBCControlPeso, Ladisac.BL.BCControlPeso)()
+            ContainerService.RegisterType(Of BL.IBCControlExtrusora, Ladisac.BL.BCControlExtrusora)()
+            ContainerService.RegisterType(Of BL.IBCSalidaSecadero, Ladisac.BL.BCSalidaSecadero)()
+            ContainerService.RegisterType(Of BL.IBCControlMezcla, Ladisac.BL.BCControlMezcla)()
+            ContainerService.RegisterType(Of BL.IBCControlInspeccion, Ladisac.BL.BCControlInspeccion)()
+            ContainerService.RegisterType(Of BL.IBCHorno, Ladisac.BL.BCHorno)()
+            ContainerService.RegisterType(Of BL.IBCMolde, Ladisac.BL.BCMolde)()
+            ContainerService.RegisterType(Of BL.IBCCats, Ladisac.BL.BCCats)()
+            ContainerService.RegisterType(Of BL.IBCPuertaHorno, Ladisac.BL.BCPuertaHorno)()
+            ContainerService.RegisterType(Of BL.IBCMaleconPuerta, Ladisac.BL.BCMaleconPuerta)()
+            ContainerService.RegisterType(Of BL.IBCLadrilloMalecon, Ladisac.BL.BCLadrilloMalecon)()
+            ContainerService.RegisterType(Of BL.IBCCaCoDeDetalle, Ladisac.BL.BCCaCoDeDetalle)()
+            ContainerService.RegisterType(Of BL.IBCControlCarga, Ladisac.BL.BCControlCarga)()
+            ContainerService.RegisterType(Of BL.IBCControlQuema, Ladisac.BL.BCControlQuema)()
+            ContainerService.RegisterType(Of BL.IBCControlDescarga, Ladisac.BL.BCControlDescarga)()
+            ContainerService.RegisterType(Of BL.IBCConsumoCombustible, Ladisac.BL.BCConsumoCombustible)()
+            ContainerService.RegisterType(Of BL.IBCControlDescargaRuma, Ladisac.BL.BCControlDescargaRuma)()
+            ContainerService.RegisterType(Of BL.IBCLadrillo, Ladisac.BL.BCLadrillo)()
+            ContainerService.RegisterType(Of BL.IBCExtrusora, Ladisac.BL.BCExtrusora)()
+            ContainerService.RegisterType(Of BL.IBCControlEnergia, Ladisac.BL.BCControlEnergia)()
+            ContainerService.RegisterType(Of BL.IBCReciclajeLadrilloVenta, Ladisac.BL.BCReciclajeLadrilloVenta)()
+            ContainerService.RegisterType(Of BL.IBCKardexLote, Ladisac.BL.BCKardexLote)()
+            ContainerService.RegisterType(Of BL.IBCControlPlanta, Ladisac.BL.BCControlPlanta)()
+            ContainerService.RegisterType(Of BL.IBCPlanCargaDescargaHorno, Ladisac.BL.BCPlanCargaDescargaHorno)()
+            ContainerService.RegisterType(Of BL.IBCControlPaqueteo, Ladisac.BL.BCControlPaqueteo)()
+        End Sub
+
+        Private Sub RegistrarComponentes()
+            ContainerService.RegisterType(Of Ladisac.Produccion.ModuleController) _
+                (New Microsoft.Practices.Unity.ContainerControlledLifetimeManager)
+
+            Dim controlller = ContainerService.Resolve(Of Ladisac.Produccion.ModuleController)()
+            controlller.run()
+
+        End Sub
+    End Class
+End Namespace

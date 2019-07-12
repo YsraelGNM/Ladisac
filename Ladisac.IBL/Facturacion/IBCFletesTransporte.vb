@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.BL    Public Interface IBCFletesTransporte        Function Mantenimiento(ByVal Item As FletesTransporte) As Short    End InterfaceEnd Namespace

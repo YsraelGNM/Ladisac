@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.DAPublic Interface IOficinasRepositorioFunction Maintenance(ByVal item As Oficinas) As ShortEnd InterfaceEnd Namespace

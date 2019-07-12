@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.DAPublic Interface IConfiguracionVehicularRepositorioFunction Maintenance(ByVal item As ConfiguracionVehicular) As ShortEnd InterfaceEnd Namespace

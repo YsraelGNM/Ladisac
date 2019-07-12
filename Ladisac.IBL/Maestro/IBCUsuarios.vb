@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.BLPublic Interface IBCUsuariosFunction Mantenimiento(ByVal Item As Usuarios) As ShortEnd InterfaceEnd Namespace

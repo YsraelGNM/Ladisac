@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.DA    Public Interface IDetalleCierreRepositorio        Function Maintenance(ByVal item As DetalleCierre) As Short        Function DeleteRegistro(ByVal item As DetalleCierre, ByVal cCIE_ID As String, ByVal cDTD_ID As String) As Short    End InterfaceEnd Namespace

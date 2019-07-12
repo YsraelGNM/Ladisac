@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaGuiasPorSalir" targetNamespace="http://tempuri.org/dsListaGuiasPorSalir.xsd" xmlns:mstns="http://tempuri.org/dsListaGuiasPorSalir.xsd" xmlns="http://tempuri.org/dsListaGuiasPorSalir.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaGuiasPorSalir" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaGuiasPorSalir" msprop:Generator_UserDSName="dsListaGuiasPorSalir">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaGuiasPorSalir" msprop:Generator_TableClassName="ListaGuiasPorSalirDataTable" msprop:Generator_TableVarName="tableListaGuiasPorSalir" msprop:Generator_RowChangedName="ListaGuiasPorSalirRowChanged" msprop:Generator_TablePropName="ListaGuiasPorSalir" msprop:Generator_RowDeletingName="ListaGuiasPorSalirRowDeleting" msprop:Generator_RowChangingName="ListaGuiasPorSalirRowChanging" msprop:Generator_RowEvHandlerName="ListaGuiasPorSalirRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaGuiasPorSalirRowDeleted" msprop:Generator_RowClassName="ListaGuiasPorSalirRow" msprop:Generator_UserTableName="ListaGuiasPorSalir" msprop:Generator_RowEvArgName="ListaGuiasPorSalirRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DTD_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnDTD_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="DTD_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="DTD_DESCRIPCIONColumn" msprop:Generator_UserColumnName="DTD_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="DES_SERIE" msprop:Generator_ColumnVarNameInTable="columnDES_SERIE" msprop:Generator_ColumnPropNameInRow="DES_SERIE" msprop:Generator_ColumnPropNameInTable="DES_SERIEColumn" msprop:Generator_UserColumnName="DES_SERIE" type="xs:string" minOccurs="0" />
+              <xs:element name="DES_NUMERO" msprop:Generator_ColumnVarNameInTable="columnDES_NUMERO" msprop:Generator_ColumnPropNameInRow="DES_NUMERO" msprop:Generator_ColumnPropNameInTable="DES_NUMEROColumn" msprop:Generator_UserColumnName="DES_NUMERO" type="xs:string" minOccurs="0" />
+              <xs:element name="FECHA" msprop:Generator_ColumnVarNameInTable="columnFECHA" msprop:Generator_ColumnPropNameInRow="FECHA" msprop:Generator_ColumnPropNameInTable="FECHAColumn" msprop:Generator_UserColumnName="FECHA" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnART_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ART_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ART_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ART_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="DDE_CANTIDAD" msprop:Generator_ColumnVarNameInTable="columnDDE_CANTIDAD" msprop:Generator_ColumnPropNameInRow="DDE_CANTIDAD" msprop:Generator_ColumnPropNameInTable="DDE_CANTIDADColumn" msprop:Generator_UserColumnName="DDE_CANTIDAD" type="xs:string" minOccurs="0" />
+              <xs:element name="DIR_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnDIR_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="DIR_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="DIR_DESCRIPCIONColumn" msprop:Generator_UserColumnName="DIR_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="DIR_REFERENCIA" msprop:Generator_ColumnVarNameInTable="columnDIR_REFERENCIA" msprop:Generator_ColumnPropNameInRow="DIR_REFERENCIA" msprop:Generator_ColumnPropNameInTable="DIR_REFERENCIAColumn" msprop:Generator_UserColumnName="DIR_REFERENCIA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

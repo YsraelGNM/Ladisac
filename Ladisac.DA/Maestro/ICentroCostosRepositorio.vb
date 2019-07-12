@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.DA    Public Interface ICentroCostosRepositorio        Function Maintenance(ByVal item As CentroCostos) As Short    End InterfaceEnd Namespace

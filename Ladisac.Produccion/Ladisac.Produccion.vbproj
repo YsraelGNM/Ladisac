@@ -1,0 +1,1352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{10904CFB-B810-4232-8A6C-864C59E65430}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>Ladisac.Produccion</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>%24/LadisacMarzo/Ladisac.Produccion</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>https://tfs.codeplex.com/tfs/tfs41</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Ladisac.Produccion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Ladisac.Produccion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Infrastructure, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Ladisac.Contabilidad">
+      <HintPath>..\Ladisac.Contabilidad\obj\x86\Debug\Ladisac.Contabilidad.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Libraries\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception.Configuration, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.Interception.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants\BuscadoresNames.vb" />
+    <Compile Include="Constants\ColumnaCalendario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Constants\DataGridViewPrinter.vb" />
+    <Compile Include="Constants\MenuNames.vb" />
+    <Compile Include="Controllers\Herramientas.vb" />
+    <Compile Include="Controllers\ModuleController.vb" />
+    <Compile Include="DataSet\dsListaCantidadQuemadaXAnio.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaCantidadQuemadaXAnio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaReciclajeDespachoLadrillo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaReciclajeDespachoLadrillo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaReciclajeVentaLadrilloXAnioSeparado.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaReciclajeVentaLadrilloXAnioSeparado.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaTNQuemadaXAnio.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaTNQuemadaXAnio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsReporteBrutoNetoMateriaPrima.Designer.vb">
+      <DependentUpon>dsReporteBrutoNetoMateriaPrima.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataSet\dsReporteBrutoNetoMateriaPrima.vb">
+      <DependentUpon>dsReporteBrutoNetoMateriaPrima.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaDistribucionCombustibleProduccion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaDistribucionCombustibleProduccion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaDistribucionEnergiaProduccion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaDistribucionEnergiaProduccion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaReciclajeVentaLadrillo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaReciclajeVentaLadrillo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaReciclajeVentaLadrilloDespacho.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaReciclajeVentaLadrilloDespacho.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaResumenParada.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaResumenParada.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaResumenParada.vb">
+      <DependentUpon>dsListaResumenParada.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaSalidaHornoVsDespacho.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaSalidaHornoVsDespacho.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaTnProducidas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaTnProducidas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaTnQuemadas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaTnQuemadas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsReciclajeVentaLadrillox12Mes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReciclajeVentaLadrillox12Mes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsReporteFinalProduccionComparativo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteFinalProduccionComparativo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsReporteFinalProduccionComparativo.vb">
+      <DependentUpon>dsReporteFinalProduccionComparativo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsReporteFinalProduccionFinalizada.Designer.vb">
+      <DependentUpon>dsReporteFinalProduccionFinalizada.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataSet\dsReporteFinalProduccionFinalizada.vb">
+      <DependentUpon>dsReporteFinalProduccionFinalizada.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsConsumoR500PorDia.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsConsumoR500PorDia.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsConsumoR500PorDia.vb">
+      <DependentUpon>dsConsumoR500PorDia.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsFactoresProduccion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFactoresProduccion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsFactoresProduccionResumen.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFactoresProduccionResumen.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsFactoresProduccionSecadero.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFactoresProduccionSecadero.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaCombustibleHorno.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaCombustibleHorno.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaCombustibleHorno.vb">
+      <DependentUpon>dsListaCombustibleHorno.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaCombustibleXQuemador.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaCombustibleXQuemador.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaConsumoCombustibleXResponsable.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaConsumoCombustibleXResponsable.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaConsumoCombustibleXResponsable.vb">
+      <DependentUpon>dsListaConsumoCombustibleXResponsable.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaCtrlParadasXDia.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaCtrlParadasXDia.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaDesHorXPuerta.Designer.vb">
+      <DependentUpon>dsListaDesHorXPuerta.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="DataSet\dsListaPesosYHumedadesPorDia.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaPesosYHumedadesPorDia.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaQuemaLadrillo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaQuemaLadrillo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaQuemaLadrillo.vb">
+      <DependentUpon>dsListaQuemaLadrillo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaResumenControlParadaPorDia.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaResumenControlParadaPorDia.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaResumenControlParadaPorDia.vb">
+      <DependentUpon>dsListaResumenControlParadaPorDia.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsListaVueltasHornoXAnio.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsListaVueltasHornoXAnio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsProcesoTerminado.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProcesoTerminado.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsReporteFinalProduccion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteFinalProduccion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsReporteFinalProduccion.vb">
+      <DependentUpon>dsReporteFinalProduccion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsReporteInspecciones.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteInspecciones.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsReporteInspecciones.vb">
+      <DependentUpon>dsReporteInspecciones.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsReporteSalidaHornoXAnio.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteSalidaHornoXAnio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsReporteSalidaHornoXAnio.vb">
+      <DependentUpon>dsReporteSalidaHornoXAnio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsReporteSalidaSecadero.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteSalidaSecadero.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsReporteSalidaVagonXDia.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteSalidaVagonXDia.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleIni.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Views\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmCaCoDe.Designer.vb">
+      <DependentUpon>frmCaCoDe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmCaCoDe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmCancha.Designer.vb">
+      <DependentUpon>frmCancha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmCancha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmConsumoCombustible.Designer.vb">
+      <DependentUpon>frmConsumoCombustible.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmConsumoCombustible.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmControlCanchero.Designer.vb">
+      <DependentUpon>frmControlCanchero.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmControlCanchero.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmControlConteo.Designer.vb">
+      <DependentUpon>frmControlConteo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmControlConteo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmControlDescargaRuma.Designer.vb">
+      <DependentUpon>frmControlDescargaRuma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmControlDescargaRuma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmControlEnergia.Designer.vb">
+      <DependentUpon>frmControlEnergia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmControlEnergia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmControlExtrusora.Designer.vb">
+      <DependentUpon>frmControlExtrusora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmControlExtrusora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmControlInspeccion.Designer.vb">
+      <DependentUpon>frmControlInspeccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmControlInspeccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmControlMezcla.Designer.vb">
+      <DependentUpon>frmControlMezcla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmControlMezcla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmControlPaqueteo.Designer.vb">
+      <DependentUpon>frmControlPaqueteo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmControlPaqueteo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmControlParada.Designer.vb">
+      <DependentUpon>frmControlParada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmControlParada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmControlPeso.Designer.vb">
+      <DependentUpon>frmControlPeso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmControlPeso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmControlPlanta.Designer.vb">
+      <DependentUpon>frmControlPlanta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmControlPlanta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmCortadora.Designer.vb">
+      <DependentUpon>frmCortadora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmCortadora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmExtrusora.Designer.vb">
+      <DependentUpon>frmExtrusora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmExtrusora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmHorno.Designer.vb">
+      <DependentUpon>frmHorno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmHorno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmLadrillo.Designer.vb">
+      <DependentUpon>frmLadrillo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmLadrillo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmLadrilloMalecon.Designer.vb">
+      <DependentUpon>frmLadrilloMalecon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmLadrilloMalecon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmMaleconPuerta.Designer.vb">
+      <DependentUpon>frmMaleconPuerta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmMaleconPuerta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmParadas.Designer.vb">
+      <DependentUpon>frmParadas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmParadas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmPlanCargaDescargaHorno.Designer.vb">
+      <DependentUpon>frmPlanCargaDescargaHorno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmPlanCargaDescargaHorno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmPlanta.Designer.vb">
+      <DependentUpon>frmPlanta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmPlanta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmProduccion.Designer.vb">
+      <DependentUpon>frmProduccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmProduccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmPuertaHorno.Designer.vb">
+      <DependentUpon>frmPuertaHorno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmPuertaHorno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRegularizarLadrillo.Designer.vb">
+      <DependentUpon>frmRegularizarLadrillo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRegularizarLadrillo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmReporteBrutoNetoMateriaPrima.Designer.vb">
+      <DependentUpon>frmReporteBrutoNetoMateriaPrima.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReporteBrutoNetoMateriaPrima.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmResumenParada.Designer.vb">
+      <DependentUpon>frmResumenParada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmResumenParada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptConsumoCombustible.Designer.vb">
+      <DependentUpon>frmRptConsumoCombustible.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptConsumoCombustible.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptConsumoCombustibleXResponsable.Designer.vb">
+      <DependentUpon>frmRptConsumoCombustibleXResponsable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptConsumoCombustibleXResponsable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptContabilidad.Designer.vb">
+      <DependentUpon>frmRptContabilidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptContabilidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptControlParadasPorDia.Designer.vb">
+      <DependentUpon>frmRptControlParadasPorDia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptControlParadasPorDia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptDesHorXPuerta.Designer.vb">
+      <DependentUpon>frmRptDesHorXPuerta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptDesHorXPuerta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptDistribucionCombustibleProduccion.Designer.vb">
+      <DependentUpon>frmRptDistribucionCombustibleProduccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptDistribucionCombustibleProduccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptDistribucionEnergiaProduccion.Designer.vb">
+      <DependentUpon>frmRptDistribucionEnergiaProduccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptDistribucionEnergiaProduccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptFactoresProduccion.designer.vb">
+      <DependentUpon>frmRptFactoresProduccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptFactoresProduccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptInspecciones.Designer.vb">
+      <DependentUpon>frmRptInspecciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptInspecciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptListaReciclajeVentaLadrillo.Designer.vb">
+      <DependentUpon>frmRptListaReciclajeVentaLadrillo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptListaReciclajeVentaLadrillo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptListaReciclajeVentaLadrilloDespacho.Designer.vb">
+      <DependentUpon>frmRptListaReciclajeVentaLadrilloDespacho.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptListaReciclajeVentaLadrilloDespacho.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptListaSalidaHornoVsDespacho.Designer.vb">
+      <DependentUpon>frmRptListaSalidaHornoVsDespacho.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptListaSalidaHornoVsDespacho.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptListatnQuemadas.Designer.vb">
+      <DependentUpon>frmRptListatnQuemadas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptListatnQuemadas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptReciclajeDespachoLadrillo.Designer.vb">
+      <DependentUpon>frmRptReciclajeDespachoLadrillo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptReciclajeDespachoLadrillo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptReciclajeVentaLadrillox12Mes.Designer.vb">
+      <DependentUpon>frmRptReciclajeVentaLadrillox12Mes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptReciclajeVentaLadrillox12Mes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptReporteFinalProduccion.Designer.vb">
+      <DependentUpon>frmRptReporteFinalProduccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptReporteFinalProduccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptReporteSalidaHornoXAnio.Designer.vb">
+      <DependentUpon>frmRptReporteSalidaHornoXAnio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptReporteSalidaHornoXAnio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptSalidaSecadero.Designer.vb">
+      <DependentUpon>frmRptSalidaSecadero.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptSalidaSecadero.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptListaPesosYHumedadesPorDia.Designer.vb">
+      <DependentUpon>frmRptListaPesosYHumedadesPorDia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptListaPesosYHumedadesPorDia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptPesoQuema.Designer.vb">
+      <DependentUpon>frmRptPesoQuema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptPesoQuema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptProcesoTerminado.Designer.vb">
+      <DependentUpon>frmRptProcesoTerminado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptProcesoTerminado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptQuemaLadrillo.Designer.vb">
+      <DependentUpon>frmRptQuemaLadrillo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptQuemaLadrillo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmSalidaSecadero.Designer.vb">
+      <DependentUpon>frmSalidaSecadero.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmSalidaSecadero.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmSecadero.Designer.vb">
+      <DependentUpon>frmSecadero.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmSecadero.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmTipoParada.Designer.vb">
+      <DependentUpon>frmTipoParada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmTipoParada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmTipoProduccion.Designer.vb">
+      <DependentUpon>frmTipoProduccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmTipoProduccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmControlPaqueteo.resx">
+      <DependentUpon>frmControlPaqueteo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmPlanCargaDescargaHorno.resx">
+      <DependentUpon>frmPlanCargaDescargaHorno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptContabilidad.resx">
+      <DependentUpon>frmRptContabilidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptReporteSalidaHornoXAnio.resx">
+      <DependentUpon>frmRptReporteSalidaHornoXAnio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\rptReporteSalidaHornoXAnio.rdlc" />
+    <EmbeddedResource Include="Views\rptContabilidad.rdlc" />
+    <EmbeddedResource Include="Views\rptListaReciclajeDespachoLadrillo.rdlc" />
+    <EmbeddedResource Include="Views\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmCaCoDe.resx">
+      <DependentUpon>frmCaCoDe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmCancha.resx">
+      <DependentUpon>frmCancha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmConsumoCombustible.resx">
+      <DependentUpon>frmConsumoCombustible.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmControlCanchero.resx">
+      <DependentUpon>frmControlCanchero.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmControlConteo.resx">
+      <DependentUpon>frmControlConteo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmControlDescargaRuma.resx">
+      <DependentUpon>frmControlDescargaRuma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmControlEnergia.resx">
+      <DependentUpon>frmControlEnergia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmControlExtrusora.resx">
+      <DependentUpon>frmControlExtrusora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmControlInspeccion.resx">
+      <DependentUpon>frmControlInspeccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmControlMezcla.resx">
+      <DependentUpon>frmControlMezcla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmControlParada.resx">
+      <DependentUpon>frmControlParada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmControlPeso.resx">
+      <DependentUpon>frmControlPeso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmControlPlanta.resx">
+      <DependentUpon>frmControlPlanta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmCortadora.resx">
+      <DependentUpon>frmCortadora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmExtrusora.resx">
+      <DependentUpon>frmExtrusora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmHorno.resx">
+      <DependentUpon>frmHorno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmLadrillo.resx">
+      <DependentUpon>frmLadrillo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmLadrilloMalecon.resx">
+      <DependentUpon>frmLadrilloMalecon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmMaleconPuerta.resx">
+      <DependentUpon>frmMaleconPuerta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmParadas.resx">
+      <DependentUpon>frmParadas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmPlanta.resx">
+      <DependentUpon>frmPlanta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmProduccion.resx">
+      <DependentUpon>frmProduccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmPuertaHorno.resx">
+      <DependentUpon>frmPuertaHorno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRegularizarLadrillo.resx">
+      <DependentUpon>frmRegularizarLadrillo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmReporteBrutoNetoMateriaPrima.resx">
+      <DependentUpon>frmReporteBrutoNetoMateriaPrima.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmResumenParada.resx">
+      <DependentUpon>frmResumenParada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptConsumoCombustible.resx">
+      <DependentUpon>frmRptConsumoCombustible.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptConsumoCombustibleXResponsable.resx">
+      <DependentUpon>frmRptConsumoCombustibleXResponsable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptControlParadasPorDia.resx">
+      <DependentUpon>frmRptControlParadasPorDia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptDesHorXPuerta.resx">
+      <DependentUpon>frmRptDesHorXPuerta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptDistribucionCombustibleProduccion.resx">
+      <DependentUpon>frmRptDistribucionCombustibleProduccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptDistribucionEnergiaProduccion.resx">
+      <DependentUpon>frmRptDistribucionEnergiaProduccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptFactoresProduccion.resx">
+      <DependentUpon>frmRptFactoresProduccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptInspecciones.resx">
+      <DependentUpon>frmRptInspecciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptListaReciclajeVentaLadrillo.resx">
+      <DependentUpon>frmRptListaReciclajeVentaLadrillo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptListaReciclajeVentaLadrilloDespacho.resx">
+      <DependentUpon>frmRptListaReciclajeVentaLadrilloDespacho.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptListaSalidaHornoVsDespacho.resx">
+      <DependentUpon>frmRptListaSalidaHornoVsDespacho.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptListatnQuemadas.resx">
+      <DependentUpon>frmRptListatnQuemadas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptReciclajeDespachoLadrillo.resx">
+      <DependentUpon>frmRptReciclajeDespachoLadrillo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptReciclajeVentaLadrillox12Mes.resx">
+      <DependentUpon>frmRptReciclajeVentaLadrillox12Mes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptReporteFinalProduccion.resx">
+      <DependentUpon>frmRptReporteFinalProduccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptSalidaSecadero.resx">
+      <DependentUpon>frmRptSalidaSecadero.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptListaPesosYHumedadesPorDia.resx">
+      <DependentUpon>frmRptListaPesosYHumedadesPorDia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptPesoQuema.resx">
+      <DependentUpon>frmRptPesoQuema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptProcesoTerminado.resx">
+      <DependentUpon>frmRptProcesoTerminado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptQuemaLadrillo.resx">
+      <DependentUpon>frmRptQuemaLadrillo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmSalidaSecadero.resx">
+      <DependentUpon>frmSalidaSecadero.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmSecadero.resx">
+      <DependentUpon>frmSecadero.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmTipoParada.resx">
+      <DependentUpon>frmTipoParada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmTipoProduccion.resx">
+      <DependentUpon>frmTipoProduccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\rptConsumoCombustibleVagones.rdlc" />
+    <EmbeddedResource Include="Views\rptReporteBrutoNetoMateriPrima.rdlc" />
+    <EmbeddedResource Include="Views\rptReporteFinalProduccionCorto.rdlc" />
+    <EmbeddedResource Include="Views\rptDistribucionEnergiaProduccion.rdlc" />
+    <EmbeddedResource Include="Views\rptReciclajeVentaLadrillox12Mes.rdlc" />
+    <EmbeddedResource Include="Views\rptDistribucionCombustibleProduccion.rdlc" />
+    <EmbeddedResource Include="Views\rptListaSalidaHornoVsDespacho.rdlc" />
+    <EmbeddedResource Include="Views\rptListaTnQuemadas_Producidas.rdlc" />
+    <EmbeddedResource Include="Views\rptReciclajeVentaLadrilloDespacho.rdlc" />
+    <EmbeddedResource Include="Views\rptReporteFinalProduccionComparativo.rdlc" />
+    <EmbeddedResource Include="Views\rptListaResumenParada.rdlc" />
+    <EmbeddedResource Include="Views\rptListaReciclajeVentaLadrillo.rdlc" />
+    <EmbeddedResource Include="Views\rptReporteFinalProduccionDetallado.rdlc" />
+    <EmbeddedResource Include="Views\rptFactoresProduccionResumen.rdlc" />
+    <EmbeddedResource Include="Views\rptListaConsumoCombustibleXResponsable.rdlc" />
+    <EmbeddedResource Include="Views\rptFactoresProduccion.rdlc" />
+    <EmbeddedResource Include="Views\rptInspecciones.rdlc" />
+    <EmbeddedResource Include="Views\rptReporteFinalProduccion.rdlc" />
+    <EmbeddedResource Include="Views\rptReporteFinalProduccionResumen.rdlc" />
+    <EmbeddedResource Include="Views\rptReporteSalidaVagonXDia.rdlc" />
+    <EmbeddedResource Include="Views\rptSalidaSecadero.rdlc" />
+    <EmbeddedResource Include="Views\rptListaPesosYHumedadesPorDia.rdlc" />
+    <EmbeddedResource Include="Views\rptProcesoTerminado.rdlc" />
+    <EmbeddedResource Include="Views\rptListaConsumoCombustible.rdlc" />
+    <EmbeddedResource Include="Views\rptListaDesHorXPuerta.rdlc" />
+    <EmbeddedResource Include="Views\rptListaQuemaLadrillo.rdlc" />
+    <EmbeddedResource Include="Views\rptListaCtrlParadasXDia.rdlc" />
+    <EmbeddedResource Include="Views\rptSalidaSecaderoConsolidado.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSet\dsListaCantidadQuemadaXAnio.xsc">
+      <DependentUpon>dsListaCantidadQuemadaXAnio.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaCantidadQuemadaXAnio.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaCantidadQuemadaXAnio.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaCantidadQuemadaXAnio.xss">
+      <DependentUpon>dsListaCantidadQuemadaXAnio.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaReciclajeDespachoLadrillo.xsc">
+      <DependentUpon>dsListaReciclajeDespachoLadrillo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaReciclajeDespachoLadrillo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaReciclajeDespachoLadrillo.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaReciclajeDespachoLadrillo.xss">
+      <DependentUpon>dsListaReciclajeDespachoLadrillo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaReciclajeVentaLadrilloXAnioSeparado.xsc">
+      <DependentUpon>dsListaReciclajeVentaLadrilloXAnioSeparado.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaReciclajeVentaLadrilloXAnioSeparado.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaReciclajeVentaLadrilloXAnioSeparado.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaReciclajeVentaLadrilloXAnioSeparado.xss">
+      <DependentUpon>dsListaReciclajeVentaLadrilloXAnioSeparado.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaTNQuemadaXAnio.xsc">
+      <DependentUpon>dsListaTNQuemadaXAnio.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaTNQuemadaXAnio.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaTNQuemadaXAnio.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaTNQuemadaXAnio.xss">
+      <DependentUpon>dsListaTNQuemadaXAnio.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReporteBrutoNetoMateriaPrima.xsc">
+      <DependentUpon>dsReporteBrutoNetoMateriaPrima.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReporteBrutoNetoMateriaPrima.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteBrutoNetoMateriaPrima.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\dsReporteBrutoNetoMateriaPrima.xss">
+      <DependentUpon>dsReporteBrutoNetoMateriaPrima.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaDistribucionCombustibleProduccion.xsc">
+      <DependentUpon>dsListaDistribucionCombustibleProduccion.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaDistribucionCombustibleProduccion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaDistribucionCombustibleProduccion.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaDistribucionCombustibleProduccion.xss">
+      <DependentUpon>dsListaDistribucionCombustibleProduccion.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaDistribucionEnergiaProduccion.xsc">
+      <DependentUpon>dsListaDistribucionEnergiaProduccion.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaDistribucionEnergiaProduccion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaDistribucionEnergiaProduccion.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaDistribucionEnergiaProduccion.xss">
+      <DependentUpon>dsListaDistribucionEnergiaProduccion.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaReciclajeVentaLadrillo.xsc">
+      <DependentUpon>dsListaReciclajeVentaLadrillo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaReciclajeVentaLadrillo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaReciclajeVentaLadrillo.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaReciclajeVentaLadrillo.xss">
+      <DependentUpon>dsListaReciclajeVentaLadrillo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaReciclajeVentaLadrilloDespacho.xsc">
+      <DependentUpon>dsListaReciclajeVentaLadrilloDespacho.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaReciclajeVentaLadrilloDespacho.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaReciclajeVentaLadrilloDespacho.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaReciclajeVentaLadrilloDespacho.xss">
+      <DependentUpon>dsListaReciclajeVentaLadrilloDespacho.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaResumenParada.xsc">
+      <DependentUpon>dsListaResumenParada.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaResumenParada.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaResumenParada.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaResumenParada.xss">
+      <DependentUpon>dsListaResumenParada.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaSalidaHornoVsDespacho.xsc">
+      <DependentUpon>dsListaSalidaHornoVsDespacho.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaSalidaHornoVsDespacho.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaSalidaHornoVsDespacho.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaSalidaHornoVsDespacho.xss">
+      <DependentUpon>dsListaSalidaHornoVsDespacho.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaTnProducidas.xsc">
+      <DependentUpon>dsListaTnProducidas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaTnProducidas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaTnProducidas.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaTnProducidas.xss">
+      <DependentUpon>dsListaTnProducidas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaTnQuemadas.xsc">
+      <DependentUpon>dsListaTnQuemadas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaTnQuemadas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaTnQuemadas.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaTnQuemadas.xss">
+      <DependentUpon>dsListaTnQuemadas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReciclajeVentaLadrillox12Mes.xsc">
+      <DependentUpon>dsReciclajeVentaLadrillox12Mes.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReciclajeVentaLadrillox12Mes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReciclajeVentaLadrillox12Mes.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsReciclajeVentaLadrillox12Mes.xss">
+      <DependentUpon>dsReciclajeVentaLadrillox12Mes.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReporteFinalProduccionComparativo.xsc">
+      <DependentUpon>dsReporteFinalProduccionComparativo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReporteFinalProduccionComparativo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteFinalProduccionComparativo.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsReporteFinalProduccionComparativo.xss">
+      <DependentUpon>dsReporteFinalProduccionComparativo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReporteFinalProduccionFinalizada.xsc">
+      <DependentUpon>dsReporteFinalProduccionFinalizada.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReporteFinalProduccionFinalizada.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteFinalProduccionFinalizada.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\dsReporteFinalProduccionFinalizada.xss">
+      <DependentUpon>dsReporteFinalProduccionFinalizada.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsConsumoR500PorDia.xsc">
+      <DependentUpon>dsConsumoR500PorDia.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsConsumoR500PorDia.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsConsumoR500PorDia.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsConsumoR500PorDia.xss">
+      <DependentUpon>dsConsumoR500PorDia.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsFactoresProduccion.xsc">
+      <DependentUpon>dsFactoresProduccion.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsFactoresProduccion.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFactoresProduccion.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\dsFactoresProduccion.xss">
+      <DependentUpon>dsFactoresProduccion.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsFactoresProduccionResumen.xsc">
+      <DependentUpon>dsFactoresProduccionResumen.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsFactoresProduccionResumen.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFactoresProduccionResumen.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsFactoresProduccionResumen.xss">
+      <DependentUpon>dsFactoresProduccionResumen.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsFactoresProduccionSecadero.xsc">
+      <DependentUpon>dsFactoresProduccionSecadero.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsFactoresProduccionSecadero.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFactoresProduccionSecadero.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsFactoresProduccionSecadero.xss">
+      <DependentUpon>dsFactoresProduccionSecadero.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaCombustibleHorno.xsc">
+      <DependentUpon>dsListaCombustibleHorno.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaCombustibleHorno.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaCombustibleHorno.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaCombustibleHorno.xss">
+      <DependentUpon>dsListaCombustibleHorno.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaCombustibleXQuemador.xsc">
+      <DependentUpon>dsListaCombustibleXQuemador.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaCombustibleXQuemador.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaCombustibleXQuemador.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaCombustibleXQuemador.xss">
+      <DependentUpon>dsListaCombustibleXQuemador.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaConsumoCombustibleXResponsable.xsc">
+      <DependentUpon>dsListaConsumoCombustibleXResponsable.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaConsumoCombustibleXResponsable.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaConsumoCombustibleXResponsable.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaConsumoCombustibleXResponsable.xss">
+      <DependentUpon>dsListaConsumoCombustibleXResponsable.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaCtrlParadasXDia.xsc">
+      <DependentUpon>dsListaCtrlParadasXDia.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaCtrlParadasXDia.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaCtrlParadasXDia.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaCtrlParadasXDia.xss">
+      <DependentUpon>dsListaCtrlParadasXDia.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaDesHorXPuerta.xsc">
+      <DependentUpon>dsListaDesHorXPuerta.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaDesHorXPuerta.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaDesHorXPuerta.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaDesHorXPuerta.xss">
+      <DependentUpon>dsListaDesHorXPuerta.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaPesosYHumedadesPorDia.xsc">
+      <DependentUpon>dsListaPesosYHumedadesPorDia.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaPesosYHumedadesPorDia.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaPesosYHumedadesPorDia.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaPesosYHumedadesPorDia.xss">
+      <DependentUpon>dsListaPesosYHumedadesPorDia.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaQuemaLadrillo.xsc">
+      <DependentUpon>dsListaQuemaLadrillo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaQuemaLadrillo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaQuemaLadrillo.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaQuemaLadrillo.xss">
+      <DependentUpon>dsListaQuemaLadrillo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaResumenControlParadaPorDia.xsc">
+      <DependentUpon>dsListaResumenControlParadaPorDia.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaResumenControlParadaPorDia.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaResumenControlParadaPorDia.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaResumenControlParadaPorDia.xss">
+      <DependentUpon>dsListaResumenControlParadaPorDia.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaVueltasHornoXAnio.xsc">
+      <DependentUpon>dsListaVueltasHornoXAnio.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsListaVueltasHornoXAnio.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsListaVueltasHornoXAnio.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsListaVueltasHornoXAnio.xss">
+      <DependentUpon>dsListaVueltasHornoXAnio.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsProcesoTerminado.xsc">
+      <DependentUpon>dsProcesoTerminado.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsProcesoTerminado.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProcesoTerminado.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsProcesoTerminado.xss">
+      <DependentUpon>dsProcesoTerminado.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReporteFinalProduccion.xsc">
+      <DependentUpon>dsReporteFinalProduccion.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReporteFinalProduccion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteFinalProduccion.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsReporteFinalProduccion.xss">
+      <DependentUpon>dsReporteFinalProduccion.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReporteInspecciones.xsc">
+      <DependentUpon>dsReporteInspecciones.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReporteInspecciones.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteInspecciones.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsReporteInspecciones.xss">
+      <DependentUpon>dsReporteInspecciones.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReporteSalidaHornoXAnio.xsc">
+      <DependentUpon>dsReporteSalidaHornoXAnio.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReporteSalidaHornoXAnio.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteSalidaHornoXAnio.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsReporteSalidaHornoXAnio.xss">
+      <DependentUpon>dsReporteSalidaHornoXAnio.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReporteSalidaSecadero.xsc">
+      <DependentUpon>dsReporteSalidaSecadero.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReporteSalidaSecadero.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteSalidaSecadero.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsReporteSalidaSecadero.xss">
+      <DependentUpon>dsReporteSalidaSecadero.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReporteSalidaVagonXDia.xsc">
+      <DependentUpon>dsReporteSalidaVagonXDia.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsReporteSalidaVagonXDia.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteSalidaVagonXDia.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\dsReporteSalidaVagonXDia.xss">
+      <DependentUpon>dsReporteSalidaVagonXDia.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\dsComsumoR500PorDia.datasource" />
+    <None Include="My Project\DataSources\dsConsumoR500PorDia.datasource" />
+    <None Include="My Project\DataSources\dsEtapaSecado.datasource" />
+    <None Include="My Project\DataSources\dsFactoresProduccionResumen.datasource" />
+    <None Include="My Project\DataSources\dsFactoresProduccionSecadero.datasource" />
+    <None Include="My Project\DataSources\dsListaCantidadQuemadaXAnio.datasource" />
+    <None Include="My Project\DataSources\dsListaCombustibleHorno.datasource" />
+    <None Include="My Project\DataSources\dsListaCombustibleXQuemador.datasource" />
+    <None Include="My Project\DataSources\dsListaConsumoCombustibleXResponsable.datasource" />
+    <None Include="My Project\DataSources\dsListaCtrlParadasXDia.datasource" />
+    <None Include="My Project\DataSources\dsListaDesHorXPuerta.datasource" />
+    <None Include="My Project\DataSources\dsListaDistribucionCombustibleProduccion.datasource" />
+    <None Include="My Project\DataSources\dsListaDistribucionEnergiaProduccion.datasource" />
+    <None Include="My Project\DataSources\dsListaPesosYHumedadesPorDia.datasource" />
+    <None Include="My Project\DataSources\dsListaQuemaLadrillo.datasource" />
+    <None Include="My Project\DataSources\dsListaReciclajeDespachoLadrillo.datasource" />
+    <None Include="My Project\DataSources\dsListaReciclajeVentaLadrillo.datasource" />
+    <None Include="My Project\DataSources\dsListaReciclajeVentaLadrilloDespacho.datasource" />
+    <None Include="My Project\DataSources\dsListaReciclajeVentaLadrilloXAnioSeparado.datasource" />
+    <None Include="My Project\DataSources\dsListaResumenControlParadaPorDia.datasource" />
+    <None Include="My Project\DataSources\dsListaResumenParada.datasource" />
+    <None Include="My Project\DataSources\dsListaSalidaHornoVsDespacho.datasource" />
+    <None Include="My Project\DataSources\dsListaTnProducidas.datasource" />
+    <None Include="My Project\DataSources\dsListaTnQuemadas.datasource" />
+    <None Include="My Project\DataSources\dsListaTNQuemadaXAnio.datasource" />
+    <None Include="My Project\DataSources\dsListaVueltasHornoXAnio.datasource" />
+    <None Include="My Project\DataSources\dsProcesoTerminado.datasource" />
+    <None Include="My Project\DataSources\dsReciclajeVentaLadrillox12Mes.datasource" />
+    <None Include="My Project\DataSources\dsReporteBrutoNetoMateriaPrima.datasource" />
+    <None Include="My Project\DataSources\dsReporteFinalProduccion.datasource" />
+    <None Include="My Project\DataSources\dsReporteFinalProduccionComparativo.datasource" />
+    <None Include="My Project\DataSources\dsReporteFinalProduccionFinalizada.datasource" />
+    <None Include="My Project\DataSources\dsReporteInspecciones.datasource" />
+    <None Include="My Project\DataSources\dsReporteSalidaHornoXAnio.datasource" />
+    <None Include="My Project\DataSources\dsReporteSalidaSecadero.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ladisac.BE\Ladisac.BE.vbproj">
+      <Project>{98453098-B42F-4309-93FC-9D2BC486E925}</Project>
+      <Name>Ladisac.BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.BL\Ladisac.BL.vbproj">
+      <Project>{80C99B39-DD08-450D-96F2-6A9B57D964F3}</Project>
+      <Name>Ladisac.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.DA\Ladisac.DA.vbproj">
+      <Project>{4DC3327E-1427-4E7E-B9D5-54C407E02AF3}</Project>
+      <Name>Ladisac.DA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.Foundation\Ladisac.Foundation.vbproj">
+      <Project>{593BE733-05DA-478C-881D-1D62B7883AEB}</Project>
+      <Name>Ladisac.Foundation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.IBL\Ladisac.IBL.vbproj">
+      <Project>{8BC29E16-9658-4CF0-89F7-0759B6AAA419}</Project>
+      <Name>Ladisac.IBL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Prism.Interactivity\Prism.Interactivity.csproj">
+      <Project>{DE856812-A32C-4866-801E-AF396D711942}</Project>
+      <Name>Prism.Interactivity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Prism.UnityExtensions\Prism.UnityExtensions.Desktop.csproj">
+      <Project>{17831F3B-6B82-4916-BD2B-2CE2071EA622}</Project>
+      <Name>Prism.UnityExtensions.Desktop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Prism\Prism.Desktop.csproj">
+      <Project>{77138947-1D13-4E22-AEE0-5D0DD046CA34}</Project>
+      <Name>Prism.Desktop</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.DAPublic Interface ICajeroAnexoRepositorioFunction Maintenance(ByVal item As CajeroAnexo) As ShortEnd InterfaceEnd Namespace

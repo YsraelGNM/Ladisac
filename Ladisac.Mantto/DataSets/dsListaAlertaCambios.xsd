@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaAlertaCambios" targetNamespace="http://tempuri.org/dsListaAlertaCambios.xsd" xmlns:mstns="http://tempuri.org/dsListaAlertaCambios.xsd" xmlns="http://tempuri.org/dsListaAlertaCambios.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaAlertaCambios" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaAlertaCambios" msprop:Generator_UserDSName="dsListaAlertaCambios">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AlertaCambios" msprop:Generator_TableClassName="AlertaCambiosDataTable" msprop:Generator_TableVarName="tableAlertaCambios" msprop:Generator_RowChangedName="AlertaCambiosRowChanged" msprop:Generator_TablePropName="AlertaCambios" msprop:Generator_RowDeletingName="AlertaCambiosRowDeleting" msprop:Generator_RowChangingName="AlertaCambiosRowChanging" msprop:Generator_RowEvHandlerName="AlertaCambiosRowChangeEventHandler" msprop:Generator_RowDeletedName="AlertaCambiosRowDeleted" msprop:Generator_RowClassName="AlertaCambiosRow" msprop:Generator_UserTableName="AlertaCambios" msprop:Generator_RowEvArgName="AlertaCambiosRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Mto_Descripcion" msprop:Generator_ColumnVarNameInTable="columnMto_Descripcion" msprop:Generator_ColumnPropNameInRow="Mto_Descripcion" msprop:Generator_ColumnPropNameInTable="Mto_DescripcionColumn" msprop:Generator_UserColumnName="Mto_Descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="Eno_Descripcion" msprop:Generator_ColumnVarNameInTable="columnEno_Descripcion" msprop:Generator_ColumnPropNameInRow="Eno_Descripcion" msprop:Generator_ColumnPropNameInTable="Eno_DescripcionColumn" msprop:Generator_UserColumnName="Eno_Descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="Otr_Fec_Ini" msprop:Generator_ColumnVarNameInTable="columnOtr_Fec_Ini" msprop:Generator_ColumnPropNameInRow="Otr_Fec_Ini" msprop:Generator_ColumnPropNameInTable="Otr_Fec_IniColumn" msprop:Generator_UserColumnName="Otr_Fec_Ini" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ProxFecha" msprop:Generator_ColumnVarNameInTable="columnProxFecha" msprop:Generator_ColumnPropNameInRow="ProxFecha" msprop:Generator_ColumnPropNameInTable="ProxFechaColumn" msprop:Generator_UserColumnName="ProxFecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Otr_Horo_Final" msprop:Generator_ColumnVarNameInTable="columnOtr_Horo_Final" msprop:Generator_ColumnPropNameInRow="Otr_Horo_Final" msprop:Generator_ColumnPropNameInTable="Otr_Horo_FinalColumn" msprop:Generator_UserColumnName="Otr_Horo_Final" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ProxHoro" msprop:Generator_ColumnVarNameInTable="columnProxHoro" msprop:Generator_ColumnPropNameInRow="ProxHoro" msprop:Generator_ColumnPropNameInTable="ProxHoroColumn" msprop:Generator_UserColumnName="ProxHoro" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Pmo_Hora" msprop:Generator_ColumnVarNameInTable="columnPmo_Hora" msprop:Generator_ColumnPropNameInRow="Pmo_Hora" msprop:Generator_ColumnPropNameInTable="Pmo_HoraColumn" msprop:Generator_UserColumnName="Pmo_Hora" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PMO_KILOMETRO" msprop:Generator_ColumnVarNameInTable="columnPMO_KILOMETRO" msprop:Generator_ColumnPropNameInRow="PMO_KILOMETRO" msprop:Generator_ColumnPropNameInTable="PMO_KILOMETROColumn" msprop:Generator_UserColumnName="PMO_KILOMETRO" type="xs:string" minOccurs="0" />
+              <xs:element name="Pmo_Tn" msprop:Generator_ColumnVarNameInTable="columnPmo_Tn" msprop:Generator_ColumnPropNameInRow="Pmo_Tn" msprop:Generator_ColumnPropNameInTable="Pmo_TnColumn" msprop:Generator_UserColumnName="Pmo_Tn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Pmo_Dia" msprop:Generator_ColumnVarNameInTable="columnPmo_Dia" msprop:Generator_ColumnPropNameInRow="Pmo_Dia" msprop:Generator_ColumnPropNameInTable="Pmo_DiaColumn" msprop:Generator_UserColumnName="Pmo_Dia" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Pmo_Uso" msprop:Generator_ColumnVarNameInTable="columnPmo_Uso" msprop:Generator_ColumnPropNameInRow="Pmo_Uso" msprop:Generator_ColumnPropNameInTable="Pmo_UsoColumn" msprop:Generator_UserColumnName="Pmo_Uso" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Pmo_Hora_Util" msprop:Generator_ColumnVarNameInTable="columnPmo_Hora_Util" msprop:Generator_ColumnPropNameInRow="Pmo_Hora_Util" msprop:Generator_ColumnPropNameInTable="Pmo_Hora_UtilColumn" msprop:Generator_UserColumnName="Pmo_Hora_Util" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PMO_KILOMETRO_UTIL" msprop:Generator_ColumnVarNameInTable="columnPMO_KILOMETRO_UTIL" msprop:Generator_ColumnPropNameInRow="PMO_KILOMETRO_UTIL" msprop:Generator_ColumnPropNameInTable="PMO_KILOMETRO_UTILColumn" msprop:Generator_UserColumnName="PMO_KILOMETRO_UTIL" type="xs:string" minOccurs="0" />
+              <xs:element name="Pmo_Tn_Util" msprop:Generator_ColumnVarNameInTable="columnPmo_Tn_Util" msprop:Generator_ColumnPropNameInRow="Pmo_Tn_Util" msprop:Generator_ColumnPropNameInTable="Pmo_Tn_UtilColumn" msprop:Generator_UserColumnName="Pmo_Tn_Util" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Pmo_Dia_Util" msprop:Generator_ColumnVarNameInTable="columnPmo_Dia_Util" msprop:Generator_ColumnPropNameInRow="Pmo_Dia_Util" msprop:Generator_ColumnPropNameInTable="Pmo_Dia_UtilColumn" msprop:Generator_UserColumnName="Pmo_Dia_Util" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Pmo_Uso_Util" msprop:Generator_ColumnVarNameInTable="columnPmo_Uso_Util" msprop:Generator_ColumnPropNameInRow="Pmo_Uso_Util" msprop:Generator_ColumnPropNameInTable="Pmo_Uso_UtilColumn" msprop:Generator_UserColumnName="Pmo_Uso_Util" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

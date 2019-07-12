@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaConsComb" targetNamespace="http://tempuri.org/dsListaConsComb.xsd" xmlns:mstns="http://tempuri.org/dsListaConsComb.xsd" xmlns="http://tempuri.org/dsListaConsComb.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaConsComb" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaConsComb" msprop:Generator_UserDSName="dsListaConsComb">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaConsComb" msprop:Generator_TableClassName="ListaConsCombDataTable" msprop:Generator_TableVarName="tableListaConsComb" msprop:Generator_TablePropName="ListaConsComb" msprop:Generator_RowDeletingName="ListaConsCombRowDeleting" msprop:Generator_UserTableName="ListaConsComb" msprop:Generator_RowChangingName="ListaConsCombRowChanging" msprop:Generator_RowEvHandlerName="ListaConsCombRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaConsCombRowDeleted" msprop:Generator_RowEvArgName="ListaConsCombRowChangeEvent" msprop:Generator_RowChangedName="ListaConsCombRowChanged" msprop:Generator_RowClassName="ListaConsCombRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Empresa" msprop:Generator_ColumnVarNameInTable="columnEmpresa" msprop:Generator_ColumnPropNameInRow="Empresa" msprop:Generator_ColumnPropNameInTable="EmpresaColumn" msprop:Generator_UserColumnName="Empresa" type="xs:string" minOccurs="0" />
+              <xs:element name="Placa" msprop:Generator_ColumnVarNameInTable="columnPlaca" msprop:Generator_ColumnPropNameInRow="Placa" msprop:Generator_ColumnPropNameInTable="PlacaColumn" msprop:Generator_UserColumnName="Placa" type="xs:string" minOccurs="0" />
+              <xs:element name="Chofer" msprop:Generator_ColumnVarNameInTable="columnChofer" msprop:Generator_ColumnPropNameInRow="Chofer" msprop:Generator_ColumnPropNameInTable="ChoferColumn" msprop:Generator_UserColumnName="Chofer" type="xs:string" minOccurs="0" />
+              <xs:element name="Sco_Fecha" msprop:Generator_ColumnVarNameInTable="columnSco_Fecha" msprop:Generator_ColumnPropNameInRow="Sco_Fecha" msprop:Generator_ColumnPropNameInTable="Sco_FechaColumn" msprop:Generator_UserColumnName="Sco_Fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Sco_Kilometraje" msprop:Generator_ColumnVarNameInTable="columnSco_Kilometraje" msprop:Generator_ColumnPropNameInRow="Sco_Kilometraje" msprop:Generator_ColumnPropNameInTable="Sco_KilometrajeColumn" msprop:Generator_UserColumnName="Sco_Kilometraje" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Sco_Horometro" msprop:Generator_ColumnVarNameInTable="columnSco_Horometro" msprop:Generator_ColumnPropNameInRow="Sco_Horometro" msprop:Generator_ColumnPropNameInTable="Sco_HorometroColumn" msprop:Generator_UserColumnName="Sco_Horometro" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Sco_Cantidad" msprop:Generator_ColumnVarNameInTable="columnSco_Cantidad" msprop:Generator_ColumnPropNameInRow="Sco_Cantidad" msprop:Generator_ColumnPropNameInTable="Sco_CantidadColumn" msprop:Generator_UserColumnName="Sco_Cantidad" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Sco_Id" msprop:Generator_ColumnVarNameInTable="columnSco_Id" msprop:Generator_ColumnPropNameInRow="Sco_Id" msprop:Generator_ColumnPropNameInTable="Sco_IdColumn" msprop:Generator_UserColumnName="Sco_Id" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

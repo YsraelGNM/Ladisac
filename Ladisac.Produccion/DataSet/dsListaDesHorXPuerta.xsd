@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaDesHorXPuerta" targetNamespace="http://tempuri.org/dsListaDesHorXPuerta.xsd" xmlns:mstns="http://tempuri.org/dsListaDesHorXPuerta.xsd" xmlns="http://tempuri.org/dsListaDesHorXPuerta.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaDesHorXPuerta" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaDesHorXPuerta" msprop:Generator_UserDSName="dsListaDesHorXPuerta">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaDesHorXPuerta" msprop:Generator_TableClassName="ListaDesHorXPuertaDataTable" msprop:Generator_TableVarName="tableListaDesHorXPuerta" msprop:Generator_TablePropName="ListaDesHorXPuerta" msprop:Generator_RowDeletingName="ListaDesHorXPuertaRowDeleting" msprop:Generator_RowChangingName="ListaDesHorXPuertaRowChanging" msprop:Generator_RowEvHandlerName="ListaDesHorXPuertaRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaDesHorXPuertaRowDeleted" msprop:Generator_UserTableName="ListaDesHorXPuerta" msprop:Generator_RowChangedName="ListaDesHorXPuertaRowChanged" msprop:Generator_RowEvArgName="ListaDesHorXPuertaRowChangeEvent" msprop:Generator_RowClassName="ListaDesHorXPuertaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HOR_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnHOR_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="HOR_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="HOR_DESCRIPCIONColumn" msprop:Generator_UserColumnName="HOR_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="PUE_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnPUE_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="PUE_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="PUE_DESCRIPCIONColumn" msprop:Generator_UserColumnName="PUE_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="DRU_FECHA" msprop:Generator_ColumnVarNameInTable="columnDRU_FECHA" msprop:Generator_ColumnPropNameInRow="DRU_FECHA" msprop:Generator_ColumnPropNameInTable="DRU_FECHAColumn" msprop:Generator_UserColumnName="DRU_FECHA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PRO_ID" msprop:Generator_ColumnVarNameInTable="columnPRO_ID" msprop:Generator_ColumnPropNameInRow="PRO_ID" msprop:Generator_ColumnPropNameInTable="PRO_IDColumn" msprop:Generator_UserColumnName="PRO_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="ART_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnART_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ART_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ART_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ART_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="DRD_TIPO" msprop:Generator_ColumnVarNameInTable="columnDRD_TIPO" msprop:Generator_ColumnPropNameInRow="DRD_TIPO" msprop:Generator_ColumnPropNameInTable="DRD_TIPOColumn" msprop:Generator_UserColumnName="DRD_TIPO" type="xs:string" minOccurs="0" />
+              <xs:element name="LMA_ID" msprop:Generator_ColumnVarNameInTable="columnLMA_ID" msprop:Generator_ColumnPropNameInRow="LMA_ID" msprop:Generator_ColumnPropNameInTable="LMA_IDColumn" msprop:Generator_UserColumnName="LMA_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="DRD_CANT_NETA" msprop:Generator_ColumnVarNameInTable="columnDRD_CANT_NETA" msprop:Generator_ColumnPropNameInRow="DRD_CANT_NETA" msprop:Generator_ColumnPropNameInTable="DRD_CANT_NETAColumn" msprop:Generator_UserColumnName="DRD_CANT_NETA" type="xs:string" minOccurs="0" />
+              <xs:element name="DRD_MALOS" msprop:Generator_ColumnVarNameInTable="columnDRD_MALOS" msprop:Generator_ColumnPropNameInRow="DRD_MALOS" msprop:Generator_ColumnPropNameInTable="DRD_MALOSColumn" msprop:Generator_UserColumnName="DRD_MALOS" type="xs:string" minOccurs="0" />
+              <xs:element name="DRD_ROTOS" msprop:Generator_ColumnVarNameInTable="columnDRD_ROTOS" msprop:Generator_ColumnPropNameInRow="DRD_ROTOS" msprop:Generator_ColumnPropNameInTable="DRD_ROTOSColumn" msprop:Generator_UserColumnName="DRD_ROTOS" type="xs:string" minOccurs="0" />
+              <xs:element name="DRD_RAJADOS" msprop:Generator_ColumnVarNameInTable="columnDRD_RAJADOS" msprop:Generator_ColumnPropNameInRow="DRD_RAJADOS" msprop:Generator_ColumnPropNameInTable="DRD_RAJADOSColumn" msprop:Generator_UserColumnName="DRD_RAJADOS" type="xs:string" minOccurs="0" />
+              <xs:element name="DRD_RECOCHADOS" msprop:Generator_ColumnVarNameInTable="columnDRD_RECOCHADOS" msprop:Generator_ColumnPropNameInRow="DRD_RECOCHADOS" msprop:Generator_ColumnPropNameInTable="DRD_RECOCHADOSColumn" msprop:Generator_UserColumnName="DRD_RECOCHADOS" type="xs:string" minOccurs="0" />
+              <xs:element name="DRD_DOBLADOS" msprop:Generator_ColumnVarNameInTable="columnDRD_DOBLADOS" msprop:Generator_ColumnPropNameInRow="DRD_DOBLADOS" msprop:Generator_ColumnPropNameInTable="DRD_DOBLADOSColumn" msprop:Generator_UserColumnName="DRD_DOBLADOS" type="xs:string" minOccurs="0" />
+              <xs:element name="DRD_BLANCOS" msprop:Generator_ColumnVarNameInTable="columnDRD_BLANCOS" msprop:Generator_ColumnPropNameInRow="DRD_BLANCOS" msprop:Generator_ColumnPropNameInTable="DRD_BLANCOSColumn" msprop:Generator_UserColumnName="DRD_BLANCOS" type="xs:string" minOccurs="0" />
+              <xs:element name="LMA_CANTIDAD" msprop:Generator_ColumnVarNameInTable="columnLMA_CANTIDAD" msprop:Generator_ColumnPropNameInRow="LMA_CANTIDAD" msprop:Generator_ColumnPropNameInTable="LMA_CANTIDADColumn" msprop:Generator_UserColumnName="LMA_CANTIDAD" type="xs:string" minOccurs="0" />
+              <xs:element name="DRD_OBSERVACIONES" msprop:Generator_ColumnVarNameInTable="columnDRD_OBSERVACIONES" msprop:Generator_ColumnPropNameInRow="DRD_OBSERVACIONES" msprop:Generator_ColumnPropNameInTable="DRD_OBSERVACIONESColumn" msprop:Generator_UserColumnName="DRD_OBSERVACIONES" type="xs:string" minOccurs="0" />
+              <xs:element name="PorcentajeTotal" msprop:Generator_ColumnVarNameInTable="columnPorcentajeTotal" msprop:Generator_ColumnPropNameInRow="PorcentajeTotal" msprop:Generator_ColumnPropNameInTable="PorcentajeTotalColumn" msprop:Generator_UserColumnName="PorcentajeTotal" type="xs:string" minOccurs="0" />
+              <xs:element name="VAL_COCIDOXLADRILLO" msprop:Generator_ColumnVarNameInTable="columnVAL_COCIDOXLADRILLO" msprop:Generator_ColumnPropNameInRow="VAL_COCIDOXLADRILLO" msprop:Generator_ColumnPropNameInTable="VAL_COCIDOXLADRILLOColumn" msprop:Generator_UserColumnName="VAL_COCIDOXLADRILLO" type="xs:string" minOccurs="0" />
+              <xs:element name="DRU_NUMERO" msprop:Generator_ColumnVarNameInTable="columnDRU_NUMERO" msprop:Generator_ColumnPropNameInRow="DRU_NUMERO" msprop:Generator_ColumnPropNameInTable="DRU_NUMEROColumn" msprop:Generator_UserColumnName="DRU_NUMERO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

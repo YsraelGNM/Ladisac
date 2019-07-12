@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaDistribucionEnergiaProduccion" targetNamespace="http://tempuri.org/dsListaDistribucionEnergiaProduccion.xsd" xmlns:mstns="http://tempuri.org/dsListaDistribucionEnergiaProduccion.xsd" xmlns="http://tempuri.org/dsListaDistribucionEnergiaProduccion.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaDistribucionEnergiaProduccion" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaDistribucionEnergiaProduccion" msprop:Generator_UserDSName="dsListaDistribucionEnergiaProduccion">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaDistribucionEnergiaProduccion" msprop:Generator_TableClassName="ListaDistribucionEnergiaProduccionDataTable" msprop:Generator_TableVarName="tableListaDistribucionEnergiaProduccion" msprop:Generator_TablePropName="ListaDistribucionEnergiaProduccion" msprop:Generator_RowDeletingName="ListaDistribucionEnergiaProduccionRowDeleting" msprop:Generator_RowChangingName="ListaDistribucionEnergiaProduccionRowChanging" msprop:Generator_RowEvHandlerName="ListaDistribucionEnergiaProduccionRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaDistribucionEnergiaProduccionRowDeleted" msprop:Generator_UserTableName="ListaDistribucionEnergiaProduccion" msprop:Generator_RowChangedName="ListaDistribucionEnergiaProduccionRowChanged" msprop:Generator_RowEvArgName="ListaDistribucionEnergiaProduccionRowChangeEvent" msprop:Generator_RowClassName="ListaDistribucionEnergiaProduccionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Codigo" msprop:Generator_ColumnVarNameInTable="columnCodigo" msprop:Generator_ColumnPropNameInRow="Codigo" msprop:Generator_ColumnPropNameInTable="CodigoColumn" msprop:Generator_UserColumnName="Codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaPro" msprop:Generator_ColumnVarNameInTable="columnFechaPro" msprop:Generator_ColumnPropNameInRow="FechaPro" msprop:Generator_ColumnPropNameInTable="FechaProColumn" msprop:Generator_UserColumnName="FechaPro" type="xs:string" minOccurs="0" />
+              <xs:element name="CodPro" msprop:Generator_ColumnVarNameInTable="columnCodPro" msprop:Generator_ColumnPropNameInRow="CodPro" msprop:Generator_ColumnPropNameInTable="CodProColumn" msprop:Generator_UserColumnName="CodPro" type="xs:string" minOccurs="0" />
+              <xs:element name="Ladrillo" msprop:Generator_ColumnVarNameInTable="columnLadrillo" msprop:Generator_ColumnPropNameInRow="Ladrillo" msprop:Generator_ColumnPropNameInTable="LadrilloColumn" msprop:Generator_UserColumnName="Ladrillo" type="xs:string" minOccurs="0" />
+              <xs:element name="Und_Brutas" msprop:Generator_ColumnVarNameInTable="columnUnd_Brutas" msprop:Generator_ColumnPropNameInRow="Und_Brutas" msprop:Generator_ColumnPropNameInTable="Und_BrutasColumn" msprop:Generator_UserColumnName="Und_Brutas" type="xs:string" minOccurs="0" />
+              <xs:element name="Und_Netas" msprop:Generator_ColumnVarNameInTable="columnUnd_Netas" msprop:Generator_ColumnPropNameInRow="Und_Netas" msprop:Generator_ColumnPropNameInTable="Und_NetasColumn" msprop:Generator_UserColumnName="Und_Netas" type="xs:string" minOccurs="0" />
+              <xs:element name="Tn_Bruta" msprop:Generator_ColumnVarNameInTable="columnTn_Bruta" msprop:Generator_ColumnPropNameInRow="Tn_Bruta" msprop:Generator_ColumnPropNameInTable="Tn_BrutaColumn" msprop:Generator_UserColumnName="Tn_Bruta" type="xs:string" minOccurs="0" />
+              <xs:element name="Tn_Neta" msprop:Generator_ColumnVarNameInTable="columnTn_Neta" msprop:Generator_ColumnPropNameInRow="Tn_Neta" msprop:Generator_ColumnPropNameInTable="Tn_NetaColumn" msprop:Generator_UserColumnName="Tn_Neta" type="xs:string" minOccurs="0" />
+              <xs:element name="EnHoNo" msprop:Generator_ColumnVarNameInTable="columnEnHoNo" msprop:Generator_ColumnPropNameInRow="EnHoNo" msprop:Generator_ColumnPropNameInTable="EnHoNoColumn" msprop:Generator_UserColumnName="EnHoNo" type="xs:string" minOccurs="0" />
+              <xs:element name="EnHoPu" msprop:Generator_ColumnVarNameInTable="columnEnHoPu" msprop:Generator_ColumnPropNameInRow="EnHoPu" msprop:Generator_ColumnPropNameInTable="EnHoPuColumn" msprop:Generator_UserColumnName="EnHoPu" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

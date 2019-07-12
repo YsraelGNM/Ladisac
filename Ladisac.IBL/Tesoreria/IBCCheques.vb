@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.BLPublic Interface IBCCheques        Function Mantenimiento(ByVal Item As Cheques) As Short        Function spActualizarCorrelativo(ByVal Orm As Cheques) As ShortEnd InterfaceEnd Namespace

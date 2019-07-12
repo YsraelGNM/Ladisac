@@ -1,0 +1,231 @@
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.Mantto.dll
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.Mantto.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.Mantto.xml
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.BE.dll
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.BL.dll
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.DA.dll
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.Foundation.dll
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.IBL.dll
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.Logistica.dll
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.Planillas.dll
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Pitman.Printing.dll
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.Contabilidad.dll
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.BE.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.BE.xml
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.BL.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.BL.xml
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.DA.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.DA.xml
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.Foundation.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.Foundation.xml
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.IBL.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.IBL.xml
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.Logistica.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.Logistica.xml
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.Planillas.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.Planillas.xml
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.Contabilidad.pdb
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\bin\Debug\Ladisac.Contabilidad.xml
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.vbprojResolveAssemblyReference.cache
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\Resources.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmArbolEntidad.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.Views.frmBuscar.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmCaracteristica.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmComponenteInspeccion.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmEntidad.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmEntidadInspeccion.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmEspecificacion.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmGrupo.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmImagen.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmInputBox.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmInspeccion.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmInspeccionPreOrdenTrabajo.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmMantenimiento.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.Views.frmOrdenTrabajo.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmParametroEntidad.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmPlanMantenimiento.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmRegistroEquipo.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmRegistroMaquina.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmRptAlertaCambios.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmRptHistoricoOrdenTrabajo.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmRptListaOTXMesXSemanaXAnio.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmRptRegistroEquipo.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmRptTrabajoMantto.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmTipoClaseMantto.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmTipoEntidad.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmTipoFalla.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmTipoMantenimiento.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\frmVisionLink.resources
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.vbproj.GenerateResource.Cache
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\RdlCompile.cache
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\RdlCompile.compiled
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.dll
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.xml
+C:\Ladisac04 - copia (28)\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.pdb
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.Mantto.dll
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.Mantto.pdb
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.Mantto.xml
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.BE.dll
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.BL.dll
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.DA.dll
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.Foundation.dll
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.IBL.dll
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.Logistica.dll
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.Planillas.dll
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Pitman.Printing.dll
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.Contabilidad.dll
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.BE.pdb
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.BE.xml
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.BL.pdb
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.BL.xml
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.DA.pdb
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.DA.xml
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.Foundation.pdb
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.Foundation.xml
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.IBL.pdb
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.IBL.xml
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.Logistica.pdb
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.Logistica.xml
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.Planillas.pdb
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.Planillas.xml
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.Contabilidad.pdb
+C:\Ladisac04\Ladisac.Mantto\bin\Debug\Ladisac.Contabilidad.xml
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.vbprojResolveAssemblyReference.cache
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.vbproj.ResolveComReference.cache
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\Resources.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmFichaInspeccion.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmFotoPersona.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmArbolEntidad.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.Views.frmBuscar.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmCaracteristica.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmComponenteInspeccion.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmDocuIso.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmEntidad.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmEntidadInspeccion.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmEspecificacion.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmGrupo.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmImagen.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmInputBox.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmInspeccion.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmInspeccionPreOrdenTrabajo.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmMantenimiento.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.Views.frmOrdenTrabajo.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmParametroEntidad.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmPlanMantenimiento.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmPlantillaDocuIso.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmRegistroEquipo.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmRegistroMaquina.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmRptAlertaCambios.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmRptFichaInspeccion.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmRptHistoricoOrdenTrabajo.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmRptListaOTXMesXSemanaXAnio.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmRptRegistroEquipo.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmRptTrabajoMantto.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmTipoClaseMantto.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmTipoEntidad.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmTipoFalla.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmTipoMantenimiento.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmVisionLink.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\frmVisualizarISO.resources
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.vbproj.GenerateResource.Cache
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\RdlCompile.cache
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\RdlCompile.compiled
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.dll
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.xml
+C:\Ladisac04\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.pdb
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\LadisacModel.Designer.vb
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.Mantto.dll
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.Mantto.pdb
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.Mantto.xml
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.BE.dll
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.BL.dll
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.DA.dll
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.Foundation.dll
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.IBL.dll
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.Logistica.dll
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.Planillas.dll
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Pitman.Printing.dll
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.Contabilidad.dll
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.BE.pdb
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.BE.xml
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.BL.pdb
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.BL.xml
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.DA.pdb
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.DA.xml
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.Foundation.pdb
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.Foundation.xml
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.IBL.pdb
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.IBL.xml
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.Logistica.pdb
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.Logistica.xml
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.Planillas.pdb
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.Planillas.xml
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.Contabilidad.pdb
+C:\Ladisac05\Ladisac.Mantto\bin\Debug\Ladisac.Contabilidad.xml
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.vbprojResolveAssemblyReference.cache
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.vbproj.ResolveComReference.cache
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\Resources.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmFichaInspeccion.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmFotoPersona.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmArbolEntidad.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.Views.frmBuscar.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmCaracteristica.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmComponenteInspeccion.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmDocuIso.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmEntidad.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmEntidadInspeccion.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmEspecificacion.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmGrupo.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmImagen.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmInputBox.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmInspeccion.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmInspeccionPreOrdenTrabajo.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmMantenimiento.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.Views.frmOrdenTrabajo.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmParametroEntidad.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmPlanMantenimiento.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmPlantillaDocuIso.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmRegistroEquipo.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmRegistroMaquina.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmRptAlertaCambios.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmRptFichaInspeccion.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmRptHistoricoOrdenTrabajo.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmRptListaOTXMesXSemanaXAnio.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmRptRegistroEquipo.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmRptTrabajoMantto.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmTipoClaseMantto.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmTipoEntidad.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmTipoFalla.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmTipoMantenimiento.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmVisionLink.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\frmVisualizarISO.resources
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.vbproj.GenerateResource.Cache
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\RdlCompile.cache
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\RdlCompile.compiled
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.dll
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.xml
+C:\Ladisac05\Ladisac.Mantto\obj\Debug\Ladisac.Mantto.pdb

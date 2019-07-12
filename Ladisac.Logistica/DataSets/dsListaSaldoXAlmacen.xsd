@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaSaldoXAlmacen" targetNamespace="http://tempuri.org/dsListaSaldoXAlmacen.xsd" xmlns:mstns="http://tempuri.org/dsListaSaldoXAlmacen.xsd" xmlns="http://tempuri.org/dsListaSaldoXAlmacen.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaSaldoXAlmacen" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaSaldoXAlmacen" msprop:Generator_UserDSName="dsListaSaldoXAlmacen">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaSaldoXAlmacen" msprop:Generator_TableClassName="ListaSaldoXAlmacenDataTable" msprop:Generator_TableVarName="tableListaSaldoXAlmacen" msprop:Generator_TablePropName="ListaSaldoXAlmacen" msprop:Generator_RowDeletingName="ListaSaldoXAlmacenRowDeleting" msprop:Generator_UserTableName="ListaSaldoXAlmacen" msprop:Generator_RowChangingName="ListaSaldoXAlmacenRowChanging" msprop:Generator_RowEvHandlerName="ListaSaldoXAlmacenRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaSaldoXAlmacenRowDeleted" msprop:Generator_RowEvArgName="ListaSaldoXAlmacenRowChangeEvent" msprop:Generator_RowChangedName="ListaSaldoXAlmacenRowChanged" msprop:Generator_RowClassName="ListaSaldoXAlmacenRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Art_Codigo" msprop:Generator_ColumnVarNameInTable="columnArt_Codigo" msprop:Generator_ColumnPropNameInRow="Art_Codigo" msprop:Generator_ColumnPropNameInTable="Art_CodigoColumn" msprop:Generator_UserColumnName="Art_Codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="Art_Descripcion" msprop:Generator_ColumnVarNameInTable="columnArt_Descripcion" msprop:Generator_ColumnPropNameInRow="Art_Descripcion" msprop:Generator_ColumnPropNameInTable="Art_DescripcionColumn" msprop:Generator_UserColumnName="Art_Descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="Um_Descripcion" msdata:Caption="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnUm_Descripcion" msprop:Generator_ColumnPropNameInRow="Um_Descripcion" msprop:Generator_ColumnPropNameInTable="Um_DescripcionColumn" msprop:Generator_UserColumnName="Um_Descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="Alm_Descripcion" msprop:Generator_ColumnVarNameInTable="columnAlm_Descripcion" msprop:Generator_ColumnPropNameInRow="Alm_Descripcion" msprop:Generator_ColumnPropNameInTable="Alm_DescripcionColumn" msprop:Generator_UserColumnName="Alm_Descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="Stock" msprop:Generator_ColumnVarNameInTable="columnStock" msprop:Generator_ColumnPropNameInRow="Stock" msprop:Generator_ColumnPropNameInTable="StockColumn" msprop:Generator_UserColumnName="Stock" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

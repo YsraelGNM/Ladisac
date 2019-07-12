@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsGuiasEnTransitoPendiente" targetNamespace="http://tempuri.org/dsGuiasEnTransitoPendiente.xsd" xmlns:mstns="http://tempuri.org/dsGuiasEnTransitoPendiente.xsd" xmlns="http://tempuri.org/dsGuiasEnTransitoPendiente.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsGuiasEnTransitoPendiente" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsGuiasEnTransitoPendiente" msprop:Generator_UserDSName="dsGuiasEnTransitoPendiente">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GuiasEnTransitoPendiente" msprop:Generator_TableClassName="GuiasEnTransitoPendienteDataTable" msprop:Generator_TableVarName="tableGuiasEnTransitoPendiente" msprop:Generator_TablePropName="GuiasEnTransitoPendiente" msprop:Generator_RowDeletingName="GuiasEnTransitoPendienteRowDeleting" msprop:Generator_RowChangingName="GuiasEnTransitoPendienteRowChanging" msprop:Generator_RowEvHandlerName="GuiasEnTransitoPendienteRowChangeEventHandler" msprop:Generator_RowDeletedName="GuiasEnTransitoPendienteRowDeleted" msprop:Generator_UserTableName="GuiasEnTransitoPendiente" msprop:Generator_RowChangedName="GuiasEnTransitoPendienteRowChanged" msprop:Generator_RowEvArgName="GuiasEnTransitoPendienteRowChangeEvent" msprop:Generator_RowClassName="GuiasEnTransitoPendienteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Documento" msprop:Generator_ColumnVarNameInTable="columnDocumento" msprop:Generator_ColumnPropNameInRow="Documento" msprop:Generator_ColumnPropNameInTable="DocumentoColumn" msprop:Generator_UserColumnName="Documento" type="xs:string" minOccurs="0" />
+              <xs:element name="Serie" msprop:Generator_ColumnVarNameInTable="columnSerie" msprop:Generator_ColumnPropNameInRow="Serie" msprop:Generator_ColumnPropNameInTable="SerieColumn" msprop:Generator_UserColumnName="Serie" type="xs:string" minOccurs="0" />
+              <xs:element name="Numero" msprop:Generator_ColumnVarNameInTable="columnNumero" msprop:Generator_ColumnPropNameInRow="Numero" msprop:Generator_ColumnPropNameInTable="NumeroColumn" msprop:Generator_UserColumnName="Numero" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaHoraSalidaPlanta" msprop:Generator_ColumnVarNameInTable="columnFechaHoraSalidaPlanta" msprop:Generator_ColumnPropNameInRow="FechaHoraSalidaPlanta" msprop:Generator_ColumnPropNameInTable="FechaHoraSalidaPlantaColumn" msprop:Generator_UserColumnName="FechaHoraSalidaPlanta" type="xs:string" minOccurs="0" />
+              <xs:element name="Transportista" msprop:Generator_ColumnVarNameInTable="columnTransportista" msprop:Generator_ColumnPropNameInRow="Transportista" msprop:Generator_ColumnPropNameInTable="TransportistaColumn" msprop:Generator_UserColumnName="Transportista" type="xs:string" minOccurs="0" />
+              <xs:element name="Placa" msprop:Generator_ColumnVarNameInTable="columnPlaca" msprop:Generator_ColumnPropNameInRow="Placa" msprop:Generator_ColumnPropNameInTable="PlacaColumn" msprop:Generator_UserColumnName="Placa" type="xs:string" minOccurs="0" />
+              <xs:element name="Articulo" msprop:Generator_ColumnVarNameInTable="columnArticulo" msprop:Generator_ColumnPropNameInRow="Articulo" msprop:Generator_ColumnPropNameInTable="ArticuloColumn" msprop:Generator_UserColumnName="Articulo" type="xs:string" minOccurs="0" />
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

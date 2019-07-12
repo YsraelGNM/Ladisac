@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsImpresionTransformacion" targetNamespace="http://tempuri.org/dsImpresionTransformacion.xsd" xmlns:mstns="http://tempuri.org/dsImpresionTransformacion.xsd" xmlns="http://tempuri.org/dsImpresionTransformacion.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsImpresionTransformacion" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsImpresionTransformacion" msprop:Generator_UserDSName="dsImpresionTransformacion">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ImpresionTransformacion" msprop:Generator_TableClassName="ImpresionTransformacionDataTable" msprop:Generator_TableVarName="tableImpresionTransformacion" msprop:Generator_TablePropName="ImpresionTransformacion" msprop:Generator_RowDeletingName="ImpresionTransformacionRowDeleting" msprop:Generator_UserTableName="ImpresionTransformacion" msprop:Generator_RowChangingName="ImpresionTransformacionRowChanging" msprop:Generator_RowEvHandlerName="ImpresionTransformacionRowChangeEventHandler" msprop:Generator_RowDeletedName="ImpresionTransformacionRowDeleted" msprop:Generator_RowEvArgName="ImpresionTransformacionRowChangeEvent" msprop:Generator_RowChangedName="ImpresionTransformacionRowChanged" msprop:Generator_RowClassName="ImpresionTransformacionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TFO_ID" msprop:Generator_ColumnVarNameInTable="columnTFO_ID" msprop:Generator_ColumnPropNameInRow="TFO_ID" msprop:Generator_ColumnPropNameInTable="TFO_IDColumn" msprop:Generator_UserColumnName="TFO_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="TFO_FECHA" msprop:Generator_ColumnVarNameInTable="columnTFO_FECHA" msprop:Generator_ColumnPropNameInRow="TFO_FECHA" msprop:Generator_ColumnPropNameInTable="TFO_FECHAColumn" msprop:Generator_UserColumnName="TFO_FECHA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="USU_ID" msprop:Generator_ColumnVarNameInTable="columnUSU_ID" msprop:Generator_ColumnPropNameInRow="USU_ID" msprop:Generator_ColumnPropNameInTable="USU_IDColumn" msprop:Generator_UserColumnName="USU_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="PER_RESPONSABLE" msprop:Generator_ColumnVarNameInTable="columnPER_RESPONSABLE" msprop:Generator_ColumnPropNameInRow="PER_RESPONSABLE" msprop:Generator_ColumnPropNameInTable="PER_RESPONSABLEColumn" msprop:Generator_UserColumnName="PER_RESPONSABLE" type="xs:string" minOccurs="0" />
+              <xs:element name="PER_RUC" msprop:Generator_ColumnVarNameInTable="columnPER_RUC" msprop:Generator_ColumnPropNameInRow="PER_RUC" msprop:Generator_ColumnPropNameInTable="PER_RUCColumn" msprop:Generator_UserColumnName="PER_RUC" type="xs:string" minOccurs="0" />
+              <xs:element name="TFO_OBSERVACION" msprop:Generator_ColumnVarNameInTable="columnTFO_OBSERVACION" msprop:Generator_ColumnPropNameInRow="TFO_OBSERVACION" msprop:Generator_ColumnPropNameInTable="TFO_OBSERVACIONColumn" msprop:Generator_UserColumnName="TFO_OBSERVACION" type="xs:string" minOccurs="0" />
+              <xs:element name="TRD_ES_SALIDA" msprop:Generator_ColumnVarNameInTable="columnTRD_ES_SALIDA" msprop:Generator_ColumnPropNameInRow="TRD_ES_SALIDA" msprop:Generator_ColumnPropNameInTable="TRD_ES_SALIDAColumn" msprop:Generator_UserColumnName="TRD_ES_SALIDA" type="xs:string" minOccurs="0" />
+              <xs:element name="TRD_CANTIDAD" msprop:Generator_ColumnVarNameInTable="columnTRD_CANTIDAD" msprop:Generator_ColumnPropNameInRow="TRD_CANTIDAD" msprop:Generator_ColumnPropNameInTable="TRD_CANTIDADColumn" msprop:Generator_UserColumnName="TRD_CANTIDAD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TRD_CANTIDAD_ATENDIDA" msprop:Generator_ColumnVarNameInTable="columnTRD_CANTIDAD_ATENDIDA" msprop:Generator_ColumnPropNameInRow="TRD_CANTIDAD_ATENDIDA" msprop:Generator_ColumnPropNameInTable="TRD_CANTIDAD_ATENDIDAColumn" msprop:Generator_UserColumnName="TRD_CANTIDAD_ATENDIDA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TRD_NRO_DOC" msprop:Generator_ColumnVarNameInTable="columnTRD_NRO_DOC" msprop:Generator_ColumnPropNameInRow="TRD_NRO_DOC" msprop:Generator_ColumnPropNameInTable="TRD_NRO_DOCColumn" msprop:Generator_UserColumnName="TRD_NRO_DOC" type="xs:string" minOccurs="0" />
+              <xs:element name="TRD_PU" msprop:Generator_ColumnVarNameInTable="columnTRD_PU" msprop:Generator_ColumnPropNameInRow="TRD_PU" msprop:Generator_ColumnPropNameInTable="TRD_PUColumn" msprop:Generator_UserColumnName="TRD_PU" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ART_CODIGO" msprop:Generator_ColumnVarNameInTable="columnART_CODIGO" msprop:Generator_ColumnPropNameInRow="ART_CODIGO" msprop:Generator_ColumnPropNameInTable="ART_CODIGOColumn" msprop:Generator_UserColumnName="ART_CODIGO" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnART_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ART_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ART_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ART_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="PROM_PU" msprop:Generator_ColumnVarNameInTable="columnPROM_PU" msprop:Generator_ColumnPropNameInRow="PROM_PU" msprop:Generator_ColumnPropNameInTable="PROM_PUColumn" msprop:Generator_UserColumnName="PROM_PU" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TFO_ES_PENDIENTE" msprop:Generator_ColumnVarNameInTable="columnTFO_ES_PENDIENTE" msprop:Generator_ColumnPropNameInRow="TFO_ES_PENDIENTE" msprop:Generator_ColumnPropNameInTable="TFO_ES_PENDIENTEColumn" msprop:Generator_UserColumnName="TFO_ES_PENDIENTE" type="xs:string" minOccurs="0" />
+              <xs:element name="PER_PROVEEDOR" msprop:Generator_ColumnVarNameInTable="columnPER_PROVEEDOR" msprop:Generator_ColumnPropNameInRow="PER_PROVEEDOR" msprop:Generator_ColumnPropNameInTable="PER_PROVEEDORColumn" msprop:Generator_UserColumnName="PER_PROVEEDOR" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCuadroComparativo" targetNamespace="http://tempuri.org/dsCuadroComparativo.xsd" xmlns:mstns="http://tempuri.org/dsCuadroComparativo.xsd" xmlns="http://tempuri.org/dsCuadroComparativo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCuadroComparativo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsCuadroComparativo" msprop:Generator_UserDSName="dsCuadroComparativo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CuadroComparativo" msprop:Generator_TableClassName="CuadroComparativoDataTable" msprop:Generator_TableVarName="tableCuadroComparativo" msprop:Generator_TablePropName="CuadroComparativo" msprop:Generator_RowDeletingName="CuadroComparativoRowDeleting" msprop:Generator_RowChangingName="CuadroComparativoRowChanging" msprop:Generator_RowEvHandlerName="CuadroComparativoRowChangeEventHandler" msprop:Generator_RowDeletedName="CuadroComparativoRowDeleted" msprop:Generator_UserTableName="CuadroComparativo" msprop:Generator_RowChangedName="CuadroComparativoRowChanged" msprop:Generator_RowEvArgName="CuadroComparativoRowChangeEvent" msprop:Generator_RowClassName="CuadroComparativoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CUC_ID" msprop:Generator_ColumnVarNameInTable="columnCUC_ID" msprop:Generator_ColumnPropNameInRow="CUC_ID" msprop:Generator_ColumnPropNameInTable="CUC_IDColumn" msprop:Generator_UserColumnName="CUC_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="CUC_NOMBRE_PROYECTO" msprop:Generator_ColumnVarNameInTable="columnCUC_NOMBRE_PROYECTO" msprop:Generator_ColumnPropNameInRow="CUC_NOMBRE_PROYECTO" msprop:Generator_ColumnPropNameInTable="CUC_NOMBRE_PROYECTOColumn" msprop:Generator_UserColumnName="CUC_NOMBRE_PROYECTO" type="xs:string" minOccurs="0" />
+              <xs:element name="Elaborado" msprop:Generator_ColumnVarNameInTable="columnElaborado" msprop:Generator_ColumnPropNameInRow="Elaborado" msprop:Generator_ColumnPropNameInTable="ElaboradoColumn" msprop:Generator_UserColumnName="Elaborado" type="xs:string" minOccurs="0" />
+              <xs:element name="CUC_FECHA" msprop:Generator_ColumnVarNameInTable="columnCUC_FECHA" msprop:Generator_ColumnPropNameInRow="CUC_FECHA" msprop:Generator_ColumnPropNameInTable="CUC_FECHAColumn" msprop:Generator_UserColumnName="CUC_FECHA" type="xs:string" minOccurs="0" />
+              <xs:element name="MON_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnMON_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="MON_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="MON_DESCRIPCIONColumn" msprop:Generator_UserColumnName="MON_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="CUC_TCAMBIO" msprop:Generator_ColumnVarNameInTable="columnCUC_TCAMBIO" msprop:Generator_ColumnPropNameInRow="CUC_TCAMBIO" msprop:Generator_ColumnPropNameInTable="CUC_TCAMBIOColumn" msprop:Generator_UserColumnName="CUC_TCAMBIO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CUC_OBSERVACION" msprop:Generator_ColumnVarNameInTable="columnCUC_OBSERVACION" msprop:Generator_ColumnPropNameInRow="CUC_OBSERVACION" msprop:Generator_ColumnPropNameInTable="CUC_OBSERVACIONColumn" msprop:Generator_UserColumnName="CUC_OBSERVACION" type="xs:string" minOccurs="0" />
+              <xs:element name="PER_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnPER_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="PER_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="PER_DESCRIPCIONColumn" msprop:Generator_UserColumnName="PER_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnART_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ART_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ART_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ART_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="CAP_UM" msprop:Generator_ColumnVarNameInTable="columnCAP_UM" msprop:Generator_ColumnPropNameInRow="CAP_UM" msprop:Generator_ColumnPropNameInTable="CAP_UMColumn" msprop:Generator_UserColumnName="CAP_UM" type="xs:string" minOccurs="0" />
+              <xs:element name="CAP_CANTIDAD" msprop:Generator_ColumnVarNameInTable="columnCAP_CANTIDAD" msprop:Generator_ColumnPropNameInRow="CAP_CANTIDAD" msprop:Generator_ColumnPropNameInTable="CAP_CANTIDADColumn" msprop:Generator_UserColumnName="CAP_CANTIDAD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CAP_PU" msprop:Generator_ColumnVarNameInTable="columnCAP_PU" msprop:Generator_ColumnPropNameInRow="CAP_PU" msprop:Generator_ColumnPropNameInTable="CAP_PUColumn" msprop:Generator_UserColumnName="CAP_PU" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

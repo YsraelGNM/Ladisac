@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaKardexConsolidado" targetNamespace="http://tempuri.org/dsListaKardexConsolidado.xsd" xmlns:mstns="http://tempuri.org/dsListaKardexConsolidado.xsd" xmlns="http://tempuri.org/dsListaKardexConsolidado.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaKardexConsolidado" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaKardexConsolidado" msprop:Generator_UserDSName="dsListaKardexConsolidado">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaKardexConsolidado" msprop:Generator_TableClassName="ListaKardexConsolidadoDataTable" msprop:Generator_TableVarName="tableListaKardexConsolidado" msprop:Generator_RowChangedName="ListaKardexConsolidadoRowChanged" msprop:Generator_TablePropName="ListaKardexConsolidado" msprop:Generator_RowDeletingName="ListaKardexConsolidadoRowDeleting" msprop:Generator_RowChangingName="ListaKardexConsolidadoRowChanging" msprop:Generator_RowEvHandlerName="ListaKardexConsolidadoRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaKardexConsolidadoRowDeleted" msprop:Generator_RowClassName="ListaKardexConsolidadoRow" msprop:Generator_UserTableName="ListaKardexConsolidado" msprop:Generator_RowEvArgName="ListaKardexConsolidadoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ART_Codigo" msprop:Generator_ColumnVarNameInTable="columnART_Codigo" msprop:Generator_ColumnPropNameInRow="ART_Codigo" msprop:Generator_ColumnPropNameInTable="ART_CodigoColumn" msprop:Generator_UserColumnName="ART_Codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnART_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ART_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ART_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ART_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="DMD_GLOSA" msprop:Generator_ColumnVarNameInTable="columnDMD_GLOSA" msprop:Generator_ColumnPropNameInRow="DMD_GLOSA" msprop:Generator_ColumnPropNameInTable="DMD_GLOSAColumn" msprop:Generator_UserColumnName="DMD_GLOSA" type="xs:string" minOccurs="0" />
+              <xs:element name="PER_NOMBRES" msprop:Generator_ColumnVarNameInTable="columnPER_NOMBRES" msprop:Generator_ColumnPropNameInRow="PER_NOMBRES" msprop:Generator_ColumnPropNameInTable="PER_NOMBRESColumn" msprop:Generator_UserColumnName="PER_NOMBRES" type="xs:string" minOccurs="0" />
+              <xs:element name="DTD_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnDTD_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="DTD_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="DTD_DESCRIPCIONColumn" msprop:Generator_UserColumnName="DTD_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="DMO_FECHA_DOCUMENTO" msprop:Generator_ColumnVarNameInTable="columnDMO_FECHA_DOCUMENTO" msprop:Generator_ColumnPropNameInRow="DMO_FECHA_DOCUMENTO" msprop:Generator_ColumnPropNameInTable="DMO_FECHA_DOCUMENTOColumn" msprop:Generator_UserColumnName="DMO_FECHA_DOCUMENTO" type="xs:string" minOccurs="0" />
+              <xs:element name="DMO_Id" msprop:Generator_ColumnVarNameInTable="columnDMO_Id" msprop:Generator_ColumnPropNameInRow="DMO_Id" msprop:Generator_ColumnPropNameInTable="DMO_IdColumn" msprop:Generator_UserColumnName="DMO_Id" type="xs:string" minOccurs="0" />
+              <xs:element name="DMO_Nro" msprop:Generator_ColumnVarNameInTable="columnDMO_Nro" msprop:Generator_ColumnPropNameInRow="DMO_Nro" msprop:Generator_ColumnPropNameInTable="DMO_NroColumn" msprop:Generator_UserColumnName="DMO_Nro" type="xs:string" minOccurs="0" />
+              <xs:element name="KAR_FECHA" msprop:Generator_ColumnVarNameInTable="columnKAR_FECHA" msprop:Generator_ColumnPropNameInRow="KAR_FECHA" msprop:Generator_ColumnPropNameInTable="KAR_FECHAColumn" msprop:Generator_UserColumnName="KAR_FECHA" type="xs:string" minOccurs="0" />
+              <xs:element name="KAR_INGRESO" msprop:Generator_ColumnVarNameInTable="columnKAR_INGRESO" msprop:Generator_ColumnPropNameInRow="KAR_INGRESO" msprop:Generator_ColumnPropNameInTable="KAR_INGRESOColumn" msprop:Generator_UserColumnName="KAR_INGRESO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="KAR_SALIDA" msprop:Generator_ColumnVarNameInTable="columnKAR_SALIDA" msprop:Generator_ColumnPropNameInRow="KAR_SALIDA" msprop:Generator_ColumnPropNameInTable="KAR_SALIDAColumn" msprop:Generator_UserColumnName="KAR_SALIDA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="KAR_SALDO_INI" msprop:Generator_ColumnVarNameInTable="columnKAR_SALDO_INI" msprop:Generator_ColumnPropNameInRow="KAR_SALDO_INI" msprop:Generator_ColumnPropNameInTable="KAR_SALDO_INIColumn" msprop:Generator_UserColumnName="KAR_SALDO_INI" type="xs:decimal" minOccurs="0" />
+              <xs:element name="KAR_INGRESO_VAL" msprop:Generator_ColumnVarNameInTable="columnKAR_INGRESO_VAL" msprop:Generator_ColumnPropNameInRow="KAR_INGRESO_VAL" msprop:Generator_ColumnPropNameInTable="KAR_INGRESO_VALColumn" msprop:Generator_UserColumnName="KAR_INGRESO_VAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="KAR_SALIDA_VAL" msprop:Generator_ColumnVarNameInTable="columnKAR_SALIDA_VAL" msprop:Generator_ColumnPropNameInRow="KAR_SALIDA_VAL" msprop:Generator_ColumnPropNameInTable="KAR_SALIDA_VALColumn" msprop:Generator_UserColumnName="KAR_SALIDA_VAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="KAR_SALDO_VAL_INI" msprop:Generator_ColumnVarNameInTable="columnKAR_SALDO_VAL_INI" msprop:Generator_ColumnPropNameInRow="KAR_SALDO_VAL_INI" msprop:Generator_ColumnPropNameInTable="KAR_SALDO_VAL_INIColumn" msprop:Generator_UserColumnName="KAR_SALDO_VAL_INI" type="xs:decimal" minOccurs="0" />
+              <xs:element name="KAR_COSTO_PROMEDIO" msprop:Generator_ColumnVarNameInTable="columnKAR_COSTO_PROMEDIO" msprop:Generator_ColumnPropNameInRow="KAR_COSTO_PROMEDIO" msprop:Generator_ColumnPropNameInTable="KAR_COSTO_PROMEDIOColumn" msprop:Generator_UserColumnName="KAR_COSTO_PROMEDIO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ALM_ID" msprop:Generator_ColumnVarNameInTable="columnALM_ID" msprop:Generator_ColumnPropNameInRow="ALM_ID" msprop:Generator_ColumnPropNameInTable="ALM_IDColumn" msprop:Generator_UserColumnName="ALM_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_ID" msprop:Generator_ColumnVarNameInTable="columnART_ID" msprop:Generator_ColumnPropNameInRow="ART_ID" msprop:Generator_ColumnPropNameInTable="ART_IDColumn" msprop:Generator_UserColumnName="ART_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="DMD_ID" msprop:Generator_ColumnVarNameInTable="columnDMD_ID" msprop:Generator_ColumnPropNameInRow="DMD_ID" msprop:Generator_ColumnPropNameInTable="DMD_IDColumn" msprop:Generator_UserColumnName="DMD_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="ALM_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnALM_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ALM_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ALM_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ALM_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="KAR_SALDO_FIN" msprop:Generator_ColumnVarNameInTable="columnKAR_SALDO_FIN" msprop:Generator_ColumnPropNameInRow="KAR_SALDO_FIN" msprop:Generator_ColumnPropNameInTable="KAR_SALDO_FINColumn" msprop:Generator_UserColumnName="KAR_SALDO_FIN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="KAR_SALDO_VAL_FIN" msprop:Generator_ColumnVarNameInTable="columnKAR_SALDO_VAL_FIN" msprop:Generator_ColumnPropNameInRow="KAR_SALDO_VAL_FIN" msprop:Generator_ColumnPropNameInTable="KAR_SALDO_VAL_FINColumn" msprop:Generator_UserColumnName="KAR_SALDO_VAL_FIN" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

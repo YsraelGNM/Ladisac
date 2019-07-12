@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsReporteOrdenDespacho" targetNamespace="http://tempuri.org/dsReporteOrdenDespacho.xsd" xmlns:mstns="http://tempuri.org/dsReporteOrdenDespacho.xsd" xmlns="http://tempuri.org/dsReporteOrdenDespacho.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsReporteOrdenDespacho" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsReporteOrdenDespacho" msprop:Generator_UserDSName="dsReporteOrdenDespacho">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReporteOrdenDespacho" msprop:Generator_TableClassName="ReporteOrdenDespachoDataTable" msprop:Generator_TableVarName="tableReporteOrdenDespacho" msprop:Generator_TablePropName="ReporteOrdenDespacho" msprop:Generator_RowDeletingName="ReporteOrdenDespachoRowDeleting" msprop:Generator_RowChangingName="ReporteOrdenDespachoRowChanging" msprop:Generator_RowEvHandlerName="ReporteOrdenDespachoRowChangeEventHandler" msprop:Generator_RowDeletedName="ReporteOrdenDespachoRowDeleted" msprop:Generator_UserTableName="ReporteOrdenDespacho" msprop:Generator_RowChangedName="ReporteOrdenDespachoRowChanged" msprop:Generator_RowEvArgName="ReporteOrdenDespachoRowChangeEvent" msprop:Generator_RowClassName="ReporteOrdenDespachoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ODE_ID" msprop:Generator_ColumnVarNameInTable="columnODE_ID" msprop:Generator_ColumnPropNameInRow="ODE_ID" msprop:Generator_ColumnPropNameInTable="ODE_IDColumn" msprop:Generator_UserColumnName="ODE_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="DocumentoODE" msprop:Generator_ColumnVarNameInTable="columnDocumentoODE" msprop:Generator_ColumnPropNameInRow="DocumentoODE" msprop:Generator_ColumnPropNameInTable="DocumentoODEColumn" msprop:Generator_UserColumnName="DocumentoODE" type="xs:string" minOccurs="0" />
+              <xs:element name="DDE_SERIE_DOC" msprop:Generator_ColumnVarNameInTable="columnDDE_SERIE_DOC" msprop:Generator_ColumnPropNameInRow="DDE_SERIE_DOC" msprop:Generator_ColumnPropNameInTable="DDE_SERIE_DOCColumn" msprop:Generator_UserColumnName="DDE_SERIE_DOC" type="xs:string" minOccurs="0" />
+              <xs:element name="DDE_NUMERO_DOC" msprop:Generator_ColumnVarNameInTable="columnDDE_NUMERO_DOC" msprop:Generator_ColumnPropNameInRow="DDE_NUMERO_DOC" msprop:Generator_ColumnPropNameInTable="DDE_NUMERO_DOCColumn" msprop:Generator_UserColumnName="DDE_NUMERO_DOC" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_ID" msprop:Generator_ColumnVarNameInTable="columnART_ID" msprop:Generator_ColumnPropNameInRow="ART_ID" msprop:Generator_ColumnPropNameInTable="ART_IDColumn" msprop:Generator_UserColumnName="ART_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnART_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ART_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ART_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ART_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="CANT_ORDENADA" msprop:Generator_ColumnVarNameInTable="columnCANT_ORDENADA" msprop:Generator_ColumnPropNameInRow="CANT_ORDENADA" msprop:Generator_ColumnPropNameInTable="CANT_ORDENADAColumn" msprop:Generator_UserColumnName="CANT_ORDENADA" type="xs:string" minOccurs="0" />
+              <xs:element name="DES_SERIE" msprop:Generator_ColumnVarNameInTable="columnDES_SERIE" msprop:Generator_ColumnPropNameInRow="DES_SERIE" msprop:Generator_ColumnPropNameInTable="DES_SERIEColumn" msprop:Generator_UserColumnName="DES_SERIE" type="xs:string" minOccurs="0" />
+              <xs:element name="DES_NUMERO" msprop:Generator_ColumnVarNameInTable="columnDES_NUMERO" msprop:Generator_ColumnPropNameInRow="DES_NUMERO" msprop:Generator_ColumnPropNameInTable="DES_NUMEROColumn" msprop:Generator_UserColumnName="DES_NUMERO" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_ID_KAR" msprop:Generator_ColumnVarNameInTable="columnART_ID_KAR" msprop:Generator_ColumnPropNameInRow="ART_ID_KAR" msprop:Generator_ColumnPropNameInTable="ART_ID_KARColumn" msprop:Generator_UserColumnName="ART_ID_KAR" type="xs:string" minOccurs="0" />
+              <xs:element name="DocumentoGUIA" msprop:Generator_ColumnVarNameInTable="columnDocumentoGUIA" msprop:Generator_ColumnPropNameInRow="DocumentoGUIA" msprop:Generator_ColumnPropNameInTable="DocumentoGUIAColumn" msprop:Generator_UserColumnName="DocumentoGUIA" type="xs:string" minOccurs="0" />
+              <xs:element name="DDE_CANTIDAD" msprop:Generator_ColumnVarNameInTable="columnDDE_CANTIDAD" msprop:Generator_ColumnPropNameInRow="DDE_CANTIDAD" msprop:Generator_ColumnPropNameInTable="DDE_CANTIDADColumn" msprop:Generator_UserColumnName="DDE_CANTIDAD" type="xs:string" minOccurs="0" />
+              <xs:element name="DES_SERIE_DOC" msprop:Generator_ColumnVarNameInTable="columnDES_SERIE_DOC" msprop:Generator_ColumnPropNameInRow="DES_SERIE_DOC" msprop:Generator_ColumnPropNameInTable="DES_SERIE_DOCColumn" msprop:Generator_UserColumnName="DES_SERIE_DOC" type="xs:string" minOccurs="0" />
+              <xs:element name="DES_NUMERO_DOC" msprop:Generator_ColumnVarNameInTable="columnDES_NUMERO_DOC" msprop:Generator_ColumnPropNameInRow="DES_NUMERO_DOC" msprop:Generator_ColumnPropNameInTable="DES_NUMERO_DOCColumn" msprop:Generator_UserColumnName="DES_NUMERO_DOC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

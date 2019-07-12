@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaTnProducidas" targetNamespace="http://tempuri.org/dsListaTnProducidas.xsd" xmlns:mstns="http://tempuri.org/dsListaTnProducidas.xsd" xmlns="http://tempuri.org/dsListaTnProducidas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaTnProducidas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaTnProducidas" msprop:Generator_UserDSName="dsListaTnProducidas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaTnProducidas" msprop:Generator_TableClassName="ListaTnProducidasDataTable" msprop:Generator_TableVarName="tableListaTnProducidas" msprop:Generator_TablePropName="ListaTnProducidas" msprop:Generator_RowDeletingName="ListaTnProducidasRowDeleting" msprop:Generator_RowChangingName="ListaTnProducidasRowChanging" msprop:Generator_RowEvHandlerName="ListaTnProducidasRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaTnProducidasRowDeleted" msprop:Generator_UserTableName="ListaTnProducidas" msprop:Generator_RowChangedName="ListaTnProducidasRowChanged" msprop:Generator_RowEvArgName="ListaTnProducidasRowChangeEvent" msprop:Generator_RowClassName="ListaTnProducidasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PRO_ID" msprop:Generator_ColumnVarNameInTable="columnPRO_ID" msprop:Generator_ColumnPropNameInRow="PRO_ID" msprop:Generator_ColumnPropNameInTable="PRO_IDColumn" msprop:Generator_UserColumnName="PRO_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="PRO_FECHA" msprop:Generator_ColumnVarNameInTable="columnPRO_FECHA" msprop:Generator_ColumnPropNameInRow="PRO_FECHA" msprop:Generator_ColumnPropNameInTable="PRO_FECHAColumn" msprop:Generator_UserColumnName="PRO_FECHA" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnART_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ART_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ART_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ART_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="UnBrXProd" msprop:Generator_ColumnVarNameInTable="columnUnBrXProd" msprop:Generator_ColumnPropNameInRow="UnBrXProd" msprop:Generator_ColumnPropNameInTable="UnBrXProdColumn" msprop:Generator_UserColumnName="UnBrXProd" type="xs:string" minOccurs="0" />
+              <xs:element name="Conteo" msprop:Generator_ColumnVarNameInTable="columnConteo" msprop:Generator_ColumnPropNameInRow="Conteo" msprop:Generator_ColumnPropNameInTable="ConteoColumn" msprop:Generator_UserColumnName="Conteo" type="xs:string" minOccurs="0" />
+              <xs:element name="TnBr" msprop:Generator_ColumnVarNameInTable="columnTnBr" msprop:Generator_ColumnPropNameInRow="TnBr" msprop:Generator_ColumnPropNameInTable="TnBrColumn" msprop:Generator_UserColumnName="TnBr" type="xs:string" minOccurs="0" />
+              <xs:element name="TnNt" msprop:Generator_ColumnVarNameInTable="columnTnNt" msprop:Generator_ColumnPropNameInRow="TnNt" msprop:Generator_ColumnPropNameInTable="TnNtColumn" msprop:Generator_UserColumnName="TnNt" type="xs:string" minOccurs="0" />
+              <xs:element name="PLA_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnPLA_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="PLA_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="PLA_DESCRIPCIONColumn" msprop:Generator_UserColumnName="PLA_DESCRIPCION" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

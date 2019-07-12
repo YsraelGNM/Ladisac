@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.BL    Public Interface IBCTesoreriaEditar        Function Mantenimiento(ByVal Item As TesoreriaEditar) As Short    End InterfaceEnd Namespace

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Ladisac.Mantto
+</name>
+</assembly>
+<members>
+<member name="T:dsReporteFichaInspeccion.ReporteFichaInspeccionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsReporteFichaInspeccion.ReporteFichaInspeccionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsReporteFichaInspeccion.ReporteFichaInspeccionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsReporteFichaInspeccion">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaHistoricoOT.HistoricoOTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaHistoricoOT.HistoricoOTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaHistoricoOT.HistoricoOTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaHistoricoOT">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsVLConsumoCombustible.VLConsumoCombustibleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsVLConsumoCombustible.VLConsumoCombustibleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsVLConsumoCombustible.VLConsumoCombustibleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsVLConsumoCombustible">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsTrabajoMantto.TrabajoManttoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsTrabajoMantto.TrabajoManttoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsTrabajoMantto.TrabajoManttoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsTrabajoMantto">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaOTXMesXSemanaXAnio.ListaOTXMesXSemanaxAnioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaOTXMesXSemanaXAnio.ListaOTXMesXSemanaxAnioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaOTXMesXSemanaXAnio.ListaOTXMesXSemanaxAnioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaOTXMesXSemanaXAnio">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:dsReporteRegistroEquipo.dsReporteRegistroEquipoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsReporteRegistroEquipo.dsReporteRegistroEquipoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsReporteRegistroEquipo.dsReporteRegistroEquipoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsReporteRegistroEquipo">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsImprimirOrdenTrabajo.spImprimirOrdenTrabajoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsImprimirOrdenTrabajo.spImprimirOrdenTrabajoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsImprimirOrdenTrabajo.spImprimirOrdenTrabajoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsImprimirOrdenTrabajo">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaAlertaCambios.AlertaCambiosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaAlertaCambios.AlertaCambiosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaAlertaCambios.AlertaCambiosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaAlertaCambios">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,16 @@
+C:\Ladisac05\Infrastructure\bin\Debug\Infrastructure.dll
+C:\Ladisac05\Infrastructure\bin\Debug\Infrastructure.pdb
+C:\Ladisac05\Infrastructure\bin\Debug\Infrastructure.xml
+C:\Ladisac05\Infrastructure\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Ladisac05\Infrastructure\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Ladisac05\Infrastructure\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Ladisac05\Infrastructure\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Ladisac05\Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Ladisac05\Infrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Ladisac05\Infrastructure\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Ladisac05\Infrastructure\obj\Debug\Infrastructure.vbprojResolveAssemblyReference.cache
+C:\Ladisac05\Infrastructure\obj\Debug\Resources.resources
+C:\Ladisac05\Infrastructure\obj\Debug\Infrastructure.vbproj.GenerateResource.Cache
+C:\Ladisac05\Infrastructure\obj\Debug\Infrastructure.dll
+C:\Ladisac05\Infrastructure\obj\Debug\Infrastructure.xml
+C:\Ladisac05\Infrastructure\obj\Debug\Infrastructure.pdb

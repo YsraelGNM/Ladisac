@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.BL    Public Interface IBCPesosArticulos        Function Mantenimiento(ByVal Item As PesosArticulos) As Short    End InterfaceEnd Namespace

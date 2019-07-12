@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.DAPublic Interface ITipoUnidadRepositorioFunction Maintenance(ByVal item As TipoUnidad) As ShortEnd InterfaceEnd Namespace

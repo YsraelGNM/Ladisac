@@ -1,0 +1,8 @@
+﻿validar numeros enteros en edad  en frmDetalleConceptoPensionario
+
+activar Using Scope As New System.Transactions.TransactionScope() de bc de los formularios
+
+en bcAsientos manulaes se ponen variables para cuenta corriente(renumeraciones),y tipo deocuemnto 
+
+
+BE.DetalleGrupoTrabajo . verificar que no este como referencia a GrupoTrabajo , delo contrario saldra error de key duplicada

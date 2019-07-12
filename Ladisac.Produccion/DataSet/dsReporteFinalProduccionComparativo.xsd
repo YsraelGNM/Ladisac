@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsReporteFinalProduccionComparativo" targetNamespace="http://tempuri.org/dsReporteFinalProduccionComparativo.xsd" xmlns:mstns="http://tempuri.org/dsReporteFinalProduccionComparativo.xsd" xmlns="http://tempuri.org/dsReporteFinalProduccionComparativo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsReporteFinalProduccionComparativo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsReporteFinalProduccionComparativo" msprop:Generator_UserDSName="dsReporteFinalProduccionComparativo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReporteFinalProduccionComparativo" msprop:Generator_TableClassName="ReporteFinalProduccionComparativoDataTable" msprop:Generator_TableVarName="tableReporteFinalProduccionComparativo" msprop:Generator_RowChangedName="ReporteFinalProduccionComparativoRowChanged" msprop:Generator_TablePropName="ReporteFinalProduccionComparativo" msprop:Generator_RowDeletingName="ReporteFinalProduccionComparativoRowDeleting" msprop:Generator_RowChangingName="ReporteFinalProduccionComparativoRowChanging" msprop:Generator_RowEvHandlerName="ReporteFinalProduccionComparativoRowChangeEventHandler" msprop:Generator_RowDeletedName="ReporteFinalProduccionComparativoRowDeleted" msprop:Generator_RowClassName="ReporteFinalProduccionComparativoRow" msprop:Generator_UserTableName="ReporteFinalProduccionComparativo" msprop:Generator_RowEvArgName="ReporteFinalProduccionComparativoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HrBrXProd" msprop:Generator_ColumnVarNameInTable="columnHrBrXProd" msprop:Generator_ColumnPropNameInRow="HrBrXProd" msprop:Generator_ColumnPropNameInTable="HrBrXProdColumn" msprop:Generator_UserColumnName="HrBrXProd" type="xs:string" minOccurs="0" />
+              <xs:element name="HrNtXProd" msprop:Generator_ColumnVarNameInTable="columnHrNtXProd" msprop:Generator_ColumnPropNameInRow="HrNtXProd" msprop:Generator_ColumnPropNameInTable="HrNtXProdColumn" msprop:Generator_UserColumnName="HrNtXProd" type="xs:string" minOccurs="0" />
+              <xs:element name="UnBrXProd" msprop:Generator_ColumnVarNameInTable="columnUnBrXProd" msprop:Generator_ColumnPropNameInRow="UnBrXProd" msprop:Generator_ColumnPropNameInTable="UnBrXProdColumn" msprop:Generator_UserColumnName="UnBrXProd" type="xs:string" minOccurs="0" />
+              <xs:element name="Conteo" msprop:Generator_ColumnVarNameInTable="columnConteo" msprop:Generator_ColumnPropNameInRow="Conteo" msprop:Generator_ColumnPropNameInTable="ConteoColumn" msprop:Generator_UserColumnName="Conteo" type="xs:string" minOccurs="0" />
+              <xs:element name="TmXHNetaConteoRecCanchero" msprop:Generator_ColumnVarNameInTable="columnTmXHNetaConteoRecCanchero" msprop:Generator_ColumnPropNameInRow="TmXHNetaConteoRecCanchero" msprop:Generator_ColumnPropNameInTable="TmXHNetaConteoRecCancheroColumn" msprop:Generator_UserColumnName="TmXHNetaConteoRecCanchero" type="xs:string" minOccurs="0" />
+              <xs:element name="RecCortes" msprop:Generator_ColumnVarNameInTable="columnRecCortes" msprop:Generator_ColumnPropNameInRow="RecCortes" msprop:Generator_ColumnPropNameInTable="RecCortesColumn" msprop:Generator_UserColumnName="RecCortes" type="xs:string" minOccurs="0" />
+              <xs:element name="CantidadMalos" msprop:Generator_ColumnVarNameInTable="columnCantidadMalos" msprop:Generator_ColumnPropNameInRow="CantidadMalos" msprop:Generator_ColumnPropNameInTable="CantidadMalosColumn" msprop:Generator_UserColumnName="CantidadMalos" type="xs:string" minOccurs="0" />
+              <xs:element name="UndRecCancha" msprop:Generator_ColumnVarNameInTable="columnUndRecCancha" msprop:Generator_ColumnPropNameInRow="UndRecCancha" msprop:Generator_ColumnPropNameInTable="UndRecCanchaColumn" msprop:Generator_UserColumnName="UndRecCancha" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalDescargaHornoXProd_Malos" msprop:Generator_ColumnVarNameInTable="columnTotalDescargaHornoXProd_Malos" msprop:Generator_ColumnPropNameInRow="TotalDescargaHornoXProd_Malos" msprop:Generator_ColumnPropNameInTable="TotalDescargaHornoXProd_MalosColumn" msprop:Generator_UserColumnName="TotalDescargaHornoXProd_Malos" type="xs:string" minOccurs="0" />
+              <xs:element name="anio" msprop:Generator_ColumnVarNameInTable="columnanio" msprop:Generator_ColumnPropNameInRow="anio" msprop:Generator_ColumnPropNameInTable="anioColumn" msprop:Generator_UserColumnName="anio" type="xs:string" minOccurs="0" />
+              <xs:element name="mes" msprop:Generator_ColumnVarNameInTable="columnmes" msprop:Generator_ColumnPropNameInRow="mes" msprop:Generator_ColumnPropNameInTable="mesColumn" msprop:Generator_UserColumnName="mes" type="xs:string" minOccurs="0" />
+              <xs:element name="NameMes" msprop:Generator_ColumnVarNameInTable="columnNameMes" msprop:Generator_ColumnPropNameInRow="NameMes" msprop:Generator_ColumnPropNameInTable="NameMesColumn" msprop:Generator_UserColumnName="NameMes" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

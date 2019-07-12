@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.BL    Public Interface IBCDescuentoIncrementoTipoVentaPersonas        Function Mantenimiento(ByVal Item As DescuentoIncrementoTipoVentaPersonas) As Short    End InterfaceEnd Namespace

@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{593BE733-05DA-478C-881D-1D62B7883AEB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>Ladisac.Foundation</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Ladisac.Foundation.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Ladisac.Foundation.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Infrastructure, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Ladisac.Foundation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\Libraries\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception.Configuration, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Libraries\Microsoft.Practices.Unity.Interception.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants\ColumnaCalendario.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Constants\MenuNames.vb" />
+    <Compile Include="Controllers\Herramientas.vb" />
+    <Compile Include="Controllers\ModuleController.vb" />
+    <Compile Include="DataSets\dsReporteSoso.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReporteSoso.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalEvents\LoginEvent.vb" />
+    <Compile Include="GlobalEvents\ShowBuscadorEvent.vb" />
+    <Compile Include="GlobalEvents\ShowViewEvent.vb" />
+    <Compile Include="ModuleIni.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Services\BarraService\BarraService.vb" />
+    <Compile Include="Services\BarraService\IBarraService.vb" />
+    <Compile Include="Services\MenuService\IMenuService.vb" />
+    <Compile Include="Services\MenuService\MenuService.vb" />
+    <Compile Include="Services\Session\ISessionService.vb" />
+    <Compile Include="Services\Session\SessionService.vb" />
+    <Compile Include="Views\frmBuscar.Designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmDocuIso.Designer.vb">
+      <DependentUpon>frmDocuIso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmDocuIso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmFotoPersona.Designer.vb">
+      <DependentUpon>frmFotoPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmFotoPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmInputBox.Designer.vb">
+      <DependentUpon>frmInputBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmInputBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmMonedas.Designer.vb">
+      <DependentUpon>frmMonedas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmMonedas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmPlantillaDocuIso.Designer.vb">
+      <DependentUpon>frmPlantillaDocuIso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmPlantillaDocuIso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmRptSolicitudSoporte.Designer.vb">
+      <DependentUpon>frmRptSolicitudSoporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmRptSolicitudSoporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmSolicitudSoporte.Designer.vb">
+      <DependentUpon>frmSolicitudSoporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmSolicitudSoporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmVisualizarISO.Designer.vb">
+      <DependentUpon>frmVisualizarISO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmVisualizarISO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Login\frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Login\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Maestro\ViewManMaster.Designer.vb">
+      <DependentUpon>ViewManMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Maestro\ViewManMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Maestro\ViewMaster.Designer.vb">
+      <DependentUpon>ViewMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Maestro\ViewMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MainWindow\MainWindow.Designer.vb">
+      <DependentUpon>MainWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainWindow\MainWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmDocuIso.resx">
+      <DependentUpon>frmDocuIso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmFotoPersona.resx">
+      <DependentUpon>frmFotoPersona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmInputBox.resx">
+      <DependentUpon>frmInputBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmMonedas.resx">
+      <DependentUpon>frmMonedas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmPlantillaDocuIso.resx">
+      <DependentUpon>frmPlantillaDocuIso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmRptSolicitudSoporte.resx">
+      <DependentUpon>frmRptSolicitudSoporte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmSolicitudSoporte.resx">
+      <DependentUpon>frmSolicitudSoporte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmVisualizarISO.resx">
+      <DependentUpon>frmVisualizarISO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Login\frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Maestro\ViewManMaster.resx">
+      <DependentUpon>ViewManMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Maestro\ViewMaster.resx">
+      <DependentUpon>ViewMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainWindow\MainWindow.resx">
+      <DependentUpon>MainWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\rptReporteSoSo.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DataSets\dsReporteSoso.xsc">
+      <DependentUpon>dsReporteSoso.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsReporteSoso.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReporteSoso.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsReporteSoso.xss">
+      <DependentUpon>dsReporteSoso.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\dsReporteSoso.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ladisac.BE\Ladisac.BE.vbproj">
+      <Project>{98453098-B42F-4309-93FC-9D2BC486E925}</Project>
+      <Name>Ladisac.BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.BL\Ladisac.BL.vbproj">
+      <Project>{80C99B39-DD08-450D-96F2-6A9B57D964F3}</Project>
+      <Name>Ladisac.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.DA\Ladisac.DA.vbproj">
+      <Project>{4DC3327E-1427-4E7E-B9D5-54C407E02AF3}</Project>
+      <Name>Ladisac.DA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ladisac.IBL\Ladisac.IBL.vbproj">
+      <Project>{8BC29E16-9658-4CF0-89F7-0759B6AAA419}</Project>
+      <Name>Ladisac.IBL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Prism.Interactivity\Prism.Interactivity.csproj">
+      <Project>{DE856812-A32C-4866-801E-AF396D711942}</Project>
+      <Name>Prism.Interactivity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Prism.UnityExtensions\Prism.UnityExtensions.Desktop.csproj">
+      <Project>{17831F3B-6B82-4916-BD2B-2CE2071EA622}</Project>
+      <Name>Prism.UnityExtensions.Desktop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Prism\Prism.Desktop.csproj">
+      <Project>{77138947-1D13-4E22-AEE0-5D0DD046CA34}</Project>
+      <Name>Prism.Desktop</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grabar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevo1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eliminar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Editar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CancelarEditar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GrabarNuevo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deshacer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Agregar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quitar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buscar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OkBusqueda.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inicio.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anterior.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Siguiente.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Final.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reporte2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salir.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iso.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Ring07.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

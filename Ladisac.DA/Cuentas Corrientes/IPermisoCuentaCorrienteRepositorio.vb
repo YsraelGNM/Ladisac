@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.DAPublic Interface IPermisoCuentaCorrienteRepositorioFunction Maintenance(ByVal item As PermisoCuentaCorriente) As ShortFunction DeleteRegistro(ByVal item As PermisoCuentaCorriente, ByVal cPEU_ID As String) As ShortEnd InterfaceEnd Namespace

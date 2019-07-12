@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsImpresionSolicitudDeCompra" targetNamespace="http://tempuri.org/dsImpresionSolicitudDeCompra.xsd" xmlns:mstns="http://tempuri.org/dsImpresionSolicitudDeCompra.xsd" xmlns="http://tempuri.org/dsImpresionSolicitudDeCompra.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsImpresionSolicitudDeCompra" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsImpresionSolicitudDeCompra" msprop:Generator_UserDSName="dsImpresionSolicitudDeCompra">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ImpresionSolicitudDeCompra" msprop:Generator_TableClassName="ImpresionSolicitudDeCompraDataTable" msprop:Generator_TableVarName="tableImpresionSolicitudDeCompra" msprop:Generator_RowChangedName="ImpresionSolicitudDeCompraRowChanged" msprop:Generator_TablePropName="ImpresionSolicitudDeCompra" msprop:Generator_RowDeletingName="ImpresionSolicitudDeCompraRowDeleting" msprop:Generator_RowChangingName="ImpresionSolicitudDeCompraRowChanging" msprop:Generator_RowEvHandlerName="ImpresionSolicitudDeCompraRowChangeEventHandler" msprop:Generator_RowDeletedName="ImpresionSolicitudDeCompraRowDeleted" msprop:Generator_RowClassName="ImpresionSolicitudDeCompraRow" msprop:Generator_UserTableName="ImpresionSolicitudDeCompra" msprop:Generator_RowEvArgName="ImpresionSolicitudDeCompraRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SOC_ID" msprop:Generator_ColumnVarNameInTable="columnSOC_ID" msprop:Generator_ColumnPropNameInRow="SOC_ID" msprop:Generator_ColumnPropNameInTable="SOC_IDColumn" msprop:Generator_UserColumnName="SOC_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="PER_SOLICITADO" msprop:Generator_ColumnVarNameInTable="columnPER_SOLICITADO" msprop:Generator_ColumnPropNameInRow="PER_SOLICITADO" msprop:Generator_ColumnPropNameInTable="PER_SOLICITADOColumn" msprop:Generator_UserColumnName="PER_SOLICITADO" type="xs:string" minOccurs="0" />
+              <xs:element name="SOC_FECHA" msprop:Generator_ColumnVarNameInTable="columnSOC_FECHA" msprop:Generator_ColumnPropNameInRow="SOC_FECHA" msprop:Generator_ColumnPropNameInTable="SOC_FECHAColumn" msprop:Generator_UserColumnName="SOC_FECHA" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_CODIGO" msprop:Generator_ColumnVarNameInTable="columnART_CODIGO" msprop:Generator_ColumnPropNameInRow="ART_CODIGO" msprop:Generator_ColumnPropNameInTable="ART_CODIGOColumn" msprop:Generator_UserColumnName="ART_CODIGO" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnART_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ART_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ART_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ART_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="SCD_CANTIDAD" msprop:Generator_ColumnVarNameInTable="columnSCD_CANTIDAD" msprop:Generator_ColumnPropNameInRow="SCD_CANTIDAD" msprop:Generator_ColumnPropNameInTable="SCD_CANTIDADColumn" msprop:Generator_UserColumnName="SCD_CANTIDAD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SCD_CANTIDAD_INGRESADA" msprop:Generator_ColumnVarNameInTable="columnSCD_CANTIDAD_INGRESADA" msprop:Generator_ColumnPropNameInRow="SCD_CANTIDAD_INGRESADA" msprop:Generator_ColumnPropNameInTable="SCD_CANTIDAD_INGRESADAColumn" msprop:Generator_UserColumnName="SCD_CANTIDAD_INGRESADA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SCD_PRECIO_UNITARIO" msprop:Generator_ColumnVarNameInTable="columnSCD_PRECIO_UNITARIO" msprop:Generator_ColumnPropNameInRow="SCD_PRECIO_UNITARIO" msprop:Generator_ColumnPropNameInTable="SCD_PRECIO_UNITARIOColumn" msprop:Generator_UserColumnName="SCD_PRECIO_UNITARIO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SCD_OBSERVACIONES" msprop:Generator_ColumnVarNameInTable="columnSCD_OBSERVACIONES" msprop:Generator_ColumnPropNameInRow="SCD_OBSERVACIONES" msprop:Generator_ColumnPropNameInTable="SCD_OBSERVACIONESColumn" msprop:Generator_UserColumnName="SCD_OBSERVACIONES" type="xs:string" minOccurs="0" />
+              <xs:element name="SCD_ID" msprop:Generator_ColumnVarNameInTable="columnSCD_ID" msprop:Generator_ColumnPropNameInRow="SCD_ID" msprop:Generator_ColumnPropNameInTable="SCD_IDColumn" msprop:Generator_UserColumnName="SCD_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="UM_SIMBOLO" msprop:Generator_ColumnVarNameInTable="columnUM_SIMBOLO" msprop:Generator_ColumnPropNameInRow="UM_SIMBOLO" msprop:Generator_ColumnPropNameInTable="UM_SIMBOLOColumn" msprop:Generator_UserColumnName="UM_SIMBOLO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

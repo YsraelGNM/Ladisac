@@ -1,0 +1,536 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Ladisac.Logistica
+</name>
+</assembly>
+<members>
+<member name="T:dsImpresionTransformacion.ImpresionTransformacionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsImpresionTransformacion.ImpresionTransformacionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsImpresionTransformacion.ImpresionTransformacionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsImpresionTransformacion">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaKardex.ListaKardexDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaKardex.ListaKardexRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaKardex.ListaKardexRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaKardex">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaStockMin.ListaStockMinDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaStockMin.ListaStockMinRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaStockMin.ListaStockMinRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaStockMin">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaTiempoAtencionOR.ListaTiempoAtencionORDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaTiempoAtencionOR.ListaTiempoAtencionORRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaTiempoAtencionOR.ListaTiempoAtencionORRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaTiempoAtencionOR">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaKardexLadrillo.ListaKardexLadrilloDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaKardexLadrillo.ListaKardexLadrilloRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaKardexLadrillo.ListaKardexLadrilloRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaKardexLadrillo">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaSeguimientoAutorización.ListaSeguimientoAutorizacionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaSeguimientoAutorización.ListaSeguimientoAutorizacionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaSeguimientoAutorización.ListaSeguimientoAutorizacionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaSeguimientoAutorización">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsImpresionOrdenServicio.ImpresionOrdenServicioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsImpresionOrdenServicio.ImpresionOrdenServicioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsImpresionOrdenServicio.ImpresionOrdenServicioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsImpresionOrdenServicio">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaReporteSeguimientoDocumento.ListaReporteSeguimientoDocumentoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaReporteSeguimientoDocumento.ListaReporteSeguimientoDocumentoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaReporteSeguimientoDocumento.ListaReporteSeguimientoDocumentoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaReporteSeguimientoDocumento">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:dsImpresionOrdenDeSalida.ImpresionOrdenDeSalidaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsImpresionOrdenDeSalida.ImpresionOrdenDeSalidaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsImpresionOrdenDeSalida.ImpresionOrdenDeSalidaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsImpresionOrdenDeSalida">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsImpresionRendicionGastos.RendicionGastosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsImpresionRendicionGastos.RendicionGastosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsImpresionRendicionGastos.RendicionGastosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsImpresionRendicionGastos">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaProcesoCompraSinCotizacionImpresion.ListaProcesoCompraSinCotizacionImpresionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaProcesoCompraSinCotizacionImpresion.ListaProcesoCompraSinCotizacionImpresionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaProcesoCompraSinCotizacionImpresion.ListaProcesoCompraSinCotizacionImpresionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaProcesoCompraSinCotizacionImpresion">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsConsumoEntidad.ConsumoEntidadDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsConsumoEntidad.ConsumoEntidadRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsConsumoEntidad.ConsumoEntidadRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsConsumoEntidad">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsInventario.InventarioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsInventario.InventarioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsInventario.InventarioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsInventario">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaKardexContabilidad.ListaKardexContabilidadDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaKardexContabilidad.ListaKardexContabilidadRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaKardexContabilidad.ListaKardexContabilidadRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaKardexContabilidad">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaLiquidacionMateriaPrima.ListaLiquidacionMateriaPrimaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaLiquidacionMateriaPrima.ListaLiquidacionMateriaPrimaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaLiquidacionMateriaPrima.ListaLiquidacionMateriaPrimaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaLiquidacionMateriaPrima">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsCuadroComparativo.CuadroComparativoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsCuadroComparativo.CuadroComparativoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsCuadroComparativo.CuadroComparativoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsCuadroComparativo">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaGuiasFacturadas.ListaGuiasFacturadasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaGuiasFacturadas.ListaGuiasFacturadasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaGuiasFacturadas.ListaGuiasFacturadasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaGuiasFacturadas">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaProgramacionPagoProveedor.ListaProgramacionPagoProveedorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaProgramacionPagoProveedor.ListaProgramacionPagoProveedorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaProgramacionPagoProveedor.ListaProgramacionPagoProveedorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaProgramacionPagoProveedor">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaProveedor.ListaProveedorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaProveedor.ListaProveedorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaProveedor.ListaProveedorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaProveedor">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaSaldoXAlmacen.ListaSaldoXAlmacenDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaSaldoXAlmacen.ListaSaldoXAlmacenRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaSaldoXAlmacen.ListaSaldoXAlmacenRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaSaldoXAlmacen">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaConsComb.ListaConsCombDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaConsComb.ListaConsCombRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaConsComb.ListaConsCombRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaConsComb">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaDocOperacion.DocOperacionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaDocOperacion.DocOperacionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaDocOperacion.DocOperacionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaDocOperacion">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaKardexConsolidado.ListaKardexConsolidadoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaKardexConsolidado.ListaKardexConsolidadoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaKardexConsolidado.ListaKardexConsolidadoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaKardexConsolidado">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsReporteTickets.ReporteTicketsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsReporteTickets.ReporteTicketsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsReporteTickets.ReporteTicketsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsReporteTickets">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsImpresionCuentaRendir.CuentaRendirDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsImpresionCuentaRendir.CuentaRendirRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsImpresionCuentaRendir.CuentaRendirRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsImpresionCuentaRendir">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsReporteAnticuamiento.ReporteAnticuamientoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsReporteAnticuamiento.ReporteAnticuamientoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsReporteAnticuamiento.ReporteAnticuamientoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsReporteAnticuamiento">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsImpresionSolicitudDeCompra.ImpresionSolicitudDeCompraDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsImpresionSolicitudDeCompra.ImpresionSolicitudDeCompraRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsImpresionSolicitudDeCompra.ImpresionSolicitudDeCompraRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsImpresionSolicitudDeCompra">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListadoOrdenRequerimiento.ListadoOrdenRequerimientoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListadoOrdenRequerimiento.ListadoOrdenRequerimientoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListadoOrdenRequerimiento.ListadoOrdenRequerimientoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListadoOrdenRequerimiento">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListadoIngresoxProveedor.ListadoIngresoxProveedorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListadoIngresoxProveedor.ListadoIngresoxProveedorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListadoIngresoxProveedor.ListadoIngresoxProveedorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListadoIngresoxProveedor">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsImpresionOrdenCompra.ImpresionOrdenCompraDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsImpresionOrdenCompra.ImpresionOrdenCompraRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsImpresionOrdenCompra.ImpresionOrdenCompraRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsImpresionOrdenCompra">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsListaKardexLote.ListaKardexLoteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsListaKardexLote.ListaKardexLoteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsListaKardexLote.ListaKardexLoteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsListaKardexLote">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:dsReporteOrdenSalida.ReporteOrdenSalidaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:dsReporteOrdenSalida.ReporteOrdenSalidaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:dsReporteOrdenSalida.ReporteOrdenSalidaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:dsReporteOrdenSalida">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>

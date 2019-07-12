@@ -1,0 +1,15 @@
+C:\Ladisac04\Prism.Interactivity\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Ladisac04\Prism.Interactivity\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Ladisac04\Prism.Interactivity\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Ladisac04\Prism.Interactivity\bin\Debug\System.Windows.Interactivity.dll
+C:\Ladisac04\Prism.Interactivity\obj\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Ladisac04\Prism.Interactivity\obj\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Ladisac04\Prism.Interactivity\obj\Debug\Prism.Interactivity.csprojResolveAssemblyReference.cache
+C:\Ladisac05\Prism.Interactivity\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Ladisac05\Prism.Interactivity\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Ladisac05\Prism.Interactivity\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Ladisac05\Prism.Interactivity\bin\Debug\System.Windows.Interactivity.dll
+C:\Ladisac05\Prism.Interactivity\obj\Debug\Prism.Interactivity.csprojResolveAssemblyReference.cache
+C:\Ladisac05\Prism.Interactivity\obj\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Ladisac05\Prism.Interactivity\obj\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Ladisac05\Prism.Interactivity\bin\Debug\Microsoft.Practices.Prism.Interactivity.XML

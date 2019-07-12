@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaResumenControlParadaPorDia" targetNamespace="http://tempuri.org/dsListaResumenControlParadaPorDia.xsd" xmlns:mstns="http://tempuri.org/dsListaResumenControlParadaPorDia.xsd" xmlns="http://tempuri.org/dsListaResumenControlParadaPorDia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaResumenControlParadaPorDia" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaResumenControlParadaPorDia" msprop:Generator_UserDSName="dsListaResumenControlParadaPorDia">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaResumenControlParadaPorDia" msprop:Generator_TableClassName="ListaResumenControlParadaPorDiaDataTable" msprop:Generator_TableVarName="tableListaResumenControlParadaPorDia" msprop:Generator_TablePropName="ListaResumenControlParadaPorDia" msprop:Generator_RowDeletingName="ListaResumenControlParadaPorDiaRowDeleting" msprop:Generator_RowChangingName="ListaResumenControlParadaPorDiaRowChanging" msprop:Generator_RowEvHandlerName="ListaResumenControlParadaPorDiaRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaResumenControlParadaPorDiaRowDeleted" msprop:Generator_UserTableName="ListaResumenControlParadaPorDia" msprop:Generator_RowChangedName="ListaResumenControlParadaPorDiaRowChanged" msprop:Generator_RowEvArgName="ListaResumenControlParadaPorDiaRowChangeEvent" msprop:Generator_RowClassName="ListaResumenControlParadaPorDiaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PRO_FECHA" msprop:Generator_ColumnVarNameInTable="columnPRO_FECHA" msprop:Generator_ColumnPropNameInRow="PRO_FECHA" msprop:Generator_ColumnPropNameInTable="PRO_FECHAColumn" msprop:Generator_UserColumnName="PRO_FECHA" type="xs:string" minOccurs="0" />
+              <xs:element name="PRO_ID" msprop:Generator_ColumnVarNameInTable="columnPRO_ID" msprop:Generator_ColumnPropNameInRow="PRO_ID" msprop:Generator_ColumnPropNameInTable="PRO_IDColumn" msprop:Generator_UserColumnName="PRO_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnART_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ART_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ART_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ART_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="UnBrXProd" msprop:Generator_ColumnVarNameInTable="columnUnBrXProd" msprop:Generator_ColumnPropNameInRow="UnBrXProd" msprop:Generator_ColumnPropNameInTable="UnBrXProdColumn" msprop:Generator_UserColumnName="UnBrXProd" type="xs:string" minOccurs="0" />
+              <xs:element name="Conteo" msprop:Generator_ColumnVarNameInTable="columnConteo" msprop:Generator_ColumnPropNameInRow="Conteo" msprop:Generator_ColumnPropNameInTable="ConteoColumn" msprop:Generator_UserColumnName="Conteo" type="xs:string" minOccurs="0" />
+              <xs:element name="HrBrXProd" msprop:Generator_ColumnVarNameInTable="columnHrBrXProd" msprop:Generator_ColumnPropNameInRow="HrBrXProd" msprop:Generator_ColumnPropNameInTable="HrBrXProdColumn" msprop:Generator_UserColumnName="HrBrXProd" type="xs:string" minOccurs="0" />
+              <xs:element name="HrNtXProd" msprop:Generator_ColumnVarNameInTable="columnHrNtXProd" msprop:Generator_ColumnPropNameInRow="HrNtXProd" msprop:Generator_ColumnPropNameInTable="HrNtXProdColumn" msprop:Generator_UserColumnName="HrNtXProd" type="xs:string" minOccurs="0" />
+              <xs:element name="Hr" msprop:Generator_ColumnVarNameInTable="columnHr" msprop:Generator_ColumnPropNameInRow="Hr" msprop:Generator_ColumnPropNameInTable="HrColumn" msprop:Generator_UserColumnName="Hr" type="xs:string" minOccurs="0" />
+              <xs:element name="Mi" msprop:Generator_ColumnVarNameInTable="columnMi" msprop:Generator_ColumnPropNameInRow="Mi" msprop:Generator_ColumnPropNameInTable="MiColumn" msprop:Generator_UserColumnName="Mi" type="xs:string" minOccurs="0" />
+              <xs:element name="Se" msprop:Generator_ColumnVarNameInTable="columnSe" msprop:Generator_ColumnPropNameInRow="Se" msprop:Generator_ColumnPropNameInTable="SeColumn" msprop:Generator_UserColumnName="Se" type="xs:string" minOccurs="0" />
+              <xs:element name="MinBr" msprop:Generator_ColumnVarNameInTable="columnMinBr" msprop:Generator_ColumnPropNameInRow="MinBr" msprop:Generator_ColumnPropNameInTable="MinBrColumn" msprop:Generator_UserColumnName="MinBr" type="xs:string" minOccurs="0" />
+              <xs:element name="MinNt" msprop:Generator_ColumnVarNameInTable="columnMinNt" msprop:Generator_ColumnPropNameInRow="MinNt" msprop:Generator_ColumnPropNameInTable="MinNtColumn" msprop:Generator_UserColumnName="MinNt" type="xs:string" minOccurs="0" />
+              <xs:element name="MinEx" msprop:Generator_ColumnVarNameInTable="columnMinEx" msprop:Generator_ColumnPropNameInRow="MinEx" msprop:Generator_ColumnPropNameInTable="MinExColumn" msprop:Generator_UserColumnName="MinEx" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaCombustibleXQuemador" targetNamespace="http://tempuri.org/dsListaCombustibleXQuemador.xsd" xmlns:mstns="http://tempuri.org/dsListaCombustibleXQuemador.xsd" xmlns="http://tempuri.org/dsListaCombustibleXQuemador.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaCombustibleXQuemador" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaCombustibleXQuemador" msprop:Generator_UserDSName="dsListaCombustibleXQuemador">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaCombustibleXQuemador" msprop:Generator_TableClassName="ListaCombustibleXQuemadorDataTable" msprop:Generator_TableVarName="tableListaCombustibleXQuemador" msprop:Generator_TablePropName="ListaCombustibleXQuemador" msprop:Generator_RowDeletingName="ListaCombustibleXQuemadorRowDeleting" msprop:Generator_RowChangingName="ListaCombustibleXQuemadorRowChanging" msprop:Generator_RowEvHandlerName="ListaCombustibleXQuemadorRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaCombustibleXQuemadorRowDeleted" msprop:Generator_UserTableName="ListaCombustibleXQuemador" msprop:Generator_RowChangedName="ListaCombustibleXQuemadorRowChanged" msprop:Generator_RowEvArgName="ListaCombustibleXQuemadorRowChangeEvent" msprop:Generator_RowClassName="ListaCombustibleXQuemadorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Combustible" msprop:Generator_ColumnVarNameInTable="columnCombustible" msprop:Generator_ColumnPropNameInRow="Combustible" msprop:Generator_ColumnPropNameInTable="CombustibleColumn" msprop:Generator_UserColumnName="Combustible" type="xs:string" minOccurs="0" />
+              <xs:element name="TmPSeco" msprop:Generator_ColumnVarNameInTable="columnTmPSeco" msprop:Generator_ColumnPropNameInRow="TmPSeco" msprop:Generator_ColumnPropNameInTable="TmPSecoColumn" msprop:Generator_UserColumnName="TmPSeco" type="xs:string" minOccurs="0" />
+              <xs:element name="GlnTn" msprop:Generator_ColumnVarNameInTable="columnGlnTn" msprop:Generator_ColumnPropNameInRow="GlnTn" msprop:Generator_ColumnPropNameInTable="GlnTnColumn" msprop:Generator_UserColumnName="GlnTn" type="xs:string" minOccurs="0" />
+              <xs:element name="Ope" msprop:Generator_ColumnVarNameInTable="columnOpe" msprop:Generator_ColumnPropNameInRow="Ope" msprop:Generator_ColumnPropNameInTable="OpeColumn" msprop:Generator_UserColumnName="Ope" type="xs:string" minOccurs="0" />
+              <xs:element name="tipo" msprop:Generator_ColumnVarNameInTable="columntipo" msprop:Generator_ColumnPropNameInRow="tipo" msprop:Generator_ColumnPropNameInTable="tipoColumn" msprop:Generator_UserColumnName="tipo" type="xs:string" minOccurs="0" />
+              <xs:element name="Gas" msprop:Generator_ColumnVarNameInTable="columnGas" msprop:Generator_ColumnPropNameInRow="Gas" msprop:Generator_ColumnPropNameInTable="GasColumn" msprop:Generator_UserColumnName="Gas" type="xs:string" minOccurs="0" />
+              <xs:element name="GasTn" msprop:Generator_ColumnVarNameInTable="columnGasTn" msprop:Generator_ColumnPropNameInRow="GasTn" msprop:Generator_ColumnPropNameInTable="GasTnColumn" msprop:Generator_UserColumnName="GasTn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

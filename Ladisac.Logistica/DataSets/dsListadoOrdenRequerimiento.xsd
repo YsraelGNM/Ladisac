@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListadoOrdenRequerimiento" targetNamespace="http://tempuri.org/dsListadoOrdenRequerimiento.xsd" xmlns:mstns="http://tempuri.org/dsListadoOrdenRequerimiento.xsd" xmlns="http://tempuri.org/dsListadoOrdenRequerimiento.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListadoOrdenRequerimiento" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListadoOrdenRequerimiento" msprop:Generator_UserDSName="dsListadoOrdenRequerimiento">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListadoOrdenRequerimiento" msprop:Generator_TableClassName="ListadoOrdenRequerimientoDataTable" msprop:Generator_TableVarName="tableListadoOrdenRequerimiento" msprop:Generator_TablePropName="ListadoOrdenRequerimiento" msprop:Generator_RowDeletingName="ListadoOrdenRequerimientoRowDeleting" msprop:Generator_RowChangingName="ListadoOrdenRequerimientoRowChanging" msprop:Generator_RowEvHandlerName="ListadoOrdenRequerimientoRowChangeEventHandler" msprop:Generator_RowDeletedName="ListadoOrdenRequerimientoRowDeleted" msprop:Generator_UserTableName="ListadoOrdenRequerimiento" msprop:Generator_RowChangedName="ListadoOrdenRequerimientoRowChanged" msprop:Generator_RowEvArgName="ListadoOrdenRequerimientoRowChangeEvent" msprop:Generator_RowClassName="ListadoOrdenRequerimientoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OTR_ID" msprop:Generator_ColumnVarNameInTable="columnOTR_ID" msprop:Generator_ColumnPropNameInRow="OTR_ID" msprop:Generator_ColumnPropNameInTable="OTR_IDColumn" msprop:Generator_UserColumnName="OTR_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="ENO_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnENO_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ENO_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ENO_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ENO_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="ORR_ID" msprop:Generator_ColumnVarNameInTable="columnORR_ID" msprop:Generator_ColumnPropNameInRow="ORR_ID" msprop:Generator_ColumnPropNameInTable="ORR_IDColumn" msprop:Generator_UserColumnName="ORR_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="ORR_FECHA" msprop:Generator_ColumnVarNameInTable="columnORR_FECHA" msprop:Generator_ColumnPropNameInRow="ORR_FECHA" msprop:Generator_ColumnPropNameInTable="ORR_FECHAColumn" msprop:Generator_UserColumnName="ORR_FECHA" type="xs:string" minOccurs="0" />
+              <xs:element name="ORR_FEC_MAX_ENTREGA" msprop:Generator_ColumnVarNameInTable="columnORR_FEC_MAX_ENTREGA" msprop:Generator_ColumnPropNameInRow="ORR_FEC_MAX_ENTREGA" msprop:Generator_ColumnPropNameInTable="ORR_FEC_MAX_ENTREGAColumn" msprop:Generator_UserColumnName="ORR_FEC_MAX_ENTREGA" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_CODIGO" msprop:Generator_ColumnVarNameInTable="columnART_CODIGO" msprop:Generator_ColumnPropNameInRow="ART_CODIGO" msprop:Generator_ColumnPropNameInTable="ART_CODIGOColumn" msprop:Generator_UserColumnName="ART_CODIGO" type="xs:string" minOccurs="0" />
+              <xs:element name="ART_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnART_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="ART_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="ART_DESCRIPCIONColumn" msprop:Generator_UserColumnName="ART_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="ORD_CANTIDAD" msprop:Generator_ColumnVarNameInTable="columnORD_CANTIDAD" msprop:Generator_ColumnPropNameInRow="ORD_CANTIDAD" msprop:Generator_ColumnPropNameInTable="ORD_CANTIDADColumn" msprop:Generator_UserColumnName="ORD_CANTIDAD" type="xs:string" minOccurs="0" />
+              <xs:element name="ORD_CANTIDAD_ATENDIDA" msprop:Generator_ColumnVarNameInTable="columnORD_CANTIDAD_ATENDIDA" msprop:Generator_ColumnPropNameInRow="ORD_CANTIDAD_ATENDIDA" msprop:Generator_ColumnPropNameInTable="ORD_CANTIDAD_ATENDIDAColumn" msprop:Generator_UserColumnName="ORD_CANTIDAD_ATENDIDA" type="xs:string" minOccurs="0" />
+              <xs:element name="STOCK" msprop:Generator_ColumnVarNameInTable="columnSTOCK" msprop:Generator_ColumnPropNameInRow="STOCK" msprop:Generator_ColumnPropNameInTable="STOCKColumn" msprop:Generator_UserColumnName="STOCK" type="xs:string" minOccurs="0" />
+              <xs:element name="ORD_OBSERVACION" msprop:Generator_ColumnVarNameInTable="columnORD_OBSERVACION" msprop:Generator_ColumnPropNameInRow="ORD_OBSERVACION" msprop:Generator_ColumnPropNameInTable="ORD_OBSERVACIONColumn" msprop:Generator_UserColumnName="ORD_OBSERVACION" type="xs:string" minOccurs="0" />
+              <xs:element name="GRU_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnGRU_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="GRU_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="GRU_DESCRIPCIONColumn" msprop:Generator_UserColumnName="GRU_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="Ruta" msprop:Generator_ColumnVarNameInTable="columnRuta" msprop:Generator_ColumnPropNameInRow="Ruta" msprop:Generator_ColumnPropNameInTable="RutaColumn" msprop:Generator_UserColumnName="Ruta" type="xs:string" minOccurs="0" />
+              <xs:element name="USU_ID" msprop:Generator_ColumnVarNameInTable="columnUSU_ID" msprop:Generator_ColumnPropNameInRow="USU_ID" msprop:Generator_ColumnPropNameInTable="USU_IDColumn" msprop:Generator_UserColumnName="USU_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="ORR_FEC_RECIBIDO" msprop:Generator_ColumnVarNameInTable="columnORR_FEC_RECIBIDO" msprop:Generator_ColumnPropNameInRow="ORR_FEC_RECIBIDO" msprop:Generator_ColumnPropNameInTable="ORR_FEC_RECIBIDOColumn" msprop:Generator_UserColumnName="ORR_FEC_RECIBIDO" type="xs:string" minOccurs="0" />
+              <xs:element name="Aprobado_Por" msprop:Generator_ColumnVarNameInTable="columnAprobado_Por" msprop:Generator_ColumnPropNameInRow="Aprobado_Por" msprop:Generator_ColumnPropNameInTable="Aprobado_PorColumn" msprop:Generator_UserColumnName="Aprobado_Por" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

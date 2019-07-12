@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsListaReporteSeguimientoDocumento" targetNamespace="http://tempuri.org/dsListaReporteSeguimientoDocumento.xsd" xmlns:mstns="http://tempuri.org/dsListaReporteSeguimientoDocumento.xsd" xmlns="http://tempuri.org/dsListaReporteSeguimientoDocumento.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsListaReporteSeguimientoDocumento" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsListaReporteSeguimientoDocumento" msprop:Generator_UserDSName="dsListaReporteSeguimientoDocumento">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListaReporteSeguimientoDocumento" msprop:Generator_TableClassName="ListaReporteSeguimientoDocumentoDataTable" msprop:Generator_TableVarName="tableListaReporteSeguimientoDocumento" msprop:Generator_TablePropName="ListaReporteSeguimientoDocumento" msprop:Generator_RowDeletingName="ListaReporteSeguimientoDocumentoRowDeleting" msprop:Generator_RowChangingName="ListaReporteSeguimientoDocumentoRowChanging" msprop:Generator_RowEvHandlerName="ListaReporteSeguimientoDocumentoRowChangeEventHandler" msprop:Generator_RowDeletedName="ListaReporteSeguimientoDocumentoRowDeleted" msprop:Generator_UserTableName="ListaReporteSeguimientoDocumento" msprop:Generator_RowChangedName="ListaReporteSeguimientoDocumentoRowChanged" msprop:Generator_RowEvArgName="ListaReporteSeguimientoDocumentoRowChangeEvent" msprop:Generator_RowClassName="ListaReporteSeguimientoDocumentoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DTD_DESCRIPCION" msprop:Generator_ColumnVarNameInTable="columnDTD_DESCRIPCION" msprop:Generator_ColumnPropNameInRow="DTD_DESCRIPCION" msprop:Generator_ColumnPropNameInTable="DTD_DESCRIPCIONColumn" msprop:Generator_UserColumnName="DTD_DESCRIPCION" type="xs:string" minOccurs="0" />
+              <xs:element name="rdo_serie" msprop:Generator_ColumnVarNameInTable="columnrdo_serie" msprop:Generator_ColumnPropNameInRow="rdo_serie" msprop:Generator_ColumnPropNameInTable="rdo_serieColumn" msprop:Generator_UserColumnName="rdo_serie" type="xs:string" minOccurs="0" />
+              <xs:element name="rdo_numero" msprop:Generator_ColumnVarNameInTable="columnrdo_numero" msprop:Generator_ColumnPropNameInRow="rdo_numero" msprop:Generator_ColumnPropNameInTable="rdo_numeroColumn" msprop:Generator_UserColumnName="rdo_numero" type="xs:string" minOccurs="0" />
+              <xs:element name="rdo_fecha_documento" msprop:Generator_ColumnVarNameInTable="columnrdo_fecha_documento" msprop:Generator_ColumnPropNameInRow="rdo_fecha_documento" msprop:Generator_ColumnPropNameInTable="rdo_fecha_documentoColumn" msprop:Generator_UserColumnName="rdo_fecha_documento" type="xs:string" minOccurs="0" />
+              <xs:element name="proveedor" msprop:Generator_ColumnVarNameInTable="columnproveedor" msprop:Generator_ColumnPropNameInRow="proveedor" msprop:Generator_ColumnPropNameInTable="proveedorColumn" msprop:Generator_UserColumnName="proveedor" type="xs:string" minOccurs="0" />
+              <xs:element name="rdo_concepto" msprop:Generator_ColumnVarNameInTable="columnrdo_concepto" msprop:Generator_ColumnPropNameInRow="rdo_concepto" msprop:Generator_ColumnPropNameInTable="rdo_conceptoColumn" msprop:Generator_UserColumnName="rdo_concepto" type="xs:string" minOccurs="0" />
+              <xs:element name="generado" msprop:Generator_ColumnVarNameInTable="columngenerado" msprop:Generator_ColumnPropNameInRow="generado" msprop:Generator_ColumnPropNameInTable="generadoColumn" msprop:Generator_UserColumnName="generado" type="xs:string" minOccurs="0" />
+              <xs:element name="rdo_fecha" msdata:DateTimeMode="Local" msprop:Generator_ColumnVarNameInTable="columnrdo_fecha" msprop:Generator_ColumnPropNameInRow="rdo_fecha" msprop:Generator_ColumnPropNameInTable="rdo_fechaColumn" msprop:Generator_UserColumnName="rdo_fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="recibido" msprop:Generator_ColumnVarNameInTable="columnrecibido" msprop:Generator_ColumnPropNameInRow="recibido" msprop:Generator_ColumnPropNameInTable="recibidoColumn" msprop:Generator_UserColumnName="recibido" type="xs:string" minOccurs="0" />
+              <xs:element name="rdo_fecha_recibido" msdata:DateTimeMode="Local" msprop:Generator_ColumnVarNameInTable="columnrdo_fecha_recibido" msprop:Generator_ColumnPropNameInRow="rdo_fecha_recibido" msprop:Generator_ColumnPropNameInTable="rdo_fecha_recibidoColumn" msprop:Generator_UserColumnName="rdo_fecha_recibido" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

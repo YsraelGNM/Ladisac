@@ -1,0 +1,1 @@
+Imports Ladisac.BENamespace Ladisac.DA    Public Interface IRolPuntoVentaAlmacenRepositorio        Function Maintenance(ByVal item As RolPuntoVentaAlmacen) As Short    End InterfaceEnd Namespace

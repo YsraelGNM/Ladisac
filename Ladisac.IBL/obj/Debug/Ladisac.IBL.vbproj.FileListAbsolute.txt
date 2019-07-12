@@ -1,0 +1,15 @@
+C:\Ladisac05\Ladisac.IBL\bin\Debug\LadisacModel.Designer.vb
+C:\Ladisac05\Ladisac.IBL\bin\Debug\Ladisac.IBL.dll
+C:\Ladisac05\Ladisac.IBL\bin\Debug\Ladisac.IBL.pdb
+C:\Ladisac05\Ladisac.IBL\bin\Debug\Ladisac.IBL.xml
+C:\Ladisac05\Ladisac.IBL\bin\Debug\Ladisac.BE.dll
+C:\Ladisac05\Ladisac.IBL\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Ladisac05\Ladisac.IBL\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Ladisac05\Ladisac.IBL\bin\Debug\Ladisac.BE.pdb
+C:\Ladisac05\Ladisac.IBL\bin\Debug\Ladisac.BE.xml
+C:\Ladisac05\Ladisac.IBL\obj\Debug\Ladisac.IBL.vbprojResolveAssemblyReference.cache
+C:\Ladisac05\Ladisac.IBL\obj\Debug\Resources.resources
+C:\Ladisac05\Ladisac.IBL\obj\Debug\Ladisac.IBL.vbproj.GenerateResource.Cache
+C:\Ladisac05\Ladisac.IBL\obj\Debug\Ladisac.IBL.dll
+C:\Ladisac05\Ladisac.IBL\obj\Debug\Ladisac.IBL.xml
+C:\Ladisac05\Ladisac.IBL\obj\Debug\Ladisac.IBL.pdb
